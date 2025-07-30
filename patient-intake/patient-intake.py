@@ -10,7 +10,7 @@ load_dotenv()
 
 OLLAMA_HOST = os.getenv("OLLAMA_HOST")
 MODEL_NAME = os.getenv("MODEL_NAME")
-TEMPERATURE = 0.1
+TEMPERATURE = os.getenv("TEMPERATURE")
 
 
 def parse_thinking_and_response(content: str) -> dict:
