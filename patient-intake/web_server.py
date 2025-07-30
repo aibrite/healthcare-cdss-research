@@ -310,3 +310,31 @@ def respond_to_question_stream():
             yield f"event: error\ndata: {json.dumps({'error': str(e)})}\n\n"
 
     return Response(generate(), mimetype="text/event-stream")
+
+
+@app.route("/update_session", methods=["POST"])
+def update_session():
+    """Update session state after streaming completes"""
+    data = request.get_json()
+
+    if "conversation_history" in data:
+        session["conversation_history"] = data["conversation_history"]
+
+    return jsonify({"status": "session updated"})
+
+
+@app.route("/reset_chat", methods=["POST"])
+def reset_chat():
+    """Reset the current chat session"""
+    session.clear()
+    return jsonify({"message": "Chat session reset successfully"})
+
+
+@app.route("/health", methods=["GET"])
+def health_check():
+    """Health check endpoint"""
+    return jsonify({"status": "healthy", "service": "Medical Intake Assistant"})
+
+
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0", port=5000)
