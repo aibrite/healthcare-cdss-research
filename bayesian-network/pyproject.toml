@@ -5,6 +5,8 @@ description = "R&D Work For Bayesian Networks under the topic Probabilistic Grap
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "flask>=3.1.1",
+    "flask-cors>=6.0.1",
     "pandas>=2.3.1",
     "pgmpy>=1.0.0",
 ]
