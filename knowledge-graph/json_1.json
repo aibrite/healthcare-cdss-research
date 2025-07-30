@@ -1,0 +1,131 @@
+{
+  "graph_type": "Demo",
+  "metadata": {
+    "description": "Demo KG fragment for patient-facing lab interpretation",
+    "created": "2025-07-10T10:35:00+03:00",
+    "source_pipeline_version": "lab-kg-etl-v0.4.1"
+  },
+
+
+  "nodes": [
+    {
+      "id": "T_GGT",
+      "type": "LabTest",
+      "label": "Serum Gamma-glutamyltransferase",
+      "loinc": "2324-2",
+      "specimen": "Serum/Plasma",
+      "unit": "U/L"
+    },
+    {
+      "id": "T_ALP",
+      "type": "LabTest",
+      "label": "Alkaline Phosphatase",
+      "loinc": "6768-6",
+      "specimen": "Serum/Plasma",
+      "unit": "U/L"
+    },
+    {
+      "id": "T_AST_ALT_RATIO",
+      "type": "DerivedMetric",
+      "label": "AST:ALT Ratio"
+    },
+
+
+    {
+      "id": "RR_GGT_M_ADULT",
+      "type": "ReferenceRange",
+      "applies_to": { "age": "18-79", "sex": "M" },
+      "min": 9,
+      "max": 48,
+      "unit": "U/L",
+      "source": "PMID:29991234"
+    },
+
+
+    { "id": "D_PBC", "type": "Disease", "label": "Primary Biliary Cholangitis", "snomed": "1486000" },
+    { "id": "D_ALD", "type": "Disease", "label": "Alcohol-related Liver Disease", "snomed": "19732009" },
+
+
+    { "id": "F_DAILY_ALCOHOL", "type": "Exposure", "label": "Daily Alcohol Consumption" },
+    { "id": "F_FASTING", "type": "PhysiologicalState", "label": "Fasting ≥ 8 h" },
+
+
+    { "id": "DR_UDCA", "type": "Drug", "label": "Ursodeoxycholic Acid", "rxnorm": "1189394" },
+
+ 
+    {
+      "id": "EV_40369525",
+      "type": "EvidenceItem",
+      "pmid": "40369525",
+      "study_type": "Prospective cohort",
+      "year": 2024,
+      "n": 2180,
+      "risk_of_bias": "low"
+    }
+  ],
+
+ 
+  "edges": [
+    {
+      "source": "T_GGT",
+      "predicate": "has_reference_range",
+      "target": "RR_GGT_M_ADULT",
+      "valid_from": "2023-01-01",
+      "evidence": "EV_40369525"
+    },
+    {
+      "source": "T_GGT",
+      "predicate": "confounded_by",
+      "target": "F_FASTING",
+      "note": "GGT can drop ~10 % after overnight fast"
+    },
+    {
+      "source": "DR_UDCA",
+      "predicate": "lowers",
+      "target": "T_ALP",
+      "median_change": -35,
+      "unit": "%",
+      "time_to_effect_days": 90,
+      "evidence": "EV_40369525"
+    }
+  ],
+
+
+  "hyperedges": [
+    {
+      "id": "HE_GGT_ALCOHOL_MEN",
+      "type": "EvidenceTriple",
+      "agent": "F_DAILY_ALCOHOL",
+      "target": "T_GGT",
+      "population": { "sex": "M", "age": "18-79" },
+      "direction": "increase",
+      "magnitude_label": "large",
+      "effect_size": { "odds_ratio": 3.1, "ci95_low": 2.4, "ci95_high": 3.9 },
+      "evidence": "EV_40369525",
+      "timestamp": "2024-04-12"
+    },
+    {
+      "id": "HE_PBC_PATTERN",
+      "type": "PatternTriple",
+      "test_panel": ["T_ALP", "T_GGT", "T_AST_ALT_RATIO"],
+      "pattern_description": "ALP > GGT with normal transaminases suggests PBC",
+      "outcome": "D_PBC",
+      "confidence": 0.88,
+      "evidence": "EV_40369525"
+    }
+  ],
+
+
+  "guideline_thresholds": [
+    {
+      "id": "GL_ALP_PBC_UDCA_FAIL",
+      "guideline": "EASL-PBC-2023",
+      "lab_test": "T_ALP",
+      "threshold_relative_to_ULN": 1.67,
+      "unit": "×ULN",
+      "time_point_days": 365,
+      "recommendation": "Consider second-line therapy if ALP ≥1.67×ULN after 12 months of UDCA",
+      "level_of_evidence": "1B"
+    }
+  ]
+}

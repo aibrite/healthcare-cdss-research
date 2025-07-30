@@ -1,0 +1,3 @@
+Certainly! Since you have referenced the file /home/eggzy/Downloads/hypergraph_extractor/schema_generation_prompt_HG.txt, but have not provided its contents, I cannot directly read or access files on your system. However, if you paste the contents of schema_generation_prompt_HG.txt here, I can help you analyze, summarize, or work with it in any way you need.
+
+Please copy and paste the text from schema_generation_prompt_HG.txt, and let me know what you would like to do with it!

@@ -1,0 +1,377 @@
+{
+  "graph_type": "N-tuple Hyper-Relational Temporal Knowledge Graph",
+  "entities": [
+    {
+      "id": "E1",
+      "name": "Mechanical biliary obstruction",
+      "type": "Disease"
+    },
+    {
+      "id": "E2",
+      "name": "ALP",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E3",
+      "name": "GGT",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E4",
+      "name": "Bilirubin",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E5",
+      "name": "ALT",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E6",
+      "name": "Hepatobiliary source",
+      "type": "Disease"
+    },
+    {
+      "id": "E7",
+      "name": "Single enzyme elevation",
+      "type": "Concept"
+    },
+    {
+      "id": "E8",
+      "name": "Alternative causes",
+      "type": "Concept"
+    },
+    {
+      "id": "E9",
+      "name": "Choledocholithiasis",
+      "type": "Disease"
+    },
+    {
+      "id": "E10",
+      "name": "Stricture forming disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E11",
+      "name": "Liver transaminases",
+      "type": "Biomarker"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "increased",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F2",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "increased",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F3",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E4",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "increased (often)",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F4",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "comparison",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "markedly raised",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F5",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_agent",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "elevated in similar proportions",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F6",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_agent",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E6",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F7",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.5,
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E7",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "consider alternative causes",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F8",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_effect",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "fluctuate",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F9",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E4",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "may be normal",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F10",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "rise and fall gradually",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F11",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "peaked rise >1000 I/U",
+          "datatype": "quantitative"
+        }
+      ],
+      "arguments": null
+    }
+  ],
+  "metadata": {
+    "sentence_id": "SENT_4",
+    "source_sentence": "Understanding Cholestasis: Mechanical or Medical? Mechanical biliary obstruction results in raised levels of ALP,GGT and often bilirubin. ALP will usually be markedly raised in comparison with ALT. Levels of ALP and GGT elevated in similar proportions signify a hepatobiliary source. Otherwise alternative causes of single enzyme elevation should be considered. When due to choledocholithiasis, the levels of ALP and GGT tend to fluctuate (in comparison to stricture forming disease) and may be associated with a normal bilirubin. Enzyme titres tend to rise and fall gradually and may be preceded by a peaked rise in liver transaminases which can reach >1000 I/U."
+  }
+}

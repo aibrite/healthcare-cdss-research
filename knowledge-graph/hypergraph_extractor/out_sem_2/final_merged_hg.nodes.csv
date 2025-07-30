@@ -1,0 +1,262 @@
+id,type,name,tv_strength,tv_confidence
+ANON_1,ConceptNode,"A scoring system developed at the Mayo clinic uses age, hyperglycemia, body mass index, platelet count, albumin, and AST:ALT ratio to accurately differentiate patients with advanced fibrosis in NAFLD. the AST:ALT Ratio becomes considerably less specific in determining underlying disease with the development of cirrhosis, as the AST:ALT Ratio will increase across a broad range of diseases. the AST:ALT Ratio is, however, useful in NAFLD patients known not to be abusing alcohol as a score of >1 should lead to the consideration that NAFLD patients known not to be abusing alcohol may have developed cirrhosis.",1.0,0.0
+ANON_2,ConceptNode,"Although models exist which exclude cirrhosis in NAFLD with reasonable accuracy, liver enzyme analysis has so far failed to provide a sensitive and specific enough means to make a diagnosis. At present liver biopsy cannot be avoided in cases where confirmation of NASH or cirrhosis is necessary. The role of liver enzyme analysis in NAFLD lies in both the early identification and modification of associated metabolic risk factors such as hypertension, hyperlipidaemia and glycaemic control and in risk stratification for the future. ",1.0,0.0
+ANON_3,ConceptNode,"No studies have shown that the AST:ALT ratio, either alone or in combination with other factors or models, has the necessary sensitivity or specificity to definitively differentiate between alcoholic liver disease (ALD) and NAFLD, but the AST:ALT ratio acts as a useful clinical guide when considering the need for liver biopsy. It should also be noted that liver transaminases are known to worsen in response to cessation of alcohol intake (often coinciding with admission to hospital) and that ALT has also been shown to rise simply from admission to hospital, even in patients with no liver disease. ",1.0,0.0
+ANON_4,ConceptNode,"In patients with alcoholic liver disease, the AST:ALT ratio is >1 in 92% of patients, and >2 in 70%.13 AST:ALT scores >2 are, therefore, strongly suggestive of alcoholic liver disease and scores <1 more suggestive of the Non-alcoholic Fatty Liver Disease (NAFLD) spectrum. High ratios reflect the severity of hepatitis or underlying liver disease rather than high alcohol consumption. This means that most heavy-drinkers will not have an AST: ALT ratio >1 as most heavy-drinkers have not yet developed alcoholic liver disease (ALD). ",1.0,0.0
+ANON_5,ConceptNode,"AST and ALP are used within some scoring criteria to monitor the effects of ursodeoxycholic acid in the management of PBC. A recent study has shown that a raised AST:ALT ratio outperforms other non-histological indicators of cirrhosis in PBC, but still only achieves a low sensitivity and a specificity of 65-79%. As with PBC, liver enzymes play a key role in the diagnosis of Primary Sclerosing Cholangitis (PSC). ",1.0,0.0
+ANON_6,ConceptNode,"The AST:ALT ratio (De Ritis ratio) may assist in differentiating the site of biliary obstruction. When associated with a cholestatic picture, an AST:ALT ratio of <1.5 suggests an extrahepatic obstruction. In such circumstances the ALT titre is frequently considerably higher than AST. An AST:ALT ratio of >1.5 indicates intrahepatic (mechanical or medical) cholestasis is more likely. Drug-induced cholestasis usually presents with a preferential rise in ALP, rather than GGT, or with an ALT:ALP ratio of <2. Causative drugs would include: antibiotics, immunosuppressants, tricyclic antidepressants and angiotensin converting enzyme inhibitors. ",1.0,0.0
+ANON_7,ConceptNode,70%,1.0,0.0
+ANON_8,ConceptNode,normal AST:ALT ratio should be <1,1.0,0.0
+ANON_9,ConceptNode,effect,1.0,0.0
+ANON_10,ConceptNode,high,1.0,0.0
+ANON_11,ConceptNode,fold_increase,1.0,0.0
+ANON_12,ConceptNode,percent_patients,1.0,0.0
+SENT_15,ConceptNode,SENT_15,1.0,0.0
+N224,ConceptNode,Alcohol Abuse,1.0,0.0
+N222,ConceptNode,Advanced Fibrosis,1.0,0.0
+N221,ConceptNode,AST:ALT Ratio,1.0,0.0
+N219,ConceptNode,Body Mass Index,1.0,0.0
+N218,ConceptNode,Hyperglycemia,1.0,0.0
+N217,ConceptNode,Age,1.0,0.0
+ANON_20,ConceptNode,"This paper offers an insight to generalists of how to yield greater information from this simple test. Patterns and Use of Hepatic Enzymes in Practice The liver enzyme profile should always be assessed in conjunction with a thorough history and clinical examination. Despite a thorough history and clinical examination, there are many occasions when doubt persists over an underlying diagnosis. For example, does an overweight diabetic who enjoys a few glasses of wine at the weekend have alcoholic or non-alcoholic fatty liver disease? In such circumstances the absolute liver enzyme levels and ratios may point the clinician in the right direction. Furthermore, the pattern of enzymes will assist, not only with differentiating between cholestasis and hepatitis, but will aid diagnosis when there is a mixed picture. ",1.0,0.0
+N207,ConceptNode,Modification,1.0,0.0
+ANON_22,ConceptNode,>1.12,1.0,0.0
+N206,ConceptNode,Early identification,1.0,0.0
+N204,ConceptNode,Glycaemic control,1.0,0.0
+N203,ConceptNode,Hyperlipidaemia,1.0,0.0
+N202,ConceptNode,Hypertension,1.0,0.0
+N200,ConceptNode,Liver enzyme analysis,1.0,0.0
+N199,ConceptNode,Non-alcoholic steatohepatitis,1.0,0.0
+SENT_14,ConceptNode,SENT_14,1.0,0.0
+ANON_30,ConceptNode,value,1.0,0.0
+N197,ConceptNode,Admission to hospital,1.0,0.0
+N196,ConceptNode,Cessation of alcohol intake,1.0,0.0
+N194,ConceptNode,Clinical guide,1.0,0.0
+N193,ConceptNode,NAFLD,1.0,0.0
+N192,ConceptNode,Specificity,1.0,0.0
+N191,ConceptNode,Sensitivity,1.0,0.0
+N223,ConceptNode,Underlying Liver Disease,1.0,0.0
+N220,ConceptNode,Platelet Count,1.0,0.0
+SENT_13,ConceptNode,SENT_13,1.0,0.0
+ANON_40,ConceptNode,"A raised GGT is not diagnostic of alcohol abuse, with research showing A raised GGT remains high in former drinkers as well as current drinkers. In men, the highest levels of GGT occur in those who drink daily. In women, binge drinkers and those consuming alcohol without food will have especially high levels. The level of GGT is loosely dose dependant, with those in the top two quartiles of alcohol intake having the highest titres. ",1.0,0.0
+N183,ConceptNode,High alcohol consumption,1.0,0.0
+N182,ConceptNode,Severity,1.0,0.0
+N80,ConceptNode,ALP,1.0,0.0
+N100,ConceptNode,Antimitochondrial antibodies,1.0,0.0
+N78,ConceptNode,Medical cholestasis,1.0,0.0
+ANON_46,ConceptNode,2-3,1.0,0.0
+N126,ConceptNode,Primary Sclerosing Cholangitis,1.0,0.0
+N172,ConceptNode,Non-alcoholic Fatty Liver Disease,1.0,0.0
+N216,ConceptNode,Mayo Clinic,1.0,0.0
+N70,ConceptNode,Cholestatic picture,1.0,0.0
+ANON_51,ConceptNode,"In Primary Biliary Cirrhosis, an autoimmune condition of the intrahepatic biliary ducts, the level of ALP is generally greater than that of GGT. In this case, transaminases are invariably normal or only minimally elevated. Both the European Association for Study of the Liver (EASL) and the American Association for Study of Liver Disease (AASLD) recommend that a diagnosis of PBC may be based on cholestatic liver enzyme levels in conjunction with the demonstration of antimitochondrial antibodies. If either of these two criteria is absent, imaging and liver biopsy become necessary. ",1.0,0.0
+N53,ConceptNode,Stricture forming disease,1.0,0.0
+ANON_53,ConceptNode,Document:/home/eggzy/Downloads/hypergraph_extractor/input.txt,1.0,0.0
+N67,ConceptNode,AST:ALT ratio,1.0,0.0
+SENT_5,ConceptNode,SENT_5,1.0,0.0
+N65,ConceptNode,Monitoring,1.0,0.0
+N118,ConceptNode,scoring criteria,1.0,0.0
+N59,ConceptNode,Enzyme titres,1.0,0.0
+N38,ConceptNode,Non-alcoholic fatty liver disease,1.0,0.0
+N58,ConceptNode,Liver transaminases,1.0,0.0
+N57,ConceptNode,Alanine aminotransferase (ALT),1.0,0.0
+N36,ConceptNode,History and clinical examination,1.0,0.0
+ANON_63,ConceptNode,92%,1.0,0.0
+N55,ConceptNode,Alkaline phosphatase (ALP),1.0,0.0
+N44,ConceptNode,Absolute liver enzyme levels and ratios,1.0,0.0
+N163,ConceptNode,Binge drinkers,1.0,0.0
+N26,ConceptNode,Cholestatic disorder,1.0,0.0
+N165,ConceptNode,Alcohol intake,1.0,0.0
+N42,ConceptNode,Diagnosis,1.0,0.0
+ANON_70,ConceptNode,"Understanding Cholestasis: Mechanical or Medical? Mechanical biliary obstruction results in raised levels of ALP,GGT and often bilirubin. ALP will usually be markedly raised in comparison with ALT. Levels of ALP and GGT elevated in similar proportions signify a hepatobiliary source. Otherwise alternative causes of single enzyme elevation should be considered. When due to choledocholithiasis, the levels of ALP and GGT tend to fluctuate (in comparison to stricture forming disease) and may be associated with a normal bilirubin. Enzyme titres tend to rise and fall gradually and may be preceded by a peaked rise in liver transaminases which can reach >1000 I/U. ",1.0,0.0
+N56,ConceptNode,Gamma-glutamyl transferase (GGT),1.0,0.0
+SENT_1,ConceptNode,SENT_1,1.0,0.0
+N81,ConceptNode,GGT,1.0,0.0
+N167,ConceptNode,GGT level,1.0,0.0
+N68,ConceptNode,De Ritis ratio,1.0,0.0
+N69,ConceptNode,Biliary obstruction,1.0,0.0
+N95,ConceptNode,Intrahepatic biliary ducts,1.0,0.0
+N52,ConceptNode,Choledocholithiasis,1.0,0.0
+N173,ConceptNode,Liver Disease,1.0,0.0
+N51,ConceptNode,Mechanical biliary obstruction,1.0,0.0
+N98,ConceptNode,Transaminases,1.0,0.0
+ANON_82,ConceptNode,decrease,1.0,0.0
+N9,ConceptNode,Enzyme ratios,1.0,0.0
+N14,ConceptNode,Liver disease,1.0,0.0
+ANON_85,ConceptNode,interpretation,1.0,0.0
+N3,ConceptNode,Patient,1.0,0.0
+N10,ConceptNode,Pattern recognition,1.0,0.0
+SENT_2,ConceptNode,SENT_2,1.0,0.0
+N146,ConceptNode,GGT:ALP ratio,1.0,0.0
+N17,ConceptNode,Blood test,1.0,0.0
+N205,ConceptNode,Risk stratification,1.0,0.0
+N73,ConceptNode,ALT,1.0,0.0
+N6,ConceptNode,Primary disorder,1.0,0.0
+N181,ConceptNode,Heavy drinker,1.0,0.0
+N37,ConceptNode,Alcoholic fatty liver disease,1.0,0.0
+N4,ConceptNode,Disease,1.0,0.0
+N134,ConceptNode,Endoscopic Retrograde Cholangiopancreatography,1.0,0.0
+N7,ConceptNode,Hepatitic origin,1.0,0.0
+N1,ConceptNode,Liver enzymes,1.0,0.0
+N122,ConceptNode,cirrhosis,1.0,0.0
+N79,ConceptNode,Drug-induced cholestasis,1.0,0.0
+N74,ConceptNode,AST,1.0,0.0
+N15,ConceptNode,Liver Function Tests,1.0,0.0
+N54,ConceptNode,Hepatobiliary source,1.0,0.0
+N125,ConceptNode,liver enzymes,1.0,0.0
+ANON_106,ConceptNode,threshold,1.0,0.0
+N20,ConceptNode,Bilirubin,1.0,0.0
+N40,ConceptNode,Hepatitis,1.0,0.0
+N22,ConceptNode,Liver functional capacity,1.0,0.0
+N83,ConceptNode,Antibiotics,1.0,0.0
+N35,ConceptNode,Liver enzyme profile,1.0,0.0
+N215,ConceptNode,Mayo Clinic NAFLD Fibrosis Scoring System,1.0,0.0
+SENT_3,ConceptNode,SENT_3,1.0,0.0
+N72,ConceptNode,Extrahepatic obstruction,1.0,0.0
+N166,ConceptNode,Top two quartiles of alcohol intake,1.0,0.0
+N84,ConceptNode,Immunosuppressants,1.0,0.0
+N25,ConceptNode,Hepatitic disorder,1.0,0.0
+N85,ConceptNode,Tricyclic antidepressants,1.0,0.0
+N144,ConceptNode,Cirrhosis,1.0,0.0
+N171,ConceptNode,Alcoholic Liver Disease,1.0,0.0
+N43,ConceptNode,Pattern of hepatic enzymes,1.0,0.0
+N86,ConceptNode,Angiotensin converting enzyme inhibitors,1.0,0.0
+SENT_12,ConceptNode,SENT_12,1.0,0.0
+N93,ConceptNode,Primary Biliary Cirrhosis,1.0,0.0
+SENT_11,ConceptNode,SENT_11,1.0,0.0
+ANON_126,ConceptNode,"Whether for the investigation of suspected liver disease, monitoring of disease activity, or simply as ‘routine’ blood analysis, Liver Function Tests (LFTs) can provide a host of information on a range of disease processes. The title ‘liver function tests’ is, however, somewhat of a misnomer; only the bilirubin and albumin given in this panel offer information regarding the functional capacity of the liver. At a basic level the evaluation of liver enzymes simply gives information as to whether a patient’s primary disorder is hepatitic or cholestatic in origin. However, much more may be interpreted from these assays with knowledge of enzyme ratios and pattern recognition. ",1.0,0.0
+N23,ConceptNode,Disease activity,1.0,0.0
+N94,ConceptNode,Autoimmune condition,1.0,0.0
+N159,ConceptNode,Current drinkers,1.0,0.0
+N96,ConceptNode,Alkaline phosphatase,1.0,0.0
+N97,ConceptNode,Gamma-glutamyl transferase,1.0,0.0
+N21,ConceptNode,Albumin,1.0,0.0
+N99,ConceptNode,Cholestatic liver enzyme levels,1.0,0.0
+N101,ConceptNode,Diagnosis of Primary Biliary Cirrhosis,1.0,0.0
+N34,ConceptNode,Hepatic enzymes,1.0,0.0
+N103,ConceptNode,Liver biopsy,1.0,0.0
+ANON_137,ConceptNode,increase,1.0,0.0
+N153,ConceptNode,Alcoholic liver disease,1.0,0.0
+N104,ConceptNode,European Association for Study of the Liver,1.0,0.0
+N41,ConceptNode,Mixed liver disease picture,1.0,0.0
+SENT_6,ConceptNode,SENT_6,1.0,0.0
+ANON_142,ConceptNode,endpoint,1.0,0.0
+SENT_7,ConceptNode,SENT_7,1.0,0.0
+ANON_144,ConceptNode,risk of disease progression,1.0,0.0
+N115,ConceptNode,Primary Biliary Cholangitis,1.0,0.0
+N157,ConceptNode,Alcohol abuse,1.0,0.0
+N102,ConceptNode,Imaging,1.0,0.0
+N117,ConceptNode,effects,1.0,0.0
+ANON_149,ConceptNode,>1000 I/U,1.0,0.0
+N39,ConceptNode,Cholestasis,1.0,0.0
+N129,ConceptNode,recent study,1.0,0.0
+N119,ConceptNode,raised AST:ALT ratio,1.0,0.0
+ANON_153,ConceptNode,"In Primary Sclerosing Cholangitis (PSC), as with other liver diseases, there are suggestions that an AST:ALT ratio of >1 indicates the development of cirrhosis. Alcohol induces hepatic enzymes leading to a raised GGT with an ALP which may be normal, or disproportionately lower than the GGT. A GGT:ALP ratio >2.5 in association with jaundice suggests alcohol as a cause of liver disease. The presence of a macrocytosis, due to either an associated dietary deficiency of folate or B12, or due to a direct suppression of bone marrow by alcohol is supportive of the diagnosis of alcoholic liver disease. ",1.0,0.0
+N132,ConceptNode,Mayo Risk Score,1.0,0.0
+SENT_4,ConceptNode,SENT_4,1.0,0.0
+N121,ConceptNode,non-histological indicators of cirrhosis,1.0,0.0
+ANON_157,ConceptNode,"The Fatty Liver and the AST:ALT Ratio During the last few decades there has been research into using the AST:ALT ratio in the differentiation of alcoholic liver disease (ALD) from other forms of liver disease, particularly the Non-alcoholic Fatty Liver Disease (NAFLD) spectrum. Both AST and ALT enzymes require pyridoxal-5’-phosphate (vitamin B6) to function properly. pyridoxal-5’-phosphate (vitamin B6)'s absence in nutritionally-deficient heavy-drinkers has a much larger effect on the production of ALT than that of AST, causing the AST:ALT ratio to rise. A normal AST:ALT ratio should be <1. ",1.0,0.0
+N77,ConceptNode,Mechanical cholestasis,1.0,0.0
+N105,ConceptNode,American Association for Study of Liver Disease,1.0,0.0
+N149,ConceptNode,Macrocytosis,1.0,0.0
+N24,ConceptNode,Blood analysis,1.0,0.0
+N158,ConceptNode,Former drinkers,1.0,0.0
+N124,ConceptNode,specificity,1.0,0.0
+N135,ConceptNode,Magnetic Resonance Cholangiopancreatography,1.0,0.0
+SENT_8,ConceptNode,SENT_8,1.0,0.0
+N76,ConceptNode,Intrahepatic cholestasis,1.0,0.0
+N8,ConceptNode,Cholestatic origin,1.0,0.0
+N131,ConceptNode,Transaminase,1.0,0.0
+ANON_169,ConceptNode,"When other causes of liver disease have been excluded, a raised GGT, and particularly ALP, are diagnostic when associated with typical Endoscopic Retrograde Cholangiopancreatography (ERCP) or Magnetic Resonance Cholangiopancreatography (MRCP) findings. This can preclude the need for a liver biopsy. Transaminase levels may be raised up to 2-3 times normal values in PSC but this is not diagnostic. AST is a component of the Mayo Risk Score, which calculates the risk of disease progression in PSC. A high Mayo Risk Score, and an AST:ALT ratio of >1.12 have been shown to be indicators of risk for the development of oesophageal varices. ",1.0,0.0
+ANON_170,ConceptNode,"Abstract Liver enzymes are commonly used in the evaluation of patients with a range of diseases. Classically Liver enzymes are used to give information on whether a patient’s primary disorder is hepatitic or cholestatic in origin. However, knowledge of enzyme ratios and pattern recognition allow much more information to be derived from Liver enzymes. This paper offers an insight to generalists on how to extract greater information from Liver enzymes in order to improve the investigation and management of liver disease. Introduction Liver Function Tests (LFTs) are one of the most commonlyrequested screening blood tests. ",1.0,0.0
+N133,ConceptNode,Oesophageal varices,1.0,0.0
+N145,ConceptNode,Alcohol,1.0,0.0
+N148,ConceptNode,Jaundice,1.0,0.0
+N150,ConceptNode,Folate deficiency,1.0,0.0
+N201,ConceptNode,Metabolic risk factors,1.0,0.0
+N151,ConceptNode,B12 deficiency,1.0,0.0
+N152,ConceptNode,Bone marrow suppression,1.0,0.0
+SENT_9,ConceptNode,SENT_9,1.0,0.0
+SENT_10,ConceptNode,SENT_10,1.0,0.0
+N160,ConceptNode,Men,1.0,0.0
+N161,ConceptNode,Daily drinkers,1.0,0.0
+N162,ConceptNode,Women,1.0,0.0
+N164,ConceptNode,Alcohol consumption without food,1.0,0.0
+N19,ConceptNode,1900-01-01,1.0,0.0
+N174,ConceptNode,pyridoxal-5’-phosphate (vitamin B6),1.0,0.0
+ANON_186,ConceptNode,level,1.0,0.0
+N175,ConceptNode,nutritionally-deficient heavy-drinker,1.0,0.0
+N114,ConceptNode,Ursodeoxycholic acid,1.0,0.0
+N177,ConceptNode,monitoring,1.0,0.0
+N123,ConceptNode,sensitivity,1.0,0.0
+N180,ConceptNode,Underlying liver disease,1.0,0.0
+N186,NumberNode,70,1.0,0.0
+N185,NumberNode,92,1.0,0.0
+N147,NumberNode,2.5,1.0,0.0
+N225,NumberNode,1,1.0,0.0
+N184,NumberNode,2,1.0,0.0
+N75,NumberNode,1.5,1.0,0.0
+ANON_198,PredicateNode,raw_text,1.0,0.0
+ANON_199,PredicateNode,has-attr,1.0,0.0
+N228,PredicateNode,consider,1.0,0.0
+N227,PredicateNode,less specific,1.0,0.0
+N226,PredicateNode,uses,1.0,0.0
+N90,PredicateNode,causes,1.0,0.0
+N5,PredicateNode,provide information on,1.0,0.0
+N87,PredicateNode,suggests,1.0,0.0
+N91,PredicateNode,higher_than,1.0,0.0
+N27,PredicateNode,provides information on,1.0,0.0
+N62,PredicateNode,signifies,1.0,0.0
+N107,PredicateNode,normal,1.0,0.0
+N120,PredicateNode,outperforms,1.0,0.0
+N11,PredicateNode,extract information from,1.0,0.0
+N188,PredicateNode,reflects,1.0,0.0
+N209,PredicateNode,fails,1.0,0.0
+N60,PredicateNode,increases,1.0,0.0
+N48,PredicateNode,points,1.0,0.0
+N111,PredicateNode,conjunction_with,1.0,0.0
+N189,PredicateNode,developed,1.0,0.0
+N47,PredicateNode,aids,1.0,0.0
+N88,PredicateNode,indicates,1.0,0.0
+N49,PredicateNode,should_be_assessed_with,1.0,0.0
+N106,PredicateNode,greater_than,1.0,0.0
+N46,PredicateNode,assists,1.0,0.0
+N12,PredicateNode,improve investigation of,1.0,0.0
+N64,PredicateNode,peaked rise,1.0,0.0
+N61,PredicateNode,fluctuates,1.0,0.0
+N13,PredicateNode,improve management of,1.0,0.0
+N30,PredicateNode,indicates origin,1.0,0.0
+N16,PredicateNode,used as screening for,1.0,0.0
+N89,PredicateNode,presents_with,1.0,0.0
+N92,PredicateNode,rise,1.0,0.0
+N2,PredicateNode,used in evaluation of,1.0,0.0
+N28,PredicateNode,offers information on,1.0,0.0
+N63,PredicateNode,requires,1.0,0.0
+N29,PredicateNode,evaluates,1.0,0.0
+N31,PredicateNode,interpreted by,1.0,0.0
+N45,PredicateNode,differentiates,1.0,0.0
+N108,PredicateNode,minimally_elevated,1.0,0.0
+N109,PredicateNode,recommend,1.0,0.0
+N187,PredicateNode,suggestive_of,1.0,0.0
+N110,PredicateNode,based_on,1.0,0.0
+N212,PredicateNode,modifies,1.0,0.0
+N127,PredicateNode,diagnosis,1.0,0.0
+N128,PredicateNode,key role,1.0,0.0
+N169,PredicateNode,not diagnostic of,1.0,0.0
+N208,PredicateNode,excludes,1.0,0.0
+N136,PredicateNode,diagnostic,1.0,0.0
+N137,PredicateNode,precludes,1.0,0.0
+N138,PredicateNode,component_of,1.0,0.0
+N210,PredicateNode,confirms,1.0,0.0
+N139,PredicateNode,calculates,1.0,0.0
+N140,PredicateNode,indicator_of,1.0,0.0
+N141,PredicateNode,raised,1.0,0.0
+N116,PredicateNode,monitor,1.0,0.0
+N211,PredicateNode,lies_in,1.0,0.0
+N142,PredicateNode,development_of,1.0,0.0
+N213,PredicateNode,identifies,1.0,0.0
+N154,PredicateNode,supports,1.0,0.0
+N168,PredicateNode,high,1.0,0.0
+N176,PredicateNode,production,1.0,0.0
+N195,PredicateNode,worsen,1.0,0.0
+N214,PredicateNode,stratifies,1.0,0.0

@@ -1,0 +1,120 @@
+{
+  "graph_type": "Directed Hypergraph (incidence list)",
+  "metadata": {
+    "source_pmid": "12345",
+    "publication_year": 2023,
+    "sentence_id": "SENT_1",
+    "source_sentence": "In a 2023 study (PMID:12345), Vemurafenib (150mg) showed a 60% reduction in tumor volume in BRAF V600E-mutant melanoma patients, but increased cardiotoxicity when co-administered with Trametinib."
+  },
+  "nodes": [
+    { "id": "E1", "name": "Vemurafenib",               "type": "Drug",           "cui": "UMLSCODEX" },
+    { "id": "E2", "name": "Tumor volume",              "type": "Endpoint",       "cui": "UMLSCODEY" },
+    { "id": "E3", "name": "BRAF V600E-mutant melanoma","type": "Disease",        "cui": "UMLSCODEZ" },
+    { "id": "E4", "name": "Cardiotoxicity",            "type": "AdverseEvent",   "cui": "UMLSCODEU" },
+    { "id": "E5", "name": "Trametinib",                "type": "Drug",           "cui": "UMLSCODEV" },
+    { "id": "E6", "name": "PMID:12345",                "type": "Study",          "cui": null         },
+    { "id": "E7", "name": "Cardiac monitoring",        "type": "ClinicalAction", "cui": "UMLSCODEW" },
+    { "id": "F1", "name": "FACT_1", "type": "therapy_effect", "cui": "UMLSCODEA" },
+    { "id": "F2", "name": "FACT_2", "type": "adverse_effect", "cui": "UMLSCODEB"  },
+    { "id": "F3", "name": "FACT_3", "type": "requires_monitoring", "cui": "UMLSCODEC"  },
+    { "id": "F4", "name": "FACT_4", "type": "requires_investigation", "cui": "UMLSCODED"  },
+    { "id": "F5", "name": "FACT_5", "type": "causes", "cui": "UMLSCODEE"  },
+    { "id": "F6", "name": "FACT_6", "type": "causes", "cui": "UMLSCODEE"  },
+    { "id": "F7", "name": "FACT_7", "type": "implies", "cui": "UMLSCODEF"  }
+  ],
+  "hyperedges": [
+    {
+      "id": "F1",
+      "predicate": "therapy_effect",
+      "cui": "UMLSCODEA",
+      "timestamp": "2023-01-01",
+      "truth_value": 0.90,
+      "incidences": [
+        { "role": "agent",          "node": "E1" },
+        { "role": "target",         "node": "E2" },
+        { "role": "condition",      "node": "E3" },
+        { "role": "dosage",         "literal": 150, "datatype": "mg" },
+        { "role": "delta",          "literal": -60, "datatype": "percent" },
+        { "role": "evidence_source","node": "E6" }
+      ]
+    },
+    {
+      "id": "F2",
+      "predicate": "adverse_effect",
+      "cui": "UMLSCODEB",
+      "timestamp": "2023-01-01",
+      "truth_value": 0.80,
+      "incidences": [
+        { "role": "agent",             "node": "E1" },
+        { "role": "co_administered_with","node": "E5" },
+        { "role": "outcome",           "node": "E4" },
+        { "role": "evidence_source",   "node": "E6" }
+      ]
+    },
+    {
+      "id": "F3",
+      "predicate": "requires_monitoring",
+      "cui": "UMLSCODEC",
+      "timestamp": "2023-01-01",
+      "truth_value": 0.60,
+      "incidences": [
+        { "role": "agent",       "node": "E1" },
+        { "role": "co_agent",    "node": "E5" },
+        { "role": "action",      "node": "E7" },
+        { "role": "evidence_source","node": "E6" }
+      ]
+    },
+    {
+      "id": "F4",
+      "predicate": "requires_investigation",
+      "cui": "UMLSCODED",
+      "timestamp": "2023-01-01",
+      "truth_value": 0.50,
+      "sentence_id": "SENT_1",
+      "incidences": [
+        { "role": "agent",    "node": "F2" },
+        { "role": "co_agent", "node": "F3" },
+        { "role": "target",   "node": "E7" }
+      ]
+    },
+    {
+      "id": "F5",
+      "predicate": "causes",
+      "cui": "UMLSCODEE",
+      "timestamp": "2023-01-01",
+      "truth_value": [0.85, 0.70],
+      "incidences": [
+        { "role": "agent",     "node": "E1" },
+        { "role": "effect",    "node": "E2" },
+        { "role": "condition", "node": "E3" },
+        { "role": "delta",     "literal": -60, "datatype": "percent" },
+        { "role": "evidence_source","node": "E6" }
+      ]
+    },
+    {
+      "id": "F6",
+      "predicate": "causes",
+      "cui": "UMLSCODEE",
+      "timestamp": "2023-01-01",
+      "truth_value": [0.85, 0.70],
+      "incidences": [
+        { "role": "agent",    "node": "E1" },
+        { "role": "co_agent", "node": "E5" },
+        { "role": "effect",   "node": "E4" },
+        { "role": "evidence_source","node": "E6" }
+      ]
+    },
+    {
+      "id": "F7",
+      "predicate": "implies",
+      "cui": "UMLSCODEF",
+      "timestamp": "2023-01-01",
+      "truth_value": [0.85, 0.70],
+      "incidences": [
+        { "role": "agent",     "node": "F5" },
+        { "role": "co_agent",  "node": "F6" },
+        { "role": "effect",    "node": "F4" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "graph_type": "N-tuple Hyper-Relational Temporal Knowledge Graph",
+  "entities": [
+    {
+      "id": "E1",
+      "name": "GGT",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E2",
+      "name": "ALP",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E3",
+      "name": "Endoscopic Retrograde Cholangiopancreatography",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E4",
+      "name": "Magnetic Resonance Cholangiopancreatography",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E5",
+      "name": "Liver biopsy",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E6",
+      "name": "Transaminase",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E7",
+      "name": "PSC",
+      "type": "Disease"
+    },
+    {
+      "id": "E8",
+      "name": "AST",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E9",
+      "name": "Mayo Risk Score",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E10",
+      "name": "Disease progression in PSC",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E11",
+      "name": "AST:ALT ratio",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E12",
+      "name": "Oesophageal varices",
+      "type": "Disease"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "predicate": "diagnostic_for",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_agent",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": null,
+          "literal": "other causes of liver disease excluded",
+          "datatype": "string"
+        },
+        {
+          "role": "target",
+          "entity": "E7",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "evidence_source",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "evidence_source",
+          "entity": "E4",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F2",
+      "predicate": "precludes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_agent",
+          "entity": "E4",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F3",
+      "predicate": "not_diagnostic_for",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E6",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E7",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F4",
+      "predicate": "component_of",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F5",
+      "predicate": "calculates",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E10",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F6",
+      "predicate": "indicator_of",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E12",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F7",
+      "predicate": "indicator_of",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "literal",
+          "entity": null,
+          "literal": ">1.12",
+          "datatype": "ratio"
+        },
+        {
+          "role": "target",
+          "entity": "E12",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    }
+  ],
+  "metadata": {
+    "sentence_id": "SENT_8",
+    "source_sentence": "When other causes of liver disease have been excluded, a raised GGT, and particularly ALP, are diagnostic when associated with typical Endoscopic Retrograde Cholangiopancreatography (ERCP) or Magnetic Resonance Cholangiopancreatography (MRCP) findings. This can preclude the need for a liver biopsy. Transaminase levels may be raised up to 2-3 times normal values in PSC but this is not diagnostic. AST is a component of the Mayo Risk Score, which calculates the risk of disease progression in PSC. A high Mayo Risk Score, and an AST:ALT ratio of >1.12 have been shown to be indicators of risk for the development of oesophageal varices."
+  }
+}

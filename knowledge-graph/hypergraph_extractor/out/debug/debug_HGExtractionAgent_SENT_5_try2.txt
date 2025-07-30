@@ -1,0 +1,46 @@
+Sure! Here’s a schema generation prompt tailored for Hugging Face (HG) datasets. This prompt is designed to help you generate a dataset schema in the format commonly used for Hugging Face’s `datasets` library (i.e., using `datasets.Features` and specifying field types).
+
+---
+
+**Prompt:**
+
+You are an expert in data engineering and NLP. Given the following dataset description, generate a Hugging Face `datasets` schema using Python code. The schema should use `datasets.Features` and specify the correct field types (e.g., `Value("string")`, `Value("int32")`, `ClassLabel`, `Sequence`, etc.) for each field. If a field is categorical, use `ClassLabel` and list the possible classes. If a field is a list or sequence, use `Sequence`. If a field is optional, use `Value` with `allow_none=True`. 
+
+**Dataset Description:**
+[Insert dataset description here]
+
+**Output Format:**
+```python
+from datasets import Features, Value, ClassLabel, Sequence
+
+features = Features({
+    # your schema here
+})
+```
+
+**Example:**
+
+**Dataset Description:**
+A dataset of movie reviews. Each example contains:
+- `review_id`: unique identifier (string)
+- `text`: the review text (string)
+- `rating`: integer score from 1 to 5
+- `sentiment`: one of "positive", "neutral", or "negative"
+
+**Output:**
+```python
+from datasets import Features, Value, ClassLabel, Sequence
+
+features = Features({
+    "review_id": Value("string"),
+    "text": Value("string"),
+    "rating": Value("int32"),
+    "sentiment": ClassLabel(names=["positive", "neutral", "negative"]),
+})
+```
+
+---
+
+**Now, generate the Hugging Face schema for the following dataset:**
+
+[Insert your dataset description here]

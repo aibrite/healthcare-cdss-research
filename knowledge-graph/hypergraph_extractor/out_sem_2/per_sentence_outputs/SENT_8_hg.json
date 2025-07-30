@@ -1,0 +1,316 @@
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "nodes": [
+    {
+      "id": "n_SENT_8",
+      "atom_type": "ConceptNode",
+      "name": "SENT_8"
+    },
+    {
+      "id": "n_GGT",
+      "atom_type": "ConceptNode",
+      "name": "GGT"
+    },
+    {
+      "id": "n_ALP",
+      "atom_type": "ConceptNode",
+      "name": "ALP"
+    },
+    {
+      "id": "n_Transaminase",
+      "atom_type": "ConceptNode",
+      "name": "Transaminase"
+    },
+    {
+      "id": "n_AST",
+      "atom_type": "ConceptNode",
+      "name": "AST"
+    },
+    {
+      "id": "n_ALT",
+      "atom_type": "ConceptNode",
+      "name": "ALT"
+    },
+    {
+      "id": "n_AST_ALT_ratio",
+      "atom_type": "ConceptNode",
+      "name": "AST:ALT ratio"
+    },
+    {
+      "id": "n_MayoRiskScore",
+      "atom_type": "ConceptNode",
+      "name": "Mayo Risk Score"
+    },
+    {
+      "id": "n_PSC",
+      "atom_type": "ConceptNode",
+      "name": "Primary Sclerosing Cholangitis"
+    },
+    {
+      "id": "n_OesophagealVarices",
+      "atom_type": "ConceptNode",
+      "name": "Oesophageal varices"
+    },
+    {
+      "id": "n_LiverBiopsy",
+      "atom_type": "ConceptNode",
+      "name": "Liver biopsy"
+    },
+    {
+      "id": "n_ERCP",
+      "atom_type": "ConceptNode",
+      "name": "Endoscopic Retrograde Cholangiopancreatography"
+    },
+    {
+      "id": "n_MRCP",
+      "atom_type": "ConceptNode",
+      "name": "Magnetic Resonance Cholangiopancreatography"
+    },
+    {
+      "id": "n_LiverDisease",
+      "atom_type": "ConceptNode",
+      "name": "Liver disease"
+    },
+    {
+      "id": "n_Diagnostic",
+      "atom_type": "PredicateNode",
+      "name": "diagnostic"
+    },
+    {
+      "id": "n_Preclude",
+      "atom_type": "PredicateNode",
+      "name": "precludes"
+    },
+    {
+      "id": "n_ComponentOf",
+      "atom_type": "PredicateNode",
+      "name": "component_of"
+    },
+    {
+      "id": "n_Calculates",
+      "atom_type": "PredicateNode",
+      "name": "calculates"
+    },
+    {
+      "id": "n_IndicatorOf",
+      "atom_type": "PredicateNode",
+      "name": "indicator_of"
+    },
+    {
+      "id": "n_Raised",
+      "atom_type": "PredicateNode",
+      "name": "raised"
+    },
+    {
+      "id": "n_DevelopmentOf",
+      "atom_type": "PredicateNode",
+      "name": "development_of"
+    },
+    {
+      "id": "n_Requires",
+      "atom_type": "PredicateNode",
+      "name": "requires"
+    },
+    {
+      "id": "n_Timestamp",
+      "atom_type": "TimestampNode",
+      "name": "1900-01-01"
+    }
+  ],
+  "links": [
+    {
+      "id": "l_diag_GGT_ALP",
+      "link_type": "EvaluationLink",
+      "predicate": "n_Diagnostic",
+      "arguments": [
+        "n_GGT",
+        "n_ALP",
+        "n_ERCP",
+        "n_MRCP"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_preclude_biopsy",
+      "link_type": "EvaluationLink",
+      "predicate": "n_Preclude",
+      "arguments": [
+        "l_diag_GGT_ALP",
+        "n_LiverBiopsy"
+      ],
+      "truth_value": [
+        0.85,
+        0.7
+      ]
+    },
+    {
+      "id": "l_raised_Transaminase",
+      "link_type": "EvaluationLink",
+      "predicate": "n_Raised",
+      "arguments": [
+        "n_Transaminase",
+        "n_PSC"
+      ],
+      "attributes": {
+        "fold_increase": "2-3"
+      },
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_requires_monitor_Transaminase",
+      "link_type": "EvaluationLink",
+      "predicate": "n_Requires",
+      "arguments": [
+        "n_Transaminase",
+        "n_PSC"
+      ],
+      "truth_value": [
+        0.6,
+        0.5
+      ]
+    },
+    {
+      "id": "l_AST_component_Mayo",
+      "link_type": "EvaluationLink",
+      "predicate": "n_ComponentOf",
+      "arguments": [
+        "n_AST",
+        "n_MayoRiskScore"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_Mayo_calculates_progression",
+      "link_type": "EvaluationLink",
+      "predicate": "n_Calculates",
+      "arguments": [
+        "n_MayoRiskScore",
+        "n_PSC"
+      ],
+      "attributes": {
+        "endpoint": "risk of disease progression"
+      },
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_highMayo_indicator_varices",
+      "link_type": "EvaluationLink",
+      "predicate": "n_IndicatorOf",
+      "arguments": [
+        "n_MayoRiskScore",
+        "n_OesophagealVarices"
+      ],
+      "attributes": {
+        "level": "high"
+      },
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_ASTALT_indicator_varices",
+      "link_type": "EvaluationLink",
+      "predicate": "n_IndicatorOf",
+      "arguments": [
+        "n_AST_ALT_ratio",
+        "n_OesophagealVarices"
+      ],
+      "attributes": {
+        "threshold": ">1.12"
+      },
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_ctx_diag",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_Timestamp",
+        "n_SENT_8",
+        "l_diag_GGT_ALP"
+      ]
+    },
+    {
+      "id": "l_ctx_preclude",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_Timestamp",
+        "n_SENT_8",
+        "l_preclude_biopsy"
+      ]
+    },
+    {
+      "id": "l_ctx_raisedTransaminase",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_Timestamp",
+        "n_SENT_8",
+        "l_raised_Transaminase"
+      ]
+    },
+    {
+      "id": "l_ctx_requiresTransaminase",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_Timestamp",
+        "n_SENT_8",
+        "l_requires_monitor_Transaminase"
+      ]
+    },
+    {
+      "id": "l_ctx_ASTcomponent",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_Timestamp",
+        "n_SENT_8",
+        "l_AST_component_Mayo"
+      ]
+    },
+    {
+      "id": "l_ctx_MayoCalculates",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_Timestamp",
+        "n_SENT_8",
+        "l_Mayo_calculates_progression"
+      ]
+    },
+    {
+      "id": "l_ctx_highMayoIndicator",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_Timestamp",
+        "n_SENT_8",
+        "l_highMayo_indicator_varices"
+      ]
+    },
+    {
+      "id": "l_ctx_ASTALTIndicator",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_Timestamp",
+        "n_SENT_8",
+        "l_ASTALT_indicator_varices"
+      ]
+    }
+  ],
+  "metadata": {
+    "source_id": "SENT_8",
+    "source_sentence": "When other causes of liver disease have been excluded, a raised GGT, and particularly ALP, are diagnostic when associated with typical Endoscopic Retrograde Cholangiopancreatography (ERCP) or Magnetic Resonance Cholangiopancreatography (MRCP) findings. This can preclude the need for a liver biopsy. Transaminase levels may be raised up to 2-3 times normal values in PSC but this is not diagnostic. AST is a component of the Mayo Risk Score, which calculates the risk of disease progression in PSC. A high Mayo Risk Score, and an AST:ALT ratio of >1.12 have been shown to be indicators of risk for the development of oesophageal varices."
+  }
+}

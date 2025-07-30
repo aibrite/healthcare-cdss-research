@@ -1,0 +1,57 @@
+Sure! Here’s a template prompt for generating a schema from a text description, tailored for Hugging Face (HG) style tasks:
+
+---
+
+**Prompt:**
+
+Given the following task description, generate a JSON schema that defines the expected input and output formats for a machine learning model. The schema should include:
+
+- Field names
+- Data types (e.g., string, integer, array, object, boolean)
+- Brief descriptions for each field
+- Indicate which fields are required
+
+**Task Description:**
+{Insert your task description here}
+
+**Output Format:**
+```json
+{
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "field1": {
+        "type": "string",
+        "description": "Description of field1"
+      },
+      "field2": {
+        "type": "integer",
+        "description": "Description of field2"
+      }
+      // Add more fields as needed
+    },
+    "required": ["field1", "field2"]
+  },
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "output_field1": {
+        "type": "string",
+        "description": "Description of output_field1"
+      }
+      // Add more output fields as needed
+    },
+    "required": ["output_field1"]
+  }
+}
+```
+
+**Instructions:**
+- Carefully analyze the task description.
+- Identify all necessary input and output fields.
+- Use clear, concise descriptions.
+- Follow the JSON schema format above.
+
+---
+
+You can copy and adapt this prompt for your Hugging Face schema generation tasks!

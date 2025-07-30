@@ -1,0 +1,2282 @@
+Liver enzymes	[agent]:used_for:[action]	Evaluation
+[agent]:used_for:[action]	has_timestamp	1900-01-01
+[agent]:used_for:[action]	has_sentence	SENT_1
+[agent]:used_for:[action]	has_truth_value	0.9
+Liver enzymes	[agent]:used_for:[target]	Disease
+[agent]:used_for:[target]	has_timestamp	1900-01-01
+[agent]:used_for:[target]	has_sentence	SENT_1
+[agent]:used_for:[target]	has_truth_value	0.9
+Evaluation	[action]:used_for:[agent]	Liver enzymes
+[action]:used_for:[agent]	has_timestamp	1900-01-01
+[action]:used_for:[agent]	has_sentence	SENT_1
+[action]:used_for:[agent]	has_truth_value	0.9
+Evaluation	[action]:used_for:[target]	Disease
+[action]:used_for:[target]	has_timestamp	1900-01-01
+[action]:used_for:[target]	has_sentence	SENT_1
+[action]:used_for:[target]	has_truth_value	0.9
+Disease	[target]:used_for:[agent]	Liver enzymes
+[target]:used_for:[agent]	has_timestamp	1900-01-01
+[target]:used_for:[agent]	has_sentence	SENT_1
+[target]:used_for:[agent]	has_truth_value	0.9
+Disease	[target]:used_for:[action]	Evaluation
+[target]:used_for:[action]	has_timestamp	1900-01-01
+[target]:used_for:[action]	has_sentence	SENT_1
+[target]:used_for:[action]	has_truth_value	0.9
+Liver enzymes	[agent]:used_for:[target]	Hepatitic disorder
+Evaluation	[action]:used_for:[target]	Hepatitic disorder
+Hepatitic disorder	[target]:used_for:[agent]	Liver enzymes
+Hepatitic disorder	[target]:used_for:[action]	Evaluation
+Liver enzymes	[agent]:used_for:[target]	Cholestatic disorder
+Evaluation	[action]:used_for:[target]	Cholestatic disorder
+Cholestatic disorder	[target]:used_for:[agent]	Liver enzymes
+Cholestatic disorder	[target]:used_for:[action]	Evaluation
+Enzyme ratios	[agent]:enables:[co_agent]	Pattern recognition
+[agent]:enables:[co_agent]	has_timestamp	1900-01-01
+[agent]:enables:[co_agent]	has_sentence	SENT_1
+[agent]:enables:[co_agent]	has_truth_value	0.9
+Enzyme ratios	[agent]:enables:[target]	Liver enzymes
+[agent]:enables:[target]	has_timestamp	1900-01-01
+[agent]:enables:[target]	has_sentence	SENT_1
+[agent]:enables:[target]	has_truth_value	0.9
+Enzyme ratios	[agent]:enables:[outcome]	greater information/string
+[agent]:enables:[outcome]	has_timestamp	1900-01-01
+[agent]:enables:[outcome]	has_sentence	SENT_1
+[agent]:enables:[outcome]	has_truth_value	0.9
+Pattern recognition	[co_agent]:enables:[agent]	Enzyme ratios
+[co_agent]:enables:[agent]	has_timestamp	1900-01-01
+[co_agent]:enables:[agent]	has_sentence	SENT_1
+[co_agent]:enables:[agent]	has_truth_value	0.9
+Pattern recognition	[co_agent]:enables:[target]	Liver enzymes
+[co_agent]:enables:[target]	has_timestamp	1900-01-01
+[co_agent]:enables:[target]	has_sentence	SENT_1
+[co_agent]:enables:[target]	has_truth_value	0.9
+Pattern recognition	[co_agent]:enables:[outcome]	greater information/string
+[co_agent]:enables:[outcome]	has_timestamp	1900-01-01
+[co_agent]:enables:[outcome]	has_sentence	SENT_1
+[co_agent]:enables:[outcome]	has_truth_value	0.9
+Liver enzymes	[target]:enables:[agent]	Enzyme ratios
+[target]:enables:[agent]	has_timestamp	1900-01-01
+[target]:enables:[agent]	has_sentence	SENT_1
+[target]:enables:[agent]	has_truth_value	0.9
+Liver enzymes	[target]:enables:[co_agent]	Pattern recognition
+[target]:enables:[co_agent]	has_timestamp	1900-01-01
+[target]:enables:[co_agent]	has_sentence	SENT_1
+[target]:enables:[co_agent]	has_truth_value	0.9
+Liver enzymes	[target]:enables:[outcome]	greater information/string
+[target]:enables:[outcome]	has_timestamp	1900-01-01
+[target]:enables:[outcome]	has_sentence	SENT_1
+[target]:enables:[outcome]	has_truth_value	0.9
+greater information/string	[outcome]:enables:[agent]	Enzyme ratios
+[outcome]:enables:[agent]	has_timestamp	1900-01-01
+[outcome]:enables:[agent]	has_sentence	SENT_1
+[outcome]:enables:[agent]	has_truth_value	0.9
+greater information/string	[outcome]:enables:[co_agent]	Pattern recognition
+[outcome]:enables:[co_agent]	has_timestamp	1900-01-01
+[outcome]:enables:[co_agent]	has_sentence	SENT_1
+[outcome]:enables:[co_agent]	has_truth_value	0.9
+greater information/string	[outcome]:enables:[target]	Liver enzymes
+[outcome]:enables:[target]	has_timestamp	1900-01-01
+[outcome]:enables:[target]	has_sentence	SENT_1
+[outcome]:enables:[target]	has_truth_value	0.9
+Liver enzymes	[target]:requires_investigation:[action]	Investigation
+[target]:requires_investigation:[action]	has_timestamp	1900-01-01
+[target]:requires_investigation:[action]	has_sentence	SENT_1
+[target]:requires_investigation:[action]	has_truth_value	0.6
+Investigation	[action]:requires_investigation:[target]	Liver enzymes
+[action]:requires_investigation:[target]	has_timestamp	1900-01-01
+[action]:requires_investigation:[target]	has_sentence	SENT_1
+[action]:requires_investigation:[target]	has_truth_value	0.6
+Liver enzymes	[agent]:improves:[action]	Investigation
+[agent]:improves:[action]	has_timestamp	1900-01-01
+[agent]:improves:[action]	has_sentence	SENT_1
+[agent]:improves:[action]	has_truth_value	0.7
+Liver enzymes	[agent]:improves:[target]	Liver disease
+[agent]:improves:[target]	has_timestamp	1900-01-01
+[agent]:improves:[target]	has_sentence	SENT_1
+[agent]:improves:[target]	has_truth_value	0.7
+Investigation	[action]:improves:[agent]	Liver enzymes
+[action]:improves:[agent]	has_timestamp	1900-01-01
+[action]:improves:[agent]	has_sentence	SENT_1
+[action]:improves:[agent]	has_truth_value	0.7
+Investigation	[action]:improves:[target]	Liver disease
+[action]:improves:[target]	has_timestamp	1900-01-01
+[action]:improves:[target]	has_sentence	SENT_1
+[action]:improves:[target]	has_truth_value	0.7
+Liver disease	[target]:improves:[agent]	Liver enzymes
+[target]:improves:[agent]	has_timestamp	1900-01-01
+[target]:improves:[agent]	has_sentence	SENT_1
+[target]:improves:[agent]	has_truth_value	0.7
+Liver disease	[target]:improves:[action]	Investigation
+[target]:improves:[action]	has_timestamp	1900-01-01
+[target]:improves:[action]	has_sentence	SENT_1
+[target]:improves:[action]	has_truth_value	0.7
+Liver enzymes	[agent]:improves:[action]	Management
+Management	[action]:improves:[agent]	Liver enzymes
+Management	[action]:improves:[target]	Liver disease
+Liver disease	[target]:improves:[action]	Management
+Liver Function Tests	[agent]:is_a:[target]	Liver enzymes
+[agent]:is_a:[target]	has_timestamp	1900-01-01
+[agent]:is_a:[target]	has_sentence	SENT_1
+[agent]:is_a:[target]	has_truth_value	0.9
+Liver enzymes	[target]:is_a:[agent]	Liver Function Tests
+[target]:is_a:[agent]	has_timestamp	1900-01-01
+[target]:is_a:[agent]	has_sentence	SENT_1
+[target]:is_a:[agent]	has_truth_value	0.9
+Liver Function Tests	[agent]:used_for:[action]	Screening blood tests
+Screening blood tests	[action]:used_for:[agent]	Liver Function Tests
+Liver Function Tests	[agent]:provides_information_on:[target]	Liver disease
+[agent]:provides_information_on:[target]	has_timestamp	1900-01-01
+[agent]:provides_information_on:[target]	has_sentence	SENT_2
+[agent]:provides_information_on:[target]	has_truth_value	0.9
+Liver disease	[target]:provides_information_on:[agent]	Liver Function Tests
+[target]:provides_information_on:[agent]	has_timestamp	1900-01-01
+[target]:provides_information_on:[agent]	has_sentence	SENT_2
+[target]:provides_information_on:[agent]	has_truth_value	0.9
+Liver Function Tests	[agent]:provides_information_on:[target]	Disease activity
+Disease activity	[target]:provides_information_on:[agent]	Liver Function Tests
+Liver Function Tests	[agent]:provides_information_on:[target]	Blood analysis
+Blood analysis	[target]:provides_information_on:[agent]	Liver Function Tests
+Bilirubin	[agent]:provides_information_on:[target]	Functional capacity of the liver
+Functional capacity of the liver	[target]:provides_information_on:[agent]	Bilirubin
+Albumin	[agent]:provides_information_on:[target]	Functional capacity of the liver
+Functional capacity of the liver	[target]:provides_information_on:[agent]	Albumin
+Liver enzymes	[agent]:provides_information_on:[target]	Hepatitic disorder
+Hepatitic disorder	[target]:provides_information_on:[agent]	Liver enzymes
+Liver enzymes	[agent]:provides_information_on:[target]	Cholestatic disorder
+Cholestatic disorder	[target]:provides_information_on:[agent]	Liver enzymes
+Enzyme ratios	[target]:requires_investigation:[action]	Pattern recognition
+[target]:requires_investigation:[action]	has_sentence	SENT_2
+Pattern recognition	[action]:requires_investigation:[target]	Enzyme ratios
+[action]:requires_investigation:[target]	has_sentence	SENT_2
+AST:ALT ratio	[agent]:useful_for:[target]	NAFLD
+[agent]:useful_for:[target]	has_timestamp	1900-01-01
+[agent]:useful_for:[target]	has_sentence	SENT_15
+[agent]:useful_for:[target]	has_truth_value	0.9
+AST:ALT ratio	[agent]:useful_for:[condition]	Alcohol abuse
+[agent]:useful_for:[condition]	has_timestamp	1900-01-01
+[agent]:useful_for:[condition]	has_sentence	SENT_15
+[agent]:useful_for:[condition]	has_truth_value	0.9
+NAFLD	[target]:useful_for:[agent]	AST:ALT ratio
+[target]:useful_for:[agent]	has_timestamp	1900-01-01
+[target]:useful_for:[agent]	has_sentence	SENT_15
+[target]:useful_for:[agent]	has_truth_value	0.9
+NAFLD	[target]:useful_for:[condition]	Alcohol abuse
+[target]:useful_for:[condition]	has_timestamp	1900-01-01
+[target]:useful_for:[condition]	has_sentence	SENT_15
+[target]:useful_for:[condition]	has_truth_value	0.9
+Alcohol abuse	[condition]:useful_for:[agent]	AST:ALT ratio
+[condition]:useful_for:[agent]	has_timestamp	1900-01-01
+[condition]:useful_for:[agent]	has_sentence	SENT_15
+[condition]:useful_for:[agent]	has_truth_value	0.9
+Alcohol abuse	[condition]:useful_for:[target]	NAFLD
+[condition]:useful_for:[target]	has_timestamp	1900-01-01
+[condition]:useful_for:[target]	has_sentence	SENT_15
+[condition]:useful_for:[target]	has_truth_value	0.9
+NAFLD	[target]:requires_investigation:[condition]	Alcohol abuse
+[target]:requires_investigation:[condition]	has_timestamp	1900-01-01
+[target]:requires_investigation:[condition]	has_sentence	SENT_15
+[target]:requires_investigation:[condition]	has_truth_value	0.6
+NAFLD	[target]:requires_investigation:[threshold]	Score >1
+[target]:requires_investigation:[threshold]	has_timestamp	1900-01-01
+[target]:requires_investigation:[threshold]	has_sentence	SENT_15
+[target]:requires_investigation:[threshold]	has_truth_value	0.6
+NAFLD	[target]:requires_investigation:[action]	consider cirrhosis/string
+[target]:requires_investigation:[action]	has_sentence	SENT_15
+Alcohol abuse	[condition]:requires_investigation:[target]	NAFLD
+[condition]:requires_investigation:[target]	has_timestamp	1900-01-01
+[condition]:requires_investigation:[target]	has_sentence	SENT_15
+[condition]:requires_investigation:[target]	has_truth_value	0.6
+Alcohol abuse	[condition]:requires_investigation:[threshold]	Score >1
+[condition]:requires_investigation:[threshold]	has_timestamp	1900-01-01
+[condition]:requires_investigation:[threshold]	has_sentence	SENT_15
+[condition]:requires_investigation:[threshold]	has_truth_value	0.6
+Alcohol abuse	[condition]:requires_investigation:[action]	consider cirrhosis/string
+[condition]:requires_investigation:[action]	has_timestamp	1900-01-01
+[condition]:requires_investigation:[action]	has_sentence	SENT_15
+[condition]:requires_investigation:[action]	has_truth_value	0.6
+Score >1	[threshold]:requires_investigation:[target]	NAFLD
+[threshold]:requires_investigation:[target]	has_timestamp	1900-01-01
+[threshold]:requires_investigation:[target]	has_sentence	SENT_15
+[threshold]:requires_investigation:[target]	has_truth_value	0.6
+Score >1	[threshold]:requires_investigation:[condition]	Alcohol abuse
+[threshold]:requires_investigation:[condition]	has_timestamp	1900-01-01
+[threshold]:requires_investigation:[condition]	has_sentence	SENT_15
+[threshold]:requires_investigation:[condition]	has_truth_value	0.6
+Score >1	[threshold]:requires_investigation:[action]	consider cirrhosis/string
+[threshold]:requires_investigation:[action]	has_timestamp	1900-01-01
+[threshold]:requires_investigation:[action]	has_sentence	SENT_15
+[threshold]:requires_investigation:[action]	has_truth_value	0.6
+consider cirrhosis/string	[action]:requires_investigation:[target]	NAFLD
+[action]:requires_investigation:[target]	has_sentence	SENT_15
+consider cirrhosis/string	[action]:requires_investigation:[condition]	Alcohol abuse
+[action]:requires_investigation:[condition]	has_timestamp	1900-01-01
+[action]:requires_investigation:[condition]	has_sentence	SENT_15
+[action]:requires_investigation:[condition]	has_truth_value	0.6
+consider cirrhosis/string	[action]:requires_investigation:[threshold]	Score >1
+[action]:requires_investigation:[threshold]	has_timestamp	1900-01-01
+[action]:requires_investigation:[threshold]	has_sentence	SENT_15
+[action]:requires_investigation:[threshold]	has_truth_value	0.6
+useful_for	[fact_arg]:implies:[fact_arg->agent]	AST:ALT ratio
+requires_investigation	[fact_arg]:implies:[fact_arg->agent]	AST:ALT ratio
+[fact_arg]:implies:[fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg]:implies:[fact_arg->agent]	has_sentence	SENT_15
+[fact_arg]:implies:[fact_arg->agent]	has_truth_value	0.7
+useful_for	[fact_arg]:implies:[fact_arg->target]	NAFLD
+requires_investigation	[fact_arg]:implies:[fact_arg->target]	NAFLD
+[fact_arg]:implies:[fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg]:implies:[fact_arg->target]	has_sentence	SENT_15
+[fact_arg]:implies:[fact_arg->target]	has_truth_value	0.7
+useful_for	[fact_arg]:implies:[fact_arg->condition]	Alcohol abuse
+requires_investigation	[fact_arg]:implies:[fact_arg->condition]	Alcohol abuse
+[fact_arg]:implies:[fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg]:implies:[fact_arg->condition]	has_sentence	SENT_15
+[fact_arg]:implies:[fact_arg->condition]	has_truth_value	0.7
+useful_for	[fact_arg]:implies:[fact_arg->threshold]	Score >1
+requires_investigation	[fact_arg]:implies:[fact_arg->threshold]	Score >1
+[fact_arg]:implies:[fact_arg->threshold]	has_timestamp	1900-01-01
+[fact_arg]:implies:[fact_arg->threshold]	has_sentence	SENT_15
+[fact_arg]:implies:[fact_arg->threshold]	has_truth_value	0.7
+useful_for	[fact_arg]:implies:[fact_arg->action]	consider cirrhosis/string
+requires_investigation	[fact_arg]:implies:[fact_arg->action]	consider cirrhosis/string
+[fact_arg]:implies:[fact_arg->action]	has_timestamp	1900-01-01
+[fact_arg]:implies:[fact_arg->action]	has_sentence	SENT_15
+[fact_arg]:implies:[fact_arg->action]	has_truth_value	0.7
+AST:ALT ratio	[fact_arg->agent]:implies:[fact_arg]	useful_for
+AST:ALT ratio	[fact_arg->agent]:implies:[fact_arg]	requires_investigation
+[fact_arg->agent]:implies:[fact_arg]	has_timestamp	1900-01-01
+[fact_arg->agent]:implies:[fact_arg]	has_sentence	SENT_15
+[fact_arg->agent]:implies:[fact_arg]	has_truth_value	0.7
+AST:ALT ratio	[fact_arg->agent]:implies:[fact_arg->target]	NAFLD
+[fact_arg->agent]:implies:[fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->agent]:implies:[fact_arg->target]	has_sentence	SENT_15
+[fact_arg->agent]:implies:[fact_arg->target]	has_truth_value	0.7
+AST:ALT ratio	[fact_arg->agent]:implies:[fact_arg->condition]	Alcohol abuse
+[fact_arg->agent]:implies:[fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg->agent]:implies:[fact_arg->condition]	has_sentence	SENT_15
+[fact_arg->agent]:implies:[fact_arg->condition]	has_truth_value	0.7
+AST:ALT ratio	[fact_arg->agent]:implies:[fact_arg->threshold]	Score >1
+[fact_arg->agent]:implies:[fact_arg->threshold]	has_timestamp	1900-01-01
+[fact_arg->agent]:implies:[fact_arg->threshold]	has_sentence	SENT_15
+[fact_arg->agent]:implies:[fact_arg->threshold]	has_truth_value	0.7
+AST:ALT ratio	[fact_arg->agent]:implies:[fact_arg->action]	consider cirrhosis/string
+[fact_arg->agent]:implies:[fact_arg->action]	has_timestamp	1900-01-01
+[fact_arg->agent]:implies:[fact_arg->action]	has_sentence	SENT_15
+[fact_arg->agent]:implies:[fact_arg->action]	has_truth_value	0.7
+NAFLD	[fact_arg->target]:implies:[fact_arg]	useful_for
+NAFLD	[fact_arg->target]:implies:[fact_arg]	requires_investigation
+[fact_arg->target]:implies:[fact_arg]	has_timestamp	1900-01-01
+[fact_arg->target]:implies:[fact_arg]	has_sentence	SENT_15
+[fact_arg->target]:implies:[fact_arg]	has_truth_value	0.7
+NAFLD	[fact_arg->target]:implies:[fact_arg->agent]	AST:ALT ratio
+[fact_arg->target]:implies:[fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->target]:implies:[fact_arg->agent]	has_sentence	SENT_15
+[fact_arg->target]:implies:[fact_arg->agent]	has_truth_value	0.7
+NAFLD	[fact_arg->target]:implies:[fact_arg->condition]	Alcohol abuse
+[fact_arg->target]:implies:[fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg->target]:implies:[fact_arg->condition]	has_sentence	SENT_15
+[fact_arg->target]:implies:[fact_arg->condition]	has_truth_value	0.7
+NAFLD	[fact_arg->target]:implies:[fact_arg->threshold]	Score >1
+[fact_arg->target]:implies:[fact_arg->threshold]	has_timestamp	1900-01-01
+[fact_arg->target]:implies:[fact_arg->threshold]	has_sentence	SENT_15
+[fact_arg->target]:implies:[fact_arg->threshold]	has_truth_value	0.7
+NAFLD	[fact_arg->target]:implies:[fact_arg->action]	consider cirrhosis/string
+[fact_arg->target]:implies:[fact_arg->action]	has_timestamp	1900-01-01
+[fact_arg->target]:implies:[fact_arg->action]	has_sentence	SENT_15
+[fact_arg->target]:implies:[fact_arg->action]	has_truth_value	0.7
+Alcohol abuse	[fact_arg->condition]:implies:[fact_arg]	useful_for
+Alcohol abuse	[fact_arg->condition]:implies:[fact_arg]	requires_investigation
+[fact_arg->condition]:implies:[fact_arg]	has_timestamp	1900-01-01
+[fact_arg->condition]:implies:[fact_arg]	has_sentence	SENT_15
+[fact_arg->condition]:implies:[fact_arg]	has_truth_value	0.7
+Alcohol abuse	[fact_arg->condition]:implies:[fact_arg->agent]	AST:ALT ratio
+[fact_arg->condition]:implies:[fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->condition]:implies:[fact_arg->agent]	has_sentence	SENT_15
+[fact_arg->condition]:implies:[fact_arg->agent]	has_truth_value	0.7
+Alcohol abuse	[fact_arg->condition]:implies:[fact_arg->target]	NAFLD
+[fact_arg->condition]:implies:[fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->condition]:implies:[fact_arg->target]	has_sentence	SENT_15
+[fact_arg->condition]:implies:[fact_arg->target]	has_truth_value	0.7
+Alcohol abuse	[fact_arg->condition]:implies:[fact_arg->threshold]	Score >1
+[fact_arg->condition]:implies:[fact_arg->threshold]	has_timestamp	1900-01-01
+[fact_arg->condition]:implies:[fact_arg->threshold]	has_sentence	SENT_15
+[fact_arg->condition]:implies:[fact_arg->threshold]	has_truth_value	0.7
+Alcohol abuse	[fact_arg->condition]:implies:[fact_arg->action]	consider cirrhosis/string
+[fact_arg->condition]:implies:[fact_arg->action]	has_timestamp	1900-01-01
+[fact_arg->condition]:implies:[fact_arg->action]	has_sentence	SENT_15
+[fact_arg->condition]:implies:[fact_arg->action]	has_truth_value	0.7
+Score >1	[fact_arg->threshold]:implies:[fact_arg]	useful_for
+Score >1	[fact_arg->threshold]:implies:[fact_arg]	requires_investigation
+[fact_arg->threshold]:implies:[fact_arg]	has_timestamp	1900-01-01
+[fact_arg->threshold]:implies:[fact_arg]	has_sentence	SENT_15
+[fact_arg->threshold]:implies:[fact_arg]	has_truth_value	0.7
+Score >1	[fact_arg->threshold]:implies:[fact_arg->agent]	AST:ALT ratio
+[fact_arg->threshold]:implies:[fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->threshold]:implies:[fact_arg->agent]	has_sentence	SENT_15
+[fact_arg->threshold]:implies:[fact_arg->agent]	has_truth_value	0.7
+Score >1	[fact_arg->threshold]:implies:[fact_arg->target]	NAFLD
+[fact_arg->threshold]:implies:[fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->threshold]:implies:[fact_arg->target]	has_sentence	SENT_15
+[fact_arg->threshold]:implies:[fact_arg->target]	has_truth_value	0.7
+Score >1	[fact_arg->threshold]:implies:[fact_arg->condition]	Alcohol abuse
+[fact_arg->threshold]:implies:[fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg->threshold]:implies:[fact_arg->condition]	has_sentence	SENT_15
+[fact_arg->threshold]:implies:[fact_arg->condition]	has_truth_value	0.7
+Score >1	[fact_arg->threshold]:implies:[fact_arg->action]	consider cirrhosis/string
+[fact_arg->threshold]:implies:[fact_arg->action]	has_timestamp	1900-01-01
+[fact_arg->threshold]:implies:[fact_arg->action]	has_sentence	SENT_15
+[fact_arg->threshold]:implies:[fact_arg->action]	has_truth_value	0.7
+consider cirrhosis/string	[fact_arg->action]:implies:[fact_arg]	useful_for
+consider cirrhosis/string	[fact_arg->action]:implies:[fact_arg]	requires_investigation
+[fact_arg->action]:implies:[fact_arg]	has_timestamp	1900-01-01
+[fact_arg->action]:implies:[fact_arg]	has_sentence	SENT_15
+[fact_arg->action]:implies:[fact_arg]	has_truth_value	0.7
+consider cirrhosis/string	[fact_arg->action]:implies:[fact_arg->agent]	AST:ALT ratio
+[fact_arg->action]:implies:[fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->action]:implies:[fact_arg->agent]	has_sentence	SENT_15
+[fact_arg->action]:implies:[fact_arg->agent]	has_truth_value	0.7
+consider cirrhosis/string	[fact_arg->action]:implies:[fact_arg->target]	NAFLD
+[fact_arg->action]:implies:[fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->action]:implies:[fact_arg->target]	has_sentence	SENT_15
+[fact_arg->action]:implies:[fact_arg->target]	has_truth_value	0.7
+consider cirrhosis/string	[fact_arg->action]:implies:[fact_arg->condition]	Alcohol abuse
+[fact_arg->action]:implies:[fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg->action]:implies:[fact_arg->condition]	has_sentence	SENT_15
+[fact_arg->action]:implies:[fact_arg->condition]	has_truth_value	0.7
+consider cirrhosis/string	[fact_arg->action]:implies:[fact_arg->threshold]	Score >1
+[fact_arg->action]:implies:[fact_arg->threshold]	has_timestamp	1900-01-01
+[fact_arg->action]:implies:[fact_arg->threshold]	has_sentence	SENT_15
+[fact_arg->action]:implies:[fact_arg->threshold]	has_truth_value	0.7
+NAFLD	[agent]:associated_with:[target]	Hypertension
+[agent]:associated_with:[target]	has_timestamp	1900-01-01
+[agent]:associated_with:[target]	has_sentence	SENT_14
+[agent]:associated_with:[target]	has_truth_value	0.9
+Hypertension	[target]:associated_with:[agent]	NAFLD
+[target]:associated_with:[agent]	has_timestamp	1900-01-01
+[target]:associated_with:[agent]	has_sentence	SENT_14
+[target]:associated_with:[agent]	has_truth_value	0.9
+implies	[fact_arg]:implies:[fact_arg->fact_arg]	useful_for
+implies	[fact_arg]:implies:[fact_arg->fact_arg]	requires_investigation
+associated_with	[fact_arg]:implies:[fact_arg->fact_arg]	useful_for
+associated_with	[fact_arg]:implies:[fact_arg->fact_arg]	requires_investigation
+[fact_arg]:implies:[fact_arg->fact_arg]	has_timestamp	1900-01-01
+[fact_arg]:implies:[fact_arg->fact_arg]	has_sentence	SENT_2
+[fact_arg]:implies:[fact_arg->fact_arg]	has_truth_value	0.7
+implies	[fact_arg]:implies:[fact_arg->fact_arg->agent]	AST:ALT ratio
+associated_with	[fact_arg]:implies:[fact_arg->fact_arg->agent]	AST:ALT ratio
+[fact_arg]:implies:[fact_arg->fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg]:implies:[fact_arg->fact_arg->agent]	has_sentence	SENT_2
+[fact_arg]:implies:[fact_arg->fact_arg->agent]	has_truth_value	0.7
+implies	[fact_arg]:implies:[fact_arg->fact_arg->target]	NAFLD
+associated_with	[fact_arg]:implies:[fact_arg->fact_arg->target]	NAFLD
+[fact_arg]:implies:[fact_arg->fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg]:implies:[fact_arg->fact_arg->target]	has_sentence	SENT_2
+[fact_arg]:implies:[fact_arg->fact_arg->target]	has_truth_value	0.7
+implies	[fact_arg]:implies:[fact_arg->fact_arg->condition]	Alcohol abuse
+associated_with	[fact_arg]:implies:[fact_arg->fact_arg->condition]	Alcohol abuse
+[fact_arg]:implies:[fact_arg->fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg]:implies:[fact_arg->fact_arg->condition]	has_sentence	SENT_2
+[fact_arg]:implies:[fact_arg->fact_arg->condition]	has_truth_value	0.7
+implies	[fact_arg]:implies:[fact_arg->fact_arg->threshold]	Score >1
+associated_with	[fact_arg]:implies:[fact_arg->fact_arg->threshold]	Score >1
+[fact_arg]:implies:[fact_arg->fact_arg->threshold]	has_timestamp	1900-01-01
+[fact_arg]:implies:[fact_arg->fact_arg->threshold]	has_sentence	SENT_2
+[fact_arg]:implies:[fact_arg->fact_arg->threshold]	has_truth_value	0.7
+implies	[fact_arg]:implies:[fact_arg->fact_arg->action]	consider cirrhosis/string
+associated_with	[fact_arg]:implies:[fact_arg->fact_arg->action]	consider cirrhosis/string
+[fact_arg]:implies:[fact_arg->fact_arg->action]	has_timestamp	1900-01-01
+[fact_arg]:implies:[fact_arg->fact_arg->action]	has_sentence	SENT_2
+[fact_arg]:implies:[fact_arg->fact_arg->action]	has_truth_value	0.7
+implies	[fact_arg]:implies:[fact_arg->agent]	NAFLD
+associated_with	[fact_arg]:implies:[fact_arg->agent]	NAFLD
+[fact_arg]:implies:[fact_arg->agent]	has_sentence	SENT_2
+implies	[fact_arg]:implies:[fact_arg->target]	Hypertension
+associated_with	[fact_arg]:implies:[fact_arg->target]	Hypertension
+[fact_arg]:implies:[fact_arg->target]	has_sentence	SENT_2
+useful_for	[fact_arg->fact_arg]:implies:[fact_arg]	implies
+useful_for	[fact_arg->fact_arg]:implies:[fact_arg]	associated_with
+requires_investigation	[fact_arg->fact_arg]:implies:[fact_arg]	implies
+requires_investigation	[fact_arg->fact_arg]:implies:[fact_arg]	associated_with
+[fact_arg->fact_arg]:implies:[fact_arg]	has_timestamp	1900-01-01
+[fact_arg->fact_arg]:implies:[fact_arg]	has_sentence	SENT_2
+[fact_arg->fact_arg]:implies:[fact_arg]	has_truth_value	0.7
+useful_for	[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->agent]	AST:ALT ratio
+requires_investigation	[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->agent]	AST:ALT ratio
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->agent]	has_sentence	SENT_2
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->agent]	has_truth_value	0.7
+useful_for	[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->target]	NAFLD
+requires_investigation	[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->target]	NAFLD
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->target]	has_sentence	SENT_2
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->target]	has_truth_value	0.7
+useful_for	[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->condition]	Alcohol abuse
+requires_investigation	[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->condition]	Alcohol abuse
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->condition]	has_sentence	SENT_2
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->condition]	has_truth_value	0.7
+useful_for	[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->threshold]	Score >1
+requires_investigation	[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->threshold]	Score >1
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->threshold]	has_timestamp	1900-01-01
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->threshold]	has_sentence	SENT_2
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->threshold]	has_truth_value	0.7
+useful_for	[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->action]	consider cirrhosis/string
+requires_investigation	[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->action]	consider cirrhosis/string
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->action]	has_timestamp	1900-01-01
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->action]	has_sentence	SENT_2
+[fact_arg->fact_arg]:implies:[fact_arg->fact_arg->action]	has_truth_value	0.7
+useful_for	[fact_arg->fact_arg]:implies:[fact_arg->agent]	NAFLD
+requires_investigation	[fact_arg->fact_arg]:implies:[fact_arg->agent]	NAFLD
+[fact_arg->fact_arg]:implies:[fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->fact_arg]:implies:[fact_arg->agent]	has_sentence	SENT_2
+[fact_arg->fact_arg]:implies:[fact_arg->agent]	has_truth_value	0.7
+useful_for	[fact_arg->fact_arg]:implies:[fact_arg->target]	Hypertension
+requires_investigation	[fact_arg->fact_arg]:implies:[fact_arg->target]	Hypertension
+[fact_arg->fact_arg]:implies:[fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->fact_arg]:implies:[fact_arg->target]	has_sentence	SENT_2
+[fact_arg->fact_arg]:implies:[fact_arg->target]	has_truth_value	0.7
+AST:ALT ratio	[fact_arg->fact_arg->agent]:implies:[fact_arg]	implies
+AST:ALT ratio	[fact_arg->fact_arg->agent]:implies:[fact_arg]	associated_with
+[fact_arg->fact_arg->agent]:implies:[fact_arg]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->agent]:implies:[fact_arg]	has_sentence	SENT_2
+[fact_arg->fact_arg->agent]:implies:[fact_arg]	has_truth_value	0.7
+AST:ALT ratio	[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg]	useful_for
+AST:ALT ratio	[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg]	requires_investigation
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg]	has_sentence	SENT_2
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg]	has_truth_value	0.7
+AST:ALT ratio	[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->target]	NAFLD
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->target]	has_sentence	SENT_2
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->target]	has_truth_value	0.7
+AST:ALT ratio	[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->condition]	Alcohol abuse
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->condition]	has_sentence	SENT_2
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->condition]	has_truth_value	0.7
+AST:ALT ratio	[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->threshold]	Score >1
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->threshold]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->threshold]	has_sentence	SENT_2
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->threshold]	has_truth_value	0.7
+AST:ALT ratio	[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->action]	consider cirrhosis/string
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->action]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->action]	has_sentence	SENT_2
+[fact_arg->fact_arg->agent]:implies:[fact_arg->fact_arg->action]	has_truth_value	0.7
+AST:ALT ratio	[fact_arg->fact_arg->agent]:implies:[fact_arg->agent]	NAFLD
+[fact_arg->fact_arg->agent]:implies:[fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->agent]:implies:[fact_arg->agent]	has_sentence	SENT_2
+[fact_arg->fact_arg->agent]:implies:[fact_arg->agent]	has_truth_value	0.7
+AST:ALT ratio	[fact_arg->fact_arg->agent]:implies:[fact_arg->target]	Hypertension
+[fact_arg->fact_arg->agent]:implies:[fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->agent]:implies:[fact_arg->target]	has_sentence	SENT_2
+[fact_arg->fact_arg->agent]:implies:[fact_arg->target]	has_truth_value	0.7
+NAFLD	[fact_arg->fact_arg->target]:implies:[fact_arg]	implies
+NAFLD	[fact_arg->fact_arg->target]:implies:[fact_arg]	associated_with
+[fact_arg->fact_arg->target]:implies:[fact_arg]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->target]:implies:[fact_arg]	has_sentence	SENT_2
+[fact_arg->fact_arg->target]:implies:[fact_arg]	has_truth_value	0.7
+NAFLD	[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg]	useful_for
+NAFLD	[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg]	requires_investigation
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg]	has_sentence	SENT_2
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg]	has_truth_value	0.7
+NAFLD	[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->agent]	AST:ALT ratio
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->agent]	has_sentence	SENT_2
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->agent]	has_truth_value	0.7
+NAFLD	[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->condition]	Alcohol abuse
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->condition]	has_sentence	SENT_2
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->condition]	has_truth_value	0.7
+NAFLD	[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->threshold]	Score >1
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->threshold]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->threshold]	has_sentence	SENT_2
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->threshold]	has_truth_value	0.7
+NAFLD	[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->action]	consider cirrhosis/string
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->action]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->action]	has_sentence	SENT_2
+[fact_arg->fact_arg->target]:implies:[fact_arg->fact_arg->action]	has_truth_value	0.7
+NAFLD	[fact_arg->fact_arg->target]:implies:[fact_arg->agent]	NAFLD
+[fact_arg->fact_arg->target]:implies:[fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->target]:implies:[fact_arg->agent]	has_sentence	SENT_2
+[fact_arg->fact_arg->target]:implies:[fact_arg->agent]	has_truth_value	0.7
+NAFLD	[fact_arg->fact_arg->target]:implies:[fact_arg->target]	Hypertension
+[fact_arg->fact_arg->target]:implies:[fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->target]:implies:[fact_arg->target]	has_sentence	SENT_2
+[fact_arg->fact_arg->target]:implies:[fact_arg->target]	has_truth_value	0.7
+Alcohol abuse	[fact_arg->fact_arg->condition]:implies:[fact_arg]	implies
+Alcohol abuse	[fact_arg->fact_arg->condition]:implies:[fact_arg]	associated_with
+[fact_arg->fact_arg->condition]:implies:[fact_arg]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->condition]:implies:[fact_arg]	has_sentence	SENT_2
+[fact_arg->fact_arg->condition]:implies:[fact_arg]	has_truth_value	0.7
+Alcohol abuse	[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg]	useful_for
+Alcohol abuse	[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg]	requires_investigation
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg]	has_sentence	SENT_2
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg]	has_truth_value	0.7
+Alcohol abuse	[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->agent]	AST:ALT ratio
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->agent]	has_sentence	SENT_2
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->agent]	has_truth_value	0.7
+Alcohol abuse	[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->target]	NAFLD
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->target]	has_sentence	SENT_2
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->target]	has_truth_value	0.7
+Alcohol abuse	[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->threshold]	Score >1
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->threshold]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->threshold]	has_sentence	SENT_2
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->threshold]	has_truth_value	0.7
+Alcohol abuse	[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->action]	consider cirrhosis/string
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->action]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->action]	has_sentence	SENT_2
+[fact_arg->fact_arg->condition]:implies:[fact_arg->fact_arg->action]	has_truth_value	0.7
+Alcohol abuse	[fact_arg->fact_arg->condition]:implies:[fact_arg->agent]	NAFLD
+[fact_arg->fact_arg->condition]:implies:[fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->condition]:implies:[fact_arg->agent]	has_sentence	SENT_2
+[fact_arg->fact_arg->condition]:implies:[fact_arg->agent]	has_truth_value	0.7
+Alcohol abuse	[fact_arg->fact_arg->condition]:implies:[fact_arg->target]	Hypertension
+[fact_arg->fact_arg->condition]:implies:[fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->condition]:implies:[fact_arg->target]	has_sentence	SENT_2
+[fact_arg->fact_arg->condition]:implies:[fact_arg->target]	has_truth_value	0.7
+Score >1	[fact_arg->fact_arg->threshold]:implies:[fact_arg]	implies
+Score >1	[fact_arg->fact_arg->threshold]:implies:[fact_arg]	associated_with
+[fact_arg->fact_arg->threshold]:implies:[fact_arg]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->threshold]:implies:[fact_arg]	has_sentence	SENT_2
+[fact_arg->fact_arg->threshold]:implies:[fact_arg]	has_truth_value	0.7
+Score >1	[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg]	useful_for
+Score >1	[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg]	requires_investigation
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg]	has_sentence	SENT_2
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg]	has_truth_value	0.7
+Score >1	[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->agent]	AST:ALT ratio
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->agent]	has_sentence	SENT_2
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->agent]	has_truth_value	0.7
+Score >1	[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->target]	NAFLD
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->target]	has_sentence	SENT_2
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->target]	has_truth_value	0.7
+Score >1	[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->condition]	Alcohol abuse
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->condition]	has_sentence	SENT_2
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->condition]	has_truth_value	0.7
+Score >1	[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->action]	consider cirrhosis/string
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->action]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->action]	has_sentence	SENT_2
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->fact_arg->action]	has_truth_value	0.7
+Score >1	[fact_arg->fact_arg->threshold]:implies:[fact_arg->agent]	NAFLD
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->agent]	has_sentence	SENT_2
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->agent]	has_truth_value	0.7
+Score >1	[fact_arg->fact_arg->threshold]:implies:[fact_arg->target]	Hypertension
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->target]	has_sentence	SENT_2
+[fact_arg->fact_arg->threshold]:implies:[fact_arg->target]	has_truth_value	0.7
+consider cirrhosis/string	[fact_arg->fact_arg->action]:implies:[fact_arg]	implies
+consider cirrhosis/string	[fact_arg->fact_arg->action]:implies:[fact_arg]	associated_with
+[fact_arg->fact_arg->action]:implies:[fact_arg]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->action]:implies:[fact_arg]	has_sentence	SENT_2
+[fact_arg->fact_arg->action]:implies:[fact_arg]	has_truth_value	0.7
+consider cirrhosis/string	[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg]	useful_for
+consider cirrhosis/string	[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg]	requires_investigation
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg]	has_sentence	SENT_2
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg]	has_truth_value	0.7
+consider cirrhosis/string	[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->agent]	AST:ALT ratio
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->agent]	has_sentence	SENT_2
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->agent]	has_truth_value	0.7
+consider cirrhosis/string	[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->target]	NAFLD
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->target]	has_sentence	SENT_2
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->target]	has_truth_value	0.7
+consider cirrhosis/string	[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->condition]	Alcohol abuse
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->condition]	has_sentence	SENT_2
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->condition]	has_truth_value	0.7
+consider cirrhosis/string	[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->threshold]	Score >1
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->threshold]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->threshold]	has_sentence	SENT_2
+[fact_arg->fact_arg->action]:implies:[fact_arg->fact_arg->threshold]	has_truth_value	0.7
+consider cirrhosis/string	[fact_arg->fact_arg->action]:implies:[fact_arg->agent]	NAFLD
+[fact_arg->fact_arg->action]:implies:[fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->action]:implies:[fact_arg->agent]	has_sentence	SENT_2
+[fact_arg->fact_arg->action]:implies:[fact_arg->agent]	has_truth_value	0.7
+consider cirrhosis/string	[fact_arg->fact_arg->action]:implies:[fact_arg->target]	Hypertension
+[fact_arg->fact_arg->action]:implies:[fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->fact_arg->action]:implies:[fact_arg->target]	has_sentence	SENT_2
+[fact_arg->fact_arg->action]:implies:[fact_arg->target]	has_truth_value	0.7
+NAFLD	[fact_arg->agent]:implies:[fact_arg]	implies
+NAFLD	[fact_arg->agent]:implies:[fact_arg]	associated_with
+[fact_arg->agent]:implies:[fact_arg]	has_sentence	SENT_2
+NAFLD	[fact_arg->agent]:implies:[fact_arg->fact_arg]	useful_for
+NAFLD	[fact_arg->agent]:implies:[fact_arg->fact_arg]	requires_investigation
+[fact_arg->agent]:implies:[fact_arg->fact_arg]	has_timestamp	1900-01-01
+[fact_arg->agent]:implies:[fact_arg->fact_arg]	has_sentence	SENT_2
+[fact_arg->agent]:implies:[fact_arg->fact_arg]	has_truth_value	0.7
+NAFLD	[fact_arg->agent]:implies:[fact_arg->fact_arg->agent]	AST:ALT ratio
+[fact_arg->agent]:implies:[fact_arg->fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->agent]:implies:[fact_arg->fact_arg->agent]	has_sentence	SENT_2
+[fact_arg->agent]:implies:[fact_arg->fact_arg->agent]	has_truth_value	0.7
+NAFLD	[fact_arg->agent]:implies:[fact_arg->fact_arg->target]	NAFLD
+[fact_arg->agent]:implies:[fact_arg->fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->agent]:implies:[fact_arg->fact_arg->target]	has_sentence	SENT_2
+[fact_arg->agent]:implies:[fact_arg->fact_arg->target]	has_truth_value	0.7
+NAFLD	[fact_arg->agent]:implies:[fact_arg->fact_arg->condition]	Alcohol abuse
+[fact_arg->agent]:implies:[fact_arg->fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg->agent]:implies:[fact_arg->fact_arg->condition]	has_sentence	SENT_2
+[fact_arg->agent]:implies:[fact_arg->fact_arg->condition]	has_truth_value	0.7
+NAFLD	[fact_arg->agent]:implies:[fact_arg->fact_arg->threshold]	Score >1
+[fact_arg->agent]:implies:[fact_arg->fact_arg->threshold]	has_timestamp	1900-01-01
+[fact_arg->agent]:implies:[fact_arg->fact_arg->threshold]	has_sentence	SENT_2
+[fact_arg->agent]:implies:[fact_arg->fact_arg->threshold]	has_truth_value	0.7
+NAFLD	[fact_arg->agent]:implies:[fact_arg->fact_arg->action]	consider cirrhosis/string
+[fact_arg->agent]:implies:[fact_arg->fact_arg->action]	has_timestamp	1900-01-01
+[fact_arg->agent]:implies:[fact_arg->fact_arg->action]	has_sentence	SENT_2
+[fact_arg->agent]:implies:[fact_arg->fact_arg->action]	has_truth_value	0.7
+NAFLD	[fact_arg->agent]:implies:[fact_arg->target]	Hypertension
+[fact_arg->agent]:implies:[fact_arg->target]	has_sentence	SENT_2
+Hypertension	[fact_arg->target]:implies:[fact_arg]	implies
+Hypertension	[fact_arg->target]:implies:[fact_arg]	associated_with
+[fact_arg->target]:implies:[fact_arg]	has_sentence	SENT_2
+Hypertension	[fact_arg->target]:implies:[fact_arg->fact_arg]	useful_for
+Hypertension	[fact_arg->target]:implies:[fact_arg->fact_arg]	requires_investigation
+[fact_arg->target]:implies:[fact_arg->fact_arg]	has_timestamp	1900-01-01
+[fact_arg->target]:implies:[fact_arg->fact_arg]	has_sentence	SENT_2
+[fact_arg->target]:implies:[fact_arg->fact_arg]	has_truth_value	0.7
+Hypertension	[fact_arg->target]:implies:[fact_arg->fact_arg->agent]	AST:ALT ratio
+[fact_arg->target]:implies:[fact_arg->fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->target]:implies:[fact_arg->fact_arg->agent]	has_sentence	SENT_2
+[fact_arg->target]:implies:[fact_arg->fact_arg->agent]	has_truth_value	0.7
+Hypertension	[fact_arg->target]:implies:[fact_arg->fact_arg->target]	NAFLD
+[fact_arg->target]:implies:[fact_arg->fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->target]:implies:[fact_arg->fact_arg->target]	has_sentence	SENT_2
+[fact_arg->target]:implies:[fact_arg->fact_arg->target]	has_truth_value	0.7
+Hypertension	[fact_arg->target]:implies:[fact_arg->fact_arg->condition]	Alcohol abuse
+[fact_arg->target]:implies:[fact_arg->fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg->target]:implies:[fact_arg->fact_arg->condition]	has_sentence	SENT_2
+[fact_arg->target]:implies:[fact_arg->fact_arg->condition]	has_truth_value	0.7
+Hypertension	[fact_arg->target]:implies:[fact_arg->fact_arg->threshold]	Score >1
+[fact_arg->target]:implies:[fact_arg->fact_arg->threshold]	has_timestamp	1900-01-01
+[fact_arg->target]:implies:[fact_arg->fact_arg->threshold]	has_sentence	SENT_2
+[fact_arg->target]:implies:[fact_arg->fact_arg->threshold]	has_truth_value	0.7
+Hypertension	[fact_arg->target]:implies:[fact_arg->fact_arg->action]	consider cirrhosis/string
+[fact_arg->target]:implies:[fact_arg->fact_arg->action]	has_timestamp	1900-01-01
+[fact_arg->target]:implies:[fact_arg->fact_arg->action]	has_sentence	SENT_2
+[fact_arg->target]:implies:[fact_arg->fact_arg->action]	has_truth_value	0.7
+Hypertension	[fact_arg->target]:implies:[fact_arg->agent]	NAFLD
+[fact_arg->target]:implies:[fact_arg->agent]	has_sentence	SENT_2
+Liver enzyme profile	[target]:requires_investigation:[action]	assessed in conjunction with a thorough history and clinical examination
+[target]:requires_investigation:[action]	has_sentence	SENT_3
+assessed in conjunction with a thorough history and clinical examination	[action]:requires_investigation:[target]	Liver enzyme profile
+[action]:requires_investigation:[target]	has_sentence	SENT_3
+Absolute liver enzyme levels	[target]:requires_investigation:[action]	used to differentiate between alcoholic and non-alcoholic fatty liver disease
+used to differentiate between alcoholic and non-alcoholic fatty liver disease	[action]:requires_investigation:[target]	Absolute liver enzyme levels
+Liver enzyme ratios	[target]:requires_investigation:[action]	used to differentiate between alcoholic and non-alcoholic fatty liver disease
+used to differentiate between alcoholic and non-alcoholic fatty liver disease	[action]:requires_investigation:[target]	Liver enzyme ratios
+Pattern of enzymes	[target]:requires_investigation:[action]	used to differentiate between cholestasis and hepatitis and aid diagnosis in mixed picture
+used to differentiate between cholestasis and hepatitis and aid diagnosis in mixed picture	[action]:requires_investigation:[target]	Pattern of enzymes
+AST:ALT ratio	[agent]:specificity_decreases:[target]	Underlying disease
+[agent]:specificity_decreases:[target]	has_timestamp	1900-01-01
+[agent]:specificity_decreases:[target]	has_sentence	SENT_15
+[agent]:specificity_decreases:[target]	has_truth_value	0.9
+AST:ALT ratio	[agent]:specificity_decreases:[condition]	Cirrhosis
+[agent]:specificity_decreases:[condition]	has_timestamp	1900-01-01
+[agent]:specificity_decreases:[condition]	has_sentence	SENT_15
+[agent]:specificity_decreases:[condition]	has_truth_value	0.9
+Underlying disease	[target]:specificity_decreases:[agent]	AST:ALT ratio
+[target]:specificity_decreases:[agent]	has_timestamp	1900-01-01
+[target]:specificity_decreases:[agent]	has_sentence	SENT_15
+[target]:specificity_decreases:[agent]	has_truth_value	0.9
+Underlying disease	[target]:specificity_decreases:[condition]	Cirrhosis
+[target]:specificity_decreases:[condition]	has_timestamp	1900-01-01
+[target]:specificity_decreases:[condition]	has_sentence	SENT_15
+[target]:specificity_decreases:[condition]	has_truth_value	0.9
+Cirrhosis	[condition]:specificity_decreases:[agent]	AST:ALT ratio
+[condition]:specificity_decreases:[agent]	has_timestamp	1900-01-01
+[condition]:specificity_decreases:[agent]	has_sentence	SENT_15
+[condition]:specificity_decreases:[agent]	has_truth_value	0.9
+Cirrhosis	[condition]:specificity_decreases:[target]	Underlying disease
+[condition]:specificity_decreases:[target]	has_timestamp	1900-01-01
+[condition]:specificity_decreases:[target]	has_sentence	SENT_15
+[condition]:specificity_decreases:[target]	has_truth_value	0.9
+AST:ALT ratio	[agent]:level_increases:[target]	Underlying disease
+[agent]:level_increases:[target]	has_timestamp	1900-01-01
+[agent]:level_increases:[target]	has_sentence	SENT_15
+[agent]:level_increases:[target]	has_truth_value	0.9
+Underlying disease	[target]:level_increases:[agent]	AST:ALT ratio
+[target]:level_increases:[agent]	has_timestamp	1900-01-01
+[target]:level_increases:[agent]	has_sentence	SENT_15
+[target]:level_increases:[agent]	has_truth_value	0.9
+specificity_decreases	[fact_arg]:implies:[fact_arg->agent]	AST:ALT ratio
+level_increases	[fact_arg]:implies:[fact_arg->agent]	AST:ALT ratio
+[fact_arg]:implies:[fact_arg->agent]	has_sentence	SENT_3
+specificity_decreases	[fact_arg]:implies:[fact_arg->target]	Underlying disease
+level_increases	[fact_arg]:implies:[fact_arg->target]	Underlying disease
+[fact_arg]:implies:[fact_arg->target]	has_sentence	SENT_3
+specificity_decreases	[fact_arg]:implies:[fact_arg->condition]	Cirrhosis
+level_increases	[fact_arg]:implies:[fact_arg->condition]	Cirrhosis
+[fact_arg]:implies:[fact_arg->condition]	has_sentence	SENT_3
+AST:ALT ratio	[fact_arg->agent]:implies:[fact_arg]	specificity_decreases
+AST:ALT ratio	[fact_arg->agent]:implies:[fact_arg]	level_increases
+[fact_arg->agent]:implies:[fact_arg]	has_sentence	SENT_3
+AST:ALT ratio	[fact_arg->agent]:implies:[fact_arg->target]	Underlying disease
+[fact_arg->agent]:implies:[fact_arg->target]	has_sentence	SENT_3
+AST:ALT ratio	[fact_arg->agent]:implies:[fact_arg->condition]	Cirrhosis
+[fact_arg->agent]:implies:[fact_arg->condition]	has_sentence	SENT_3
+Underlying disease	[fact_arg->target]:implies:[fact_arg]	specificity_decreases
+Underlying disease	[fact_arg->target]:implies:[fact_arg]	level_increases
+[fact_arg->target]:implies:[fact_arg]	has_sentence	SENT_3
+Underlying disease	[fact_arg->target]:implies:[fact_arg->agent]	AST:ALT ratio
+[fact_arg->target]:implies:[fact_arg->agent]	has_sentence	SENT_3
+Underlying disease	[fact_arg->target]:implies:[fact_arg->condition]	Cirrhosis
+[fact_arg->target]:implies:[fact_arg->condition]	has_sentence	SENT_3
+Cirrhosis	[fact_arg->condition]:implies:[fact_arg]	specificity_decreases
+Cirrhosis	[fact_arg->condition]:implies:[fact_arg]	level_increases
+[fact_arg->condition]:implies:[fact_arg]	has_sentence	SENT_3
+Cirrhosis	[fact_arg->condition]:implies:[fact_arg->agent]	AST:ALT ratio
+[fact_arg->condition]:implies:[fact_arg->agent]	has_sentence	SENT_3
+Cirrhosis	[fact_arg->condition]:implies:[fact_arg->target]	Underlying disease
+[fact_arg->condition]:implies:[fact_arg->target]	has_sentence	SENT_3
+Mechanical biliary obstruction	[agent]:causes:[effect]	ALP
+[agent]:causes:[effect]	has_timestamp	1900-01-01
+[agent]:causes:[effect]	has_sentence	SENT_4
+[agent]:causes:[effect]	has_truth_value	0.7
+Mechanical biliary obstruction	[agent]:causes:[delta]	increased/qualitative
+[agent]:causes:[delta]	has_timestamp	1900-01-01
+[agent]:causes:[delta]	has_sentence	SENT_4
+[agent]:causes:[delta]	has_truth_value	0.7
+ALP	[effect]:causes:[agent]	Mechanical biliary obstruction
+[effect]:causes:[agent]	has_timestamp	1900-01-01
+[effect]:causes:[agent]	has_sentence	SENT_4
+[effect]:causes:[agent]	has_truth_value	0.7
+ALP	[effect]:causes:[delta]	increased/qualitative
+[effect]:causes:[delta]	has_timestamp	1900-01-01
+[effect]:causes:[delta]	has_sentence	SENT_4
+[effect]:causes:[delta]	has_truth_value	0.7
+increased/qualitative	[delta]:causes:[agent]	Mechanical biliary obstruction
+[delta]:causes:[agent]	has_timestamp	1900-01-01
+[delta]:causes:[agent]	has_sentence	SENT_4
+[delta]:causes:[agent]	has_truth_value	0.7
+increased/qualitative	[delta]:causes:[effect]	ALP
+[delta]:causes:[effect]	has_timestamp	1900-01-01
+[delta]:causes:[effect]	has_sentence	SENT_4
+[delta]:causes:[effect]	has_truth_value	0.7
+Mechanical biliary obstruction	[agent]:causes:[effect]	GGT
+GGT	[effect]:causes:[agent]	Mechanical biliary obstruction
+GGT	[effect]:causes:[delta]	increased/qualitative
+increased/qualitative	[delta]:causes:[effect]	GGT
+Mechanical biliary obstruction	[agent]:causes:[effect]	Bilirubin
+Mechanical biliary obstruction	[agent]:causes:[delta]	increased (often)/qualitative
+Bilirubin	[effect]:causes:[agent]	Mechanical biliary obstruction
+Bilirubin	[effect]:causes:[delta]	increased (often)/qualitative
+increased (often)/qualitative	[delta]:causes:[agent]	Mechanical biliary obstruction
+increased (often)/qualitative	[delta]:causes:[effect]	Bilirubin
+ALP	[agent]:observational:[comparison]	ALT
+[agent]:observational:[comparison]	has_timestamp	1900-01-01
+[agent]:observational:[comparison]	has_sentence	SENT_4
+[agent]:observational:[comparison]	has_truth_value	0.9
+ALP	[agent]:observational:[delta]	markedly raised/qualitative
+[agent]:observational:[delta]	has_timestamp	1900-01-01
+[agent]:observational:[delta]	has_sentence	SENT_4
+[agent]:observational:[delta]	has_truth_value	0.9
+ALT	[comparison]:observational:[agent]	ALP
+[comparison]:observational:[agent]	has_timestamp	1900-01-01
+[comparison]:observational:[agent]	has_sentence	SENT_4
+[comparison]:observational:[agent]	has_truth_value	0.9
+ALT	[comparison]:observational:[delta]	markedly raised/qualitative
+[comparison]:observational:[delta]	has_timestamp	1900-01-01
+[comparison]:observational:[delta]	has_sentence	SENT_4
+[comparison]:observational:[delta]	has_truth_value	0.9
+markedly raised/qualitative	[delta]:observational:[agent]	ALP
+[delta]:observational:[agent]	has_timestamp	1900-01-01
+[delta]:observational:[agent]	has_sentence	SENT_4
+[delta]:observational:[agent]	has_truth_value	0.9
+markedly raised/qualitative	[delta]:observational:[comparison]	ALT
+[delta]:observational:[comparison]	has_timestamp	1900-01-01
+[delta]:observational:[comparison]	has_sentence	SENT_4
+[delta]:observational:[comparison]	has_truth_value	0.9
+ALP	[agent]:observational:[co_agent]	GGT
+[agent]:observational:[co_agent]	has_timestamp	1900-01-01
+[agent]:observational:[co_agent]	has_sentence	SENT_4
+[agent]:observational:[co_agent]	has_truth_value	0.9
+ALP	[agent]:observational:[delta]	elevated in similar proportions/qualitative
+GGT	[co_agent]:observational:[agent]	ALP
+[co_agent]:observational:[agent]	has_timestamp	1900-01-01
+[co_agent]:observational:[agent]	has_sentence	SENT_4
+[co_agent]:observational:[agent]	has_truth_value	0.9
+GGT	[co_agent]:observational:[delta]	elevated in similar proportions/qualitative
+[co_agent]:observational:[delta]	has_timestamp	1900-01-01
+[co_agent]:observational:[delta]	has_sentence	SENT_4
+[co_agent]:observational:[delta]	has_truth_value	0.9
+elevated in similar proportions/qualitative	[delta]:observational:[agent]	ALP
+elevated in similar proportions/qualitative	[delta]:observational:[co_agent]	GGT
+[delta]:observational:[co_agent]	has_timestamp	1900-01-01
+[delta]:observational:[co_agent]	has_sentence	SENT_4
+[delta]:observational:[co_agent]	has_truth_value	0.9
+ALP	[agent]:causes:[co_agent]	GGT
+[agent]:causes:[co_agent]	has_timestamp	1900-01-01
+[agent]:causes:[co_agent]	has_sentence	SENT_4
+[agent]:causes:[co_agent]	has_truth_value	0.7
+ALP	[agent]:causes:[effect]	Hepatobiliary source
+GGT	[co_agent]:causes:[agent]	ALP
+[co_agent]:causes:[agent]	has_timestamp	1900-01-01
+[co_agent]:causes:[agent]	has_sentence	SENT_4
+[co_agent]:causes:[agent]	has_truth_value	0.7
+GGT	[co_agent]:causes:[effect]	Hepatobiliary source
+[co_agent]:causes:[effect]	has_timestamp	1900-01-01
+[co_agent]:causes:[effect]	has_sentence	SENT_4
+[co_agent]:causes:[effect]	has_truth_value	0.7
+Hepatobiliary source	[effect]:causes:[agent]	ALP
+Hepatobiliary source	[effect]:causes:[co_agent]	GGT
+[effect]:causes:[co_agent]	has_timestamp	1900-01-01
+[effect]:causes:[co_agent]	has_sentence	SENT_4
+[effect]:causes:[co_agent]	has_truth_value	0.7
+Single enzyme elevation	[target]:requires_investigation:[action]	consider alternative causes/string
+[target]:requires_investigation:[action]	has_sentence	SENT_4
+[target]:requires_investigation:[action]	has_truth_value	0.5
+consider alternative causes/string	[action]:requires_investigation:[target]	Single enzyme elevation
+[action]:requires_investigation:[target]	has_sentence	SENT_4
+[action]:requires_investigation:[target]	has_truth_value	0.5
+Choledocholithiasis	[agent]:causes:[effect]	ALP
+Choledocholithiasis	[agent]:causes:[co_effect]	GGT
+[agent]:causes:[co_effect]	has_timestamp	1900-01-01
+[agent]:causes:[co_effect]	has_sentence	SENT_4
+[agent]:causes:[co_effect]	has_truth_value	0.7
+Choledocholithiasis	[agent]:causes:[delta]	fluctuate/qualitative
+ALP	[effect]:causes:[agent]	Choledocholithiasis
+ALP	[effect]:causes:[co_effect]	GGT
+[effect]:causes:[co_effect]	has_timestamp	1900-01-01
+[effect]:causes:[co_effect]	has_sentence	SENT_4
+[effect]:causes:[co_effect]	has_truth_value	0.7
+ALP	[effect]:causes:[delta]	fluctuate/qualitative
+GGT	[co_effect]:causes:[agent]	Choledocholithiasis
+[co_effect]:causes:[agent]	has_timestamp	1900-01-01
+[co_effect]:causes:[agent]	has_sentence	SENT_4
+[co_effect]:causes:[agent]	has_truth_value	0.7
+GGT	[co_effect]:causes:[effect]	ALP
+[co_effect]:causes:[effect]	has_timestamp	1900-01-01
+[co_effect]:causes:[effect]	has_sentence	SENT_4
+[co_effect]:causes:[effect]	has_truth_value	0.7
+GGT	[co_effect]:causes:[delta]	fluctuate/qualitative
+[co_effect]:causes:[delta]	has_timestamp	1900-01-01
+[co_effect]:causes:[delta]	has_sentence	SENT_4
+[co_effect]:causes:[delta]	has_truth_value	0.7
+fluctuate/qualitative	[delta]:causes:[agent]	Choledocholithiasis
+fluctuate/qualitative	[delta]:causes:[effect]	ALP
+fluctuate/qualitative	[delta]:causes:[co_effect]	GGT
+[delta]:causes:[co_effect]	has_timestamp	1900-01-01
+[delta]:causes:[co_effect]	has_sentence	SENT_4
+[delta]:causes:[co_effect]	has_truth_value	0.7
+Choledocholithiasis	[agent]:observational:[effect]	Bilirubin
+[agent]:observational:[effect]	has_timestamp	1900-01-01
+[agent]:observational:[effect]	has_sentence	SENT_4
+[agent]:observational:[effect]	has_truth_value	0.9
+Choledocholithiasis	[agent]:observational:[delta]	may be normal/qualitative
+Bilirubin	[effect]:observational:[agent]	Choledocholithiasis
+[effect]:observational:[agent]	has_timestamp	1900-01-01
+[effect]:observational:[agent]	has_sentence	SENT_4
+[effect]:observational:[agent]	has_truth_value	0.9
+Bilirubin	[effect]:observational:[delta]	may be normal/qualitative
+[effect]:observational:[delta]	has_timestamp	1900-01-01
+[effect]:observational:[delta]	has_sentence	SENT_4
+[effect]:observational:[delta]	has_truth_value	0.9
+may be normal/qualitative	[delta]:observational:[agent]	Choledocholithiasis
+may be normal/qualitative	[delta]:observational:[effect]	Bilirubin
+[delta]:observational:[effect]	has_timestamp	1900-01-01
+[delta]:observational:[effect]	has_sentence	SENT_4
+[delta]:observational:[effect]	has_truth_value	0.9
+ALP	[agent]:observational:[delta]	rise and fall gradually/qualitative
+rise and fall gradually/qualitative	[delta]:observational:[agent]	ALP
+Liver transaminases	[agent]:observational:[delta]	peaked rise >1000 I/U/quantitative
+peaked rise >1000 I/U/quantitative	[delta]:observational:[agent]	Liver transaminases
+AST:ALT ratio	[target]:requires_investigation:[action]	differentiating the site of biliary obstruction
+[target]:requires_investigation:[action]	has_sentence	SENT_5
+differentiating the site of biliary obstruction	[action]:requires_investigation:[target]	AST:ALT ratio
+[action]:requires_investigation:[target]	has_sentence	SENT_5
+Scoring system	[agent]:differentiates:[target]	Advanced fibrosis
+[agent]:differentiates:[target]	has_timestamp	1900-01-01
+[agent]:differentiates:[target]	has_sentence	SENT_15
+[agent]:differentiates:[target]	has_truth_value	0.9
+Scoring system	[agent]:differentiates:[condition]	NAFLD
+[agent]:differentiates:[condition]	has_timestamp	1900-01-01
+[agent]:differentiates:[condition]	has_sentence	SENT_15
+[agent]:differentiates:[condition]	has_truth_value	0.9
+Scoring system	[agent]:differentiates:[component]	Age
+Scoring system	[agent]:differentiates:[component]	Hyperglycemia
+Scoring system	[agent]:differentiates:[component]	Body mass index
+Scoring system	[agent]:differentiates:[component]	Platelet count
+Scoring system	[agent]:differentiates:[component]	Albumin
+Scoring system	[agent]:differentiates:[component]	AST:ALT ratio
+[agent]:differentiates:[component]	has_timestamp	1900-01-01
+[agent]:differentiates:[component]	has_sentence	SENT_15
+[agent]:differentiates:[component]	has_truth_value	0.9
+Advanced fibrosis	[target]:differentiates:[agent]	Scoring system
+[target]:differentiates:[agent]	has_timestamp	1900-01-01
+[target]:differentiates:[agent]	has_sentence	SENT_15
+[target]:differentiates:[agent]	has_truth_value	0.9
+Advanced fibrosis	[target]:differentiates:[condition]	NAFLD
+[target]:differentiates:[condition]	has_timestamp	1900-01-01
+[target]:differentiates:[condition]	has_sentence	SENT_15
+[target]:differentiates:[condition]	has_truth_value	0.9
+Advanced fibrosis	[target]:differentiates:[component]	Age
+Advanced fibrosis	[target]:differentiates:[component]	Hyperglycemia
+Advanced fibrosis	[target]:differentiates:[component]	Body mass index
+Advanced fibrosis	[target]:differentiates:[component]	Platelet count
+Advanced fibrosis	[target]:differentiates:[component]	Albumin
+Advanced fibrosis	[target]:differentiates:[component]	AST:ALT ratio
+[target]:differentiates:[component]	has_timestamp	1900-01-01
+[target]:differentiates:[component]	has_sentence	SENT_15
+[target]:differentiates:[component]	has_truth_value	0.9
+NAFLD	[condition]:differentiates:[agent]	Scoring system
+[condition]:differentiates:[agent]	has_timestamp	1900-01-01
+[condition]:differentiates:[agent]	has_sentence	SENT_15
+[condition]:differentiates:[agent]	has_truth_value	0.9
+NAFLD	[condition]:differentiates:[target]	Advanced fibrosis
+[condition]:differentiates:[target]	has_timestamp	1900-01-01
+[condition]:differentiates:[target]	has_sentence	SENT_15
+[condition]:differentiates:[target]	has_truth_value	0.9
+NAFLD	[condition]:differentiates:[component]	Age
+NAFLD	[condition]:differentiates:[component]	Hyperglycemia
+NAFLD	[condition]:differentiates:[component]	Body mass index
+NAFLD	[condition]:differentiates:[component]	Platelet count
+NAFLD	[condition]:differentiates:[component]	Albumin
+NAFLD	[condition]:differentiates:[component]	AST:ALT ratio
+[condition]:differentiates:[component]	has_timestamp	1900-01-01
+[condition]:differentiates:[component]	has_sentence	SENT_15
+[condition]:differentiates:[component]	has_truth_value	0.9
+Age	[component]:differentiates:[agent]	Scoring system
+Hyperglycemia	[component]:differentiates:[agent]	Scoring system
+Body mass index	[component]:differentiates:[agent]	Scoring system
+Platelet count	[component]:differentiates:[agent]	Scoring system
+Albumin	[component]:differentiates:[agent]	Scoring system
+AST:ALT ratio	[component]:differentiates:[agent]	Scoring system
+[component]:differentiates:[agent]	has_timestamp	1900-01-01
+[component]:differentiates:[agent]	has_sentence	SENT_15
+[component]:differentiates:[agent]	has_truth_value	0.9
+Age	[component]:differentiates:[target]	Advanced fibrosis
+Hyperglycemia	[component]:differentiates:[target]	Advanced fibrosis
+Body mass index	[component]:differentiates:[target]	Advanced fibrosis
+Platelet count	[component]:differentiates:[target]	Advanced fibrosis
+Albumin	[component]:differentiates:[target]	Advanced fibrosis
+AST:ALT ratio	[component]:differentiates:[target]	Advanced fibrosis
+[component]:differentiates:[target]	has_timestamp	1900-01-01
+[component]:differentiates:[target]	has_sentence	SENT_15
+[component]:differentiates:[target]	has_truth_value	0.9
+Age	[component]:differentiates:[condition]	NAFLD
+Hyperglycemia	[component]:differentiates:[condition]	NAFLD
+Body mass index	[component]:differentiates:[condition]	NAFLD
+Platelet count	[component]:differentiates:[condition]	NAFLD
+Albumin	[component]:differentiates:[condition]	NAFLD
+AST:ALT ratio	[component]:differentiates:[condition]	NAFLD
+[component]:differentiates:[condition]	has_timestamp	1900-01-01
+[component]:differentiates:[condition]	has_sentence	SENT_15
+[component]:differentiates:[condition]	has_truth_value	0.9
+differentiates	[fact_arg]:implies:[fact_arg->agent]	Scoring system
+[fact_arg]:implies:[fact_arg->agent]	has_sentence	SENT_5
+differentiates	[fact_arg]:implies:[fact_arg->target]	Advanced fibrosis
+[fact_arg]:implies:[fact_arg->target]	has_sentence	SENT_5
+differentiates	[fact_arg]:implies:[fact_arg->condition]	NAFLD
+[fact_arg]:implies:[fact_arg->condition]	has_sentence	SENT_5
+differentiates	[fact_arg]:implies:[fact_arg->component]	Age
+differentiates	[fact_arg]:implies:[fact_arg->component]	Hyperglycemia
+differentiates	[fact_arg]:implies:[fact_arg->component]	Body mass index
+differentiates	[fact_arg]:implies:[fact_arg->component]	Platelet count
+differentiates	[fact_arg]:implies:[fact_arg->component]	Albumin
+differentiates	[fact_arg]:implies:[fact_arg->component]	AST:ALT ratio
+[fact_arg]:implies:[fact_arg->component]	has_timestamp	1900-01-01
+[fact_arg]:implies:[fact_arg->component]	has_sentence	SENT_5
+[fact_arg]:implies:[fact_arg->component]	has_truth_value	0.7
+Scoring system	[fact_arg->agent]:implies:[fact_arg]	differentiates
+[fact_arg->agent]:implies:[fact_arg]	has_sentence	SENT_5
+Scoring system	[fact_arg->agent]:implies:[fact_arg->target]	Advanced fibrosis
+[fact_arg->agent]:implies:[fact_arg->target]	has_sentence	SENT_5
+Scoring system	[fact_arg->agent]:implies:[fact_arg->condition]	NAFLD
+[fact_arg->agent]:implies:[fact_arg->condition]	has_sentence	SENT_5
+Scoring system	[fact_arg->agent]:implies:[fact_arg->component]	Age
+Scoring system	[fact_arg->agent]:implies:[fact_arg->component]	Hyperglycemia
+Scoring system	[fact_arg->agent]:implies:[fact_arg->component]	Body mass index
+Scoring system	[fact_arg->agent]:implies:[fact_arg->component]	Platelet count
+Scoring system	[fact_arg->agent]:implies:[fact_arg->component]	Albumin
+Scoring system	[fact_arg->agent]:implies:[fact_arg->component]	AST:ALT ratio
+[fact_arg->agent]:implies:[fact_arg->component]	has_timestamp	1900-01-01
+[fact_arg->agent]:implies:[fact_arg->component]	has_sentence	SENT_5
+[fact_arg->agent]:implies:[fact_arg->component]	has_truth_value	0.7
+Advanced fibrosis	[fact_arg->target]:implies:[fact_arg]	differentiates
+[fact_arg->target]:implies:[fact_arg]	has_sentence	SENT_5
+Advanced fibrosis	[fact_arg->target]:implies:[fact_arg->agent]	Scoring system
+[fact_arg->target]:implies:[fact_arg->agent]	has_sentence	SENT_5
+Advanced fibrosis	[fact_arg->target]:implies:[fact_arg->condition]	NAFLD
+[fact_arg->target]:implies:[fact_arg->condition]	has_sentence	SENT_5
+Advanced fibrosis	[fact_arg->target]:implies:[fact_arg->component]	Age
+Advanced fibrosis	[fact_arg->target]:implies:[fact_arg->component]	Hyperglycemia
+Advanced fibrosis	[fact_arg->target]:implies:[fact_arg->component]	Body mass index
+Advanced fibrosis	[fact_arg->target]:implies:[fact_arg->component]	Platelet count
+Advanced fibrosis	[fact_arg->target]:implies:[fact_arg->component]	Albumin
+Advanced fibrosis	[fact_arg->target]:implies:[fact_arg->component]	AST:ALT ratio
+[fact_arg->target]:implies:[fact_arg->component]	has_timestamp	1900-01-01
+[fact_arg->target]:implies:[fact_arg->component]	has_sentence	SENT_5
+[fact_arg->target]:implies:[fact_arg->component]	has_truth_value	0.7
+NAFLD	[fact_arg->condition]:implies:[fact_arg]	differentiates
+[fact_arg->condition]:implies:[fact_arg]	has_sentence	SENT_5
+NAFLD	[fact_arg->condition]:implies:[fact_arg->agent]	Scoring system
+[fact_arg->condition]:implies:[fact_arg->agent]	has_sentence	SENT_5
+NAFLD	[fact_arg->condition]:implies:[fact_arg->target]	Advanced fibrosis
+[fact_arg->condition]:implies:[fact_arg->target]	has_sentence	SENT_5
+NAFLD	[fact_arg->condition]:implies:[fact_arg->component]	Age
+NAFLD	[fact_arg->condition]:implies:[fact_arg->component]	Hyperglycemia
+NAFLD	[fact_arg->condition]:implies:[fact_arg->component]	Body mass index
+NAFLD	[fact_arg->condition]:implies:[fact_arg->component]	Platelet count
+NAFLD	[fact_arg->condition]:implies:[fact_arg->component]	Albumin
+NAFLD	[fact_arg->condition]:implies:[fact_arg->component]	AST:ALT ratio
+[fact_arg->condition]:implies:[fact_arg->component]	has_timestamp	1900-01-01
+[fact_arg->condition]:implies:[fact_arg->component]	has_sentence	SENT_5
+[fact_arg->condition]:implies:[fact_arg->component]	has_truth_value	0.7
+Age	[fact_arg->component]:implies:[fact_arg]	differentiates
+Hyperglycemia	[fact_arg->component]:implies:[fact_arg]	differentiates
+Body mass index	[fact_arg->component]:implies:[fact_arg]	differentiates
+Platelet count	[fact_arg->component]:implies:[fact_arg]	differentiates
+Albumin	[fact_arg->component]:implies:[fact_arg]	differentiates
+AST:ALT ratio	[fact_arg->component]:implies:[fact_arg]	differentiates
+[fact_arg->component]:implies:[fact_arg]	has_timestamp	1900-01-01
+[fact_arg->component]:implies:[fact_arg]	has_sentence	SENT_5
+[fact_arg->component]:implies:[fact_arg]	has_truth_value	0.7
+Age	[fact_arg->component]:implies:[fact_arg->agent]	Scoring system
+Hyperglycemia	[fact_arg->component]:implies:[fact_arg->agent]	Scoring system
+Body mass index	[fact_arg->component]:implies:[fact_arg->agent]	Scoring system
+Platelet count	[fact_arg->component]:implies:[fact_arg->agent]	Scoring system
+Albumin	[fact_arg->component]:implies:[fact_arg->agent]	Scoring system
+AST:ALT ratio	[fact_arg->component]:implies:[fact_arg->agent]	Scoring system
+[fact_arg->component]:implies:[fact_arg->agent]	has_timestamp	1900-01-01
+[fact_arg->component]:implies:[fact_arg->agent]	has_sentence	SENT_5
+[fact_arg->component]:implies:[fact_arg->agent]	has_truth_value	0.7
+Age	[fact_arg->component]:implies:[fact_arg->target]	Advanced fibrosis
+Hyperglycemia	[fact_arg->component]:implies:[fact_arg->target]	Advanced fibrosis
+Body mass index	[fact_arg->component]:implies:[fact_arg->target]	Advanced fibrosis
+Platelet count	[fact_arg->component]:implies:[fact_arg->target]	Advanced fibrosis
+Albumin	[fact_arg->component]:implies:[fact_arg->target]	Advanced fibrosis
+AST:ALT ratio	[fact_arg->component]:implies:[fact_arg->target]	Advanced fibrosis
+[fact_arg->component]:implies:[fact_arg->target]	has_timestamp	1900-01-01
+[fact_arg->component]:implies:[fact_arg->target]	has_sentence	SENT_5
+[fact_arg->component]:implies:[fact_arg->target]	has_truth_value	0.7
+Age	[fact_arg->component]:implies:[fact_arg->condition]	NAFLD
+Hyperglycemia	[fact_arg->component]:implies:[fact_arg->condition]	NAFLD
+Body mass index	[fact_arg->component]:implies:[fact_arg->condition]	NAFLD
+Platelet count	[fact_arg->component]:implies:[fact_arg->condition]	NAFLD
+Albumin	[fact_arg->component]:implies:[fact_arg->condition]	NAFLD
+AST:ALT ratio	[fact_arg->component]:implies:[fact_arg->condition]	NAFLD
+[fact_arg->component]:implies:[fact_arg->condition]	has_timestamp	1900-01-01
+[fact_arg->component]:implies:[fact_arg->condition]	has_sentence	SENT_5
+[fact_arg->component]:implies:[fact_arg->condition]	has_truth_value	0.7
+AST:ALT ratio <1.5	[agent]:observational_association:[condition]	Cholestatic picture
+[agent]:observational_association:[condition]	has_timestamp	1900-01-01
+[agent]:observational_association:[condition]	has_sentence	SENT_5
+[agent]:observational_association:[condition]	has_truth_value	0.9
+AST:ALT ratio <1.5	[agent]:observational_association:[outcome]	Extrahepatic obstruction
+[agent]:observational_association:[outcome]	has_timestamp	1900-01-01
+[agent]:observational_association:[outcome]	has_sentence	SENT_5
+[agent]:observational_association:[outcome]	has_truth_value	0.9
+Cholestatic picture	[condition]:observational_association:[agent]	AST:ALT ratio <1.5
+[condition]:observational_association:[agent]	has_timestamp	1900-01-01
+[condition]:observational_association:[agent]	has_sentence	SENT_5
+[condition]:observational_association:[agent]	has_truth_value	0.9
+Cholestatic picture	[condition]:observational_association:[outcome]	Extrahepatic obstruction
+[condition]:observational_association:[outcome]	has_timestamp	1900-01-01
+[condition]:observational_association:[outcome]	has_sentence	SENT_5
+[condition]:observational_association:[outcome]	has_truth_value	0.9
+Extrahepatic obstruction	[outcome]:observational_association:[agent]	AST:ALT ratio <1.5
+[outcome]:observational_association:[agent]	has_timestamp	1900-01-01
+[outcome]:observational_association:[agent]	has_sentence	SENT_5
+[outcome]:observational_association:[agent]	has_truth_value	0.9
+Extrahepatic obstruction	[outcome]:observational_association:[condition]	Cholestatic picture
+[outcome]:observational_association:[condition]	has_timestamp	1900-01-01
+[outcome]:observational_association:[condition]	has_sentence	SENT_5
+[outcome]:observational_association:[condition]	has_truth_value	0.9
+AST:ALT ratio <1.5	[agent]:causes:[condition]	Cholestatic picture
+[agent]:causes:[condition]	has_timestamp	1900-01-01
+[agent]:causes:[condition]	has_sentence	SENT_5
+[agent]:causes:[condition]	has_truth_value	0.7
+AST:ALT ratio <1.5	[agent]:causes:[effect]	Extrahepatic obstruction
+[agent]:causes:[effect]	has_sentence	SENT_5
+Cholestatic picture	[condition]:causes:[agent]	AST:ALT ratio <1.5
+[condition]:causes:[agent]	has_timestamp	1900-01-01
+[condition]:causes:[agent]	has_sentence	SENT_5
+[condition]:causes:[agent]	has_truth_value	0.7
+Cholestatic picture	[condition]:causes:[effect]	Extrahepatic obstruction
+[condition]:causes:[effect]	has_timestamp	1900-01-01
+[condition]:causes:[effect]	has_sentence	SENT_5
+[condition]:causes:[effect]	has_truth_value	0.7
+Extrahepatic obstruction	[effect]:causes:[agent]	AST:ALT ratio <1.5
+[effect]:causes:[agent]	has_sentence	SENT_5
+Extrahepatic obstruction	[effect]:causes:[condition]	Cholestatic picture
+[effect]:causes:[condition]	has_timestamp	1900-01-01
+[effect]:causes:[condition]	has_sentence	SENT_5
+[effect]:causes:[condition]	has_truth_value	0.7
+ALT titre	[agent]:observational_association:[target]	AST
+[agent]:observational_association:[target]	has_timestamp	1900-01-01
+[agent]:observational_association:[target]	has_sentence	SENT_5
+[agent]:observational_association:[target]	has_truth_value	0.9
+ALT titre	[agent]:observational_association:[delta]	ALT titre is considerably higher than AST
+[agent]:observational_association:[delta]	has_timestamp	1900-01-01
+[agent]:observational_association:[delta]	has_sentence	SENT_5
+[agent]:observational_association:[delta]	has_truth_value	0.9
+AST	[target]:observational_association:[agent]	ALT titre
+[target]:observational_association:[agent]	has_timestamp	1900-01-01
+[target]:observational_association:[agent]	has_sentence	SENT_5
+[target]:observational_association:[agent]	has_truth_value	0.9
+AST	[target]:observational_association:[delta]	ALT titre is considerably higher than AST
+[target]:observational_association:[delta]	has_timestamp	1900-01-01
+[target]:observational_association:[delta]	has_sentence	SENT_5
+[target]:observational_association:[delta]	has_truth_value	0.9
+ALT titre is considerably higher than AST	[delta]:observational_association:[agent]	ALT titre
+[delta]:observational_association:[agent]	has_timestamp	1900-01-01
+[delta]:observational_association:[agent]	has_sentence	SENT_5
+[delta]:observational_association:[agent]	has_truth_value	0.9
+ALT titre is considerably higher than AST	[delta]:observational_association:[target]	AST
+[delta]:observational_association:[target]	has_timestamp	1900-01-01
+[delta]:observational_association:[target]	has_sentence	SENT_5
+[delta]:observational_association:[target]	has_truth_value	0.9
+AST:ALT ratio >1.5	[agent]:observational_association:[outcome]	Intrahepatic cholestasis
+Intrahepatic cholestasis	[outcome]:observational_association:[agent]	AST:ALT ratio >1.5
+AST:ALT ratio >1.5	[agent]:causes:[effect]	Intrahepatic cholestasis
+Intrahepatic cholestasis	[effect]:causes:[agent]	AST:ALT ratio >1.5
+AST:ALT ratio >1.5	[agent]:causes:[effect]	Mechanical cholestasis
+Mechanical cholestasis	[effect]:causes:[agent]	AST:ALT ratio >1.5
+AST:ALT ratio >1.5	[agent]:causes:[effect]	Medical cholestasis
+Medical cholestasis	[effect]:causes:[agent]	AST:ALT ratio >1.5
+Drug-induced cholestasis	[agent]:observational_association:[target]	ALP
+Drug-induced cholestasis	[agent]:observational_association:[delta]	preferential rise
+ALP	[target]:observational_association:[agent]	Drug-induced cholestasis
+ALP	[target]:observational_association:[delta]	preferential rise
+preferential rise	[delta]:observational_association:[agent]	Drug-induced cholestasis
+preferential rise	[delta]:observational_association:[target]	ALP
+Drug-induced cholestasis	[agent]:observational_association:[target]	GGT
+Drug-induced cholestasis	[agent]:observational_association:[delta]	less rise than ALP
+GGT	[target]:observational_association:[agent]	Drug-induced cholestasis
+GGT	[target]:observational_association:[delta]	less rise than ALP
+less rise than ALP	[delta]:observational_association:[agent]	Drug-induced cholestasis
+less rise than ALP	[delta]:observational_association:[target]	GGT
+Drug-induced cholestasis	[agent]:observational_association:[target]	ALT:ALP ratio <2
+ALT:ALP ratio <2	[target]:observational_association:[agent]	Drug-induced cholestasis
+Antibiotics	[agent]:causes:[effect]	Drug-induced cholestasis
+Drug-induced cholestasis	[effect]:causes:[agent]	Antibiotics
+Immunosuppressants	[agent]:causes:[effect]	Drug-induced cholestasis
+Drug-induced cholestasis	[effect]:causes:[agent]	Immunosuppressants
+Tricyclic antidepressants	[agent]:causes:[effect]	Drug-induced cholestasis
+Drug-induced cholestasis	[effect]:causes:[agent]	Tricyclic antidepressants
+Angiotensin converting enzyme inhibitors	[agent]:causes:[effect]	Drug-induced cholestasis
+Drug-induced cholestasis	[effect]:causes:[agent]	Angiotensin converting enzyme inhibitors
+Primary Biliary Cirrhosis	[agent]:observed_in:[target]	intrahepatic biliary ducts
+[agent]:observed_in:[target]	has_timestamp	1900-01-01
+[agent]:observed_in:[target]	has_sentence	SENT_6
+[agent]:observed_in:[target]	has_truth_value	0.9
+intrahepatic biliary ducts	[target]:observed_in:[agent]	Primary Biliary Cirrhosis
+[target]:observed_in:[agent]	has_timestamp	1900-01-01
+[target]:observed_in:[agent]	has_sentence	SENT_6
+[target]:observed_in:[agent]	has_truth_value	0.9
+ALP	[agent]:greater_than:[comparator]	GGT
+[agent]:greater_than:[comparator]	has_timestamp	1900-01-01
+[agent]:greater_than:[comparator]	has_sentence	SENT_6
+[agent]:greater_than:[comparator]	has_truth_value	0.9
+ALP	[agent]:greater_than:[condition]	Primary Biliary Cirrhosis
+[agent]:greater_than:[condition]	has_timestamp	1900-01-01
+[agent]:greater_than:[condition]	has_sentence	SENT_6
+[agent]:greater_than:[condition]	has_truth_value	0.9
+GGT	[comparator]:greater_than:[agent]	ALP
+[comparator]:greater_than:[agent]	has_timestamp	1900-01-01
+[comparator]:greater_than:[agent]	has_sentence	SENT_6
+[comparator]:greater_than:[agent]	has_truth_value	0.9
+GGT	[comparator]:greater_than:[condition]	Primary Biliary Cirrhosis
+[comparator]:greater_than:[condition]	has_timestamp	1900-01-01
+[comparator]:greater_than:[condition]	has_sentence	SENT_6
+[comparator]:greater_than:[condition]	has_truth_value	0.9
+Primary Biliary Cirrhosis	[condition]:greater_than:[agent]	ALP
+[condition]:greater_than:[agent]	has_timestamp	1900-01-01
+[condition]:greater_than:[agent]	has_sentence	SENT_6
+[condition]:greater_than:[agent]	has_truth_value	0.9
+Primary Biliary Cirrhosis	[condition]:greater_than:[comparator]	GGT
+[condition]:greater_than:[comparator]	has_timestamp	1900-01-01
+[condition]:greater_than:[comparator]	has_sentence	SENT_6
+[condition]:greater_than:[comparator]	has_truth_value	0.9
+transaminases	[agent]:normal_or_minimally_elevated:[condition]	Primary Biliary Cirrhosis
+[agent]:normal_or_minimally_elevated:[condition]	has_timestamp	1900-01-01
+[agent]:normal_or_minimally_elevated:[condition]	has_sentence	SENT_6
+[agent]:normal_or_minimally_elevated:[condition]	has_truth_value	0.9
+Primary Biliary Cirrhosis	[condition]:normal_or_minimally_elevated:[agent]	transaminases
+[condition]:normal_or_minimally_elevated:[agent]	has_timestamp	1900-01-01
+[condition]:normal_or_minimally_elevated:[agent]	has_sentence	SENT_6
+[condition]:normal_or_minimally_elevated:[agent]	has_truth_value	0.9
+Primary Biliary Cirrhosis	[agent]:causes:[effect]	ALP
+Primary Biliary Cirrhosis	[agent]:causes:[effect]	GGT
+[agent]:causes:[effect]	has_sentence	SENT_6
+ALP	[effect]:causes:[agent]	Primary Biliary Cirrhosis
+GGT	[effect]:causes:[agent]	Primary Biliary Cirrhosis
+[effect]:causes:[agent]	has_sentence	SENT_6
+Primary Biliary Cirrhosis	[agent]:causes:[effect]	transaminases
+transaminases	[effect]:causes:[agent]	Primary Biliary Cirrhosis
+European Association for Study of the Liver	[agent]:recommends:[co_agent]	American Association for Study of Liver Disease
+[agent]:recommends:[co_agent]	has_timestamp	1900-01-01
+[agent]:recommends:[co_agent]	has_sentence	SENT_6
+[agent]:recommends:[co_agent]	has_truth_value	0.6
+European Association for Study of the Liver	[agent]:recommends:[action]	diagnosis of PBC
+[agent]:recommends:[action]	has_timestamp	1900-01-01
+[agent]:recommends:[action]	has_sentence	SENT_6
+[agent]:recommends:[action]	has_truth_value	0.6
+European Association for Study of the Liver	[agent]:recommends:[criteria]	cholestatic liver enzyme levels
+European Association for Study of the Liver	[agent]:recommends:[criteria]	antimitochondrial antibodies
+[agent]:recommends:[criteria]	has_timestamp	1900-01-01
+[agent]:recommends:[criteria]	has_sentence	SENT_6
+[agent]:recommends:[criteria]	has_truth_value	0.6
+American Association for Study of Liver Disease	[co_agent]:recommends:[agent]	European Association for Study of the Liver
+[co_agent]:recommends:[agent]	has_timestamp	1900-01-01
+[co_agent]:recommends:[agent]	has_sentence	SENT_6
+[co_agent]:recommends:[agent]	has_truth_value	0.6
+American Association for Study of Liver Disease	[co_agent]:recommends:[action]	diagnosis of PBC
+[co_agent]:recommends:[action]	has_timestamp	1900-01-01
+[co_agent]:recommends:[action]	has_sentence	SENT_6
+[co_agent]:recommends:[action]	has_truth_value	0.6
+American Association for Study of Liver Disease	[co_agent]:recommends:[criteria]	cholestatic liver enzyme levels
+American Association for Study of Liver Disease	[co_agent]:recommends:[criteria]	antimitochondrial antibodies
+[co_agent]:recommends:[criteria]	has_timestamp	1900-01-01
+[co_agent]:recommends:[criteria]	has_sentence	SENT_6
+[co_agent]:recommends:[criteria]	has_truth_value	0.6
+diagnosis of PBC	[action]:recommends:[agent]	European Association for Study of the Liver
+[action]:recommends:[agent]	has_timestamp	1900-01-01
+[action]:recommends:[agent]	has_sentence	SENT_6
+[action]:recommends:[agent]	has_truth_value	0.6
+diagnosis of PBC	[action]:recommends:[co_agent]	American Association for Study of Liver Disease
+[action]:recommends:[co_agent]	has_timestamp	1900-01-01
+[action]:recommends:[co_agent]	has_sentence	SENT_6
+[action]:recommends:[co_agent]	has_truth_value	0.6
+diagnosis of PBC	[action]:recommends:[criteria]	cholestatic liver enzyme levels
+diagnosis of PBC	[action]:recommends:[criteria]	antimitochondrial antibodies
+[action]:recommends:[criteria]	has_timestamp	1900-01-01
+[action]:recommends:[criteria]	has_sentence	SENT_6
+[action]:recommends:[criteria]	has_truth_value	0.6
+cholestatic liver enzyme levels	[criteria]:recommends:[agent]	European Association for Study of the Liver
+antimitochondrial antibodies	[criteria]:recommends:[agent]	European Association for Study of the Liver
+[criteria]:recommends:[agent]	has_timestamp	1900-01-01
+[criteria]:recommends:[agent]	has_sentence	SENT_6
+[criteria]:recommends:[agent]	has_truth_value	0.6
+cholestatic liver enzyme levels	[criteria]:recommends:[co_agent]	American Association for Study of Liver Disease
+antimitochondrial antibodies	[criteria]:recommends:[co_agent]	American Association for Study of Liver Disease
+[criteria]:recommends:[co_agent]	has_timestamp	1900-01-01
+[criteria]:recommends:[co_agent]	has_sentence	SENT_6
+[criteria]:recommends:[co_agent]	has_truth_value	0.6
+cholestatic liver enzyme levels	[criteria]:recommends:[action]	diagnosis of PBC
+antimitochondrial antibodies	[criteria]:recommends:[action]	diagnosis of PBC
+[criteria]:recommends:[action]	has_timestamp	1900-01-01
+[criteria]:recommends:[action]	has_sentence	SENT_6
+[criteria]:recommends:[action]	has_truth_value	0.6
+imaging	[action]:requires_investigation:[condition]	absence of either cholestatic liver enzyme levels or antimitochondrial antibodies/string
+liver biopsy	[action]:requires_investigation:[condition]	absence of either cholestatic liver enzyme levels or antimitochondrial antibodies/string
+[action]:requires_investigation:[condition]	has_sentence	SENT_6
+absence of either cholestatic liver enzyme levels or antimitochondrial antibodies/string	[condition]:requires_investigation:[action]	imaging
+absence of either cholestatic liver enzyme levels or antimitochondrial antibodies/string	[condition]:requires_investigation:[action]	liver biopsy
+[condition]:requires_investigation:[action]	has_sentence	SENT_6
+ursodeoxycholic acid	[agent]:requires_monitoring:[target]	AST
+ursodeoxycholic acid	[agent]:requires_monitoring:[target]	ALP
+[agent]:requires_monitoring:[target]	has_timestamp	1900-01-01
+[agent]:requires_monitoring:[target]	has_sentence	SENT_7
+[agent]:requires_monitoring:[target]	has_truth_value	0.6
+ursodeoxycholic acid	[agent]:requires_monitoring:[condition]	PBC
+[agent]:requires_monitoring:[condition]	has_timestamp	1900-01-01
+[agent]:requires_monitoring:[condition]	has_sentence	SENT_7
+[agent]:requires_monitoring:[condition]	has_truth_value	0.6
+ursodeoxycholic acid	[agent]:requires_monitoring:[action]	scoring criteria
+[agent]:requires_monitoring:[action]	has_timestamp	1900-01-01
+[agent]:requires_monitoring:[action]	has_sentence	SENT_7
+[agent]:requires_monitoring:[action]	has_truth_value	0.6
+AST	[target]:requires_monitoring:[agent]	ursodeoxycholic acid
+ALP	[target]:requires_monitoring:[agent]	ursodeoxycholic acid
+[target]:requires_monitoring:[agent]	has_timestamp	1900-01-01
+[target]:requires_monitoring:[agent]	has_sentence	SENT_7
+[target]:requires_monitoring:[agent]	has_truth_value	0.6
+AST	[target]:requires_monitoring:[condition]	PBC
+ALP	[target]:requires_monitoring:[condition]	PBC
+[target]:requires_monitoring:[condition]	has_timestamp	1900-01-01
+[target]:requires_monitoring:[condition]	has_sentence	SENT_7
+[target]:requires_monitoring:[condition]	has_truth_value	0.6
+AST	[target]:requires_monitoring:[action]	scoring criteria
+ALP	[target]:requires_monitoring:[action]	scoring criteria
+[target]:requires_monitoring:[action]	has_timestamp	1900-01-01
+[target]:requires_monitoring:[action]	has_sentence	SENT_7
+[target]:requires_monitoring:[action]	has_truth_value	0.6
+PBC	[condition]:requires_monitoring:[agent]	ursodeoxycholic acid
+[condition]:requires_monitoring:[agent]	has_timestamp	1900-01-01
+[condition]:requires_monitoring:[agent]	has_sentence	SENT_7
+[condition]:requires_monitoring:[agent]	has_truth_value	0.6
+PBC	[condition]:requires_monitoring:[target]	AST
+PBC	[condition]:requires_monitoring:[target]	ALP
+[condition]:requires_monitoring:[target]	has_timestamp	1900-01-01
+[condition]:requires_monitoring:[target]	has_sentence	SENT_7
+[condition]:requires_monitoring:[target]	has_truth_value	0.6
+PBC	[condition]:requires_monitoring:[action]	scoring criteria
+[condition]:requires_monitoring:[action]	has_timestamp	1900-01-01
+[condition]:requires_monitoring:[action]	has_sentence	SENT_7
+[condition]:requires_monitoring:[action]	has_truth_value	0.6
+scoring criteria	[action]:requires_monitoring:[agent]	ursodeoxycholic acid
+[action]:requires_monitoring:[agent]	has_timestamp	1900-01-01
+[action]:requires_monitoring:[agent]	has_sentence	SENT_7
+[action]:requires_monitoring:[agent]	has_truth_value	0.6
+scoring criteria	[action]:requires_monitoring:[target]	AST
+scoring criteria	[action]:requires_monitoring:[target]	ALP
+[action]:requires_monitoring:[target]	has_timestamp	1900-01-01
+[action]:requires_monitoring:[target]	has_sentence	SENT_7
+[action]:requires_monitoring:[target]	has_truth_value	0.6
+scoring criteria	[action]:requires_monitoring:[condition]	PBC
+[action]:requires_monitoring:[condition]	has_timestamp	1900-01-01
+[action]:requires_monitoring:[condition]	has_sentence	SENT_7
+[action]:requires_monitoring:[condition]	has_truth_value	0.6
+AST:ALT ratio	[agent]:observational:[target]	non-histological indicators of cirrhosis
+[agent]:observational:[target]	has_timestamp	1900-01-01
+[agent]:observational:[target]	has_sentence	SENT_7
+[agent]:observational:[target]	has_truth_value	0.9
+AST:ALT ratio	[agent]:observational:[condition]	cirrhosis
+[agent]:observational:[condition]	has_timestamp	1900-01-01
+[agent]:observational:[condition]	has_sentence	SENT_7
+[agent]:observational:[condition]	has_truth_value	0.9
+AST:ALT ratio	[agent]:observational:[context]	PBC
+[agent]:observational:[context]	has_timestamp	1900-01-01
+[agent]:observational:[context]	has_sentence	SENT_7
+[agent]:observational:[context]	has_truth_value	0.9
+AST:ALT ratio	[agent]:observational:[evidence_source]	recent study
+[agent]:observational:[evidence_source]	has_timestamp	1900-01-01
+[agent]:observational:[evidence_source]	has_sentence	SENT_7
+[agent]:observational:[evidence_source]	has_truth_value	0.9
+AST:ALT ratio	[agent]:observational:[delta]	outperforms/string
+[agent]:observational:[delta]	has_sentence	SENT_7
+non-histological indicators of cirrhosis	[target]:observational:[agent]	AST:ALT ratio
+[target]:observational:[agent]	has_timestamp	1900-01-01
+[target]:observational:[agent]	has_sentence	SENT_7
+[target]:observational:[agent]	has_truth_value	0.9
+non-histological indicators of cirrhosis	[target]:observational:[condition]	cirrhosis
+[target]:observational:[condition]	has_timestamp	1900-01-01
+[target]:observational:[condition]	has_sentence	SENT_7
+[target]:observational:[condition]	has_truth_value	0.9
+non-histological indicators of cirrhosis	[target]:observational:[context]	PBC
+[target]:observational:[context]	has_timestamp	1900-01-01
+[target]:observational:[context]	has_sentence	SENT_7
+[target]:observational:[context]	has_truth_value	0.9
+non-histological indicators of cirrhosis	[target]:observational:[evidence_source]	recent study
+[target]:observational:[evidence_source]	has_timestamp	1900-01-01
+[target]:observational:[evidence_source]	has_sentence	SENT_7
+[target]:observational:[evidence_source]	has_truth_value	0.9
+non-histological indicators of cirrhosis	[target]:observational:[delta]	outperforms/string
+[target]:observational:[delta]	has_timestamp	1900-01-01
+[target]:observational:[delta]	has_sentence	SENT_7
+[target]:observational:[delta]	has_truth_value	0.9
+cirrhosis	[condition]:observational:[agent]	AST:ALT ratio
+[condition]:observational:[agent]	has_timestamp	1900-01-01
+[condition]:observational:[agent]	has_sentence	SENT_7
+[condition]:observational:[agent]	has_truth_value	0.9
+cirrhosis	[condition]:observational:[target]	non-histological indicators of cirrhosis
+[condition]:observational:[target]	has_timestamp	1900-01-01
+[condition]:observational:[target]	has_sentence	SENT_7
+[condition]:observational:[target]	has_truth_value	0.9
+cirrhosis	[condition]:observational:[context]	PBC
+[condition]:observational:[context]	has_timestamp	1900-01-01
+[condition]:observational:[context]	has_sentence	SENT_7
+[condition]:observational:[context]	has_truth_value	0.9
+cirrhosis	[condition]:observational:[evidence_source]	recent study
+[condition]:observational:[evidence_source]	has_timestamp	1900-01-01
+[condition]:observational:[evidence_source]	has_sentence	SENT_7
+[condition]:observational:[evidence_source]	has_truth_value	0.9
+cirrhosis	[condition]:observational:[delta]	outperforms/string
+[condition]:observational:[delta]	has_timestamp	1900-01-01
+[condition]:observational:[delta]	has_sentence	SENT_7
+[condition]:observational:[delta]	has_truth_value	0.9
+PBC	[context]:observational:[agent]	AST:ALT ratio
+[context]:observational:[agent]	has_timestamp	1900-01-01
+[context]:observational:[agent]	has_sentence	SENT_7
+[context]:observational:[agent]	has_truth_value	0.9
+PBC	[context]:observational:[target]	non-histological indicators of cirrhosis
+[context]:observational:[target]	has_timestamp	1900-01-01
+[context]:observational:[target]	has_sentence	SENT_7
+[context]:observational:[target]	has_truth_value	0.9
+PBC	[context]:observational:[condition]	cirrhosis
+[context]:observational:[condition]	has_timestamp	1900-01-01
+[context]:observational:[condition]	has_sentence	SENT_7
+[context]:observational:[condition]	has_truth_value	0.9
+PBC	[context]:observational:[evidence_source]	recent study
+[context]:observational:[evidence_source]	has_timestamp	1900-01-01
+[context]:observational:[evidence_source]	has_sentence	SENT_7
+[context]:observational:[evidence_source]	has_truth_value	0.9
+PBC	[context]:observational:[delta]	outperforms/string
+[context]:observational:[delta]	has_timestamp	1900-01-01
+[context]:observational:[delta]	has_sentence	SENT_7
+[context]:observational:[delta]	has_truth_value	0.9
+recent study	[evidence_source]:observational:[agent]	AST:ALT ratio
+[evidence_source]:observational:[agent]	has_timestamp	1900-01-01
+[evidence_source]:observational:[agent]	has_sentence	SENT_7
+[evidence_source]:observational:[agent]	has_truth_value	0.9
+recent study	[evidence_source]:observational:[target]	non-histological indicators of cirrhosis
+[evidence_source]:observational:[target]	has_timestamp	1900-01-01
+[evidence_source]:observational:[target]	has_sentence	SENT_7
+[evidence_source]:observational:[target]	has_truth_value	0.9
+recent study	[evidence_source]:observational:[condition]	cirrhosis
+[evidence_source]:observational:[condition]	has_timestamp	1900-01-01
+[evidence_source]:observational:[condition]	has_sentence	SENT_7
+[evidence_source]:observational:[condition]	has_truth_value	0.9
+recent study	[evidence_source]:observational:[context]	PBC
+[evidence_source]:observational:[context]	has_timestamp	1900-01-01
+[evidence_source]:observational:[context]	has_sentence	SENT_7
+[evidence_source]:observational:[context]	has_truth_value	0.9
+recent study	[evidence_source]:observational:[delta]	outperforms/string
+[evidence_source]:observational:[delta]	has_timestamp	1900-01-01
+[evidence_source]:observational:[delta]	has_sentence	SENT_7
+[evidence_source]:observational:[delta]	has_truth_value	0.9
+outperforms/string	[delta]:observational:[agent]	AST:ALT ratio
+[delta]:observational:[agent]	has_sentence	SENT_7
+outperforms/string	[delta]:observational:[target]	non-histological indicators of cirrhosis
+[delta]:observational:[target]	has_timestamp	1900-01-01
+[delta]:observational:[target]	has_sentence	SENT_7
+[delta]:observational:[target]	has_truth_value	0.9
+outperforms/string	[delta]:observational:[condition]	cirrhosis
+[delta]:observational:[condition]	has_timestamp	1900-01-01
+[delta]:observational:[condition]	has_sentence	SENT_7
+[delta]:observational:[condition]	has_truth_value	0.9
+outperforms/string	[delta]:observational:[context]	PBC
+[delta]:observational:[context]	has_timestamp	1900-01-01
+[delta]:observational:[context]	has_sentence	SENT_7
+[delta]:observational:[context]	has_truth_value	0.9
+outperforms/string	[delta]:observational:[evidence_source]	recent study
+[delta]:observational:[evidence_source]	has_timestamp	1900-01-01
+[delta]:observational:[evidence_source]	has_sentence	SENT_7
+[delta]:observational:[evidence_source]	has_truth_value	0.9
+AST:ALT ratio	[agent]:observational:[target]	cirrhosis
+AST:ALT ratio	[agent]:observational:[delta]	low sensitivity/string
+AST:ALT ratio	[agent]:observational:[delta]	specificity 65-79%/string
+cirrhosis	[target]:observational:[agent]	AST:ALT ratio
+cirrhosis	[target]:observational:[context]	PBC
+cirrhosis	[target]:observational:[evidence_source]	recent study
+cirrhosis	[target]:observational:[delta]	low sensitivity/string
+cirrhosis	[target]:observational:[delta]	specificity 65-79%/string
+PBC	[context]:observational:[target]	cirrhosis
+PBC	[context]:observational:[delta]	low sensitivity/string
+PBC	[context]:observational:[delta]	specificity 65-79%/string
+recent study	[evidence_source]:observational:[target]	cirrhosis
+recent study	[evidence_source]:observational:[delta]	low sensitivity/string
+recent study	[evidence_source]:observational:[delta]	specificity 65-79%/string
+low sensitivity/string	[delta]:observational:[agent]	AST:ALT ratio
+specificity 65-79%/string	[delta]:observational:[agent]	AST:ALT ratio
+low sensitivity/string	[delta]:observational:[target]	cirrhosis
+specificity 65-79%/string	[delta]:observational:[target]	cirrhosis
+low sensitivity/string	[delta]:observational:[context]	PBC
+specificity 65-79%/string	[delta]:observational:[context]	PBC
+low sensitivity/string	[delta]:observational:[evidence_source]	recent study
+specificity 65-79%/string	[delta]:observational:[evidence_source]	recent study
+AST:ALT ratio	[agent]:causes:[effect]	cirrhosis
+[agent]:causes:[effect]	has_sentence	SENT_7
+AST:ALT ratio	[agent]:causes:[context]	PBC
+[agent]:causes:[context]	has_timestamp	1900-01-01
+[agent]:causes:[context]	has_sentence	SENT_7
+[agent]:causes:[context]	has_truth_value	0.7
+cirrhosis	[effect]:causes:[agent]	AST:ALT ratio
+[effect]:causes:[agent]	has_sentence	SENT_7
+cirrhosis	[effect]:causes:[context]	PBC
+[effect]:causes:[context]	has_timestamp	1900-01-01
+[effect]:causes:[context]	has_sentence	SENT_7
+[effect]:causes:[context]	has_truth_value	0.7
+PBC	[context]:causes:[agent]	AST:ALT ratio
+[context]:causes:[agent]	has_timestamp	1900-01-01
+[context]:causes:[agent]	has_sentence	SENT_7
+[context]:causes:[agent]	has_truth_value	0.7
+PBC	[context]:causes:[effect]	cirrhosis
+[context]:causes:[effect]	has_timestamp	1900-01-01
+[context]:causes:[effect]	has_sentence	SENT_7
+[context]:causes:[effect]	has_truth_value	0.7
+liver enzymes	[agent]:requires_monitoring:[action]	diagnosis
+liver enzymes	[agent]:requires_monitoring:[condition]	Primary Sclerosing Cholangitis
+diagnosis	[action]:requires_monitoring:[agent]	liver enzymes
+diagnosis	[action]:requires_monitoring:[condition]	Primary Sclerosing Cholangitis
+Primary Sclerosing Cholangitis	[condition]:requires_monitoring:[agent]	liver enzymes
+Primary Sclerosing Cholangitis	[condition]:requires_monitoring:[action]	diagnosis
+GGT	[agent]:diagnostic_for:[co_agent]	ALP
+[agent]:diagnostic_for:[co_agent]	has_timestamp	1900-01-01
+[agent]:diagnostic_for:[co_agent]	has_sentence	SENT_8
+[agent]:diagnostic_for:[co_agent]	has_truth_value	0.9
+GGT	[agent]:diagnostic_for:[condition]	other causes of liver disease excluded/string
+[agent]:diagnostic_for:[condition]	has_timestamp	1900-01-01
+[agent]:diagnostic_for:[condition]	has_sentence	SENT_8
+[agent]:diagnostic_for:[condition]	has_truth_value	0.9
+GGT	[agent]:diagnostic_for:[target]	PSC
+[agent]:diagnostic_for:[target]	has_timestamp	1900-01-01
+[agent]:diagnostic_for:[target]	has_sentence	SENT_8
+[agent]:diagnostic_for:[target]	has_truth_value	0.9
+GGT	[agent]:diagnostic_for:[evidence_source]	Endoscopic Retrograde Cholangiopancreatography
+GGT	[agent]:diagnostic_for:[evidence_source]	Magnetic Resonance Cholangiopancreatography
+[agent]:diagnostic_for:[evidence_source]	has_timestamp	1900-01-01
+[agent]:diagnostic_for:[evidence_source]	has_sentence	SENT_8
+[agent]:diagnostic_for:[evidence_source]	has_truth_value	0.9
+ALP	[co_agent]:diagnostic_for:[agent]	GGT
+[co_agent]:diagnostic_for:[agent]	has_timestamp	1900-01-01
+[co_agent]:diagnostic_for:[agent]	has_sentence	SENT_8
+[co_agent]:diagnostic_for:[agent]	has_truth_value	0.9
+ALP	[co_agent]:diagnostic_for:[condition]	other causes of liver disease excluded/string
+[co_agent]:diagnostic_for:[condition]	has_timestamp	1900-01-01
+[co_agent]:diagnostic_for:[condition]	has_sentence	SENT_8
+[co_agent]:diagnostic_for:[condition]	has_truth_value	0.9
+ALP	[co_agent]:diagnostic_for:[target]	PSC
+[co_agent]:diagnostic_for:[target]	has_timestamp	1900-01-01
+[co_agent]:diagnostic_for:[target]	has_sentence	SENT_8
+[co_agent]:diagnostic_for:[target]	has_truth_value	0.9
+ALP	[co_agent]:diagnostic_for:[evidence_source]	Endoscopic Retrograde Cholangiopancreatography
+ALP	[co_agent]:diagnostic_for:[evidence_source]	Magnetic Resonance Cholangiopancreatography
+[co_agent]:diagnostic_for:[evidence_source]	has_timestamp	1900-01-01
+[co_agent]:diagnostic_for:[evidence_source]	has_sentence	SENT_8
+[co_agent]:diagnostic_for:[evidence_source]	has_truth_value	0.9
+other causes of liver disease excluded/string	[condition]:diagnostic_for:[agent]	GGT
+[condition]:diagnostic_for:[agent]	has_timestamp	1900-01-01
+[condition]:diagnostic_for:[agent]	has_sentence	SENT_8
+[condition]:diagnostic_for:[agent]	has_truth_value	0.9
+other causes of liver disease excluded/string	[condition]:diagnostic_for:[co_agent]	ALP
+[condition]:diagnostic_for:[co_agent]	has_timestamp	1900-01-01
+[condition]:diagnostic_for:[co_agent]	has_sentence	SENT_8
+[condition]:diagnostic_for:[co_agent]	has_truth_value	0.9
+other causes of liver disease excluded/string	[condition]:diagnostic_for:[target]	PSC
+[condition]:diagnostic_for:[target]	has_timestamp	1900-01-01
+[condition]:diagnostic_for:[target]	has_sentence	SENT_8
+[condition]:diagnostic_for:[target]	has_truth_value	0.9
+other causes of liver disease excluded/string	[condition]:diagnostic_for:[evidence_source]	Endoscopic Retrograde Cholangiopancreatography
+other causes of liver disease excluded/string	[condition]:diagnostic_for:[evidence_source]	Magnetic Resonance Cholangiopancreatography
+[condition]:diagnostic_for:[evidence_source]	has_timestamp	1900-01-01
+[condition]:diagnostic_for:[evidence_source]	has_sentence	SENT_8
+[condition]:diagnostic_for:[evidence_source]	has_truth_value	0.9
+PSC	[target]:diagnostic_for:[agent]	GGT
+[target]:diagnostic_for:[agent]	has_timestamp	1900-01-01
+[target]:diagnostic_for:[agent]	has_sentence	SENT_8
+[target]:diagnostic_for:[agent]	has_truth_value	0.9
+PSC	[target]:diagnostic_for:[co_agent]	ALP
+[target]:diagnostic_for:[co_agent]	has_timestamp	1900-01-01
+[target]:diagnostic_for:[co_agent]	has_sentence	SENT_8
+[target]:diagnostic_for:[co_agent]	has_truth_value	0.9
+PSC	[target]:diagnostic_for:[condition]	other causes of liver disease excluded/string
+[target]:diagnostic_for:[condition]	has_timestamp	1900-01-01
+[target]:diagnostic_for:[condition]	has_sentence	SENT_8
+[target]:diagnostic_for:[condition]	has_truth_value	0.9
+PSC	[target]:diagnostic_for:[evidence_source]	Endoscopic Retrograde Cholangiopancreatography
+PSC	[target]:diagnostic_for:[evidence_source]	Magnetic Resonance Cholangiopancreatography
+[target]:diagnostic_for:[evidence_source]	has_timestamp	1900-01-01
+[target]:diagnostic_for:[evidence_source]	has_sentence	SENT_8
+[target]:diagnostic_for:[evidence_source]	has_truth_value	0.9
+Endoscopic Retrograde Cholangiopancreatography	[evidence_source]:diagnostic_for:[agent]	GGT
+Magnetic Resonance Cholangiopancreatography	[evidence_source]:diagnostic_for:[agent]	GGT
+[evidence_source]:diagnostic_for:[agent]	has_timestamp	1900-01-01
+[evidence_source]:diagnostic_for:[agent]	has_sentence	SENT_8
+[evidence_source]:diagnostic_for:[agent]	has_truth_value	0.9
+Endoscopic Retrograde Cholangiopancreatography	[evidence_source]:diagnostic_for:[co_agent]	ALP
+Magnetic Resonance Cholangiopancreatography	[evidence_source]:diagnostic_for:[co_agent]	ALP
+[evidence_source]:diagnostic_for:[co_agent]	has_timestamp	1900-01-01
+[evidence_source]:diagnostic_for:[co_agent]	has_sentence	SENT_8
+[evidence_source]:diagnostic_for:[co_agent]	has_truth_value	0.9
+Endoscopic Retrograde Cholangiopancreatography	[evidence_source]:diagnostic_for:[condition]	other causes of liver disease excluded/string
+Magnetic Resonance Cholangiopancreatography	[evidence_source]:diagnostic_for:[condition]	other causes of liver disease excluded/string
+[evidence_source]:diagnostic_for:[condition]	has_timestamp	1900-01-01
+[evidence_source]:diagnostic_for:[condition]	has_sentence	SENT_8
+[evidence_source]:diagnostic_for:[condition]	has_truth_value	0.9
+Endoscopic Retrograde Cholangiopancreatography	[evidence_source]:diagnostic_for:[target]	PSC
+Magnetic Resonance Cholangiopancreatography	[evidence_source]:diagnostic_for:[target]	PSC
+[evidence_source]:diagnostic_for:[target]	has_timestamp	1900-01-01
+[evidence_source]:diagnostic_for:[target]	has_sentence	SENT_8
+[evidence_source]:diagnostic_for:[target]	has_truth_value	0.9
+Endoscopic Retrograde Cholangiopancreatography	[agent]:precludes:[co_agent]	Magnetic Resonance Cholangiopancreatography
+[agent]:precludes:[co_agent]	has_timestamp	1900-01-01
+[agent]:precludes:[co_agent]	has_sentence	SENT_8
+[agent]:precludes:[co_agent]	has_truth_value	0.7
+Endoscopic Retrograde Cholangiopancreatography	[agent]:precludes:[target]	Liver biopsy
+[agent]:precludes:[target]	has_timestamp	1900-01-01
+[agent]:precludes:[target]	has_sentence	SENT_8
+[agent]:precludes:[target]	has_truth_value	0.7
+Magnetic Resonance Cholangiopancreatography	[co_agent]:precludes:[agent]	Endoscopic Retrograde Cholangiopancreatography
+[co_agent]:precludes:[agent]	has_timestamp	1900-01-01
+[co_agent]:precludes:[agent]	has_sentence	SENT_8
+[co_agent]:precludes:[agent]	has_truth_value	0.7
+Magnetic Resonance Cholangiopancreatography	[co_agent]:precludes:[target]	Liver biopsy
+[co_agent]:precludes:[target]	has_timestamp	1900-01-01
+[co_agent]:precludes:[target]	has_sentence	SENT_8
+[co_agent]:precludes:[target]	has_truth_value	0.7
+Liver biopsy	[target]:precludes:[agent]	Endoscopic Retrograde Cholangiopancreatography
+[target]:precludes:[agent]	has_timestamp	1900-01-01
+[target]:precludes:[agent]	has_sentence	SENT_8
+[target]:precludes:[agent]	has_truth_value	0.7
+Liver biopsy	[target]:precludes:[co_agent]	Magnetic Resonance Cholangiopancreatography
+[target]:precludes:[co_agent]	has_timestamp	1900-01-01
+[target]:precludes:[co_agent]	has_sentence	SENT_8
+[target]:precludes:[co_agent]	has_truth_value	0.7
+Transaminase	[agent]:not_diagnostic_for:[condition]	PSC
+[agent]:not_diagnostic_for:[condition]	has_timestamp	1900-01-01
+[agent]:not_diagnostic_for:[condition]	has_sentence	SENT_8
+[agent]:not_diagnostic_for:[condition]	has_truth_value	0.9
+PSC	[condition]:not_diagnostic_for:[agent]	Transaminase
+[condition]:not_diagnostic_for:[agent]	has_timestamp	1900-01-01
+[condition]:not_diagnostic_for:[agent]	has_sentence	SENT_8
+[condition]:not_diagnostic_for:[agent]	has_truth_value	0.9
+AST	[agent]:component_of:[target]	Mayo Risk Score
+[agent]:component_of:[target]	has_timestamp	1900-01-01
+[agent]:component_of:[target]	has_sentence	SENT_8
+[agent]:component_of:[target]	has_truth_value	0.9
+Mayo Risk Score	[target]:component_of:[agent]	AST
+[target]:component_of:[agent]	has_timestamp	1900-01-01
+[target]:component_of:[agent]	has_sentence	SENT_8
+[target]:component_of:[agent]	has_truth_value	0.9
+Mayo Risk Score	[agent]:calculates:[target]	Disease progression in PSC
+[agent]:calculates:[target]	has_timestamp	1900-01-01
+[agent]:calculates:[target]	has_sentence	SENT_8
+[agent]:calculates:[target]	has_truth_value	0.9
+Disease progression in PSC	[target]:calculates:[agent]	Mayo Risk Score
+[target]:calculates:[agent]	has_timestamp	1900-01-01
+[target]:calculates:[agent]	has_sentence	SENT_8
+[target]:calculates:[agent]	has_truth_value	0.9
+Mayo Risk Score	[agent]:indicator_of:[target]	Oesophageal varices
+[agent]:indicator_of:[target]	has_timestamp	1900-01-01
+[agent]:indicator_of:[target]	has_sentence	SENT_8
+[agent]:indicator_of:[target]	has_truth_value	0.9
+Oesophageal varices	[target]:indicator_of:[agent]	Mayo Risk Score
+[target]:indicator_of:[agent]	has_timestamp	1900-01-01
+[target]:indicator_of:[agent]	has_sentence	SENT_8
+[target]:indicator_of:[agent]	has_truth_value	0.9
+AST:ALT ratio	[agent]:indicator_of:[literal]	>1.12/ratio
+[agent]:indicator_of:[literal]	has_timestamp	1900-01-01
+[agent]:indicator_of:[literal]	has_sentence	SENT_8
+[agent]:indicator_of:[literal]	has_truth_value	0.9
+AST:ALT ratio	[agent]:indicator_of:[target]	Oesophageal varices
+>1.12/ratio	[literal]:indicator_of:[agent]	AST:ALT ratio
+[literal]:indicator_of:[agent]	has_timestamp	1900-01-01
+[literal]:indicator_of:[agent]	has_sentence	SENT_8
+[literal]:indicator_of:[agent]	has_truth_value	0.9
+>1.12/ratio	[literal]:indicator_of:[target]	Oesophageal varices
+[literal]:indicator_of:[target]	has_timestamp	1900-01-01
+[literal]:indicator_of:[target]	has_sentence	SENT_8
+[literal]:indicator_of:[target]	has_truth_value	0.9
+Oesophageal varices	[target]:indicator_of:[agent]	AST:ALT ratio
+Oesophageal varices	[target]:indicator_of:[literal]	>1.12/ratio
+[target]:indicator_of:[literal]	has_timestamp	1900-01-01
+[target]:indicator_of:[literal]	has_sentence	SENT_8
+[target]:indicator_of:[literal]	has_truth_value	0.9
+AST:ALT ratio	[agent]:causes:[effect]	Cirrhosis
+[agent]:causes:[effect]	has_sentence	SENT_9
+AST:ALT ratio	[agent]:causes:[condition]	Primary Sclerosing Cholangitis
+[agent]:causes:[condition]	has_sentence	SENT_9
+AST:ALT ratio	[agent]:causes:[delta]	>1/ratio
+[agent]:causes:[delta]	has_sentence	SENT_9
+Cirrhosis	[effect]:causes:[agent]	AST:ALT ratio
+[effect]:causes:[agent]	has_sentence	SENT_9
+Cirrhosis	[effect]:causes:[condition]	Primary Sclerosing Cholangitis
+[effect]:causes:[condition]	has_sentence	SENT_9
+Cirrhosis	[effect]:causes:[delta]	>1/ratio
+[effect]:causes:[delta]	has_sentence	SENT_9
+Primary Sclerosing Cholangitis	[condition]:causes:[agent]	AST:ALT ratio
+[condition]:causes:[agent]	has_sentence	SENT_9
+Primary Sclerosing Cholangitis	[condition]:causes:[effect]	Cirrhosis
+[condition]:causes:[effect]	has_sentence	SENT_9
+Primary Sclerosing Cholangitis	[condition]:causes:[delta]	>1/ratio
+[condition]:causes:[delta]	has_timestamp	1900-01-01
+[condition]:causes:[delta]	has_sentence	SENT_9
+[condition]:causes:[delta]	has_truth_value	0.7
+>1/ratio	[delta]:causes:[agent]	AST:ALT ratio
+[delta]:causes:[agent]	has_sentence	SENT_9
+>1/ratio	[delta]:causes:[effect]	Cirrhosis
+[delta]:causes:[effect]	has_sentence	SENT_9
+>1/ratio	[delta]:causes:[condition]	Primary Sclerosing Cholangitis
+[delta]:causes:[condition]	has_timestamp	1900-01-01
+[delta]:causes:[condition]	has_sentence	SENT_9
+[delta]:causes:[condition]	has_truth_value	0.7
+Alcohol	[agent]:causes:[effect]	Hepatic enzymes
+Hepatic enzymes	[effect]:causes:[agent]	Alcohol
+Hepatic enzymes	[agent]:causes:[effect]	GGT
+Hepatic enzymes	[agent]:causes:[delta]	raised/qualitative
+GGT	[effect]:causes:[agent]	Hepatic enzymes
+GGT	[effect]:causes:[delta]	raised/qualitative
+raised/qualitative	[delta]:causes:[agent]	Hepatic enzymes
+raised/qualitative	[delta]:causes:[effect]	GGT
+GGT	[agent]:causes:[effect]	ALP
+GGT	[agent]:causes:[delta]	normal or disproportionately lower than GGT/qualitative
+ALP	[effect]:causes:[agent]	GGT
+ALP	[effect]:causes:[delta]	normal or disproportionately lower than GGT/qualitative
+normal or disproportionately lower than GGT/qualitative	[delta]:causes:[agent]	GGT
+normal or disproportionately lower than GGT/qualitative	[delta]:causes:[effect]	ALP
+Alcohol	[agent]:causes:[effect]	GGT:ALP ratio
+Alcohol	[agent]:causes:[delta]	>2.5/ratio
+GGT:ALP ratio	[effect]:causes:[agent]	Alcohol
+GGT:ALP ratio	[effect]:causes:[delta]	>2.5/ratio
+>2.5/ratio	[delta]:causes:[agent]	Alcohol
+>2.5/ratio	[delta]:causes:[effect]	GGT:ALP ratio
+GGT:ALP ratio	[agent]:causes:[effect]	Jaundice
+GGT:ALP ratio	[agent]:causes:[delta]	>2.5/ratio
+Jaundice	[effect]:causes:[agent]	GGT:ALP ratio
+Jaundice	[effect]:causes:[delta]	>2.5/ratio
+>2.5/ratio	[delta]:causes:[agent]	GGT:ALP ratio
+>2.5/ratio	[delta]:causes:[effect]	Jaundice
+Alcohol	[agent]:causes:[effect]	Liver disease
+Liver disease	[effect]:causes:[agent]	Alcohol
+Folate deficiency	[agent]:causes:[effect]	Macrocytosis
+Macrocytosis	[effect]:causes:[agent]	Folate deficiency
+Vitamin B12 deficiency	[agent]:causes:[effect]	Macrocytosis
+Macrocytosis	[effect]:causes:[agent]	Vitamin B12 deficiency
+Alcohol	[agent]:causes:[effect]	Bone marrow suppression
+Bone marrow suppression	[effect]:causes:[agent]	Alcohol
+Bone marrow suppression	[agent]:causes:[effect]	Macrocytosis
+Macrocytosis	[effect]:causes:[agent]	Bone marrow suppression
+Macrocytosis	[agent]:causes:[effect]	Alcoholic liver disease
+Alcoholic liver disease	[effect]:causes:[agent]	Macrocytosis
+GGT	[agent]:not_diagnostic_of:[target]	Alcohol abuse
+[agent]:not_diagnostic_of:[target]	has_timestamp	1900-01-01
+[agent]:not_diagnostic_of:[target]	has_sentence	SENT_10
+[agent]:not_diagnostic_of:[target]	has_truth_value	0.9
+Alcohol abuse	[target]:not_diagnostic_of:[agent]	GGT
+[target]:not_diagnostic_of:[agent]	has_timestamp	1900-01-01
+[target]:not_diagnostic_of:[agent]	has_sentence	SENT_10
+[target]:not_diagnostic_of:[agent]	has_truth_value	0.9
+GGT	[biomarker]:remains_high_in:[cohort]	Former drinkers
+[biomarker]:remains_high_in:[cohort]	has_timestamp	1900-01-01
+[biomarker]:remains_high_in:[cohort]	has_sentence	SENT_10
+[biomarker]:remains_high_in:[cohort]	has_truth_value	0.9
+Former drinkers	[cohort]:remains_high_in:[biomarker]	GGT
+[cohort]:remains_high_in:[biomarker]	has_timestamp	1900-01-01
+[cohort]:remains_high_in:[biomarker]	has_sentence	SENT_10
+[cohort]:remains_high_in:[biomarker]	has_truth_value	0.9
+GGT	[biomarker]:remains_high_in:[cohort]	Current drinkers
+Current drinkers	[cohort]:remains_high_in:[biomarker]	GGT
+GGT	[biomarker]:highest_levels_in:[cohort]	Men
+[biomarker]:highest_levels_in:[cohort]	has_timestamp	1900-01-01
+[biomarker]:highest_levels_in:[cohort]	has_sentence	SENT_10
+[biomarker]:highest_levels_in:[cohort]	has_truth_value	0.9
+GGT	[biomarker]:highest_levels_in:[exposure]	Daily alcohol consumption
+[biomarker]:highest_levels_in:[exposure]	has_timestamp	1900-01-01
+[biomarker]:highest_levels_in:[exposure]	has_sentence	SENT_10
+[biomarker]:highest_levels_in:[exposure]	has_truth_value	0.9
+Men	[cohort]:highest_levels_in:[biomarker]	GGT
+[cohort]:highest_levels_in:[biomarker]	has_timestamp	1900-01-01
+[cohort]:highest_levels_in:[biomarker]	has_sentence	SENT_10
+[cohort]:highest_levels_in:[biomarker]	has_truth_value	0.9
+Men	[cohort]:highest_levels_in:[exposure]	Daily alcohol consumption
+[cohort]:highest_levels_in:[exposure]	has_timestamp	1900-01-01
+[cohort]:highest_levels_in:[exposure]	has_sentence	SENT_10
+[cohort]:highest_levels_in:[exposure]	has_truth_value	0.9
+Daily alcohol consumption	[exposure]:highest_levels_in:[biomarker]	GGT
+[exposure]:highest_levels_in:[biomarker]	has_timestamp	1900-01-01
+[exposure]:highest_levels_in:[biomarker]	has_sentence	SENT_10
+[exposure]:highest_levels_in:[biomarker]	has_truth_value	0.9
+Daily alcohol consumption	[exposure]:highest_levels_in:[cohort]	Men
+[exposure]:highest_levels_in:[cohort]	has_timestamp	1900-01-01
+[exposure]:highest_levels_in:[cohort]	has_sentence	SENT_10
+[exposure]:highest_levels_in:[cohort]	has_truth_value	0.9
+GGT	[biomarker]:especially_high_levels_in:[cohort]	Women
+[biomarker]:especially_high_levels_in:[cohort]	has_timestamp	1900-01-01
+[biomarker]:especially_high_levels_in:[cohort]	has_sentence	SENT_10
+[biomarker]:especially_high_levels_in:[cohort]	has_truth_value	0.9
+GGT	[biomarker]:especially_high_levels_in:[exposure]	Binge drinking
+[biomarker]:especially_high_levels_in:[exposure]	has_timestamp	1900-01-01
+[biomarker]:especially_high_levels_in:[exposure]	has_sentence	SENT_10
+[biomarker]:especially_high_levels_in:[exposure]	has_truth_value	0.9
+Women	[cohort]:especially_high_levels_in:[biomarker]	GGT
+[cohort]:especially_high_levels_in:[biomarker]	has_timestamp	1900-01-01
+[cohort]:especially_high_levels_in:[biomarker]	has_sentence	SENT_10
+[cohort]:especially_high_levels_in:[biomarker]	has_truth_value	0.9
+Women	[cohort]:especially_high_levels_in:[exposure]	Binge drinking
+[cohort]:especially_high_levels_in:[exposure]	has_timestamp	1900-01-01
+[cohort]:especially_high_levels_in:[exposure]	has_sentence	SENT_10
+[cohort]:especially_high_levels_in:[exposure]	has_truth_value	0.9
+Binge drinking	[exposure]:especially_high_levels_in:[biomarker]	GGT
+[exposure]:especially_high_levels_in:[biomarker]	has_timestamp	1900-01-01
+[exposure]:especially_high_levels_in:[biomarker]	has_sentence	SENT_10
+[exposure]:especially_high_levels_in:[biomarker]	has_truth_value	0.9
+Binge drinking	[exposure]:especially_high_levels_in:[cohort]	Women
+[exposure]:especially_high_levels_in:[cohort]	has_timestamp	1900-01-01
+[exposure]:especially_high_levels_in:[cohort]	has_sentence	SENT_10
+[exposure]:especially_high_levels_in:[cohort]	has_truth_value	0.9
+GGT	[biomarker]:especially_high_levels_in:[exposure]	Alcohol consumption without food
+Women	[cohort]:especially_high_levels_in:[exposure]	Alcohol consumption without food
+Alcohol consumption without food	[exposure]:especially_high_levels_in:[biomarker]	GGT
+Alcohol consumption without food	[exposure]:especially_high_levels_in:[cohort]	Women
+GGT	[biomarker]:dose_dependence:[exposure]	Alcohol intake (top two quartiles)
+[biomarker]:dose_dependence:[exposure]	has_timestamp	1900-01-01
+[biomarker]:dose_dependence:[exposure]	has_sentence	SENT_10
+[biomarker]:dose_dependence:[exposure]	has_truth_value	0.9
+Alcohol intake (top two quartiles)	[exposure]:dose_dependence:[biomarker]	GGT
+[exposure]:dose_dependence:[biomarker]	has_timestamp	1900-01-01
+[exposure]:dose_dependence:[biomarker]	has_sentence	SENT_10
+[exposure]:dose_dependence:[biomarker]	has_truth_value	0.9
+Daily alcohol consumption	[agent]:causes:[effect]	GGT
+[agent]:causes:[effect]	has_sentence	SENT_10
+Daily alcohol consumption	[agent]:causes:[cohort]	Men
+[agent]:causes:[cohort]	has_timestamp	1900-01-01
+[agent]:causes:[cohort]	has_sentence	SENT_10
+[agent]:causes:[cohort]	has_truth_value	0.7
+GGT	[effect]:causes:[agent]	Daily alcohol consumption
+[effect]:causes:[agent]	has_sentence	SENT_10
+GGT	[effect]:causes:[cohort]	Men
+[effect]:causes:[cohort]	has_timestamp	1900-01-01
+[effect]:causes:[cohort]	has_sentence	SENT_10
+[effect]:causes:[cohort]	has_truth_value	0.7
+Men	[cohort]:causes:[agent]	Daily alcohol consumption
+[cohort]:causes:[agent]	has_timestamp	1900-01-01
+[cohort]:causes:[agent]	has_sentence	SENT_10
+[cohort]:causes:[agent]	has_truth_value	0.7
+Men	[cohort]:causes:[effect]	GGT
+[cohort]:causes:[effect]	has_timestamp	1900-01-01
+[cohort]:causes:[effect]	has_sentence	SENT_10
+[cohort]:causes:[effect]	has_truth_value	0.7
+Binge drinking	[agent]:causes:[effect]	GGT
+Binge drinking	[agent]:causes:[cohort]	Women
+GGT	[effect]:causes:[agent]	Binge drinking
+GGT	[effect]:causes:[cohort]	Women
+Women	[cohort]:causes:[agent]	Binge drinking
+Women	[cohort]:causes:[effect]	GGT
+Alcohol consumption without food	[agent]:causes:[effect]	GGT
+Alcohol consumption without food	[agent]:causes:[cohort]	Women
+GGT	[effect]:causes:[agent]	Alcohol consumption without food
+Women	[cohort]:causes:[agent]	Alcohol consumption without food
+Alcohol intake (top two quartiles)	[agent]:causes:[effect]	GGT
+GGT	[effect]:causes:[agent]	Alcohol intake (top two quartiles)
+AST:ALT ratio	[agent]:used_for_differentiation:[target]	Alcoholic liver disease
+AST:ALT ratio	[agent]:used_for_differentiation:[target]	Non-alcoholic Fatty Liver Disease
+AST:ALT ratio	[agent]:used_for_differentiation:[target]	Liver disease
+[agent]:used_for_differentiation:[target]	has_timestamp	1900-01-01
+[agent]:used_for_differentiation:[target]	has_sentence	SENT_11
+[agent]:used_for_differentiation:[target]	has_truth_value	0.9
+Alcoholic liver disease	[target]:used_for_differentiation:[agent]	AST:ALT ratio
+Non-alcoholic Fatty Liver Disease	[target]:used_for_differentiation:[agent]	AST:ALT ratio
+Liver disease	[target]:used_for_differentiation:[agent]	AST:ALT ratio
+[target]:used_for_differentiation:[agent]	has_timestamp	1900-01-01
+[target]:used_for_differentiation:[agent]	has_sentence	SENT_11
+[target]:used_for_differentiation:[agent]	has_truth_value	0.9
+AST	[agent]:requires:[target]	pyridoxal-5’-phosphate (vitamin B6)
+ALT	[agent]:requires:[target]	pyridoxal-5’-phosphate (vitamin B6)
+[agent]:requires:[target]	has_timestamp	1900-01-01
+[agent]:requires:[target]	has_sentence	SENT_11
+[agent]:requires:[target]	has_truth_value	0.9
+pyridoxal-5’-phosphate (vitamin B6)	[target]:requires:[agent]	AST
+pyridoxal-5’-phosphate (vitamin B6)	[target]:requires:[agent]	ALT
+[target]:requires:[agent]	has_timestamp	1900-01-01
+[target]:requires:[agent]	has_sentence	SENT_11
+[target]:requires:[agent]	has_truth_value	0.9
+Absence of pyridoxal-5’-phosphate (vitamin B6)	[agent]:causes:[condition]	Nutritionally-deficient heavy-drinkers
+[agent]:causes:[condition]	has_sentence	SENT_11
+Absence of pyridoxal-5’-phosphate (vitamin B6)	[agent]:causes:[target]	ALT production
+[agent]:causes:[target]	has_timestamp	1900-01-01
+[agent]:causes:[target]	has_sentence	SENT_11
+[agent]:causes:[target]	has_truth_value	0.7
+Absence of pyridoxal-5’-phosphate (vitamin B6)	[agent]:causes:[delta]	decrease/string
+[agent]:causes:[delta]	has_sentence	SENT_11
+Nutritionally-deficient heavy-drinkers	[condition]:causes:[agent]	Absence of pyridoxal-5’-phosphate (vitamin B6)
+[condition]:causes:[agent]	has_sentence	SENT_11
+Nutritionally-deficient heavy-drinkers	[condition]:causes:[target]	ALT production
+[condition]:causes:[target]	has_timestamp	1900-01-01
+[condition]:causes:[target]	has_sentence	SENT_11
+[condition]:causes:[target]	has_truth_value	0.7
+Nutritionally-deficient heavy-drinkers	[condition]:causes:[delta]	decrease/string
+[condition]:causes:[delta]	has_sentence	SENT_11
+ALT production	[target]:causes:[agent]	Absence of pyridoxal-5’-phosphate (vitamin B6)
+[target]:causes:[agent]	has_timestamp	1900-01-01
+[target]:causes:[agent]	has_sentence	SENT_11
+[target]:causes:[agent]	has_truth_value	0.7
+ALT production	[target]:causes:[condition]	Nutritionally-deficient heavy-drinkers
+[target]:causes:[condition]	has_timestamp	1900-01-01
+[target]:causes:[condition]	has_sentence	SENT_11
+[target]:causes:[condition]	has_truth_value	0.7
+ALT production	[target]:causes:[delta]	decrease/string
+[target]:causes:[delta]	has_timestamp	1900-01-01
+[target]:causes:[delta]	has_sentence	SENT_11
+[target]:causes:[delta]	has_truth_value	0.7
+decrease/string	[delta]:causes:[agent]	Absence of pyridoxal-5’-phosphate (vitamin B6)
+[delta]:causes:[agent]	has_sentence	SENT_11
+decrease/string	[delta]:causes:[condition]	Nutritionally-deficient heavy-drinkers
+[delta]:causes:[condition]	has_sentence	SENT_11
+decrease/string	[delta]:causes:[target]	ALT production
+[delta]:causes:[target]	has_timestamp	1900-01-01
+[delta]:causes:[target]	has_sentence	SENT_11
+[delta]:causes:[target]	has_truth_value	0.7
+Absence of pyridoxal-5’-phosphate (vitamin B6)	[agent]:causes:[target]	AST production
+Absence of pyridoxal-5’-phosphate (vitamin B6)	[agent]:causes:[delta]	less decrease/string
+Nutritionally-deficient heavy-drinkers	[condition]:causes:[target]	AST production
+Nutritionally-deficient heavy-drinkers	[condition]:causes:[delta]	less decrease/string
+AST production	[target]:causes:[agent]	Absence of pyridoxal-5’-phosphate (vitamin B6)
+AST production	[target]:causes:[condition]	Nutritionally-deficient heavy-drinkers
+AST production	[target]:causes:[delta]	less decrease/string
+less decrease/string	[delta]:causes:[agent]	Absence of pyridoxal-5’-phosphate (vitamin B6)
+less decrease/string	[delta]:causes:[condition]	Nutritionally-deficient heavy-drinkers
+less decrease/string	[delta]:causes:[target]	AST production
+Absence of pyridoxal-5’-phosphate (vitamin B6)	[agent]:causes:[target]	AST:ALT ratio
+Absence of pyridoxal-5’-phosphate (vitamin B6)	[agent]:causes:[delta]	increase/string
+Nutritionally-deficient heavy-drinkers	[condition]:causes:[target]	AST:ALT ratio
+Nutritionally-deficient heavy-drinkers	[condition]:causes:[delta]	increase/string
+AST:ALT ratio	[target]:causes:[agent]	Absence of pyridoxal-5’-phosphate (vitamin B6)
+AST:ALT ratio	[target]:causes:[condition]	Nutritionally-deficient heavy-drinkers
+AST:ALT ratio	[target]:causes:[delta]	increase/string
+increase/string	[delta]:causes:[agent]	Absence of pyridoxal-5’-phosphate (vitamin B6)
+increase/string	[delta]:causes:[condition]	Nutritionally-deficient heavy-drinkers
+increase/string	[delta]:causes:[target]	AST:ALT ratio
+Normal AST:ALT ratio <1	[target]:requires_investigation:[action]	AST:ALT ratio should be <1/string
+[target]:requires_investigation:[action]	has_sentence	SENT_11
+AST:ALT ratio should be <1/string	[action]:requires_investigation:[target]	Normal AST:ALT ratio <1
+[action]:requires_investigation:[target]	has_sentence	SENT_11
+AST:ALT ratio	[biomarker]:observed_in:[condition]	Alcoholic liver disease
+[biomarker]:observed_in:[condition]	has_timestamp	1900-01-01
+[biomarker]:observed_in:[condition]	has_sentence	SENT_12
+[biomarker]:observed_in:[condition]	has_truth_value	0.9
+AST:ALT ratio	[biomarker]:observed_in:[delta]	>1/ratio
+[biomarker]:observed_in:[delta]	has_timestamp	1900-01-01
+[biomarker]:observed_in:[delta]	has_sentence	SENT_12
+[biomarker]:observed_in:[delta]	has_truth_value	0.9
+AST:ALT ratio	[biomarker]:observed_in:[prevalence]	0.92/proportion
+[biomarker]:observed_in:[prevalence]	has_timestamp	1900-01-01
+[biomarker]:observed_in:[prevalence]	has_sentence	SENT_12
+[biomarker]:observed_in:[prevalence]	has_truth_value	0.9
+Alcoholic liver disease	[condition]:observed_in:[biomarker]	AST:ALT ratio
+[condition]:observed_in:[biomarker]	has_timestamp	1900-01-01
+[condition]:observed_in:[biomarker]	has_sentence	SENT_12
+[condition]:observed_in:[biomarker]	has_truth_value	0.9
+Alcoholic liver disease	[condition]:observed_in:[delta]	>1/ratio
+[condition]:observed_in:[delta]	has_timestamp	1900-01-01
+[condition]:observed_in:[delta]	has_sentence	SENT_12
+[condition]:observed_in:[delta]	has_truth_value	0.9
+Alcoholic liver disease	[condition]:observed_in:[prevalence]	0.92/proportion
+[condition]:observed_in:[prevalence]	has_timestamp	1900-01-01
+[condition]:observed_in:[prevalence]	has_sentence	SENT_12
+[condition]:observed_in:[prevalence]	has_truth_value	0.9
+>1/ratio	[delta]:observed_in:[biomarker]	AST:ALT ratio
+[delta]:observed_in:[biomarker]	has_timestamp	1900-01-01
+[delta]:observed_in:[biomarker]	has_sentence	SENT_12
+[delta]:observed_in:[biomarker]	has_truth_value	0.9
+>1/ratio	[delta]:observed_in:[condition]	Alcoholic liver disease
+[delta]:observed_in:[condition]	has_timestamp	1900-01-01
+[delta]:observed_in:[condition]	has_sentence	SENT_12
+[delta]:observed_in:[condition]	has_truth_value	0.9
+>1/ratio	[delta]:observed_in:[prevalence]	0.92/proportion
+[delta]:observed_in:[prevalence]	has_timestamp	1900-01-01
+[delta]:observed_in:[prevalence]	has_sentence	SENT_12
+[delta]:observed_in:[prevalence]	has_truth_value	0.9
+0.92/proportion	[prevalence]:observed_in:[biomarker]	AST:ALT ratio
+[prevalence]:observed_in:[biomarker]	has_timestamp	1900-01-01
+[prevalence]:observed_in:[biomarker]	has_sentence	SENT_12
+[prevalence]:observed_in:[biomarker]	has_truth_value	0.9
+0.92/proportion	[prevalence]:observed_in:[condition]	Alcoholic liver disease
+[prevalence]:observed_in:[condition]	has_timestamp	1900-01-01
+[prevalence]:observed_in:[condition]	has_sentence	SENT_12
+[prevalence]:observed_in:[condition]	has_truth_value	0.9
+0.92/proportion	[prevalence]:observed_in:[delta]	>1/ratio
+[prevalence]:observed_in:[delta]	has_timestamp	1900-01-01
+[prevalence]:observed_in:[delta]	has_sentence	SENT_12
+[prevalence]:observed_in:[delta]	has_truth_value	0.9
+AST:ALT ratio	[biomarker]:observed_in:[delta]	>2/ratio
+AST:ALT ratio	[biomarker]:observed_in:[prevalence]	0.7/proportion
+Alcoholic liver disease	[condition]:observed_in:[delta]	>2/ratio
+Alcoholic liver disease	[condition]:observed_in:[prevalence]	0.7/proportion
+>2/ratio	[delta]:observed_in:[biomarker]	AST:ALT ratio
+>2/ratio	[delta]:observed_in:[condition]	Alcoholic liver disease
+>2/ratio	[delta]:observed_in:[prevalence]	0.7/proportion
+0.7/proportion	[prevalence]:observed_in:[biomarker]	AST:ALT ratio
+0.7/proportion	[prevalence]:observed_in:[condition]	Alcoholic liver disease
+0.7/proportion	[prevalence]:observed_in:[delta]	>2/ratio
+Alcoholic liver disease	[condition]:causes:[effect]	AST:ALT ratio
+[condition]:causes:[effect]	has_sentence	SENT_12
+Alcoholic liver disease	[condition]:causes:[delta]	>2/ratio
+[condition]:causes:[delta]	has_sentence	SENT_12
+AST:ALT ratio	[effect]:causes:[condition]	Alcoholic liver disease
+[effect]:causes:[condition]	has_sentence	SENT_12
+AST:ALT ratio	[effect]:causes:[delta]	>2/ratio
+[effect]:causes:[delta]	has_sentence	SENT_12
+>2/ratio	[delta]:causes:[condition]	Alcoholic liver disease
+[delta]:causes:[condition]	has_sentence	SENT_12
+>2/ratio	[delta]:causes:[effect]	AST:ALT ratio
+[delta]:causes:[effect]	has_sentence	SENT_12
+AST:ALT ratio	[biomarker]:suggests:[delta]	>2/ratio
+[biomarker]:suggests:[delta]	has_timestamp	1900-01-01
+[biomarker]:suggests:[delta]	has_sentence	SENT_12
+[biomarker]:suggests:[delta]	has_truth_value	0.9
+AST:ALT ratio	[biomarker]:suggests:[suggested_condition]	Alcoholic liver disease
+[biomarker]:suggests:[suggested_condition]	has_timestamp	1900-01-01
+[biomarker]:suggests:[suggested_condition]	has_sentence	SENT_12
+[biomarker]:suggests:[suggested_condition]	has_truth_value	0.9
+>2/ratio	[delta]:suggests:[biomarker]	AST:ALT ratio
+[delta]:suggests:[biomarker]	has_timestamp	1900-01-01
+[delta]:suggests:[biomarker]	has_sentence	SENT_12
+[delta]:suggests:[biomarker]	has_truth_value	0.9
+>2/ratio	[delta]:suggests:[suggested_condition]	Alcoholic liver disease
+[delta]:suggests:[suggested_condition]	has_timestamp	1900-01-01
+[delta]:suggests:[suggested_condition]	has_sentence	SENT_12
+[delta]:suggests:[suggested_condition]	has_truth_value	0.9
+Alcoholic liver disease	[suggested_condition]:suggests:[biomarker]	AST:ALT ratio
+[suggested_condition]:suggests:[biomarker]	has_timestamp	1900-01-01
+[suggested_condition]:suggests:[biomarker]	has_sentence	SENT_12
+[suggested_condition]:suggests:[biomarker]	has_truth_value	0.9
+Alcoholic liver disease	[suggested_condition]:suggests:[delta]	>2/ratio
+[suggested_condition]:suggests:[delta]	has_timestamp	1900-01-01
+[suggested_condition]:suggests:[delta]	has_sentence	SENT_12
+[suggested_condition]:suggests:[delta]	has_truth_value	0.9
+AST:ALT ratio	[biomarker]:suggests:[delta]	<1/ratio
+AST:ALT ratio	[biomarker]:suggests:[suggested_condition]	Non-alcoholic Fatty Liver Disease
+<1/ratio	[delta]:suggests:[biomarker]	AST:ALT ratio
+<1/ratio	[delta]:suggests:[suggested_condition]	Non-alcoholic Fatty Liver Disease
+Non-alcoholic Fatty Liver Disease	[suggested_condition]:suggests:[biomarker]	AST:ALT ratio
+Non-alcoholic Fatty Liver Disease	[suggested_condition]:suggests:[delta]	<1/ratio
+AST:ALT ratio	[biomarker]:reflects:[delta]	high/qualitative
+[biomarker]:reflects:[delta]	has_timestamp	1900-01-01
+[biomarker]:reflects:[delta]	has_sentence	SENT_12
+[biomarker]:reflects:[delta]	has_truth_value	0.9
+AST:ALT ratio	[biomarker]:reflects:[target]	Hepatitis
+[biomarker]:reflects:[target]	has_timestamp	1900-01-01
+[biomarker]:reflects:[target]	has_sentence	SENT_12
+[biomarker]:reflects:[target]	has_truth_value	0.9
+high/qualitative	[delta]:reflects:[biomarker]	AST:ALT ratio
+[delta]:reflects:[biomarker]	has_timestamp	1900-01-01
+[delta]:reflects:[biomarker]	has_sentence	SENT_12
+[delta]:reflects:[biomarker]	has_truth_value	0.9
+high/qualitative	[delta]:reflects:[target]	Hepatitis
+[delta]:reflects:[target]	has_timestamp	1900-01-01
+[delta]:reflects:[target]	has_sentence	SENT_12
+[delta]:reflects:[target]	has_truth_value	0.9
+Hepatitis	[target]:reflects:[biomarker]	AST:ALT ratio
+[target]:reflects:[biomarker]	has_timestamp	1900-01-01
+[target]:reflects:[biomarker]	has_sentence	SENT_12
+[target]:reflects:[biomarker]	has_truth_value	0.9
+Hepatitis	[target]:reflects:[delta]	high/qualitative
+[target]:reflects:[delta]	has_timestamp	1900-01-01
+[target]:reflects:[delta]	has_sentence	SENT_12
+[target]:reflects:[delta]	has_truth_value	0.9
+AST:ALT ratio	[biomarker]:reflects:[target]	Liver disease
+high/qualitative	[delta]:reflects:[target]	Liver disease
+Liver disease	[target]:reflects:[biomarker]	AST:ALT ratio
+Liver disease	[target]:reflects:[delta]	high/qualitative
+AST:ALT ratio	[biomarker]:not_reflects:[delta]	high/qualitative
+[biomarker]:not_reflects:[delta]	has_timestamp	1900-01-01
+[biomarker]:not_reflects:[delta]	has_sentence	SENT_12
+[biomarker]:not_reflects:[delta]	has_truth_value	0.9
+AST:ALT ratio	[biomarker]:not_reflects:[target]	Alcohol consumption
+[biomarker]:not_reflects:[target]	has_timestamp	1900-01-01
+[biomarker]:not_reflects:[target]	has_sentence	SENT_12
+[biomarker]:not_reflects:[target]	has_truth_value	0.9
+high/qualitative	[delta]:not_reflects:[biomarker]	AST:ALT ratio
+[delta]:not_reflects:[biomarker]	has_timestamp	1900-01-01
+[delta]:not_reflects:[biomarker]	has_sentence	SENT_12
+[delta]:not_reflects:[biomarker]	has_truth_value	0.9
+high/qualitative	[delta]:not_reflects:[target]	Alcohol consumption
+[delta]:not_reflects:[target]	has_timestamp	1900-01-01
+[delta]:not_reflects:[target]	has_sentence	SENT_12
+[delta]:not_reflects:[target]	has_truth_value	0.9
+Alcohol consumption	[target]:not_reflects:[biomarker]	AST:ALT ratio
+[target]:not_reflects:[biomarker]	has_timestamp	1900-01-01
+[target]:not_reflects:[biomarker]	has_sentence	SENT_12
+[target]:not_reflects:[biomarker]	has_truth_value	0.9
+Alcohol consumption	[target]:not_reflects:[delta]	high/qualitative
+[target]:not_reflects:[delta]	has_timestamp	1900-01-01
+[target]:not_reflects:[delta]	has_sentence	SENT_12
+[target]:not_reflects:[delta]	has_truth_value	0.9
+Heavy-drinker	[cohort]:observed_in:[biomarker]	AST:ALT ratio
+[cohort]:observed_in:[biomarker]	has_timestamp	1900-01-01
+[cohort]:observed_in:[biomarker]	has_sentence	SENT_12
+[cohort]:observed_in:[biomarker]	has_truth_value	0.9
+Heavy-drinker	[cohort]:observed_in:[delta]	<=1/ratio
+[cohort]:observed_in:[delta]	has_timestamp	1900-01-01
+[cohort]:observed_in:[delta]	has_sentence	SENT_12
+[cohort]:observed_in:[delta]	has_truth_value	0.9
+AST:ALT ratio	[biomarker]:observed_in:[cohort]	Heavy-drinker
+[biomarker]:observed_in:[cohort]	has_timestamp	1900-01-01
+[biomarker]:observed_in:[cohort]	has_sentence	SENT_12
+[biomarker]:observed_in:[cohort]	has_truth_value	0.9
+AST:ALT ratio	[biomarker]:observed_in:[delta]	<=1/ratio
+<=1/ratio	[delta]:observed_in:[cohort]	Heavy-drinker
+[delta]:observed_in:[cohort]	has_timestamp	1900-01-01
+[delta]:observed_in:[cohort]	has_sentence	SENT_12
+[delta]:observed_in:[cohort]	has_truth_value	0.9
+<=1/ratio	[delta]:observed_in:[biomarker]	AST:ALT ratio
+NAFLD	[agent]:associated_with:[target]	Glycaemic control
+Glycaemic control	[target]:associated_with:[agent]	NAFLD
+NAFLD	[agent]:associated_with:[target]	Hyperlipidaemia
+Hyperlipidaemia	[target]:associated_with:[agent]	NAFLD
+[fact_arg]:implies:[fact_arg->agent]	has_sentence	SENT_12
+associated_with	[fact_arg]:implies:[fact_arg->target]	Glycaemic control
+associated_with	[fact_arg]:implies:[fact_arg->target]	Hyperlipidaemia
+[fact_arg]:implies:[fact_arg->target]	has_sentence	SENT_12
+[fact_arg->agent]:implies:[fact_arg]	has_sentence	SENT_12
+NAFLD	[fact_arg->agent]:implies:[fact_arg->target]	Glycaemic control
+NAFLD	[fact_arg->agent]:implies:[fact_arg->target]	Hyperlipidaemia
+[fact_arg->agent]:implies:[fact_arg->target]	has_sentence	SENT_12
+Glycaemic control	[fact_arg->target]:implies:[fact_arg]	associated_with
+Hyperlipidaemia	[fact_arg->target]:implies:[fact_arg]	associated_with
+[fact_arg->target]:implies:[fact_arg]	has_sentence	SENT_12
+Glycaemic control	[fact_arg->target]:implies:[fact_arg->agent]	NAFLD
+Hyperlipidaemia	[fact_arg->target]:implies:[fact_arg->agent]	NAFLD
+[fact_arg->target]:implies:[fact_arg->agent]	has_sentence	SENT_12
+AST:ALT ratio	[agent]:not_observed:[target]	Sensitivity
+AST:ALT ratio	[agent]:not_observed:[target]	Specificity
+[agent]:not_observed:[target]	has_timestamp	1900-01-01
+[agent]:not_observed:[target]	has_sentence	SENT_13
+[agent]:not_observed:[target]	has_truth_value	0.9
+AST:ALT ratio	[agent]:not_observed:[condition]	Alcoholic liver disease
+AST:ALT ratio	[agent]:not_observed:[condition]	NAFLD
+[agent]:not_observed:[condition]	has_timestamp	1900-01-01
+[agent]:not_observed:[condition]	has_sentence	SENT_13
+[agent]:not_observed:[condition]	has_truth_value	0.9
+Sensitivity	[target]:not_observed:[agent]	AST:ALT ratio
+Specificity	[target]:not_observed:[agent]	AST:ALT ratio
+[target]:not_observed:[agent]	has_timestamp	1900-01-01
+[target]:not_observed:[agent]	has_sentence	SENT_13
+[target]:not_observed:[agent]	has_truth_value	0.9
+Sensitivity	[target]:not_observed:[condition]	Alcoholic liver disease
+Sensitivity	[target]:not_observed:[condition]	NAFLD
+Specificity	[target]:not_observed:[condition]	Alcoholic liver disease
+Specificity	[target]:not_observed:[condition]	NAFLD
+[target]:not_observed:[condition]	has_timestamp	1900-01-01
+[target]:not_observed:[condition]	has_sentence	SENT_13
+[target]:not_observed:[condition]	has_truth_value	0.9
+Alcoholic liver disease	[condition]:not_observed:[agent]	AST:ALT ratio
+NAFLD	[condition]:not_observed:[agent]	AST:ALT ratio
+[condition]:not_observed:[agent]	has_timestamp	1900-01-01
+[condition]:not_observed:[agent]	has_sentence	SENT_13
+[condition]:not_observed:[agent]	has_truth_value	0.9
+Alcoholic liver disease	[condition]:not_observed:[target]	Sensitivity
+Alcoholic liver disease	[condition]:not_observed:[target]	Specificity
+NAFLD	[condition]:not_observed:[target]	Sensitivity
+NAFLD	[condition]:not_observed:[target]	Specificity
+[condition]:not_observed:[target]	has_timestamp	1900-01-01
+[condition]:not_observed:[target]	has_sentence	SENT_13
+[condition]:not_observed:[target]	has_truth_value	0.9
+AST:ALT ratio	[agent]:not_observed:[co_agent]	combination with other factors or models
+[agent]:not_observed:[co_agent]	has_timestamp	1900-01-01
+[agent]:not_observed:[co_agent]	has_sentence	SENT_13
+[agent]:not_observed:[co_agent]	has_truth_value	0.9
+Sensitivity	[target]:not_observed:[co_agent]	combination with other factors or models
+Specificity	[target]:not_observed:[co_agent]	combination with other factors or models
+[target]:not_observed:[co_agent]	has_timestamp	1900-01-01
+[target]:not_observed:[co_agent]	has_sentence	SENT_13
+[target]:not_observed:[co_agent]	has_truth_value	0.9
+Alcoholic liver disease	[condition]:not_observed:[co_agent]	combination with other factors or models
+NAFLD	[condition]:not_observed:[co_agent]	combination with other factors or models
+[condition]:not_observed:[co_agent]	has_timestamp	1900-01-01
+[condition]:not_observed:[co_agent]	has_sentence	SENT_13
+[condition]:not_observed:[co_agent]	has_truth_value	0.9
+combination with other factors or models	[co_agent]:not_observed:[agent]	AST:ALT ratio
+[co_agent]:not_observed:[agent]	has_timestamp	1900-01-01
+[co_agent]:not_observed:[agent]	has_sentence	SENT_13
+[co_agent]:not_observed:[agent]	has_truth_value	0.9
+combination with other factors or models	[co_agent]:not_observed:[target]	Sensitivity
+combination with other factors or models	[co_agent]:not_observed:[target]	Specificity
+[co_agent]:not_observed:[target]	has_timestamp	1900-01-01
+[co_agent]:not_observed:[target]	has_sentence	SENT_13
+[co_agent]:not_observed:[target]	has_truth_value	0.9
+combination with other factors or models	[co_agent]:not_observed:[condition]	Alcoholic liver disease
+combination with other factors or models	[co_agent]:not_observed:[condition]	NAFLD
+[co_agent]:not_observed:[condition]	has_timestamp	1900-01-01
+[co_agent]:not_observed:[condition]	has_sentence	SENT_13
+[co_agent]:not_observed:[condition]	has_truth_value	0.9
+AST:ALT ratio	[agent]:causes:[effect]	Clinical guide for biopsy need
+[agent]:causes:[effect]	has_sentence	SENT_13
+AST:ALT ratio	[agent]:causes:[action]	Liver biopsy
+[agent]:causes:[action]	has_timestamp	1900-01-01
+[agent]:causes:[action]	has_sentence	SENT_13
+[agent]:causes:[action]	has_truth_value	0.7
+Clinical guide for biopsy need	[effect]:causes:[agent]	AST:ALT ratio
+[effect]:causes:[agent]	has_sentence	SENT_13
+Clinical guide for biopsy need	[effect]:causes:[action]	Liver biopsy
+[effect]:causes:[action]	has_timestamp	1900-01-01
+[effect]:causes:[action]	has_sentence	SENT_13
+[effect]:causes:[action]	has_truth_value	0.7
+Liver biopsy	[action]:causes:[agent]	AST:ALT ratio
+[action]:causes:[agent]	has_timestamp	1900-01-01
+[action]:causes:[agent]	has_sentence	SENT_13
+[action]:causes:[agent]	has_truth_value	0.7
+Liver biopsy	[action]:causes:[effect]	Clinical guide for biopsy need
+[action]:causes:[effect]	has_timestamp	1900-01-01
+[action]:causes:[effect]	has_sentence	SENT_13
+[action]:causes:[effect]	has_truth_value	0.7
+AST:ALT ratio	[target]:requires_investigation:[action]	Liver biopsy
+[target]:requires_investigation:[action]	has_sentence	SENT_13
+Liver biopsy	[action]:requires_investigation:[target]	AST:ALT ratio
+[action]:requires_investigation:[target]	has_sentence	SENT_13
+Liver transaminases	[agent]:observed:[condition]	Cessation of alcohol intake
+[agent]:observed:[condition]	has_timestamp	1900-01-01
+[agent]:observed:[condition]	has_sentence	SENT_13
+[agent]:observed:[condition]	has_truth_value	0.9
+Liver transaminases	[agent]:observed:[delta]	worsen
+[agent]:observed:[delta]	has_timestamp	1900-01-01
+[agent]:observed:[delta]	has_sentence	SENT_13
+[agent]:observed:[delta]	has_truth_value	0.9
+Cessation of alcohol intake	[condition]:observed:[agent]	Liver transaminases
+[condition]:observed:[agent]	has_timestamp	1900-01-01
+[condition]:observed:[agent]	has_sentence	SENT_13
+[condition]:observed:[agent]	has_truth_value	0.9
+Cessation of alcohol intake	[condition]:observed:[delta]	worsen
+[condition]:observed:[delta]	has_timestamp	1900-01-01
+[condition]:observed:[delta]	has_sentence	SENT_13
+[condition]:observed:[delta]	has_truth_value	0.9
+worsen	[delta]:observed:[agent]	Liver transaminases
+[delta]:observed:[agent]	has_timestamp	1900-01-01
+[delta]:observed:[agent]	has_sentence	SENT_13
+[delta]:observed:[agent]	has_truth_value	0.9
+worsen	[delta]:observed:[condition]	Cessation of alcohol intake
+[delta]:observed:[condition]	has_timestamp	1900-01-01
+[delta]:observed:[condition]	has_sentence	SENT_13
+[delta]:observed:[condition]	has_truth_value	0.9
+Cessation of alcohol intake	[agent]:causes:[effect]	Liver transaminases
+Cessation of alcohol intake	[agent]:causes:[delta]	worsen
+[agent]:causes:[delta]	has_sentence	SENT_13
+Liver transaminases	[effect]:causes:[agent]	Cessation of alcohol intake
+Liver transaminases	[effect]:causes:[delta]	worsen
+[effect]:causes:[delta]	has_sentence	SENT_13
+worsen	[delta]:causes:[agent]	Cessation of alcohol intake
+[delta]:causes:[agent]	has_sentence	SENT_13
+worsen	[delta]:causes:[effect]	Liver transaminases
+[delta]:causes:[effect]	has_sentence	SENT_13
+ALT	[agent]:observed:[condition]	Admission to hospital
+ALT	[agent]:observed:[delta]	rise
+Admission to hospital	[condition]:observed:[agent]	ALT
+Admission to hospital	[condition]:observed:[delta]	rise
+rise	[delta]:observed:[agent]	ALT
+rise	[delta]:observed:[condition]	Admission to hospital
+Admission to hospital	[agent]:causes:[effect]	ALT
+Admission to hospital	[agent]:causes:[delta]	rise
+ALT	[effect]:causes:[agent]	Admission to hospital
+ALT	[effect]:causes:[delta]	rise
+rise	[delta]:causes:[agent]	Admission to hospital
+rise	[delta]:causes:[effect]	ALT
+ALT	[agent]:observed:[condition]	No liver disease
+No liver disease	[condition]:observed:[agent]	ALT
+No liver disease	[condition]:observed:[delta]	rise
+rise	[delta]:observed:[condition]	No liver disease
+Liver enzyme analysis	[agent]:fails_to_provide:[target]	Diagnosis of cirrhosis in NAFLD
+[agent]:fails_to_provide:[target]	has_timestamp	1900-01-01
+[agent]:fails_to_provide:[target]	has_sentence	SENT_14
+[agent]:fails_to_provide:[target]	has_truth_value	0.9
+Diagnosis of cirrhosis in NAFLD	[target]:fails_to_provide:[agent]	Liver enzyme analysis
+[target]:fails_to_provide:[agent]	has_timestamp	1900-01-01
+[target]:fails_to_provide:[agent]	has_sentence	SENT_14
+[target]:fails_to_provide:[agent]	has_truth_value	0.9
+Liver biopsy	[target]:requires_investigation:[condition]	NASH
+[target]:requires_investigation:[condition]	has_sentence	SENT_14
+NASH	[condition]:requires_investigation:[target]	Liver biopsy
+[condition]:requires_investigation:[target]	has_sentence	SENT_14
+Liver biopsy	[target]:requires_investigation:[condition]	Cirrhosis
+Cirrhosis	[condition]:requires_investigation:[target]	Liver biopsy
+Liver enzyme analysis	[agent]:role_in:[target]	Early identification of metabolic risk factors
+[agent]:role_in:[target]	has_timestamp	1900-01-01
+[agent]:role_in:[target]	has_sentence	SENT_14
+[agent]:role_in:[target]	has_truth_value	0.9
+Liver enzyme analysis	[agent]:role_in:[condition]	NAFLD
+[agent]:role_in:[condition]	has_timestamp	1900-01-01
+[agent]:role_in:[condition]	has_sentence	SENT_14
+[agent]:role_in:[condition]	has_truth_value	0.9
+Early identification of metabolic risk factors	[target]:role_in:[agent]	Liver enzyme analysis
+[target]:role_in:[agent]	has_timestamp	1900-01-01
+[target]:role_in:[agent]	has_sentence	SENT_14
+[target]:role_in:[agent]	has_truth_value	0.9
+Early identification of metabolic risk factors	[target]:role_in:[condition]	NAFLD
+[target]:role_in:[condition]	has_timestamp	1900-01-01
+[target]:role_in:[condition]	has_sentence	SENT_14
+[target]:role_in:[condition]	has_truth_value	0.9
+NAFLD	[condition]:role_in:[agent]	Liver enzyme analysis
+[condition]:role_in:[agent]	has_timestamp	1900-01-01
+[condition]:role_in:[agent]	has_sentence	SENT_14
+[condition]:role_in:[agent]	has_truth_value	0.9
+NAFLD	[condition]:role_in:[target]	Early identification of metabolic risk factors
+[condition]:role_in:[target]	has_timestamp	1900-01-01
+[condition]:role_in:[target]	has_sentence	SENT_14
+[condition]:role_in:[target]	has_truth_value	0.9
+Liver enzyme analysis	[agent]:role_in:[target]	Modification of metabolic risk factors
+Modification of metabolic risk factors	[target]:role_in:[agent]	Liver enzyme analysis
+Modification of metabolic risk factors	[target]:role_in:[condition]	NAFLD
+NAFLD	[condition]:role_in:[target]	Modification of metabolic risk factors
+Liver enzyme analysis	[agent]:role_in:[target]	Risk stratification
+Risk stratification	[target]:role_in:[agent]	Liver enzyme analysis
+Risk stratification	[target]:role_in:[condition]	NAFLD
+NAFLD	[condition]:role_in:[target]	Risk stratification

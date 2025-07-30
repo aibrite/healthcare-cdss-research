@@ -1,0 +1,272 @@
+{
+  "graph_type": "N-tuple Hyper-Relational Temporal Knowledge Graph",
+  "entities": [
+    {
+      "id": "E1",
+      "name": "Scoring system",
+      "type": "ClinicalTool"
+    },
+    {
+      "id": "E2",
+      "name": "Mayo clinic",
+      "type": "Institution"
+    },
+    {
+      "id": "E3",
+      "name": "Age",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E4",
+      "name": "Hyperglycemia",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E5",
+      "name": "Body mass index",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E6",
+      "name": "Platelet count",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E7",
+      "name": "Albumin",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E8",
+      "name": "AST:ALT ratio",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E9",
+      "name": "Advanced fibrosis",
+      "type": "Disease"
+    },
+    {
+      "id": "E10",
+      "name": "NAFLD",
+      "type": "Disease"
+    },
+    {
+      "id": "E11",
+      "name": "Cirrhosis",
+      "type": "Disease"
+    },
+    {
+      "id": "E12",
+      "name": "Underlying disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E13",
+      "name": "Alcohol abuse",
+      "type": "Condition"
+    },
+    {
+      "id": "E14",
+      "name": "Score >1",
+      "type": "Threshold"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "predicate": "differentiates",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_15",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E10",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "component",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "component",
+          "entity": "E4",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "component",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "component",
+          "entity": "E6",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "component",
+          "entity": "E7",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "component",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F2",
+      "predicate": "specificity_decreases",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_15",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E12",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F3",
+      "predicate": "level_increases",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_15",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E12",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F4",
+      "predicate": "useful_for",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_15",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E10",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E13",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F5",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_15",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E10",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E13",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "threshold",
+          "entity": "E14",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "consider cirrhosis",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F6",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_15",
+      "tuple": null,
+      "arguments": [
+        "F4",
+        "F5"
+      ]
+    }
+  ],
+  "metadata": {
+    "sentence_id": "SENT_15",
+    "source_sentence": "A scoring system developed at the Mayo clinic uses age, hyperglycemia, body mass index, platelet count, albumin, and AST:ALT ratio to accurately differentiate patients with advanced fibrosis in NAFLD. the AST:ALT Ratio becomes considerably less specific in determining underlying disease with the development of cirrhosis, as the AST:ALT Ratio will increase across a broad range of diseases. the AST:ALT Ratio is, however, useful in NAFLD patients known not to be abusing alcohol as a score of >1 should lead to the consideration that NAFLD patients known not to be abusing alcohol may have developed cirrhosis."
+  }
+}

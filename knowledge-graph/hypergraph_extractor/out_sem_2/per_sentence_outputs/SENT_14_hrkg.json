@@ -1,0 +1,287 @@
+{
+  "graph_type": "N-tuple Hyper-Relational Temporal Knowledge Graph",
+  "entities": [
+    {
+      "id": "E1",
+      "name": "NAFLD",
+      "type": "Disease"
+    },
+    {
+      "id": "E2",
+      "name": "Cirrhosis",
+      "type": "Disease"
+    },
+    {
+      "id": "E3",
+      "name": "Liver enzyme analysis",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E4",
+      "name": "Diagnosis of cirrhosis in NAFLD",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E5",
+      "name": "Liver biopsy",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E6",
+      "name": "NASH",
+      "type": "Disease"
+    },
+    {
+      "id": "E7",
+      "name": "Early identification of metabolic risk factors",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E8",
+      "name": "Modification of metabolic risk factors",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E9",
+      "name": "Risk stratification",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E10",
+      "name": "Hypertension",
+      "type": "Disease"
+    },
+    {
+      "id": "E11",
+      "name": "Hyperlipidaemia",
+      "type": "Disease"
+    },
+    {
+      "id": "E12",
+      "name": "Glycaemic control",
+      "type": "Endpoint"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "predicate": "fails_to_provide",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E4",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F2",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E6",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F3",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F4",
+      "predicate": "role_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E7",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F5",
+      "predicate": "role_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F6",
+      "predicate": "role_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F7",
+      "predicate": "associated_with",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E10",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F8",
+      "predicate": "associated_with",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F9",
+      "predicate": "associated_with",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E12",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    }
+  ],
+  "metadata": {
+    "sentence_id": "SENT_14",
+    "source_sentence": "Although models exist which exclude cirrhosis in NAFLD with reasonable accuracy, liver enzyme analysis has so far failed to provide a sensitive and specific enough means to make a diagnosis. At present liver biopsy cannot be avoided in cases where confirmation of NASH or cirrhosis is necessary. The role of liver enzyme analysis in NAFLD lies in both the early identification and modification of associated metabolic risk factors such as hypertension, hyperlipidaemia and glycaemic control and in risk stratification for the future."
+  }
+}

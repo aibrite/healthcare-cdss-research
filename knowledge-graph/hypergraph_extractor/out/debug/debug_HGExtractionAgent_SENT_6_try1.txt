@@ -1,0 +1,144 @@
+```json
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "metadata": {
+    "source_id": "SENT_6",
+    "source_sentence": "In Primary Biliary Cirrhosis, an autoimmune condition of the intrahepatic biliary ducts, the level of ALP is generally greater than that of GGT. In this case, transaminases are invariably normal or only minimally elevated. Both the European Association for Study of the Liver (EASL) and the American Association for Study of Liver Disease (AASLD) recommend that a diagnosis of PBC may be based on cholestatic liver enzyme levels in conjunction with the demonstration of antimitochondrial antibodies. If either of these two criteria is absent, imaging and liver biopsy become necessary.",
+    "timestamp": "1900-01-01"
+  },
+  "nodes": [
+    { "id": "n_pbc", "atom_type": "ConceptNode", "name": "Primary Biliary Cirrhosis" },
+    { "id": "n_autoimmune", "atom_type": "ConceptNode", "name": "Autoimmune condition" },
+    { "id": "n_intrahepatic_biliary_ducts", "atom_type": "ConceptNode", "name": "Intrahepatic biliary ducts" },
+    { "id": "n_alp", "atom_type": "ConceptNode", "name": "Alkaline phosphatase" },
+    { "id": "n_ggt", "atom_type": "ConceptNode", "name": "Gamma-glutamyl transferase" },
+    { "id": "n_transaminases", "atom_type": "ConceptNode", "name": "Transaminases" },
+    { "id": "n_cholestatic_enzymes", "atom_type": "ConceptNode", "name": "Cholestatic liver enzyme levels" },
+    { "id": "n_ama", "atom_type": "ConceptNode", "name": "Antimitochondrial antibodies" },
+    { "id": "n_diagnosis", "atom_type": "ConceptNode", "name": "Diagnosis of Primary Biliary Cirrhosis" },
+    { "id": "n_imaging", "atom_type": "ConceptNode", "name": "Imaging" },
+    { "id": "n_liver_biopsy", "atom_type": "ConceptNode", "name": "Liver biopsy" },
+    { "id": "n_easl", "atom_type": "ConceptNode", "name": "European Association for Study of the Liver" },
+    { "id": "n_aasld", "atom_type": "ConceptNode", "name": "American Association for Study of Liver Disease" },
+    { "id": "n_greater_than", "atom_type": "PredicateNode", "name": "greater_than" },
+    { "id": "n_normal", "atom_type": "PredicateNode", "name": "normal" },
+    { "id": "n_minimally_elevated", "atom_type": "PredicateNode", "name": "minimally_elevated" },
+    { "id": "n_recommend", "atom_type": "PredicateNode", "name": "recommend" },
+    { "id": "n_based_on", "atom_type": "PredicateNode", "name": "based_on" },
+    { "id": "n_conjunction_with", "atom_type": "PredicateNode", "name": "conjunction_with" },
+    { "id": "n_requires", "atom_type": "PredicateNode", "name": "requires" },
+    { "id": "n_sentence", "atom_type": "SentenceNode", "name": "SENT_6" },
+    { "id": "n_timestamp", "atom_type": "TimestampNode", "name": "1900-01-01" }
+  ],
+  "links": [
+    {
+      "id": "l_autoimmune",
+      "link_type": "EvaluationLink",
+      "predicate": "n_autoimmune",
+      "arguments": ["n_pbc"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_affects",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_pbc", "n_intrahepatic_biliary_ducts"],
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_alp_gt_ggt",
+      "link_type": "EvaluationLink",
+      "predicate": "n_greater_than",
+      "arguments": ["n_alp", "n_ggt", "n_pbc"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_transaminases_normal",
+      "link_type": "EvaluationLink",
+      "predicate": "n_normal",
+      "arguments": ["n_transaminases", "n_pbc"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_transaminases_min_elev",
+      "link_type": "EvaluationLink",
+      "predicate": "n_minimally_elevated",
+      "arguments": ["n_transaminases", "n_pbc"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_recommend_diag",
+      "link_type": "EvaluationLink",
+      "predicate": "n_recommend",
+      "arguments": ["n_easl", "n_aasld", "n_diagnosis", "n_cholestatic_enzymes", "n_ama"],
+      "truth_value": [0.60, 0.50]
+    },
+    {
+      "id": "l_diag_based_on",
+      "link_type": "EvaluationLink",
+      "predicate": "n_based_on",
+      "arguments": ["n_diagnosis", "n_cholestatic_enzymes", "n_ama"],
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_diag_conjunction",
+      "link_type": "EvaluationLink",
+      "predicate": "n_conjunction_with",
+      "arguments": ["n_cholestatic_enzymes", "n_ama"],
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_requires_imaging_biopsy",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_diagnosis", "n_imaging", "n_liver_biopsy"],
+      "truth_value": [0.60, 0.50]
+    },
+    {
+      "id": "l_ctx_autoimmune",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_autoimmune"]
+    },
+    {
+      "id": "l_ctx_affects",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_affects"]
+    },
+    {
+      "id": "l_ctx_alp_gt_ggt",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_alp_gt_ggt"]
+    },
+    {
+      "id": "l_ctx_transaminases_normal",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_transaminases_normal"]
+    },
+    {
+      "id": "l_ctx_transaminases_min_elev",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_transaminases_min_elev"]
+    },
+    {
+      "id": "l_ctx_recommend_diag",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_recommend_diag"]
+    },
+    {
+      "id": "l_ctx_diag_based_on",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_diag_based_on"]
+    },
+    {
+      "id": "l_ctx_diag_conjunction",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_diag_conjunction"]
+    },
+    {
+      "id": "l_ctx_requires_imaging_biopsy",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_requires_imaging_biopsy"]
+    }
+  ]
+}
+```

@@ -1,0 +1,47 @@
+Certainly! Here’s a schema generation prompt tailored for the "HG" context. If you have a specific domain or data type in mind for "HG," please clarify for further customization. Below is a general-purpose schema generation prompt:
+
+---
+
+**Schema Generation Prompt for HG**
+
+You are an expert data architect. Your task is to generate a comprehensive and well-structured schema for the "HG" dataset/application. Please follow these instructions:
+
+1. **Identify Entities:** List all major entities relevant to the "HG" context.
+2. **Define Attributes:** For each entity, specify its attributes, including data types and constraints (e.g., required, unique).
+3. **Establish Relationships:** Clearly define relationships between entities (e.g., one-to-many, many-to-many), including foreign keys where appropriate.
+4. **Normalization:** Ensure the schema is normalized to at least the third normal form (3NF) to reduce redundancy and improve data integrity.
+5. **Sample Output Format:**  
+   - Entity Name  
+     - Attribute 1 (Data Type, Constraints)  
+     - Attribute 2 (Data Type, Constraints)  
+     - ...  
+   - Relationships:  
+     - [Entity1] [Relationship Type] [Entity2] (Foreign Key, etc.)
+
+6. **Optional Enhancements:**  
+   - Include indexes for frequently queried fields.  
+   - Suggest validation rules or triggers if applicable.
+
+**Example Output:**
+
+- **User**
+  - user_id (UUID, Primary Key, Required)
+  - name (String, Required)
+  - email (String, Required, Unique)
+  - created_at (Timestamp, Required)
+- **Post**
+  - post_id (UUID, Primary Key, Required)
+  - user_id (UUID, Foreign Key → User.user_id, Required)
+  - content (Text, Required)
+  - created_at (Timestamp, Required)
+- **Relationships:**
+  - User 1:N Post (user_id foreign key in Post)
+
+---
+
+**Instructions:**  
+Generate the schema for "HG" following the above guidelines. If any assumptions are made about the domain or data, please state them clearly at the beginning of your response.
+
+---
+
+Let me know if you need this tailored for a specific use case or data domain!

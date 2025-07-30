@@ -1,0 +1,79 @@
+```json
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "metadata": {
+    "source_sentence_id": "SENT_3",
+    "source_sentence": "This paper offers an insight to generalists of how to yield greater information from this simple test. Patterns and Use of Hepatic Enzymes in Practice The liver enzyme profile should always be assessed in conjunction with a thorough history and clinical examination. Despite a thorough history and clinical examination, there are many occasions when doubt persists over an underlying diagnosis. For example, does an overweight diabetic who enjoys a few glasses of wine at the weekend have alcoholic or non-alcoholic fatty liver disease? In such circumstances the absolute liver enzyme levels and ratios may point the clinician in the right direction. Furthermore, the pattern of enzymes will assist, not only with differentiating between cholestasis and hepatitis, but will aid diagnosis when there is a mixed picture."
+  },
+  "nodes": [
+    { "id": "n_sentence", "atom_type": "ConceptNode", "name": "SENT_3" },
+    { "id": "n_hepatic_enzymes", "atom_type": "ConceptNode", "name": "Hepatic enzymes" },
+    { "id": "n_liver_enzyme_profile", "atom_type": "ConceptNode", "name": "Liver enzyme profile" },
+    { "id": "n_history_exam", "atom_type": "ConceptNode", "name": "History and clinical examination" },
+    { "id": "n_alcoholic_fatty_liver", "atom_type": "ConceptNode", "name": "Alcoholic fatty liver disease" },
+    { "id": "n_nafld", "atom_type": "ConceptNode", "name": "Non-alcoholic fatty liver disease" },
+    { "id": "n_cholestasis", "atom_type": "ConceptNode", "name": "Cholestasis" },
+    { "id": "n_hepatitis", "atom_type": "ConceptNode", "name": "Hepatitis" },
+    { "id": "n_mixed_liver_picture", "atom_type": "ConceptNode", "name": "Mixed liver disease picture" },
+    { "id": "n_diagnosis", "atom_type": "ConceptNode", "name": "Diagnosis" },
+    { "id": "n_pattern_of_enzymes", "atom_type": "ConceptNode", "name": "Pattern of hepatic enzymes" },
+    { "id": "n_enzyme_levels_ratios", "atom_type": "ConceptNode", "name": "Absolute liver enzyme levels and ratios" },
+    { "id": "n_differentiates", "atom_type": "PredicateNode", "name": "differentiates" },
+    { "id": "n_assists", "atom_type": "PredicateNode", "name": "assists" },
+    { "id": "n_aids", "atom_type": "PredicateNode", "name": "aids" },
+    { "id": "n_points", "atom_type": "PredicateNode", "name": "points" },
+    { "id": "n_should_be_assessed_with", "atom_type": "PredicateNode", "name": "should_be_assessed_with" },
+    { "id": "n_timestamp", "atom_type": "TimestampNode", "name": "1900-01-01" }
+  ],
+  "links": [
+    {
+      "id": "l_assess_profile",
+      "link_type": "EvaluationLink",
+      "predicate": "n_should_be_assessed_with",
+      "arguments": ["n_liver_enzyme_profile", "n_history_exam"],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_point_direction",
+      "link_type": "EvaluationLink",
+      "predicate": "n_points",
+      "arguments": ["n_enzyme_levels_ratios", "n_diagnosis"],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_diff_cholestasis",
+      "link_type": "EvaluationLink",
+      "predicate": "n_differentiates",
+      "arguments": ["n_pattern_of_enzymes", "n_cholestasis", "n_hepatitis"],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_aid_mixed",
+      "link_type": "EvaluationLink",
+      "predicate": "n_aids",
+      "arguments": ["n_pattern_of_enzymes", "n_diagnosis", "n_mixed_liver_picture"],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_ctx_assess_profile",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_assess_profile"]
+    },
+    {
+      "id": "l_ctx_point_direction",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_point_direction"]
+    },
+    {
+      "id": "l_ctx_diff_cholestasis",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_diff_cholestasis"]
+    },
+    {
+      "id": "l_ctx_aid_mixed",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_aid_mixed"]
+    }
+  ]
+}
+```

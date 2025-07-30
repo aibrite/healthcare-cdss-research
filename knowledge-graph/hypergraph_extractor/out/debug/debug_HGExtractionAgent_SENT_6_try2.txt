@@ -1,0 +1,61 @@
+Sure! Here’s a schema generation prompt tailored for Hugging Face (HG) datasets. This prompt is designed to help you generate a clear and concise schema for a dataset you want to use or create on the Hugging Face platform.
+
+---
+
+**Prompt: Schema Generation for Hugging Face Dataset**
+
+I want to create a Hugging Face dataset. Please help me generate a schema for my dataset based on the following description:
+
+**Dataset Description:**  
+[Insert a brief description of your dataset, including its purpose, domain, and any relevant context.]
+
+**Data Fields:**  
+List and describe each field (column) in your dataset. For each field, specify:
+- Field Name
+- Data Type (e.g., string, int, float, bool, list, dict, etc.)
+- Description
+- Example Value(s)
+
+**Special Considerations:**  
+- Are there any nested structures (e.g., lists of dictionaries)?
+- Are there any fields with a fixed set of possible values (enums)?
+- Are there any fields that may be missing or optional?
+
+**Output Format:**  
+Please provide the schema in the following format (using Python dict notation as used in Hugging Face datasets):
+
+```python
+from datasets import DatasetInfo, Features, Value, ClassLabel, Sequence
+
+features = Features({
+    "field1": Value("string"),
+    "field2": Value("int32"),
+    "field3": ClassLabel(names=["label1", "label2", "label3"]),
+    "field4": Sequence(Value("float")),
+    "field5": {
+        "subfield1": Value("string"),
+        "subfield2": Value("bool"),
+    },
+    # Add more fields as needed
+})
+```
+
+**Example:**
+
+If my dataset is a sentiment analysis dataset with text and label, the schema would look like:
+
+```python
+features = Features({
+    "text": Value("string"),
+    "label": ClassLabel(names=["negative", "neutral", "positive"]),
+})
+```
+
+---
+
+**Instructions:**  
+Based on the dataset description and fields provided, generate the Hugging Face dataset schema in the format above. If you need to define custom ClassLabels or nested structures, do so accordingly.
+
+---
+
+Let me know if you want a filled-in example or a template for a specific dataset!

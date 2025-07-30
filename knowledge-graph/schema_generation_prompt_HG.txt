@@ -1,0 +1,41 @@
+INPUT TEXT (to be processed)
+============================
+<<<BEGIN_INPUT>>>
+{SENTENCE} (ID: {SENTENCE_ID})
+<<<END_INPUT>>>
+
+GOAL
+====
+Return one JSON object that represents the input as an **OpenCog AtomSpace hypergraph**.
+
+INSTRUCTIONS
+------------
+A.  Pre-processing  
+    1. Split the input into minimal factual clauses (sentences; keep compound clauses intact).  
+    2. The provenance ID for this sentence is given in the input as {SENTENCE_ID}.
+
+B.  Information extraction (for *every* clause)  
+    1. Detect entities of type: Drug, Disease, Endpoint, Biomarker, AdverseEvent,  
+       ClinicalAction, Study, Cohort, Dose, etc.  
+    2. Create *observational* links when the text **states** X reduces/increases Y.  
+    3. Create *causal* links when the text **implies** X causes Y.  
+    4. Commonsense rule: if condition is increased, assert that the  
+       drug, treatment, situation (or combo) **requires** monitoring.  
+    5. Assign `truth_value` pairs:  
+       • Observational → `[1.0, 0.9]` • Causal → `[0.85, 0.70]`   
+       • Recommendation → `[0.60, 0.50]`.
+
+C.  AtomSpace construction  
+    *Nodes* IDs `n_*` (ConceptNode, PredicateNode, NumberNode, TimestampNode).  
+    *Links* IDs `l_*` (EvaluationLink, ImplicationLink, ContextLink).  
+    • Re-use identical entities → same node ID.  
+    • Add a `ContextLink` per fact: `[TimestampNode, StudyNode(if any), FactLink]`.  
+    • Timestamp: explicit year in the clause → `YYYY-01-01`; otherwise earliest year in the text; else `"1900-01-01"`.  
+    • Use the provided {SENTENCE_ID} to create a `SentenceNode` and include it inside every ContextLink’s arguments list immediately BEFORE the FactLink (`SentenceNode` → ConceptNode).
+	• ALL *Predicates* of the *Links* should be defined in *Nodes*
+
+OUTPUT FORMAT (strict)
+======================
+• Return **only** one JSON object inside a single ````json` code-fence, nothing else.
+• Do **not** include the EXAMPLE block in the output.  
+• If no extractable biomedical relation exists between BEGIN/END markers, output `{}`.

@@ -1,0 +1,131 @@
+```json
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "metadata": {
+    "source_sentence_id": "SENT_12",
+    "source_sentence": "In patients with alcoholic liver disease, the AST:ALT ratio is >1 in 92% of patients, and >2 in 70%.13 AST:ALT scores >2 are, therefore, strongly suggestive of alcoholic liver disease and scores <1 more suggestive of the Non-alcoholic Fatty Liver Disease (NAFLD) spectrum. High ratios reflect the severity of hepatitis or underlying liver disease rather than high alcohol consumption. This means that most heavy-drinkers will not have an AST: ALT ratio >1 as most heavy-drinkers have not yet developed alcoholic liver disease (ALD).",
+    "timestamp": "1900-01-01"
+  },
+  "nodes": [
+    { "id": "n_sent12", "atom_type": "SentenceNode", "name": "SENT_12" },
+    { "id": "n_ald", "atom_type": "ConceptNode", "name": "Alcoholic liver disease" },
+    { "id": "n_nafld", "atom_type": "ConceptNode", "name": "Non-alcoholic fatty liver disease" },
+    { "id": "n_hepatitis", "atom_type": "ConceptNode", "name": "Hepatitis" },
+    { "id": "n_liver_disease", "atom_type": "ConceptNode", "name": "Underlying liver disease" },
+    { "id": "n_heavy_drinker", "atom_type": "ConceptNode", "name": "Heavy drinker" },
+    { "id": "n_ast_alt_ratio", "atom_type": "ConceptNode", "name": "AST:ALT ratio" },
+    { "id": "n_severity", "atom_type": "ConceptNode", "name": "Severity" },
+    { "id": "n_high_alcohol", "atom_type": "ConceptNode", "name": "High alcohol consumption" },
+    { "id": "n_greater_1", "atom_type": "NumberNode", "name": ">1" },
+    { "id": "n_greater_2", "atom_type": "NumberNode", "name": ">2" },
+    { "id": "n_less_1", "atom_type": "NumberNode", "name": "<1" },
+    { "id": "n_92_percent", "atom_type": "NumberNode", "name": "92%" },
+    { "id": "n_70_percent", "atom_type": "NumberNode", "name": "70%" },
+    { "id": "n_suggestive_of", "atom_type": "PredicateNode", "name": "suggestive_of" },
+    { "id": "n_reflects", "atom_type": "PredicateNode", "name": "reflects" },
+    { "id": "n_requires", "atom_type": "PredicateNode", "name": "requires" },
+    { "id": "n_developed", "atom_type": "PredicateNode", "name": "developed" },
+    { "id": "n_timestamp", "atom_type": "TimestampNode", "name": "1900-01-01" }
+  ],
+  "links": [
+    {
+      "id": "l_ald_ratio_1",
+      "link_type": "EvaluationLink",
+      "predicate": "n_suggestive_of",
+      "arguments": ["n_ast_alt_ratio", "n_greater_1", "n_ald"],
+      "attributes": { "percent_patients": "92%" },
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_ald_ratio_2",
+      "link_type": "EvaluationLink",
+      "predicate": "n_suggestive_of",
+      "arguments": ["n_ast_alt_ratio", "n_greater_2", "n_ald"],
+      "attributes": { "percent_patients": "70%" },
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_nafld_ratio_lt1",
+      "link_type": "EvaluationLink",
+      "predicate": "n_suggestive_of",
+      "arguments": ["n_ast_alt_ratio", "n_less_1", "n_nafld"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_ratio_reflects_severity",
+      "link_type": "EvaluationLink",
+      "predicate": "n_reflects",
+      "arguments": ["n_ast_alt_ratio", "n_severity", "n_hepatitis", "n_liver_disease"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_ratio_not_reflect_alcohol",
+      "link_type": "EvaluationLink",
+      "predicate": "n_reflects",
+      "arguments": ["n_ast_alt_ratio", "n_high_alcohol"],
+      "truth_value": [1.0, 0.1]
+    },
+    {
+      "id": "l_heavy_drinker_no_ratio",
+      "link_type": "EvaluationLink",
+      "predicate": "n_suggestive_of",
+      "arguments": ["n_heavy_drinker", "n_ast_alt_ratio", "n_greater_1"],
+      "truth_value": [1.0, 0.1]
+    },
+    {
+      "id": "l_heavy_drinker_not_developed_ald",
+      "link_type": "EvaluationLink",
+      "predicate": "n_developed",
+      "arguments": ["n_heavy_drinker", "n_ald"],
+      "truth_value": [1.0, 0.1]
+    },
+    {
+      "id": "l_high_ratio_requires_monitoring",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_ast_alt_ratio", "n_greater_2", "n_severity"],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_ctx_ald_ratio_1",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent12", "l_ald_ratio_1"]
+    },
+    {
+      "id": "l_ctx_ald_ratio_2",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent12", "l_ald_ratio_2"]
+    },
+    {
+      "id": "l_ctx_nafld_ratio_lt1",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent12", "l_nafld_ratio_lt1"]
+    },
+    {
+      "id": "l_ctx_ratio_reflects_severity",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent12", "l_ratio_reflects_severity"]
+    },
+    {
+      "id": "l_ctx_ratio_not_reflect_alcohol",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent12", "l_ratio_not_reflect_alcohol"]
+    },
+    {
+      "id": "l_ctx_heavy_drinker_no_ratio",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent12", "l_heavy_drinker_no_ratio"]
+    },
+    {
+      "id": "l_ctx_heavy_drinker_not_developed_ald",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent12", "l_heavy_drinker_not_developed_ald"]
+    },
+    {
+      "id": "l_ctx_high_ratio_requires_monitoring",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent12", "l_high_ratio_requires_monitoring"]
+    }
+  ]
+}
+```

@@ -1,0 +1,116 @@
+```json
+{
+  "graph_type": "N-tuple Hyper-Relational Temporal Knowledge Graph",
+  "metadata": {
+    "sentence_id": "SENT_6",
+    "source_sentence": "In Primary Biliary Cirrhosis, an autoimmune condition of the intrahepatic biliary ducts, the level of ALP is generally greater than that of GGT. In this case, transaminases are invariably normal or only minimally elevated. Both the European Association for Study of the Liver (EASL) and the American Association for Study of Liver Disease (AASLD) recommend that a diagnosis of PBC may be based on cholestatic liver enzyme levels in conjunction with the demonstration of antimitochondrial antibodies. If either of these two criteria is absent, imaging and liver biopsy become necessary."
+  },
+  "entities": [
+    { "id": "E1", "name": "Primary Biliary Cirrhosis", "type": "Disease" },
+    { "id": "E2", "name": "intrahepatic biliary ducts", "type": "AnatomicalStructure" },
+    { "id": "E3", "name": "ALP", "type": "Biomarker" },
+    { "id": "E4", "name": "GGT", "type": "Biomarker" },
+    { "id": "E5", "name": "transaminases", "type": "Biomarker" },
+    { "id": "E6", "name": "cholestatic liver enzyme levels", "type": "Biomarker" },
+    { "id": "E7", "name": "antimitochondrial antibodies", "type": "Biomarker" },
+    { "id": "E8", "name": "diagnosis of PBC", "type": "ClinicalAction" },
+    { "id": "E9", "name": "imaging", "type": "ClinicalAction" },
+    { "id": "E10", "name": "liver biopsy", "type": "ClinicalAction" },
+    { "id": "E11", "name": "European Association for Study of the Liver", "type": "Organization" },
+    { "id": "E12", "name": "American Association for Study of Liver Disease", "type": "Organization" }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "predicate": "observed_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.90,
+      "sentence_id": "SENT_6",
+      "tuple": [
+        { "role": "agent", "entity": "E1" },
+        { "role": "target", "entity": "E2" }
+      ]
+    },
+    {
+      "id": "F2",
+      "predicate": "greater_than",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.90,
+      "sentence_id": "SENT_6",
+      "tuple": [
+        { "role": "agent", "entity": "E3" },
+        { "role": "comparator", "entity": "E4" },
+        { "role": "condition", "entity": "E1" }
+      ]
+    },
+    {
+      "id": "F3",
+      "predicate": "normal_or_minimally_elevated",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.90,
+      "sentence_id": "SENT_6",
+      "tuple": [
+        { "role": "agent", "entity": "E5" },
+        { "role": "condition", "entity": "E1" }
+      ]
+    },
+    {
+      "id": "F4",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [0.85, 0.70],
+      "sentence_id": "SENT_6",
+      "tuple": [
+        { "role": "agent", "entity": "E1" },
+        { "role": "effect", "entity": "E3" },
+        { "role": "effect", "entity": "E4" }
+      ]
+    },
+    {
+      "id": "F5",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [0.85, 0.70],
+      "sentence_id": "SENT_6",
+      "tuple": [
+        { "role": "agent", "entity": "E1" },
+        { "role": "effect", "entity": "E5" }
+      ]
+    },
+    {
+      "id": "F6",
+      "predicate": "recommends",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.60,
+      "sentence_id": "SENT_6",
+      "tuple": [
+        { "role": "agent", "entity": "E11" },
+        { "role": "co_agent", "entity": "E12" },
+        { "role": "action", "entity": "E8" },
+        { "role": "criteria", "entity": "E6" },
+        { "role": "criteria", "entity": "E7" }
+      ]
+    },
+    {
+      "id": "F7",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.60,
+      "sentence_id": "SENT_6",
+      "tuple": [
+        { "role": "action", "entity": "E9" },
+        { "role": "action", "entity": "E10" },
+        { "role": "condition", "literal": "absence of either cholestatic liver enzyme levels or antimitochondrial antibodies", "datatype": "string" }
+      ]
+    },
+    {
+      "id": "F8",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [0.85, 0.70],
+      "sentence_id": "SENT_6",
+      "arguments": ["F6", "F7"]
+    }
+  ]
+}
+```

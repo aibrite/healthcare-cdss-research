@@ -1,0 +1,212 @@
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "nodes": [
+    {
+      "id": "n_sent7",
+      "atom_type": "SentenceNode",
+      "name": "SENT_7"
+    },
+    {
+      "id": "n_ursodeoxycholic_acid",
+      "atom_type": "ConceptNode",
+      "name": "Ursodeoxycholic acid"
+    },
+    {
+      "id": "n_pbc",
+      "atom_type": "ConceptNode",
+      "name": "Primary Biliary Cholangitis"
+    },
+    {
+      "id": "n_ast",
+      "atom_type": "ConceptNode",
+      "name": "AST"
+    },
+    {
+      "id": "n_alp",
+      "atom_type": "ConceptNode",
+      "name": "ALP"
+    },
+    {
+      "id": "n_monitor",
+      "atom_type": "PredicateNode",
+      "name": "monitor"
+    },
+    {
+      "id": "n_effects",
+      "atom_type": "ConceptNode",
+      "name": "effects"
+    },
+    {
+      "id": "n_scoring_criteria",
+      "atom_type": "ConceptNode",
+      "name": "scoring criteria"
+    },
+    {
+      "id": "n_raised_ast_alt_ratio",
+      "atom_type": "ConceptNode",
+      "name": "raised AST:ALT ratio"
+    },
+    {
+      "id": "n_outperforms",
+      "atom_type": "PredicateNode",
+      "name": "outperforms"
+    },
+    {
+      "id": "n_nonhist_indicators_cirrhosis",
+      "atom_type": "ConceptNode",
+      "name": "non-histological indicators of cirrhosis"
+    },
+    {
+      "id": "n_cirrhosis",
+      "atom_type": "ConceptNode",
+      "name": "cirrhosis"
+    },
+    {
+      "id": "n_sensitivity",
+      "atom_type": "ConceptNode",
+      "name": "sensitivity"
+    },
+    {
+      "id": "n_specificity",
+      "atom_type": "ConceptNode",
+      "name": "specificity"
+    },
+    {
+      "id": "n_liver_enzymes",
+      "atom_type": "ConceptNode",
+      "name": "liver enzymes"
+    },
+    {
+      "id": "n_psc",
+      "atom_type": "ConceptNode",
+      "name": "Primary Sclerosing Cholangitis"
+    },
+    {
+      "id": "n_diagnosis",
+      "atom_type": "PredicateNode",
+      "name": "diagnosis"
+    },
+    {
+      "id": "n_key_role",
+      "atom_type": "PredicateNode",
+      "name": "key role"
+    },
+    {
+      "id": "n_requires",
+      "atom_type": "PredicateNode",
+      "name": "requires"
+    },
+    {
+      "id": "n_timestamp",
+      "atom_type": "TimestampNode",
+      "name": "1900-01-01"
+    },
+    {
+      "id": "n_study",
+      "atom_type": "ConceptNode",
+      "name": "recent study"
+    }
+  ],
+  "links": [
+    {
+      "id": "l_monitoring",
+      "link_type": "EvaluationLink",
+      "predicate": "n_monitor",
+      "arguments": [
+        "n_scoring_criteria",
+        "n_ast",
+        "n_alp",
+        "n_effects",
+        "n_ursodeoxycholic_acid",
+        "n_pbc"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_outperform",
+      "link_type": "EvaluationLink",
+      "predicate": "n_outperforms",
+      "arguments": [
+        "n_raised_ast_alt_ratio",
+        "n_nonhist_indicators_cirrhosis",
+        "n_pbc"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_requires_monitoring",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": [
+        "n_raised_ast_alt_ratio",
+        "n_monitor"
+      ],
+      "truth_value": [
+        0.6,
+        0.5
+      ]
+    },
+    {
+      "id": "l_key_role_psc",
+      "link_type": "EvaluationLink",
+      "predicate": "n_key_role",
+      "arguments": [
+        "n_liver_enzymes",
+        "n_diagnosis",
+        "n_psc"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_ctx_monitoring",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent7",
+        "l_monitoring"
+      ]
+    },
+    {
+      "id": "l_ctx_outperform",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_study",
+        "n_sent7",
+        "l_outperform"
+      ]
+    },
+    {
+      "id": "l_ctx_requires_monitoring",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent7",
+        "l_requires_monitoring"
+      ]
+    },
+    {
+      "id": "l_ctx_key_role_psc",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent7",
+        "l_key_role_psc"
+      ]
+    }
+  ],
+  "metadata": {
+    "source_sentence_id": "SENT_7",
+    "source_sentence": "AST and ALP are used within some scoring criteria to monitor the effects of ursodeoxycholic acid in the management of PBC. A recent study has shown that a raised AST:ALT ratio outperforms other non-histological indicators of cirrhosis in PBC, but still only achieves a low sensitivity and a specificity of 65-79%. As with PBC, liver enzymes play a key role in the diagnosis of Primary Sclerosing Cholangitis (PSC).",
+    "publication_year": 1900
+  }
+}

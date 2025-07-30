@@ -1,0 +1,60 @@
+Sure! Here’s a template prompt for generating a schema from a text description, tailored for the "HG" (likely "HuggingFace" or "Human-Generated") context. This prompt is designed to instruct an LLM to extract or generate a structured schema (e.g., in JSON Schema, Pydantic, or similar formats) from a natural language description.
+
+---
+
+**Prompt: Schema Generation from Text Description (HG)**
+
+You are an expert data architect. Given the following text description of a data object, generate a detailed schema in JSON Schema format. The schema should accurately capture all fields, their types, required/optional status, and any constraints or enumerations mentioned or implied in the description. If the description is ambiguous, make reasonable assumptions and document them as comments in the schema.
+
+**Text Description:**
+"""
+{{Insert the text description of the data object here.}}
+"""
+
+**Instructions:**
+- Output only the JSON Schema (in JSON format).
+- Include comments (using the "description" field in JSON Schema) to explain assumptions or clarify ambiguous fields.
+- Use appropriate data types (string, integer, boolean, array, object, etc.).
+- Mark required fields as per the description.
+- If enumerations or value constraints are mentioned, include them.
+- If nested objects or arrays are described, model them appropriately.
+- Do not include any explanation outside the schema.
+
+**Example Input:**
+"""
+A user profile contains a username (string), email address (string, must be a valid email), age (integer, optional), and a list of interests (array of strings).
+"""
+
+**Example Output:**
+```json
+{
+  "type": "object",
+  "properties": {
+    "username": {
+      "type": "string",
+      "description": "The user's username."
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "The user's email address. Must be a valid email."
+    },
+    "age": {
+      "type": "integer",
+      "description": "The user's age. Optional field."
+    },
+    "interests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "A list of the user's interests."
+    }
+  },
+  "required": ["username", "email", "interests"]
+}
+```
+
+---
+
+Replace the example input with your own text description to generate a schema.

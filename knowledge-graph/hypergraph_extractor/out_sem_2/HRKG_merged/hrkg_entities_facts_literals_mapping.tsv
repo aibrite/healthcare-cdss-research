@@ -1,0 +1,314 @@
+label	kind	id_or_literal	name_or_value	role_or_type
+Liver enzymes	entity	E1	Liver enzymes	Biomarker
+Evaluation	entity	E2	Evaluation	ClinicalAction
+Disease	entity	E3	Disease	Disease
+Hepatitic disorder	entity	E4	Hepatitic disorder	Disease
+Cholestatic disorder	entity	E5	Cholestatic disorder	Disease
+Enzyme ratios	entity	E6	Enzyme ratios	Biomarker
+Pattern recognition	entity	E7	Pattern recognition	Concept
+Liver disease	entity	E8	Liver disease	Disease
+Investigation	entity	E9	Investigation	ClinicalAction
+Management	entity	E10	Management	ClinicalAction
+Liver Function Tests	entity	E11	Liver Function Tests	Biomarker
+Screening blood tests	entity	E12	Screening blood tests	ClinicalAction
+Disease activity	entity	E13	Disease activity	Endpoint
+Blood analysis	entity	E14	Blood analysis	ClinicalAction
+Bilirubin	entity	E15	Bilirubin	Biomarker
+Albumin	entity	E16	Albumin	Biomarker
+Functional capacity of the liver	entity	E17	Functional capacity of the liver	Endpoint
+Liver enzyme profile	entity	E18	Liver enzyme profile	Biomarker
+History and clinical examination	entity	E19	History and clinical examination	ClinicalAction
+Alcoholic fatty liver disease	entity	E20	Alcoholic fatty liver disease	Disease
+Non-alcoholic fatty liver disease	entity	E21	Non-alcoholic fatty liver disease	Disease
+Cholestasis	entity	E22	Cholestasis	Disease
+Hepatitis	entity	E23	Hepatitis	Disease
+Diagnosis	entity	E24	Diagnosis	ClinicalAction
+Absolute liver enzyme levels	entity	E25	Absolute liver enzyme levels	Biomarker
+Liver enzyme ratios	entity	E26	Liver enzyme ratios	Biomarker
+Pattern of enzymes	entity	E27	Pattern of enzymes	Biomarker
+Mixed picture	entity	E28	Mixed picture	ClinicalFinding
+Mechanical biliary obstruction	entity	E29	Mechanical biliary obstruction	Disease
+ALP	entity	E30	ALP	Biomarker
+GGT	entity	E31	GGT	Biomarker
+ALT	entity	E32	ALT	Biomarker
+Hepatobiliary source	entity	E33	Hepatobiliary source	Disease
+Single enzyme elevation	entity	E34	Single enzyme elevation	Concept
+Alternative causes	entity	E35	Alternative causes	Concept
+Choledocholithiasis	entity	E36	Choledocholithiasis	Disease
+Stricture forming disease	entity	E37	Stricture forming disease	Disease
+Liver transaminases	entity	E38	Liver transaminases	Biomarker
+AST:ALT ratio	entity	E39	AST:ALT ratio	Biomarker
+Biliary obstruction	entity	E40	Biliary obstruction	Disease
+Cholestatic picture	entity	E41	Cholestatic picture	Phenotype
+AST:ALT ratio <1.5	entity	E42	AST:ALT ratio <1.5	Biomarker
+Extrahepatic obstruction	entity	E43	Extrahepatic obstruction	Disease
+ALT titre	entity	E44	ALT titre	Biomarker
+AST	entity	E45	AST	Biomarker
+AST:ALT ratio >1.5	entity	E46	AST:ALT ratio >1.5	Biomarker
+Intrahepatic cholestasis	entity	E47	Intrahepatic cholestasis	Disease
+Mechanical cholestasis	entity	E48	Mechanical cholestasis	Disease
+Medical cholestasis	entity	E49	Medical cholestasis	Disease
+Drug-induced cholestasis	entity	E50	Drug-induced cholestasis	Disease
+ALT:ALP ratio <2	entity	E51	ALT:ALP ratio <2	Biomarker
+Antibiotics	entity	E52	Antibiotics	Drug
+Immunosuppressants	entity	E53	Immunosuppressants	Drug
+Tricyclic antidepressants	entity	E54	Tricyclic antidepressants	Drug
+Angiotensin converting enzyme inhibitors	entity	E55	Angiotensin converting enzyme inhibitors	Drug
+Primary Biliary Cirrhosis	entity	E56	Primary Biliary Cirrhosis	Disease
+intrahepatic biliary ducts	entity	E57	intrahepatic biliary ducts	AnatomicalStructure
+transaminases	entity	E58	transaminases	Biomarker
+cholestatic liver enzyme levels	entity	E59	cholestatic liver enzyme levels	Biomarker
+antimitochondrial antibodies	entity	E60	antimitochondrial antibodies	Biomarker
+diagnosis of PBC	entity	E61	diagnosis of PBC	ClinicalAction
+imaging	entity	E62	imaging	ClinicalAction
+liver biopsy	entity	E63	liver biopsy	ClinicalAction
+European Association for Study of the Liver	entity	E64	European Association for Study of the Liver	Organization
+American Association for Study of Liver Disease	entity	E65	American Association for Study of Liver Disease	Organization
+ursodeoxycholic acid	entity	E66	ursodeoxycholic acid	Drug
+PBC	entity	E67	PBC	Disease
+non-histological indicators of cirrhosis	entity	E68	non-histological indicators of cirrhosis	Biomarker
+cirrhosis	entity	E69	cirrhosis	Disease
+liver enzymes	entity	E70	liver enzymes	Biomarker
+Primary Sclerosing Cholangitis	entity	E71	Primary Sclerosing Cholangitis	Disease
+scoring criteria	entity	E72	scoring criteria	ClinicalAction
+diagnosis	entity	E73	diagnosis	ClinicalAction
+recent study	entity	E74	recent study	Study
+Endoscopic Retrograde Cholangiopancreatography	entity	E75	Endoscopic Retrograde Cholangiopancreatography	ClinicalAction
+Magnetic Resonance Cholangiopancreatography	entity	E76	Magnetic Resonance Cholangiopancreatography	ClinicalAction
+Liver biopsy	entity	E77	Liver biopsy	ClinicalAction
+Transaminase	entity	E78	Transaminase	Biomarker
+PSC	entity	E79	PSC	Disease
+Mayo Risk Score	entity	E80	Mayo Risk Score	Endpoint
+Disease progression in PSC	entity	E81	Disease progression in PSC	Endpoint
+Oesophageal varices	entity	E82	Oesophageal varices	Disease
+Liver diseases	entity	E83	Liver diseases	Disease
+Cirrhosis	entity	E84	Cirrhosis	Disease
+Alcohol	entity	E85	Alcohol	Drug
+Hepatic enzymes	entity	E86	Hepatic enzymes	Biomarker
+GGT:ALP ratio	entity	E87	GGT:ALP ratio	Biomarker
+Jaundice	entity	E88	Jaundice	AdverseEvent
+Macrocytosis	entity	E89	Macrocytosis	Biomarker
+Folate deficiency	entity	E90	Folate deficiency	Disease
+Vitamin B12 deficiency	entity	E91	Vitamin B12 deficiency	Disease
+Bone marrow suppression	entity	E92	Bone marrow suppression	AdverseEvent
+Alcoholic liver disease	entity	E93	Alcoholic liver disease	Disease
+Alcohol abuse	entity	E94	Alcohol abuse	Disease
+Former drinkers	entity	E95	Former drinkers	Cohort
+Current drinkers	entity	E96	Current drinkers	Cohort
+Men	entity	E97	Men	Cohort
+Daily alcohol consumption	entity	E98	Daily alcohol consumption	Exposure
+Women	entity	E99	Women	Cohort
+Binge drinking	entity	E100	Binge drinking	Exposure
+Alcohol consumption without food	entity	E101	Alcohol consumption without food	Exposure
+Alcohol intake (top two quartiles)	entity	E102	Alcohol intake (top two quartiles)	Exposure
+Non-alcoholic Fatty Liver Disease	entity	E103	Non-alcoholic Fatty Liver Disease	Disease
+pyridoxal-5’-phosphate (vitamin B6)	entity	E104	pyridoxal-5’-phosphate (vitamin B6)	Drug
+Nutritionally-deficient heavy-drinkers	entity	E105	Nutritionally-deficient heavy-drinkers	Cohort
+ALT production	entity	E106	ALT production	Endpoint
+AST production	entity	E107	AST production	Endpoint
+Absence of pyridoxal-5’-phosphate (vitamin B6)	entity	E108	Absence of pyridoxal-5’-phosphate (vitamin B6)	Condition
+Normal AST:ALT ratio <1	entity	E109	Normal AST:ALT ratio <1	Concept
+Alcohol consumption	entity	E110	Alcohol consumption	Exposure
+Heavy-drinker	entity	E111	Heavy-drinker	Cohort
+NAFLD	entity	E112	NAFLD	Disease
+Sensitivity	entity	E113	Sensitivity	Endpoint
+Specificity	entity	E114	Specificity	Endpoint
+Cessation of alcohol intake	entity	E115	Cessation of alcohol intake	ClinicalAction
+Admission to hospital	entity	E116	Admission to hospital	ClinicalAction
+No liver disease	entity	E117	No liver disease	Disease
+Clinical guide for biopsy need	entity	E118	Clinical guide for biopsy need	Concept
+Liver enzyme analysis	entity	E119	Liver enzyme analysis	Biomarker
+Diagnosis of cirrhosis in NAFLD	entity	E120	Diagnosis of cirrhosis in NAFLD	ClinicalAction
+NASH	entity	E121	NASH	Disease
+Early identification of metabolic risk factors	entity	E122	Early identification of metabolic risk factors	ClinicalAction
+Modification of metabolic risk factors	entity	E123	Modification of metabolic risk factors	ClinicalAction
+Risk stratification	entity	E124	Risk stratification	ClinicalAction
+Hypertension	entity	E125	Hypertension	Disease
+Hyperlipidaemia	entity	E126	Hyperlipidaemia	Disease
+Glycaemic control	entity	E127	Glycaemic control	Endpoint
+Scoring system	entity	E128	Scoring system	ClinicalTool
+Mayo clinic	entity	E129	Mayo clinic	Institution
+Age	entity	E130	Age	Biomarker
+Hyperglycemia	entity	E131	Hyperglycemia	Biomarker
+Body mass index	entity	E132	Body mass index	Biomarker
+Platelet count	entity	E133	Platelet count	Biomarker
+Advanced fibrosis	entity	E134	Advanced fibrosis	Disease
+Underlying disease	entity	E135	Underlying disease	Disease
+Score >1	entity	E136	Score >1	Threshold
+used_for	fact	F1_SENT_1_input_txt	used_for	.
+used_for	fact	F2_SENT_1_input_txt	used_for	.
+used_for	fact	F3_SENT_1_input_txt	used_for	.
+enables	fact	F4_SENT_1_input_txt	enables	.
+requires_investigation	fact	F5_SENT_1_input_txt	requires_investigation	.
+improves	fact	F6_SENT_1_input_txt	improves	.
+improves	fact	F7_SENT_1_input_txt	improves	.
+is_a	fact	F8_SENT_1_input_txt	is_a	.
+used_for	fact	F9_SENT_1_input_txt	used_for	.
+provides_information_on	fact	F10_SENT_2_input_txt	provides_information_on	.
+provides_information_on	fact	F11_SENT_2_input_txt	provides_information_on	.
+provides_information_on	fact	F12_SENT_2_input_txt	provides_information_on	.
+provides_information_on	fact	F13_SENT_2_input_txt	provides_information_on	.
+provides_information_on	fact	F14_SENT_2_input_txt	provides_information_on	.
+provides_information_on	fact	F15_SENT_2_input_txt	provides_information_on	.
+provides_information_on	fact	F16_SENT_2_input_txt	provides_information_on	.
+requires_investigation	fact	F17_SENT_2_input_txt	requires_investigation	.
+implies	fact	F18_SENT_2_input_txt	implies	.
+requires_investigation	fact	F19_SENT_3_input_txt	requires_investigation	.
+requires_investigation	fact	F20_SENT_3_input_txt	requires_investigation	.
+requires_investigation	fact	F21_SENT_3_input_txt	requires_investigation	.
+requires_investigation	fact	F22_SENT_3_input_txt	requires_investigation	.
+implies	fact	F23_SENT_3_input_txt	implies	.
+causes	fact	F24_SENT_4_input_txt	causes	.
+causes	fact	F25_SENT_4_input_txt	causes	.
+causes	fact	F26_SENT_4_input_txt	causes	.
+observational	fact	F27_SENT_4_input_txt	observational	.
+observational	fact	F28_SENT_4_input_txt	observational	.
+causes	fact	F29_SENT_4_input_txt	causes	.
+requires_investigation	fact	F30_SENT_4_input_txt	requires_investigation	.
+causes	fact	F31_SENT_4_input_txt	causes	.
+observational	fact	F32_SENT_4_input_txt	observational	.
+observational	fact	F33_SENT_4_input_txt	observational	.
+observational	fact	F34_SENT_4_input_txt	observational	.
+requires_investigation	fact	F35_SENT_5_input_txt	requires_investigation	.
+implies	fact	F36_SENT_5_input_txt	implies	.
+observational_association	fact	F37_SENT_5_input_txt	observational_association	.
+causes	fact	F38_SENT_5_input_txt	causes	.
+observational_association	fact	F39_SENT_5_input_txt	observational_association	.
+observational_association	fact	F40_SENT_5_input_txt	observational_association	.
+causes	fact	F41_SENT_5_input_txt	causes	.
+causes	fact	F42_SENT_5_input_txt	causes	.
+causes	fact	F43_SENT_5_input_txt	causes	.
+observational_association	fact	F44_SENT_5_input_txt	observational_association	.
+observational_association	fact	F45_SENT_5_input_txt	observational_association	.
+observational_association	fact	F46_SENT_5_input_txt	observational_association	.
+causes	fact	F47_SENT_5_input_txt	causes	.
+causes	fact	F48_SENT_5_input_txt	causes	.
+causes	fact	F49_SENT_5_input_txt	causes	.
+causes	fact	F50_SENT_5_input_txt	causes	.
+observed_in	fact	F51_SENT_6_input_txt	observed_in	.
+greater_than	fact	F52_SENT_6_input_txt	greater_than	.
+normal_or_minimally_elevated	fact	F53_SENT_6_input_txt	normal_or_minimally_elevated	.
+causes	fact	F54_SENT_6_input_txt	causes	.
+causes	fact	F55_SENT_6_input_txt	causes	.
+recommends	fact	F56_SENT_6_input_txt	recommends	.
+requires_investigation	fact	F57_SENT_6_input_txt	requires_investigation	.
+implies	fact	F58_SENT_6_input_txt	implies	.
+requires_monitoring	fact	F59_SENT_7_input_txt	requires_monitoring	.
+observational	fact	F60_SENT_7_input_txt	observational	.
+observational	fact	F61_SENT_7_input_txt	observational	.
+causes	fact	F62_SENT_7_input_txt	causes	.
+requires_monitoring	fact	F63_SENT_7_input_txt	requires_monitoring	.
+diagnostic_for	fact	F64_SENT_8_input_txt	diagnostic_for	.
+precludes	fact	F65_SENT_8_input_txt	precludes	.
+not_diagnostic_for	fact	F66_SENT_8_input_txt	not_diagnostic_for	.
+component_of	fact	F67_SENT_8_input_txt	component_of	.
+calculates	fact	F68_SENT_8_input_txt	calculates	.
+indicator_of	fact	F69_SENT_8_input_txt	indicator_of	.
+indicator_of	fact	F70_SENT_8_input_txt	indicator_of	.
+causes	fact	F71_SENT_9_input_txt	causes	.
+causes	fact	F72_SENT_9_input_txt	causes	.
+causes	fact	F73_SENT_9_input_txt	causes	.
+causes	fact	F74_SENT_9_input_txt	causes	.
+causes	fact	F75_SENT_9_input_txt	causes	.
+causes	fact	F76_SENT_9_input_txt	causes	.
+causes	fact	F77_SENT_9_input_txt	causes	.
+causes	fact	F78_SENT_9_input_txt	causes	.
+causes	fact	F79_SENT_9_input_txt	causes	.
+causes	fact	F80_SENT_9_input_txt	causes	.
+causes	fact	F81_SENT_9_input_txt	causes	.
+causes	fact	F82_SENT_9_input_txt	causes	.
+not_diagnostic_of	fact	F83_SENT_10_input_txt	not_diagnostic_of	.
+remains_high_in	fact	F84_SENT_10_input_txt	remains_high_in	.
+remains_high_in	fact	F85_SENT_10_input_txt	remains_high_in	.
+highest_levels_in	fact	F86_SENT_10_input_txt	highest_levels_in	.
+especially_high_levels_in	fact	F87_SENT_10_input_txt	especially_high_levels_in	.
+especially_high_levels_in	fact	F88_SENT_10_input_txt	especially_high_levels_in	.
+dose_dependence	fact	F89_SENT_10_input_txt	dose_dependence	.
+causes	fact	F90_SENT_10_input_txt	causes	.
+causes	fact	F91_SENT_10_input_txt	causes	.
+causes	fact	F92_SENT_10_input_txt	causes	.
+causes	fact	F93_SENT_10_input_txt	causes	.
+used_for_differentiation	fact	F94_SENT_11_input_txt	used_for_differentiation	.
+requires	fact	F95_SENT_11_input_txt	requires	.
+causes	fact	F96_SENT_11_input_txt	causes	.
+causes	fact	F97_SENT_11_input_txt	causes	.
+causes	fact	F98_SENT_11_input_txt	causes	.
+requires_investigation	fact	F99_SENT_11_input_txt	requires_investigation	.
+implies	fact	F100_SENT_11_input_txt	implies	.
+observed_in	fact	F101_SENT_12_input_txt	observed_in	.
+observed_in	fact	F102_SENT_12_input_txt	observed_in	.
+causes	fact	F103_SENT_12_input_txt	causes	.
+suggests	fact	F104_SENT_12_input_txt	suggests	.
+suggests	fact	F105_SENT_12_input_txt	suggests	.
+reflects	fact	F106_SENT_12_input_txt	reflects	.
+reflects	fact	F107_SENT_12_input_txt	reflects	.
+not_reflects	fact	F108_SENT_12_input_txt	not_reflects	.
+observed_in	fact	F109_SENT_12_input_txt	observed_in	.
+implies	fact	F110_SENT_12_input_txt	implies	.
+implies	fact	F111_SENT_12_input_txt	implies	.
+implies	fact	F112_SENT_12_input_txt	implies	.
+not_observed	fact	F113_SENT_13_input_txt	not_observed	.
+not_observed	fact	F114_SENT_13_input_txt	not_observed	.
+causes	fact	F115_SENT_13_input_txt	causes	.
+requires_investigation	fact	F116_SENT_13_input_txt	requires_investigation	.
+observed	fact	F117_SENT_13_input_txt	observed	.
+causes	fact	F118_SENT_13_input_txt	causes	.
+observed	fact	F119_SENT_13_input_txt	observed	.
+causes	fact	F120_SENT_13_input_txt	causes	.
+observed	fact	F121_SENT_13_input_txt	observed	.
+fails_to_provide	fact	F122_SENT_14_input_txt	fails_to_provide	.
+requires_investigation	fact	F123_SENT_14_input_txt	requires_investigation	.
+requires_investigation	fact	F124_SENT_14_input_txt	requires_investigation	.
+role_in	fact	F125_SENT_14_input_txt	role_in	.
+role_in	fact	F126_SENT_14_input_txt	role_in	.
+role_in	fact	F127_SENT_14_input_txt	role_in	.
+associated_with	fact	F128_SENT_14_input_txt	associated_with	.
+associated_with	fact	F129_SENT_14_input_txt	associated_with	.
+associated_with	fact	F130_SENT_14_input_txt	associated_with	.
+differentiates	fact	F131_SENT_15_input_txt	differentiates	.
+specificity_decreases	fact	F132_SENT_15_input_txt	specificity_decreases	.
+level_increases	fact	F133_SENT_15_input_txt	level_increases	.
+useful_for	fact	F134_SENT_15_input_txt	useful_for	.
+requires_investigation	fact	F135_SENT_15_input_txt	requires_investigation	.
+implies	fact	F136_SENT_15_input_txt	implies	.
+greater information	literal	greater information	greater information	.
+assessed in conjunction with a thorough history and clinical examination	literal	assessed in conjunction with a thorough history and clinical examination	assessed in conjunction with a thorough history and clinical examination	.
+used to differentiate between alcoholic and non-alcoholic fatty liver disease	literal	used to differentiate between alcoholic and non-alcoholic fatty liver disease	used to differentiate between alcoholic and non-alcoholic fatty liver disease	.
+used to differentiate between cholestasis and hepatitis and aid diagnosis in mixed picture	literal	used to differentiate between cholestasis and hepatitis and aid diagnosis in mixed picture	used to differentiate between cholestasis and hepatitis and aid diagnosis in mixed picture	.
+increased	literal	increased	increased	.
+increased (often)	literal	increased (often)	increased (often)	.
+markedly raised	literal	markedly raised	markedly raised	.
+elevated in similar proportions	literal	elevated in similar proportions	elevated in similar proportions	.
+consider alternative causes	literal	consider alternative causes	consider alternative causes	.
+fluctuate	literal	fluctuate	fluctuate	.
+may be normal	literal	may be normal	may be normal	.
+rise and fall gradually	literal	rise and fall gradually	rise and fall gradually	.
+peaked rise >1000 I/U	literal	peaked rise >1000 I/U	peaked rise >1000 I/U	.
+differentiating the site of biliary obstruction	literal	differentiating the site of biliary obstruction	differentiating the site of biliary obstruction	.
+ALT titre is considerably higher than AST	literal	ALT titre is considerably higher than AST	ALT titre is considerably higher than AST	.
+preferential rise	literal	preferential rise	preferential rise	.
+less rise than ALP	literal	less rise than ALP	less rise than ALP	.
+absence of either cholestatic liver enzyme levels or antimitochondrial antibodies	literal	absence of either cholestatic liver enzyme levels or antimitochondrial antibodies	absence of either cholestatic liver enzyme levels or antimitochondrial antibodies	.
+outperforms	literal	outperforms	outperforms	.
+low sensitivity	literal	low sensitivity	low sensitivity	.
+specificity 65-79%	literal	specificity 65-79%	specificity 65-79%	.
+other causes of liver disease excluded	literal	other causes of liver disease excluded	other causes of liver disease excluded	.
+>1.12	literal	>1.12	>1.12	.
+>1	literal	>1	>1	.
+raised	literal	raised	raised	.
+normal or disproportionately lower than GGT	literal	normal or disproportionately lower than GGT	normal or disproportionately lower than GGT	.
+>2.5	literal	>2.5	>2.5	.
+decrease	literal	decrease	decrease	.
+less decrease	literal	less decrease	less decrease	.
+increase	literal	increase	increase	.
+AST:ALT ratio should be <1	literal	AST:ALT ratio should be <1	AST:ALT ratio should be <1	.
+0.92	literal	0.92	0.92	.
+>2	literal	>2	>2	.
+0.7	literal	0.7	0.7	.
+<1	literal	<1	<1	.
+high	literal	high	high	.
+<=1	literal	<=1	<=1	.
+combination with other factors or models	literal	combination with other factors or models	combination with other factors or models	.
+worsen	literal	worsen	worsen	.
+rise	literal	rise	rise	.
+consider cirrhosis	literal	consider cirrhosis	consider cirrhosis	.

@@ -1,0 +1,47 @@
+Sure! Here’s a schema generation prompt tailored for HRKG (Human Resources Knowledge Graph) use cases. This prompt is designed to guide an LLM or schema generation tool to produce a relevant, normalized, and extensible schema for an HR knowledge graph.
+
+---
+
+**Prompt:**
+
+You are an expert in knowledge graph schema design, specializing in Human Resources (HR) domains. Your task is to generate a concise, normalized, and extensible schema for an HR Knowledge Graph (HRKG). The schema should capture key entities, their attributes, and relationships relevant to HR processes, such as recruitment, employee management, performance evaluation, training, compensation, and organizational structure.
+
+**Instructions:**
+
+1. **Entities:** List the main entity types relevant to HR (e.g., Employee, Position, Department, Skill, Training, PerformanceReview, etc.).
+2. **Attributes:** For each entity, specify important attributes (e.g., Employee: employee_id, name, hire_date, etc.).
+3. **Relationships:** Define the relationships between entities (e.g., Employee REPORTS_TO Manager, Employee HAS_SKILL Skill, Employee PARTICIPATED_IN Training, etc.).
+4. **Cardinality:** Indicate the cardinality of relationships where appropriate (e.g., one-to-many, many-to-many).
+5. **Extensibility:** Suggest how the schema can be extended for future HR needs (e.g., adding new entities like Project, Certification, etc.).
+6. **Format:** Present the schema in a clear, structured format (e.g., as a list, table, or using a simple ontology notation).
+
+**Example Output Format:**
+
+Entities:
+- **Employee**
+  - Attributes: employee_id, name, date_of_birth, hire_date, email, phone_number, address, employment_status
+- **Department**
+  - Attributes: department_id, name, location, head_of_department
+- **Position**
+  - Attributes: position_id, title, description, department_id, reports_to_position_id
+- **Skill**
+  - Attributes: skill_id, name, description
+- **Training**
+  - Attributes: training_id, title, description, date, provider
+- **PerformanceReview**
+  - Attributes: review_id, employee_id, reviewer_id, date, score, comments
+
+Relationships:
+- Employee BELONGS_TO Department (many-to-one)
+- Employee HOLDS Position (many-to-one)
+- Employee REPORTS_TO Employee (many-to-one)
+- Employee HAS_SKILL Skill (many-to-many)
+- Employee PARTICIPATED_IN Training (many-to-many)
+- Employee RECEIVED PerformanceReview (one-to-many)
+
+Extensibility:
+- The schema can be extended by adding entities such as Project, Certification, Benefit, LeaveRequest, etc., and defining their relationships to existing entities.
+
+---
+
+**Please generate an HRKG schema following the above instructions and format.**

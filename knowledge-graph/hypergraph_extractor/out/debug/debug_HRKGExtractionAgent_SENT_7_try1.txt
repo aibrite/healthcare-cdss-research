@@ -1,0 +1,93 @@
+```json
+{
+  "graph_type": "N-tuple Hyper-Relational Temporal Knowledge Graph",
+  "metadata": {
+    "sentence_id": "SENT_7",
+    "source_sentence": "AST and ALP are used within some scoring criteria to monitor the effects of ursodeoxycholic acid in the management of PBC. A recent study has shown that a raised AST:ALT ratio outperforms other non-histological indicators of cirrhosis in PBC, but still only achieves a low sensitivity and a specificity of 65-79%. As with PBC, liver enzymes play a key role in the diagnosis of Primary Sclerosing Cholangitis (PSC)."
+  },
+  "entities": [
+    { "id": "E1", "name": "AST", "type": "Biomarker" },
+    { "id": "E2", "name": "ALP", "type": "Biomarker" },
+    { "id": "E3", "name": "ursodeoxycholic acid", "type": "Drug" },
+    { "id": "E4", "name": "PBC", "type": "Disease" },
+    { "id": "E5", "name": "AST:ALT ratio", "type": "Biomarker" },
+    { "id": "E6", "name": "non-histological indicators of cirrhosis", "type": "Biomarker" },
+    { "id": "E7", "name": "cirrhosis", "type": "Disease" },
+    { "id": "E8", "name": "liver enzymes", "type": "Biomarker" },
+    { "id": "E9", "name": "Primary Sclerosing Cholangitis", "type": "Disease" },
+    { "id": "E10", "name": "scoring criteria", "type": "ClinicalAction" },
+    { "id": "E11", "name": "diagnosis", "type": "ClinicalAction" },
+    { "id": "E12", "name": "recent study", "type": "Study" }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "predicate": "requires_monitoring",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.60,
+      "sentence_id": "SENT_7",
+      "tuple": [
+        { "role": "agent", "entity": "E3" },
+        { "role": "target", "entity": "E1" },
+        { "role": "target", "entity": "E2" },
+        { "role": "condition", "entity": "E4" },
+        { "role": "action", "entity": "E10" }
+      ]
+    },
+    {
+      "id": "F2",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.90,
+      "sentence_id": "SENT_7",
+      "tuple": [
+        { "role": "agent", "entity": "E5" },
+        { "role": "target", "entity": "E6" },
+        { "role": "condition", "entity": "E7" },
+        { "role": "context", "entity": "E4" },
+        { "role": "evidence_source", "entity": "E12" },
+        { "role": "delta", "literal": "outperforms", "datatype": "string" }
+      ]
+    },
+    {
+      "id": "F3",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.90,
+      "sentence_id": "SENT_7",
+      "tuple": [
+        { "role": "agent", "entity": "E5" },
+        { "role": "target", "entity": "E7" },
+        { "role": "context", "entity": "E4" },
+        { "role": "evidence_source", "entity": "E12" },
+        { "role": "delta", "literal": "low sensitivity", "datatype": "string" },
+        { "role": "delta", "literal": "specificity 65-79%", "datatype": "string" }
+      ]
+    },
+    {
+      "id": "F4",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [0.85, 0.70],
+      "sentence_id": "SENT_7",
+      "tuple": [
+        { "role": "agent", "entity": "E5" },
+        { "role": "effect", "entity": "E7" },
+        { "role": "context", "entity": "E4" }
+      ]
+    },
+    {
+      "id": "F5",
+      "predicate": "requires_monitoring",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.60,
+      "sentence_id": "SENT_7",
+      "tuple": [
+        { "role": "agent", "entity": "E8" },
+        { "role": "action", "entity": "E11" },
+        { "role": "condition", "entity": "E9" }
+      ]
+    }
+  ]
+}
+```

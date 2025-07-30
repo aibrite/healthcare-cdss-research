@@ -1,0 +1,129 @@
+```json
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "metadata": {
+    "source_sentence_id": "SENT_11",
+    "source_sentence": "The Fatty Liver and the AST:ALT Ratio During the last few decades there has been research into using the AST:ALT ratio in the differentiation of alcoholic liver disease (ALD) from other forms of liver disease, particularly the Non-alcoholic Fatty Liver Disease (NAFLD) spectrum. Both AST and ALT enzymes require pyridoxal-5’-phosphate (vitamin B6) to function properly. pyridoxal-5’-phosphate (vitamin B6)'s absence in nutritionally-deficient heavy-drinkers has a much larger effect on the production of ALT than that of AST, causing the AST:ALT ratio to rise. A normal AST:ALT ratio should be <1."
+  },
+  "nodes": [
+    { "id": "n_sent", "atom_type": "SentenceNode", "name": "SENT_11" },
+    { "id": "n_ast", "atom_type": "ConceptNode", "name": "AST" },
+    { "id": "n_alt", "atom_type": "ConceptNode", "name": "ALT" },
+    { "id": "n_ast_alt_ratio", "atom_type": "ConceptNode", "name": "AST:ALT ratio" },
+    { "id": "n_ald", "atom_type": "ConceptNode", "name": "Alcoholic Liver Disease" },
+    { "id": "n_nafld", "atom_type": "ConceptNode", "name": "Non-alcoholic Fatty Liver Disease" },
+    { "id": "n_liver_disease", "atom_type": "ConceptNode", "name": "Liver Disease" },
+    { "id": "n_pyridoxal5p", "atom_type": "ConceptNode", "name": "pyridoxal-5’-phosphate (vitamin B6)" },
+    { "id": "n_heavy_drinker", "atom_type": "ConceptNode", "name": "nutritionally-deficient heavy-drinker" },
+    { "id": "n_production", "atom_type": "PredicateNode", "name": "production" },
+    { "id": "n_requires", "atom_type": "PredicateNode", "name": "requires" },
+    { "id": "n_causes", "atom_type": "PredicateNode", "name": "causes" },
+    { "id": "n_increases", "atom_type": "PredicateNode", "name": "increases" },
+    { "id": "n_differentiates", "atom_type": "PredicateNode", "name": "differentiates" },
+    { "id": "n_monitoring", "atom_type": "ConceptNode", "name": "monitoring" },
+    { "id": "n_normal_ratio", "atom_type": "NumberNode", "name": "<1" },
+    { "id": "n_timestamp", "atom_type": "TimestampNode", "name": "1900-01-01" }
+  ],
+  "links": [
+    {
+      "id": "l_diff_ald",
+      "link_type": "EvaluationLink",
+      "predicate": "n_differentiates",
+      "arguments": ["n_ast_alt_ratio", "n_ald", "n_liver_disease"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_diff_nafld",
+      "link_type": "EvaluationLink",
+      "predicate": "n_differentiates",
+      "arguments": ["n_ast_alt_ratio", "n_nafld", "n_liver_disease"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_ast_requires_b6",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_ast", "n_pyridoxal5p"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_alt_requires_b6",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_alt", "n_pyridoxal5p"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_b6_absence_causes_alt_decrease",
+      "link_type": "EvaluationLink",
+      "predicate": "n_causes",
+      "arguments": ["n_pyridoxal5p", "n_heavy_drinker", "n_production", "n_alt"],
+      "attributes": { "effect": "decrease" },
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_b6_absence_causes_ratio_increase",
+      "link_type": "EvaluationLink",
+      "predicate": "n_causes",
+      "arguments": ["n_pyridoxal5p", "n_heavy_drinker", "n_ast_alt_ratio"],
+      "attributes": { "effect": "increase" },
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_ratio_increase_requires_monitoring",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_heavy_drinker", "n_ast_alt_ratio", "n_monitoring"],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_normal_ratio",
+      "link_type": "EvaluationLink",
+      "predicate": "n_increases",
+      "arguments": ["n_normal_ratio", "n_ast_alt_ratio"],
+      "attributes": { "interpretation": "normal AST:ALT ratio should be <1" },
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_ctx_diff_ald",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent", "l_diff_ald"]
+    },
+    {
+      "id": "l_ctx_diff_nafld",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent", "l_diff_nafld"]
+    },
+    {
+      "id": "l_ctx_ast_requires_b6",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent", "l_ast_requires_b6"]
+    },
+    {
+      "id": "l_ctx_alt_requires_b6",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent", "l_alt_requires_b6"]
+    },
+    {
+      "id": "l_ctx_b6_absence_causes_alt_decrease",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent", "l_b6_absence_causes_alt_decrease"]
+    },
+    {
+      "id": "l_ctx_b6_absence_causes_ratio_increase",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent", "l_b6_absence_causes_ratio_increase"]
+    },
+    {
+      "id": "l_ctx_ratio_increase_requires_monitoring",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent", "l_ratio_increase_requires_monitoring"]
+    },
+    {
+      "id": "l_ctx_normal_ratio",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent", "l_normal_ratio"]
+    }
+  ]
+}
+```
