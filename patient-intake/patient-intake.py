@@ -305,12 +305,147 @@ def check_completion_status(conversation_history: list[dict]) -> dict:
         return {"is_complete": False, "reason": "System error during check."}
 
 
-def generate_intake_report(conversation_history: list[dict]) -> str:
-    pass
-
-
 def generate_intake_report_stream(conversation_history: list[dict]):
-    pass
+    """
+    Generate a structured intake report from the conversation history.
+
+    Args:
+        conversation_history: A list of dictionaries representing the chat so far.
+
+    Yields:
+        Dictionary containing streaming chunks with thinking and response content.
+    """
+
+    system_prompt = """
+    You are an AI medical scribe. Your sole purpose is to convert a conversation transcript 
+    into a formal, structured, and comprehensive patient intake report. Use the provided
+    transcript to fill in every section accurately. If information is not available, state "Not mentioned."
+
+    **Output Format (Strict):**
+
+    # Patient Intake Report
+
+    ## Patient Information
+    - **Patient Name:** [Not Collected]
+    - **Date of Birth:** [Not Collected]
+    - **Date of Intake:** [Current Date]
+
+    ## 1. Chief Complaint
+    *The primary reason for the visit as stated by the patient.*
+    - 
+
+    ## 2. History of Present Illness (HPI)
+    *A detailed narrative of the chief complaint from onset to present.*
+    - **Onset:** 
+    - **Location & Radiation:** 
+    - **Duration & Timing:** 
+    - **Character/Quality:** 
+    - **Severity:** 
+    - **Aggravating Factors:** 
+    - **Relieving Factors:** 
+    - **Associated Symptoms:** 
+    - **Patient's Understanding:** 
+
+    ## 3. Review of Systems (ROS)
+    *A summary of other symptoms mentioned during the conversation.*
+    - **General:** (e.g., fever, weight loss)
+    - **Gastrointestinal:** (e.g., nausea, vomiting, diarrhea)
+    - **Neurological:** (e.g., headache, dizziness)
+    - *(Add other systems as mentioned)*
+
+    ## 4. Past Medical History (PMH)
+    - **Past Illnesses:** 
+    - **Surgeries:** 
+    - **Hospitalizations:** 
+
+    ## 5. Medications
+    *List of current medications and dosages.*
+    - 
+
+    ## 6. Allergies
+    *List of drug, food, and environmental allergies.*
+    - 
+
+    ## 7. Family History
+    *Medical conditions in immediate family members.*
+    - 
+
+    ## 8. Social History
+    *Details on lifestyle such as smoking, alcohol use, and occupation.*
+    - 
+
+    ## 9. Lab Results
+    *Summary of any lab results provided by the user.*
+    - 
+
+    ## 10. Possible Diagnoses
+    *List of possible diagnoses based on the information provided.*
+    - 
+
+    --- END OF REPORT ---
+    """
+    try:
+        client = ollama.Client(host=OLLAMA_HOST)
+
+        accumulated_content = ""
+        thinking_content = ""
+        response_content = ""
+
+        response_stream = client.chat(
+            model=MODEL_NAME,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": json.dumps(conversation_history)},
+            ],
+            options={"temperature": 0.0},
+            stream=True,
+        )
+
+        for chunk in response_stream:
+            if "message" in chunk and "content" in chunk["message"]:
+                content = chunk["message"]["content"]
+                accumulated_content += content
+
+                parsed = parse_thinking_and_response(accumulated_content)
+
+                if (
+                    parsed["thinking"] != thinking_content
+                    or parsed["response"] != response_content
+                ):
+                    thinking_content = parsed["thinking"]
+                    response_content = parsed["response"]
+
+                    yield {
+                        "type": "chunk",
+                        "thinking": thinking_content,
+                        "response": response_content,
+                        "raw_content": content,
+                    }
+
+        yield {
+            "type": "complete",
+            "thinking": thinking_content,
+            "response": response_content,
+            "final_report": response_content,
+        }
+
+    except Exception as e:
+        yield {"type": "error", "error": f"Error generating report: {e}"}
+
+
+def generate_intake_report(conversation_history: list[dict]) -> str:
+    try:
+        chunks = list(generate_intake_report_stream(conversation_history))
+
+        for chunk in reversed(chunks):
+            if chunk.get("type") == "complete":
+                return chunk.get("final_report", "Error generating report")
+            elif chunk.get("type") == "error":
+                return chunk.get("error", "Unknown error generating report")
+
+        return "No response received"
+    except Exception as e:
+        return f"Error generating report: {e}"
 
 
 def chat():
