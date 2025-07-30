@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Intake Assistant - AI-Powered Patient Intake</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <i class="fas fa-clipboard-check logo-icon"></i>
+                    <h1 class="app-title">Medical Intake Assistant</h1>
+                </div>
+                <div class="header-actions">
+                    <button id="newChatBtn" class="btn btn-secondary">
+                        <i class="fas fa-plus"></i> New Intake
+                    </button>
+                    <div class="streaming-controls">
+                        <label class="thinking-toggle" title="Show AI thinking process">
+                            <input type="checkbox" id="thinkingToggle">
+                            <span>Show Thinking</span>
+                        </label>
+                    </div>
+                    <div class="connection-status" id="connectionStatus">
+                        <i class="fas fa-circle"></i>
+                        <span>Connected</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Chat Container -->
+        <main class="chat-container">
+            <!-- Welcome Screen -->
+            <div id="welcomeScreen" class="welcome-screen">
+                <div class="welcome-content">
+                    <div class="welcome-icon">
+                        <i class="fas fa-clipboard-question"></i>
+                    </div>
+                    <h2>AI-Powered Medical Intake Assistant</h2>
+                    <p class="welcome-description">
+                        Describe your symptoms and provide details about your condition. Our AI assistant will ask clarifying questions 
+                        to help gather comprehensive information for healthcare professionals. This tool focuses on thorough patient intake 
+                        and information gathering.
+                    </p>
+                    
+                    <div class="input-section">
+                        <div class="input-wrapper">
+                            <textarea 
+                                id="initialSymptoms" 
+                                placeholder="Please describe your symptoms and any relevant information (e.g., headache since yesterday, fever 101°F, nausea after eating)..."
+                                rows="4"
+                            ></textarea>
+                            <button id="startChatBtn" class="btn btn-primary">
+                                <i class="fas fa-arrow-right"></i>
+                                Start Intake
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="disclaimer">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <span>This is an AI assistant for information gathering only. This tool does not provide medical diagnoses and should not replace professional medical consultation.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Messages Area -->
+            <div id="chatArea" class="chat-area hidden">
+                <div class="messages-container" id="messagesContainer">
+                    <!-- Messages will be dynamically added here -->
+                </div>
+
+                <!-- Input Area -->
+                <div class="input-area" id="inputArea">
+                    <!-- Input elements will be dynamically generated based on conversation state -->
+                </div>
+            </div>
+
+            <!-- Loading Indicator -->
+            <div id="loadingIndicator" class="loading-indicator hidden">
+                <div class="loading-spinner"></div>
+                <span>AI is preparing intake questions...</span>
+            </div>
+        </main>
+
+        <!-- Sidebar with Current Symptoms -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h3><i class="fas fa-list"></i> Patient Information</h3>
+            </div>
+            <div class="symptoms-list" id="symptomsList">
+                <p class="no-symptoms">No symptoms recorded yet</p>
+            </div>
+            
+            <div class="sidebar-section">
+                <h4><i class="fas fa-info-circle"></i> Session Info</h4>
+                <div class="session-info" id="sessionInfo">
+                    <p>Session not started</p>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Error Modal -->
+    <div id="errorModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3><i class="fas fa-exclamation-circle"></i> Error</h3>
+                <button class="modal-close" id="closeErrorModal">&times;</button>
+            </div>
+            <div class="modal-body" id="errorMessage">
+                An error occurred.
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html> 
