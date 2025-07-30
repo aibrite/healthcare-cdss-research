@@ -177,12 +177,132 @@ def generate_next_question(conversation_history: list[dict]) -> dict | None:
         return None
 
 
-def check_completion_status(conversation_history: list[dict]) -> dict:
-    pass
-
-
 def check_completion_status_stream(conversation_history: list[dict]):
-    pass
+    """
+    Check the completion status of the conversation history.
+
+    Args:
+        conversation_history: A list of dictionaries representing the chat so far.
+
+    Yields:
+        Dictionary containing streaming chunks with thinking and response content.
+    """
+    system_prompt = """
+    You are an AI medical intake auditor. Your task is to review a conversation and
+    determine if enough information has been gathered for a complete patient report.
+
+    A complete intake MUST cover these areas sufficiently:
+    1.  **Chief Complaint:** Fully explored using the OPQRSTU model (Onset, Quality, Location, etc.).
+    2.  **Associated Symptoms:** You must check if other related symptoms have been asked about (e.g., if the complaint is a cough, has the AI asked about fever or shortness of breath?).
+    3.  **Past Medical History:** Any significant past illnesses or surgeries.
+    4.  **Medications & Allergies:** What the patient takes and is allergic to.
+    5.  **Family History:** Any significant medical conditions in the patient's family.
+    6.  **Social History:** Any significant lifestyle factors (smoking, alcohol use, occupation).
+    7.  **Lab Results:** Any significant lab results provided by the patient.
+
+    Review the history. If these areas are covered, you can conclude. If not, the intake must continue.
+
+    **Your Response:**
+    Respond with ONLY a JSON object in this format:
+    {"is_complete": boolean, "reason": "A brief explanation for your decision."}
+    
+    Example 1: {"is_complete": false, "reason": "I still need to ask about associated symptoms and past medical history."}
+    Example 2: {"is_complete": true, "reason": "The chief complaint and associated symptoms have been fully explored, and we have covered medical history, medications, and allergies."}
+    """
+    try:
+        client = ollama.Client(host=OLLAMA_HOST)
+
+        accumulated_content = ""
+        thinking_content = ""
+        response_content = ""
+
+        response_stream = client.chat(
+            model=MODEL_NAME,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": json.dumps(conversation_history)},
+            ],
+            options={"temperature": 0.0},
+            stream=True,
+        )
+
+        for chunk in response_stream:
+            if "message" in chunk and "content" in chunk["message"]:
+                content = chunk["message"]["content"]
+                accumulated_content += content
+
+                parsed = parse_thinking_and_response(accumulated_content)
+
+                if (
+                    parsed["thinking"] != thinking_content
+                    or parsed["response"] != response_content
+                ):
+                    thinking_content = parsed["thinking"]
+                    response_content = parsed["response"]
+
+                    yield {
+                        "type": "chunk",
+                        "thinking": thinking_content,
+                        "response": response_content,
+                        "raw_content": content,
+                    }
+
+        json_match = re.search(r"\{.*\}", response_content, re.DOTALL)
+        if json_match:
+            try:
+                final_json = json.loads(json_match.group())
+                yield {
+                    "type": "complete",
+                    "thinking": thinking_content,
+                    "response": response_content,
+                    "parsed_json": final_json,
+                }
+            except json.JSONDecodeError:
+                yield {
+                    "type": "complete",
+                    "thinking": thinking_content,
+                    "response": response_content,
+                    "parsed_json": {
+                        "is_complete": False,
+                        "reason": "Response parsing error.",
+                    },
+                }
+        else:
+            yield {
+                "type": "complete",
+                "thinking": thinking_content,
+                "response": response_content,
+                "parsed_json": {
+                    "is_complete": False,
+                    "reason": "Could not find JSON in response.",
+                },
+            }
+
+    except Exception as e:
+        yield {
+            "type": "error",
+            "error": f"An error occurred: {e}",
+            "parsed_json": {
+                "is_complete": False,
+                "reason": "System error during check.",
+            },
+        }
+
+
+def check_completion_status(conversation_history: list[dict]) -> dict:
+    try:
+        chunks = list(check_completion_status_stream(conversation_history))
+
+        for chunk in reversed(chunks):
+            if chunk.get("type") in ["complete", "error"]:
+                return chunk.get(
+                    "parsed_json", {"is_complete": False, "reason": "Unknown error."}
+                )
+
+        return {"is_complete": False, "reason": "No response received."}
+    except Exception as e:
+        print(f"An error occurred in check_completion_status: {e}")
+        return {"is_complete": False, "reason": "System error during check."}
 
 
 def generate_intake_report(conversation_history: list[dict]) -> str:
