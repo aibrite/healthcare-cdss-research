@@ -449,7 +449,60 @@ def generate_intake_report(conversation_history: list[dict]) -> str:
 
 
 def chat():
-    pass
+    """
+    Main function to run the interactive patient intake chat.
+    """
+    print("Welcome to the AI Medical Intake Assistant.")
+    print(
+        "I will ask you a series of questions to build a detailed report for your doctor."
+    )
+    print(
+        "Please be as descriptive as possible. You can type 'quit' at any time to exit."
+    )
+    print("-" * 60)
+
+    initial_complaint = input(
+        "To begin, please tell me the main reason for your visit today:\n> "
+    )
+    if initial_complaint.lower() == "quit":
+        print("Exiting. Goodbye!")
+        return
+
+    conversation_history = [{"role": "user", "content": initial_complaint}]
+
+    while True:
+        if len(conversation_history) > 2:
+            status = check_completion_status(conversation_history)
+            if status.get("is_complete"):
+                print(
+                    f"\nAI Assistant: Thank you. {status.get('reason', 'I have enough information to compile the report now.')}"
+                )
+                break
+
+        print("\nThinking...")
+        response_data = generate_next_question(conversation_history)
+
+        if not response_data or "question" not in response_data:
+            print(
+                "AI Assistant: I'm having trouble formulating a question. Let's proceed to the report with the information we have."
+            )
+            break
+
+        ai_question = response_data["question"]
+        conversation_history.append({"role": "assistant", "content": ai_question})
+
+        user_answer = input(f"\nAI Assistant: {ai_question}\n> ")
+        if user_answer.lower() == "quit":
+            print("Exiting chat. No report will be generated.")
+            return
+
+        conversation_history.append({"role": "user", "content": user_answer})
+
+    print("\n" + "-" * 60)
+    print("Generating your detailed patient intake report...")
+    print("-" * 60)
+    final_report = generate_intake_report(conversation_history)
+    print(final_report)
 
 
 if __name__ == "__main__":
