@@ -17,11 +17,43 @@ A sophisticated AI-powered pipeline that extracts structured knowledge from medi
 - **🤖 Dual AI Extraction**: Parallel generation of OpenCog AtomSpace hypergraphs and N-tuple hyper-relational knowledge graphs
 - **🏥 Healthcare-Optimized**: Specialized for medical entities, drug interactions, and clinical relationships
 - **⚡ Parallel Processing**: Concurrent sentence-level extraction with intelligent aggregation
-- **🔄 Multi-Format Export**: TypeDB, Neo4j CSV, JSON, and Freebase triple formats
+- **🔄 Multi-Format Export**: TypeDB, Neo4j CSV, JSON, MeTTa and Freebase triple formats
 - **📊 Rich Visualizations**: Interactive Pyvis graphs with NetworkX analysis
 - **🧠 ML Integration**: PyKEEN embeddings and neural query interfaces
 - **🔍 Symbolic Reasoning**: OpenCog AtomSpace integration for causal inference
 - **📈 Temporal Modeling**: Time-aware relationships with provenance tracking
+
+## 🌟 Key Integrations
+
+### 🧠 AI & Machine Learning Frameworks
+- **🤖 OpenAI GPT-4.1** - Advanced language model for intelligent knowledge extraction from biomedical texts
+- **🔬 spaCy + SciBERT** - Specialized biomedical NLP pipeline with scientific language understanding
+- **🧮 PyKEEN** - State-of-the-art knowledge graph embedding training with 30+ algorithms (TransE, ComplEx, RotatE)
+- **⚡ PyTorch** - Deep learning backend powering neural components and embedding models
+
+### 🗄️ Graph Database Ecosystems
+- **📊 TypeDB** - Strongly-typed graph database with native support for complex n-ary relationships and inheritance
+- **� Neo4j** - Industry-standard graph database with Cypher query language and CSV bulk import
+- **🌐 NetworkX** - Comprehensive graph analysis library with 500+ algorithms for centrality, clustering, and pathfinding
+- **📈 HypernetX** - Advanced hypergraph analysis for modeling complex multi-way relationships
+
+### 🎯 Symbolic Reasoning & Knowledge Representation
+- **🧠 OpenCog AtomSpace** - Hypergraph-based knowledge representation with probabilistic truth values
+- **🔮 Hyperon** - Next-generation OpenCog with MeTTa language for symbolic-neural integration
+- **🗣️ NeuroSpace** - Natural language query interface enabling conversational knowledge discovery
+- **⚛️ MeTTa Format** - Functional programming language for expressing complex logical relationships
+
+### 🎨 Visualization & Analytics
+- **🌐 Pyvis** - Interactive network visualization with physics simulation, clustering, and real-time manipulation
+- **� Plotly** - Professional-grade interactive charts and dashboards for knowledge graph analytics
+- **🎯 Graphviz** - High-quality static graph layouts for publication-ready visualizations
+- **� Matplotlib/Seaborn** - Statistical plotting for embedding analysis and performance metrics
+
+### 🔧 Development & Infrastructure
+- **⚡ UV Package Manager** - Ultra-fast Python dependency resolution and virtual environment management
+- **🔒 Pydantic v2** - Type-safe data validation with automatic JSON schema generation
+- **🧪 FastCoref** - State-of-the-art coreference resolution for improved entity linking
+- **🔄 Asyncio** - Asynchronous processing for concurrent sentence-level extraction
 
 ## 🚀 Quick Start
 
