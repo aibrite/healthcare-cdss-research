@@ -1,0 +1,88 @@
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "metadata": {
+    "source_pmid": "12345",
+    "publication_year": 2023
+	"source_sentence": "In a 2023 study (PMID:12345), Vemurafenib (150mg) showed a 60% reduction in tumor volume in BRAF V600E-mutant melanoma patients, but increased cardiotoxicity when co-administered with Trametinib."
+	},
+  "nodes": [
+    { "id": "n_study",     "atom_type": "ConceptNode",   "name": "PMID:12345" },
+    { "id": "n_vem",       "atom_type": "ConceptNode",   "name": "Vemurafenib" },
+    { "id": "n_vem_dose",  "atom_type": "NumberNode",    "name": "150 mg" },
+    { "id": "n_tram",      "atom_type": "ConceptNode",   "name": "Trametinib" },
+    { "id": "n_tumor_vol", "atom_type": "ConceptNode",   "name": "Tumor volume" },
+    { "id": "n_braf",      "atom_type": "ConceptNode",   "name": "BRAF V600E-mutant melanoma" },
+    { "id": "n_cardio",    "atom_type": "ConceptNode",   "name": "Cardiotoxicity" },
+    { "id": "n_monitor",   "atom_type": "ConceptNode",   "name": "Cardiac monitoring" },
+    { "id": "n_reduces",   "atom_type": "PredicateNode", "name": "reduces" },
+    { "id": "n_increases", "atom_type": "PredicateNode", "name": "increases" },
+    { "id": "n_requires",  "atom_type": "PredicateNode", "name": "requires" },
+    { "id": "n_causes",    "atom_type": "PredicateNode", "name": "causes" },
+    { "id": "n_timestamp", "atom_type": "TimestampNode", "name": "2023-01-01" }
+  ],
+
+  "links": [
+    {
+      "id": "l_effect",
+      "link_type": "EvaluationLink",
+      "predicate": "n_reduces",
+      "arguments": ["n_vem", "n_tumor_vol", "n_braf", "n_vem_dose"],
+      "attributes": { "delta_percent": "-60" },
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_adverse",
+      "link_type": "EvaluationLink",
+      "predicate": "n_increases",
+      "arguments": ["n_vem", "n_cardio", "n_tram"],
+      "truth_value": [1.0, 0.8]
+    },
+    {
+      "id": "l_requires_monitor",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_vem", "n_tram", "n_monitor"],
+      "truth_value": [0.6, 0.5] /* - commonsense reasoning - */ 
+    },
+    {
+      "id": "l_imp_recommend",
+      "link_type": "ImplicationLink",
+      "arguments": ["l_adverse", "l_requires_monitor"],
+      "truth_value": [0.6, 0.5] /* - casual reasoning - */ 
+    },
+    {
+      "id": "l_cause_efficacy",
+      "link_type": "EvaluationLink",
+      "predicate": "n_causes",
+      "arguments": ["n_vem", "n_tumor_vol"],
+      "attributes": { "delta_percent": "-60" },
+      "truth_value": [0.85, 0.70] /* - casual reasoning - */
+    },
+    {
+      "id": "l_cause_toxic",
+      "link_type": "EvaluationLink",
+      "predicate": "n_causes",
+      "arguments": ["n_vem", "n_tram", "n_cardio"],
+      "truth_value": [0.85, 0.70] /* - casual effect - */
+    },
+    {
+      "id": "l_imp_cause_eff",
+      "link_type": "ImplicationLink",
+      "arguments": ["l_effect", "l_cause_efficacy"],
+      "truth_value": [0.85, 0.70] 
+    },
+    {
+      "id": "l_imp_cause_tox",
+      "link_type": "ImplicationLink",
+      "arguments": ["l_adverse", "l_cause_toxic"],
+      "truth_value": [0.85, 0.70]
+    },
+
+
+    { "id": "l_ctx_effect",  "link_type": "ContextLink", "arguments": ["n_timestamp", "n_study", "l_effect"] },
+    { "id": "l_ctx_adverse", "link_type": "ContextLink", "arguments": ["n_timestamp", "n_study", "l_adverse"] },
+    { "id": "l_ctx_req",     "link_type": "ContextLink", "arguments": ["n_timestamp", "n_study", "l_requires_monitor"] },
+    { "id": "l_ctx_cause1",  "link_type": "ContextLink", "arguments": ["n_timestamp", "n_study", "l_cause_efficacy"] },
+    { "id": "l_ctx_cause2",  "link_type": "ContextLink", "arguments": ["n_timestamp", "n_study", "l_cause_toxic"] }
+  ]
+}

@@ -1,0 +1,45 @@
+Sure! Here’s a prompt you can use for schema generation, tailored for Hugging Face (HG) datasets:
+
+---
+
+**Prompt: Schema Generation for Hugging Face Dataset**
+
+You are an expert data scientist. Given the following dataset description and sample data, generate a Hugging Face `datasets.DatasetInfo` schema and a `datasets.Features` dictionary in Python. 
+
+**Instructions:**
+- Analyze the dataset description and sample data.
+- Identify all fields, their types (e.g., string, int32, float, bool, list, dict, class label), and any possible class labels.
+- For each field, specify the appropriate Hugging Face `datasets` feature type.
+- If a field is categorical, use `ClassLabel` and list all possible values.
+- If a field is a nested structure, use `datasets.Sequence` or `datasets.Features` as appropriate.
+- Output only the Python code for the schema (no explanations).
+
+**Input:**
+Dataset description:  
+{dataset_description}
+
+Sample data:  
+{sample_data}
+
+**Output:**
+```python
+from datasets import DatasetInfo, Features, Value, ClassLabel, Sequence
+
+dataset_info = DatasetInfo(
+    description="{short_description}",
+    features=Features({
+        # Fill in the features here
+    }),
+    supervised_keys=None,
+    homepage="{homepage_url}",
+    citation="{citation}"
+)
+
+features = Features({
+    # Fill in the features here
+})
+```
+
+---
+
+Replace `{dataset_description}`, `{sample_data}`, `{short_description}`, `{homepage_url}`, and `{citation}` with your actual dataset information.

@@ -1,0 +1,54 @@
+Certainly! Here’s a schema generation prompt tailored for the "HG" context. If you have a specific domain or data type in mind for "HG," please clarify for further customization. Below is a general-purpose schema generation prompt:
+
+---
+
+**Schema Generation Prompt for HG**
+
+You are an expert data architect. Your task is to generate a comprehensive and well-structured database schema for the following use case:
+
+**Use Case (HG):**
+[Insert a brief description of the HG use case here, e.g., "HG is a platform for managing horticultural gardens, tracking plant species, garden layouts, maintenance schedules, and user activities."]
+
+**Instructions:**
+- Identify and list all relevant entities (tables) required for the HG system.
+- For each entity, specify the attributes (columns), their data types, and constraints (e.g., primary keys, foreign keys, uniqueness, nullability).
+- Define the relationships between entities (one-to-one, one-to-many, many-to-many) and how they are implemented in the schema.
+- Include any necessary lookup/reference tables.
+- Consider scalability, normalization, and best practices for relational database design.
+- Present the schema in a clear, organized format (preferably as a markdown table or code block).
+- Optionally, provide a brief explanation of your design choices.
+
+**Example Output Format:**
+
+```markdown
+### Entities and Attributes
+
+#### 1. Users
+| Column Name   | Data Type    | Constraints           |
+|---------------|-------------|-----------------------|
+| user_id       | INT         | PRIMARY KEY, AUTO_INCREMENT |
+| username      | VARCHAR(50) | UNIQUE, NOT NULL      |
+| email         | VARCHAR(100)| UNIQUE, NOT NULL      |
+| ...           | ...         | ...                   |
+
+#### 2. Gardens
+| Column Name   | Data Type    | Constraints           |
+|---------------|-------------|-----------------------|
+| garden_id     | INT         | PRIMARY KEY, AUTO_INCREMENT |
+| user_id       | INT         | FOREIGN KEY REFERENCES Users(user_id) |
+| name          | VARCHAR(100)| NOT NULL              |
+| ...           | ...         | ...                   |
+
+#### Relationships
+- One user can have many gardens (Users 1:N Gardens)
+- Each garden can have many plants (Gardens 1:N Plants)
+- ...
+
+### Design Explanation
+[Briefly explain your design choices, normalization, and how the schema supports the HG use case.]
+
+```
+
+---
+
+**Please provide the HG use case details or any specific requirements if you want a tailored schema.**

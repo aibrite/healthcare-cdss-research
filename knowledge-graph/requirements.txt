@@ -1,0 +1,25 @@
+pydantic>=2.7
+spacy>=3.7
+en_core_sci_scibert @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_scibert-0.5.4.tar.gz
+fastcoref
+httpx[http2]>=0.27
+backoff>=2.2
+tomli
+json5
+semantic-chunker
+networkx
+pyvis
+pykeen
+torch
+numpy
+pandas
+openai
+hyperon
+importlib-resources
+importlib-metadata
+jinja2
+urllib3
+huggingface-hub
+tqdm
+markupsafe
+tokenizers

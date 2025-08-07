@@ -1,0 +1,164 @@
+```json
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "metadata": {
+    "source_sentence_id": "SENT_4",
+    "source_sentence": "Understanding Cholestasis: Mechanical or Medical? Mechanical biliary obstruction results in raised levels of ALP,GGT and often bilirubin. ALP will usually be markedly raised in comparison with ALT. Levels of ALP and GGT elevated in similar proportions signify a hepatobiliary source. Otherwise alternative causes of single enzyme elevation should be considered. When due to choledocholithiasis, the levels of ALP and GGT tend to fluctuate (in comparison to stricture forming disease) and may be associated with a normal bilirubin. Enzyme titres tend to rise and fall gradually and may be preceded by a peaked rise in liver transaminases which can reach >1000 I/U."
+  },
+  "nodes": [
+    { "id": "n_sent4", "atom_type": "SentenceNode", "name": "SENT_4" },
+    { "id": "n_mech_bil_obstr", "atom_type": "ConceptNode", "name": "Mechanical biliary obstruction" },
+    { "id": "n_choledocholithiasis", "atom_type": "ConceptNode", "name": "Choledocholithiasis" },
+    { "id": "n_stricture", "atom_type": "ConceptNode", "name": "Stricture forming disease" },
+    { "id": "n_hepatobiliary_source", "atom_type": "ConceptNode", "name": "Hepatobiliary source" },
+    { "id": "n_alp", "atom_type": "ConceptNode", "name": "Alkaline phosphatase (ALP)" },
+    { "id": "n_ggt", "atom_type": "ConceptNode", "name": "Gamma-glutamyl transferase (GGT)" },
+    { "id": "n_bilirubin", "atom_type": "ConceptNode", "name": "Bilirubin" },
+    { "id": "n_alt", "atom_type": "ConceptNode", "name": "Alanine aminotransferase (ALT)" },
+    { "id": "n_liver_transaminases", "atom_type": "ConceptNode", "name": "Liver transaminases" },
+    { "id": "n_enzyme_titres", "atom_type": "ConceptNode", "name": "Enzyme titres" },
+    { "id": "n_increases", "atom_type": "PredicateNode", "name": "increases" },
+    { "id": "n_fluctuates", "atom_type": "PredicateNode", "name": "fluctuates" },
+    { "id": "n_signifies", "atom_type": "PredicateNode", "name": "signifies" },
+    { "id": "n_requires", "atom_type": "PredicateNode", "name": "requires" },
+    { "id": "n_peaked_rise", "atom_type": "PredicateNode", "name": "peaked rise" },
+    { "id": "n_monitoring", "atom_type": "ConceptNode", "name": "Monitoring" },
+    { "id": "n_timestamp", "atom_type": "TimestampNode", "name": "1900-01-01" }
+  ],
+  "links": [
+    {
+      "id": "l_mech_obstr_increases_alp",
+      "link_type": "EvaluationLink",
+      "predicate": "n_increases",
+      "arguments": ["n_mech_bil_obstr", "n_alp"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_mech_obstr_increases_ggt",
+      "link_type": "EvaluationLink",
+      "predicate": "n_increases",
+      "arguments": ["n_mech_bil_obstr", "n_ggt"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_mech_obstr_increases_bilirubin",
+      "link_type": "EvaluationLink",
+      "predicate": "n_increases",
+      "arguments": ["n_mech_bil_obstr", "n_bilirubin"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_alp_ggt_signify_hepatobiliary",
+      "link_type": "EvaluationLink",
+      "predicate": "n_signifies",
+      "arguments": ["n_alp", "n_ggt", "n_hepatobiliary_source"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_choledocholith_fluctuates_alp_ggt",
+      "link_type": "EvaluationLink",
+      "predicate": "n_fluctuates",
+      "arguments": ["n_choledocholithiasis", "n_alp", "n_ggt"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_choledocholith_normal_bilirubin",
+      "link_type": "EvaluationLink",
+      "predicate": "n_increases",
+      "arguments": ["n_choledocholithiasis", "n_alp", "n_ggt"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_enzyme_titres_rise_fall",
+      "link_type": "EvaluationLink",
+      "predicate": "n_fluctuates",
+      "arguments": ["n_enzyme_titres"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_peaked_rise_transaminases",
+      "link_type": "EvaluationLink",
+      "predicate": "n_peaked_rise",
+      "arguments": ["n_liver_transaminases"],
+      "attributes": { "value": ">1000 I/U" },
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_alp_requires_monitoring",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_alp", "n_monitoring"],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_ggt_requires_monitoring",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_ggt", "n_monitoring"],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_bilirubin_requires_monitoring",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_bilirubin", "n_monitoring"],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_ctx_mech_obstr_alp",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent4", "l_mech_obstr_increases_alp"]
+    },
+    {
+      "id": "l_ctx_mech_obstr_ggt",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent4", "l_mech_obstr_increases_ggt"]
+    },
+    {
+      "id": "l_ctx_mech_obstr_bilirubin",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent4", "l_mech_obstr_increases_bilirubin"]
+    },
+    {
+      "id": "l_ctx_alp_ggt_hepatobiliary",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent4", "l_alp_ggt_signify_hepatobiliary"]
+    },
+    {
+      "id": "l_ctx_choledocholith_fluctuates",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent4", "l_choledocholith_fluctuates_alp_ggt"]
+    },
+    {
+      "id": "l_ctx_choledocholith_normal_bilirubin",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent4", "l_choledocholith_normal_bilirubin"]
+    },
+    {
+      "id": "l_ctx_enzyme_titres_rise_fall",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent4", "l_enzyme_titres_rise_fall"]
+    },
+    {
+      "id": "l_ctx_peaked_rise_transaminases",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent4", "l_peaked_rise_transaminases"]
+    },
+    {
+      "id": "l_ctx_alp_monitoring",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent4", "l_alp_requires_monitoring"]
+    },
+    {
+      "id": "l_ctx_ggt_monitoring",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent4", "l_ggt_requires_monitoring"]
+    },
+    {
+      "id": "l_ctx_bilirubin_monitoring",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sent4", "l_bilirubin_requires_monitoring"]
+    }
+  ]
+}
+```

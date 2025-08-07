@@ -1,0 +1,90 @@
+define
+attribute applies_to_age, value string;
+attribute applies_to_sex, value string;
+attribute confidence, value double;
+attribute direction, value string;
+attribute effect_size_ci95_high, value double;
+attribute effect_size_ci95_low, value double;
+attribute effect_size_odds_ratio, value double;
+attribute guideline, value string;
+attribute lab_test, value string;
+attribute label, value string;
+attribute level_of_evidence, value string;
+attribute loinc, value string;
+attribute magnitude_label, value string;
+attribute max, value long;
+attribute median_change, value long;
+attribute min, value long;
+attribute n, value long;
+attribute note, value string;
+attribute pattern_description, value string;
+attribute pmid, value string;
+attribute population_age, value string;
+attribute population_sex, value string;
+attribute recommendation, value string;
+attribute risk_of_bias, value string;
+attribute rxnorm, value string;
+attribute snomed, value string;
+attribute source, value string;
+attribute specimen, value string;
+attribute study_type, value string;
+attribute test_panel, value string;
+attribute threshold_relative_to_ULN, value double;
+attribute time_point_days, value long;
+attribute time_to_effect_days, value long;
+attribute timestamp, value datetime;
+attribute unit, value string;
+attribute valid_from, value datetime;
+attribute year, value long;
+
+entity DerivedMetric, owns label;
+entity Disease, owns label, snomed;
+entity Drug, owns label, rxnorm;
+entity EvidenceItem, owns n, pmid, risk_of_bias, study_type, year;
+entity Exposure, owns label;
+entity GuidelineThreshold, owns guideline, lab_test, level_of_evidence, recommendation, threshold_relative_to_ULN, time_point_days, unit;
+entity LabTest, owns label, loinc, specimen, unit;
+entity PhysiologicalState, owns label;
+entity ReferenceRange, owns applies_to_age, applies_to_sex, max, min, source, unit;
+
+relation EvidenceTriple
+        relates agent,
+        relates evidence,
+        relates target,
+        owns direction, effect_size_ci95_high, effect_size_ci95_low, effect_size_odds_ratio, magnitude_label, population_age, population_sex, timestamp;
+
+relation PatternTriple
+        relates evidence,
+        relates outcome,
+        owns confidence, pattern_description, test_panel;
+
+relation confounded_by
+        relates object,
+        relates subject,
+        owns note;
+
+relation has_reference_range
+        relates evidence,
+        relates object,
+        relates subject,
+        owns valid_from;
+
+relation lowers
+        relates evidence,
+        relates object,
+        relates subject,
+        owns median_change, time_to_effect_days, unit;
+
+Exposure plays EvidenceTriple:agent;
+EvidenceItem plays EvidenceTriple:evidence;
+LabTest plays EvidenceTriple:target;
+EvidenceItem plays PatternTriple:evidence;
+Disease plays PatternTriple:outcome;
+PhysiologicalState plays confounded_by:object;
+LabTest plays confounded_by:subject;
+EvidenceItem plays has_reference_range:evidence;
+ReferenceRange plays has_reference_range:object;
+LabTest plays has_reference_range:subject;
+EvidenceItem plays lowers:evidence;
+LabTest plays lowers:object;
+Drug plays lowers:subject;

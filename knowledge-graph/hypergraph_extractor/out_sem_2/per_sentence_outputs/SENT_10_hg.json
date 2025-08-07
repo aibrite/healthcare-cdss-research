@@ -1,0 +1,329 @@
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "nodes": [
+    {
+      "id": "n_sent",
+      "atom_type": "ConceptNode",
+      "name": "SENT_10"
+    },
+    {
+      "id": "n_ggt",
+      "atom_type": "ConceptNode",
+      "name": "Gamma-glutamyl transferase"
+    },
+    {
+      "id": "n_alcohol_abuse",
+      "atom_type": "ConceptNode",
+      "name": "Alcohol abuse"
+    },
+    {
+      "id": "n_former_drinkers",
+      "atom_type": "ConceptNode",
+      "name": "Former drinkers"
+    },
+    {
+      "id": "n_current_drinkers",
+      "atom_type": "ConceptNode",
+      "name": "Current drinkers"
+    },
+    {
+      "id": "n_men",
+      "atom_type": "ConceptNode",
+      "name": "Men"
+    },
+    {
+      "id": "n_daily_drinkers",
+      "atom_type": "ConceptNode",
+      "name": "Daily drinkers"
+    },
+    {
+      "id": "n_women",
+      "atom_type": "ConceptNode",
+      "name": "Women"
+    },
+    {
+      "id": "n_binge_drinkers",
+      "atom_type": "ConceptNode",
+      "name": "Binge drinkers"
+    },
+    {
+      "id": "n_alcohol_without_food",
+      "atom_type": "ConceptNode",
+      "name": "Alcohol consumption without food"
+    },
+    {
+      "id": "n_alcohol_intake",
+      "atom_type": "ConceptNode",
+      "name": "Alcohol intake"
+    },
+    {
+      "id": "n_top_two_quartiles",
+      "atom_type": "ConceptNode",
+      "name": "Top two quartiles of alcohol intake"
+    },
+    {
+      "id": "n_ggt_level",
+      "atom_type": "ConceptNode",
+      "name": "GGT level"
+    },
+    {
+      "id": "n_high",
+      "atom_type": "PredicateNode",
+      "name": "high"
+    },
+    {
+      "id": "n_increases",
+      "atom_type": "PredicateNode",
+      "name": "increases"
+    },
+    {
+      "id": "n_requires",
+      "atom_type": "PredicateNode",
+      "name": "requires"
+    },
+    {
+      "id": "n_not_diagnostic",
+      "atom_type": "PredicateNode",
+      "name": "not diagnostic of"
+    },
+    {
+      "id": "n_timestamp",
+      "atom_type": "TimestampNode",
+      "name": "1900-01-01"
+    },
+    {
+      "id": "n_monitoring",
+      "atom_type": "ConceptNode",
+      "name": "Monitoring"
+    }
+  ],
+  "links": [
+    {
+      "id": "l_not_diag",
+      "link_type": "EvaluationLink",
+      "predicate": "n_not_diagnostic",
+      "arguments": [
+        "n_ggt",
+        "n_alcohol_abuse"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_high_former",
+      "link_type": "EvaluationLink",
+      "predicate": "n_high",
+      "arguments": [
+        "n_ggt_level",
+        "n_former_drinkers"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_high_current",
+      "link_type": "EvaluationLink",
+      "predicate": "n_high",
+      "arguments": [
+        "n_ggt_level",
+        "n_current_drinkers"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_high_men_daily",
+      "link_type": "EvaluationLink",
+      "predicate": "n_high",
+      "arguments": [
+        "n_ggt_level",
+        "n_men",
+        "n_daily_drinkers"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_high_women_binge",
+      "link_type": "EvaluationLink",
+      "predicate": "n_high",
+      "arguments": [
+        "n_ggt_level",
+        "n_women",
+        "n_binge_drinkers"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_high_women_nofood",
+      "link_type": "EvaluationLink",
+      "predicate": "n_high",
+      "arguments": [
+        "n_ggt_level",
+        "n_women",
+        "n_alcohol_without_food"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_incr_alcintake",
+      "link_type": "EvaluationLink",
+      "predicate": "n_increases",
+      "arguments": [
+        "n_alcohol_intake",
+        "n_ggt_level"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_high_topquart",
+      "link_type": "EvaluationLink",
+      "predicate": "n_high",
+      "arguments": [
+        "n_ggt_level",
+        "n_top_two_quartiles"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_req_monitoring",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": [
+        "n_alcohol_intake",
+        "n_monitoring"
+      ],
+      "truth_value": [
+        0.6,
+        0.5
+      ]
+    },
+    {
+      "id": "l_req_monitoring_ggt",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": [
+        "n_ggt_level",
+        "n_monitoring"
+      ],
+      "truth_value": [
+        0.6,
+        0.5
+      ]
+    },
+    {
+      "id": "l_ctx_not_diag",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent",
+        "l_not_diag"
+      ]
+    },
+    {
+      "id": "l_ctx_high_former",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent",
+        "l_high_former"
+      ]
+    },
+    {
+      "id": "l_ctx_high_current",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent",
+        "l_high_current"
+      ]
+    },
+    {
+      "id": "l_ctx_high_men_daily",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent",
+        "l_high_men_daily"
+      ]
+    },
+    {
+      "id": "l_ctx_high_women_binge",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent",
+        "l_high_women_binge"
+      ]
+    },
+    {
+      "id": "l_ctx_high_women_nofood",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent",
+        "l_high_women_nofood"
+      ]
+    },
+    {
+      "id": "l_ctx_incr_alcintake",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent",
+        "l_incr_alcintake"
+      ]
+    },
+    {
+      "id": "l_ctx_high_topquart",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent",
+        "l_high_topquart"
+      ]
+    },
+    {
+      "id": "l_ctx_req_monitoring",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent",
+        "l_req_monitoring"
+      ]
+    },
+    {
+      "id": "l_ctx_req_monitoring_ggt",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent",
+        "l_req_monitoring_ggt"
+      ]
+    }
+  ],
+  "metadata": {
+    "source_id": "SENT_10",
+    "source_sentence": "A raised GGT is not diagnostic of alcohol abuse, with research showing A raised GGT remains high in former drinkers as well as current drinkers. In men, the highest levels of GGT occur in those who drink daily. In women, binge drinkers and those consuming alcohol without food will have especially high levels. The level of GGT is loosely dose dependant, with those in the top two quartiles of alcohol intake having the highest titres."
+  }
+}

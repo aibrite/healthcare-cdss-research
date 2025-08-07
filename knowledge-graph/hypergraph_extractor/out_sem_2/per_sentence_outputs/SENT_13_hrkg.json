@@ -1,0 +1,362 @@
+{
+  "graph_type": "N-tuple Hyper-Relational Temporal Knowledge Graph",
+  "entities": [
+    {
+      "id": "E1",
+      "name": "AST:ALT ratio",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E2",
+      "name": "Alcoholic liver disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E3",
+      "name": "NAFLD",
+      "type": "Disease"
+    },
+    {
+      "id": "E4",
+      "name": "Sensitivity",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E5",
+      "name": "Specificity",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E6",
+      "name": "Liver biopsy",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E7",
+      "name": "Liver transaminases",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E8",
+      "name": "Cessation of alcohol intake",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E9",
+      "name": "Admission to hospital",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E10",
+      "name": "ALT",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E11",
+      "name": "No liver disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E12",
+      "name": "Clinical guide for biopsy need",
+      "type": "Concept"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "predicate": "not_observed",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E4",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F2",
+      "predicate": "not_observed",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E4",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_agent",
+          "entity": null,
+          "literal": "combination with other factors or models",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F3",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E12",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E6",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F4",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E6",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F5",
+      "predicate": "observed",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E7",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "worsen",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F6",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E7",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "worsen",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F7",
+      "predicate": "observed",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E10",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "rise",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F8",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E10",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "rise",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F9",
+      "predicate": "observed",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E10",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "rise",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    }
+  ],
+  "metadata": {
+    "sentence_id": "SENT_13",
+    "source_sentence": "No studies have shown that the AST:ALT ratio, either alone or in combination with other factors or models, has the necessary sensitivity or specificity to definitively differentiate between alcoholic liver disease (ALD) and NAFLD, but the AST:ALT ratio acts as a useful clinical guide when considering the need for liver biopsy. It should also be noted that liver transaminases are known to worsen in response to cessation of alcohol intake (often coinciding with admission to hospital) and that ALT has also been shown to rise simply from admission to hospital, even in patients with no liver disease."
+  }
+}

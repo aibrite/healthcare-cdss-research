@@ -1,0 +1,179 @@
+```json
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "metadata": {
+    "source_sentence_id": "SENT_15",
+    "source_sentence": "A scoring system developed at the Mayo clinic uses age, hyperglycemia, body mass index, platelet count, albumin, and AST:ALT ratio to accurately differentiate patients with advanced fibrosis in NAFLD. the AST:ALT Ratio becomes considerably less specific in determining underlying disease with the development of cirrhosis, as the AST:ALT Ratio will increase across a broad range of diseases. the AST:ALT Ratio is, however, useful in NAFLD patients known not to be abusing alcohol as a score of >1 should lead to the consideration that NAFLD patients known not to be abusing alcohol may have developed cirrhosis."
+  },
+  "nodes": [
+    { "id": "n_scoringsys",      "atom_type": "ConceptNode",   "name": "Mayo Clinic NAFLD Fibrosis Scoring System" },
+    { "id": "n_mayo",            "atom_type": "ConceptNode",   "name": "Mayo Clinic" },
+    { "id": "n_age",             "atom_type": "ConceptNode",   "name": "Age" },
+    { "id": "n_hyperglycemia",   "atom_type": "ConceptNode",   "name": "Hyperglycemia" },
+    { "id": "n_bmi",             "atom_type": "ConceptNode",   "name": "Body Mass Index" },
+    { "id": "n_platelet",        "atom_type": "ConceptNode",   "name": "Platelet Count" },
+    { "id": "n_albumin",         "atom_type": "ConceptNode",   "name": "Albumin" },
+    { "id": "n_astalt",          "atom_type": "ConceptNode",   "name": "AST:ALT Ratio" },
+    { "id": "n_advancedfib",     "atom_type": "ConceptNode",   "name": "Advanced Fibrosis" },
+    { "id": "n_nafld",           "atom_type": "ConceptNode",   "name": "NAFLD" },
+    { "id": "n_cirrhosis",       "atom_type": "ConceptNode",   "name": "Cirrhosis" },
+    { "id": "n_underlyingdis",   "atom_type": "ConceptNode",   "name": "Underlying Liver Disease" },
+    { "id": "n_disease",         "atom_type": "ConceptNode",   "name": "Disease" },
+    { "id": "n_alcoholabuse",    "atom_type": "ConceptNode",   "name": "Alcohol Abuse" },
+    { "id": "n_score_gt1",       "atom_type": "NumberNode",    "name": "AST:ALT Ratio > 1" },
+    { "id": "n_differentiates",  "atom_type": "PredicateNode", "name": "differentiates" },
+    { "id": "n_uses",            "atom_type": "PredicateNode", "name": "uses" },
+    { "id": "n_less_specific",   "atom_type": "PredicateNode", "name": "less specific" },
+    { "id": "n_increases",       "atom_type": "PredicateNode", "name": "increases" },
+    { "id": "n_requires",        "atom_type": "PredicateNode", "name": "requires" },
+    { "id": "n_consider",        "atom_type": "PredicateNode", "name": "consider" },
+    { "id": "n_developed",       "atom_type": "PredicateNode", "name": "developed" },
+    { "id": "n_timestamp",       "atom_type": "TimestampNode", "name": "1900-01-01" },
+    { "id": "n_sentence",        "atom_type": "ConceptNode",   "name": "SENT_15" }
+  ],
+  "links": [
+    {
+      "id": "l_uses_vars",
+      "link_type": "EvaluationLink",
+      "predicate": "n_uses",
+      "arguments": [
+        "n_scoringsys",
+        "n_age",
+        "n_hyperglycemia",
+        "n_bmi",
+        "n_platelet",
+        "n_albumin",
+        "n_astalt"
+      ],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_diff_advfib",
+      "link_type": "EvaluationLink",
+      "predicate": "n_differentiates",
+      "arguments": [
+        "n_scoringsys",
+        "n_advancedfib",
+        "n_nafld"
+      ],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_less_spec_cirr",
+      "link_type": "EvaluationLink",
+      "predicate": "n_less_specific",
+      "arguments": [
+        "n_astalt",
+        "n_underlyingdis",
+        "n_cirrhosis"
+      ],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_incr_astalt",
+      "link_type": "EvaluationLink",
+      "predicate": "n_increases",
+      "arguments": [
+        "n_astalt",
+        "n_disease"
+      ],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_consider_cirr",
+      "link_type": "EvaluationLink",
+      "predicate": "n_consider",
+      "arguments": [
+        "n_score_gt1",
+        "n_nafld",
+        "n_alcoholabuse",
+        "n_cirrhosis"
+      ],
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_dev_cirr",
+      "link_type": "EvaluationLink",
+      "predicate": "n_developed",
+      "arguments": [
+        "n_nafld",
+        "n_cirrhosis"
+      ],
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_req_monitor",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": [
+        "n_nafld",
+        "n_astalt"
+      ],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_ctx_uses_vars",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_uses_vars"
+      ]
+    },
+    {
+      "id": "l_ctx_diff_advfib",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_diff_advfib"
+      ]
+    },
+    {
+      "id": "l_ctx_less_spec_cirr",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_less_spec_cirr"
+      ]
+    },
+    {
+      "id": "l_ctx_incr_astalt",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_incr_astalt"
+      ]
+    },
+    {
+      "id": "l_ctx_consider_cirr",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_consider_cirr"
+      ]
+    },
+    {
+      "id": "l_ctx_dev_cirr",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_dev_cirr"
+      ]
+    },
+    {
+      "id": "l_ctx_req_monitor",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_req_monitor"
+      ]
+    }
+  ]
+}
+```

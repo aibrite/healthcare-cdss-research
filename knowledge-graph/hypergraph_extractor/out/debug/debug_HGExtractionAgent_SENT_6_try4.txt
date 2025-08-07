@@ -1,0 +1,52 @@
+Certainly! Here’s a schema generation prompt tailored for the "HG" context. If you have a specific domain or data type in mind for "HG," please clarify for further customization. Below is a general-purpose schema generation prompt:
+
+---
+
+**Schema Generation Prompt for HG**
+
+You are an expert data architect. Your task is to generate a comprehensive and normalized database schema for the following use case:
+
+**Use Case Description:**  
+[Insert a detailed description of the "HG" use case here. For example: "HG is a platform for managing horticultural gardens, tracking plant species, garden layouts, maintenance schedules, and user activities."]
+
+**Instructions:**
+1. Identify all relevant entities and their relationships.
+2. For each entity, specify:
+   - Table name
+   - Field names and data types
+   - Primary and foreign keys
+   - Constraints (e.g., NOT NULL, UNIQUE)
+   - Indexes if necessary
+3. Use clear and consistent naming conventions.
+4. Normalize the schema to at least 3NF (Third Normal Form).
+5. Present the schema in a readable format (preferably as a set of CREATE TABLE statements in SQL).
+6. Optionally, include a brief explanation of the schema design choices.
+
+**Example Output Format:**
+
+```sql
+CREATE TABLE users (
+    user_id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE gardens (
+    garden_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_id INT NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    location VARCHAR(255),
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(user_id)
+);
+
+-- Add more tables as needed
+```
+
+**Please generate the full schema based on the above instructions and the provided use case.**
+
+---
+
+If you provide the specific "HG" use case or domain, I can further tailor the prompt or generate an example schema for you!

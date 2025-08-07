@@ -1,0 +1,48 @@
+INPUT TEXT (to be processed)
+============================
+<<<BEGIN_INPUT>>>
+{SENTENCE} (ID: {SENTENCE_ID})
+<<<END_INPUT>>>
+
+GOAL
+====
+Return one JSON object that represents the input as an **N-tuple hyper-relational temporal knowledge graph (N-TKG)**.
+
+INSTRUCTIONS
+------------
+A.  Pre-processing  
+    1. Split the input into minimal factual clauses (sentences; keep compound clauses intact).  
+    2. The provenance ID for this sentence is given in the input as {SENTENCE_ID}.
+
+B.  Information extraction (for *every* clause)  
+    1. Identify entities (Drug, Disease, Endpoint, Biomarker, AdverseEvent,  
+       ClinicalAction, Study, Cohort, Dose, etc.).  
+    2. Produce facts:  
+       • Create *Observational* Facts when the text **states** X reduces/increases Y.  
+       • Create *Causal* Facts when the text **implies** X causes Y.
+       		• When there is *Observational* facts search for *Causal* and when there is *Causal* facts search for *Observational* and record both.
+       • Create *Recommendation* (`requires_monitoring`) Facts when condition is increased or decreased, assert that the drug, treatment, situation (or combo) should be monitored.
+       • Create *Investigation* (`requires_investigation`) Facts  if the clause contains modal verbs such as “should”, “ought”, “advise”, or phrases like “consider alternative causes”, create a  `requires_investigation` fact even when no specific drug or disease is mentioned.  Use a synthetic Concept entity when needed.
+       • Create *Implication* (`implies`) Facts when one fact suggests another. These are higher-order facts.  
+    3. `truth_value` rules: **EVERY Fact MUST have a `truth_value` key.**
+       • Observational: `0.90`
+       • Causal: `[0.85, 0.70]`
+       • Recommendation: `0.60`
+       • Implication: `[0.85, 0.70]`
+
+C.  N-TKG construction  
+    • Top-level keys: `"graph_type"`, `"entities"`, `"facts"`.  
+    • Entity IDs `E1, E2, …`; reuse the same ID for identical strings.  
+    • Each fact object MUST contain: `"id"`, `"predicate"`, `"timestamp"`, `"truth_value"`, and `"sentence_id"`.
+	• A fact represents EITHER a ground-level relationship OR a higher-order one:
+	  1. **Ground-level facts** (like `causes` or `therapy_effect`) have a `"tuple"` key, which is a list of role objects.
+	     • Each role object is `{ "role": "...", "entity": "...", "literal": ..., "datatype": "..." }`.
+	     • Roles: agent, co_agent, target, outcome, condition, delta, dosage, action, evidence_source, etc.
+	  2. **Higher-order facts** (like `implies`) have an `"arguments"` key, which is a list of other fact IDs (e.g., `["F1", "F2"]`). They do NOT have a `"tuple"`.
+    • `"timestamp"`: explicit year in clause → `YYYY-01-01`; else earliest year in text; else `"1900-01-01"`.
+
+OUTPUT FORMAT (strict)
+======================
+• Return **only** one JSON object inside a single ````json` code-fence, nothing else.
+• Do **not** include the EXAMPLE block in the output.  
+• If no extractable biomedical relation exists between BEGIN/END markers, output `{}`.

@@ -1,0 +1,362 @@
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "nodes": [
+    {
+      "id": "n_sentence",
+      "atom_type": "SentenceNode",
+      "name": "SENT_14"
+    },
+    {
+      "id": "n_nafld",
+      "atom_type": "ConceptNode",
+      "name": "Non-alcoholic fatty liver disease"
+    },
+    {
+      "id": "n_cirrhosis",
+      "atom_type": "ConceptNode",
+      "name": "Cirrhosis"
+    },
+    {
+      "id": "n_nash",
+      "atom_type": "ConceptNode",
+      "name": "Non-alcoholic steatohepatitis"
+    },
+    {
+      "id": "n_liver_enzyme",
+      "atom_type": "ConceptNode",
+      "name": "Liver enzyme analysis"
+    },
+    {
+      "id": "n_liver_biopsy",
+      "atom_type": "ConceptNode",
+      "name": "Liver biopsy"
+    },
+    {
+      "id": "n_diagnosis",
+      "atom_type": "ConceptNode",
+      "name": "Diagnosis"
+    },
+    {
+      "id": "n_sensitivity",
+      "atom_type": "ConceptNode",
+      "name": "Sensitivity"
+    },
+    {
+      "id": "n_specificity",
+      "atom_type": "ConceptNode",
+      "name": "Specificity"
+    },
+    {
+      "id": "n_metabolic_risk",
+      "atom_type": "ConceptNode",
+      "name": "Metabolic risk factors"
+    },
+    {
+      "id": "n_hypertension",
+      "atom_type": "ConceptNode",
+      "name": "Hypertension"
+    },
+    {
+      "id": "n_hyperlipidaemia",
+      "atom_type": "ConceptNode",
+      "name": "Hyperlipidaemia"
+    },
+    {
+      "id": "n_glycaemic_control",
+      "atom_type": "ConceptNode",
+      "name": "Glycaemic control"
+    },
+    {
+      "id": "n_risk_strat",
+      "atom_type": "ConceptNode",
+      "name": "Risk stratification"
+    },
+    {
+      "id": "n_identification",
+      "atom_type": "ConceptNode",
+      "name": "Early identification"
+    },
+    {
+      "id": "n_modification",
+      "atom_type": "ConceptNode",
+      "name": "Modification"
+    },
+    {
+      "id": "n_excludes",
+      "atom_type": "PredicateNode",
+      "name": "excludes"
+    },
+    {
+      "id": "n_fails",
+      "atom_type": "PredicateNode",
+      "name": "fails"
+    },
+    {
+      "id": "n_requires",
+      "atom_type": "PredicateNode",
+      "name": "requires"
+    },
+    {
+      "id": "n_confirms",
+      "atom_type": "PredicateNode",
+      "name": "confirms"
+    },
+    {
+      "id": "n_lies_in",
+      "atom_type": "PredicateNode",
+      "name": "lies_in"
+    },
+    {
+      "id": "n_modifies",
+      "atom_type": "PredicateNode",
+      "name": "modifies"
+    },
+    {
+      "id": "n_identifies",
+      "atom_type": "PredicateNode",
+      "name": "identifies"
+    },
+    {
+      "id": "n_stratifies",
+      "atom_type": "PredicateNode",
+      "name": "stratifies"
+    },
+    {
+      "id": "n_timestamp",
+      "atom_type": "TimestampNode",
+      "name": "1900-01-01"
+    }
+  ],
+  "links": [
+    {
+      "id": "l_exclude_cirrhosis",
+      "link_type": "EvaluationLink",
+      "predicate": "n_excludes",
+      "arguments": [
+        "n_nafld",
+        "n_cirrhosis"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_fail_liver_enzyme",
+      "link_type": "EvaluationLink",
+      "predicate": "n_fails",
+      "arguments": [
+        "n_liver_enzyme",
+        "n_sensitivity",
+        "n_specificity",
+        "n_diagnosis"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_requires_biopsy_nash",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": [
+        "n_diagnosis",
+        "n_nash",
+        "n_liver_biopsy"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_requires_biopsy_cirrhosis",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": [
+        "n_diagnosis",
+        "n_cirrhosis",
+        "n_liver_biopsy"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_liver_enzyme_role_id",
+      "link_type": "EvaluationLink",
+      "predicate": "n_identifies",
+      "arguments": [
+        "n_liver_enzyme",
+        "n_identification",
+        "n_metabolic_risk"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_liver_enzyme_role_mod",
+      "link_type": "EvaluationLink",
+      "predicate": "n_modifies",
+      "arguments": [
+        "n_liver_enzyme",
+        "n_modification",
+        "n_metabolic_risk"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_liver_enzyme_role_strat",
+      "link_type": "EvaluationLink",
+      "predicate": "n_stratifies",
+      "arguments": [
+        "n_liver_enzyme",
+        "n_risk_strat"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_metabolic_risk_factors",
+      "link_type": "EvaluationLink",
+      "predicate": "n_modifies",
+      "arguments": [
+        "n_metabolic_risk",
+        "n_hypertension"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_metabolic_risk_factors2",
+      "link_type": "EvaluationLink",
+      "predicate": "n_modifies",
+      "arguments": [
+        "n_metabolic_risk",
+        "n_hyperlipidaemia"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_metabolic_risk_factors3",
+      "link_type": "EvaluationLink",
+      "predicate": "n_modifies",
+      "arguments": [
+        "n_metabolic_risk",
+        "n_glycaemic_control"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_ctx_exclude_cirrhosis",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_exclude_cirrhosis"
+      ]
+    },
+    {
+      "id": "l_ctx_fail_liver_enzyme",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_fail_liver_enzyme"
+      ]
+    },
+    {
+      "id": "l_ctx_requires_biopsy_nash",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_requires_biopsy_nash"
+      ]
+    },
+    {
+      "id": "l_ctx_requires_biopsy_cirrhosis",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_requires_biopsy_cirrhosis"
+      ]
+    },
+    {
+      "id": "l_ctx_liver_enzyme_role_id",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_liver_enzyme_role_id"
+      ]
+    },
+    {
+      "id": "l_ctx_liver_enzyme_role_mod",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_liver_enzyme_role_mod"
+      ]
+    },
+    {
+      "id": "l_ctx_liver_enzyme_role_strat",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_liver_enzyme_role_strat"
+      ]
+    },
+    {
+      "id": "l_ctx_metabolic_risk_factors",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_metabolic_risk_factors"
+      ]
+    },
+    {
+      "id": "l_ctx_metabolic_risk_factors2",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_metabolic_risk_factors2"
+      ]
+    },
+    {
+      "id": "l_ctx_metabolic_risk_factors3",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_metabolic_risk_factors3"
+      ]
+    }
+  ],
+  "metadata": {
+    "source_id": "SENT_14",
+    "source_sentence": "Although models exist which exclude cirrhosis in NAFLD with reasonable accuracy, liver enzyme analysis has so far failed to provide a sensitive and specific enough means to make a diagnosis. At present liver biopsy cannot be avoided in cases where confirmation of NASH or cirrhosis is necessary. The role of liver enzyme analysis in NAFLD lies in both the early identification and modification of associated metabolic risk factors such as hypertension, hyperlipidaemia and glycaemic control and in risk stratification for the future."
+  }
+}

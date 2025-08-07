@@ -1,0 +1,10 @@
+Certainly! Since you provided the path /home/eggzy/Downloads/hypergraph_extractor/schema_generation_prompt_HG.txt, but not the file content, I can't see the actual prompt inside. If you want me to help with the schema generation prompt, please paste the contents of schema_generation_prompt_HG.txt here.
+
+Once you provide the text, I can:
+
+- Summarize or explain the prompt.
+- Help you improve or rewrite it.
+- Generate a schema based on the prompt.
+- Answer any questions you have about it.
+
+Please paste the contents of schema_generation_prompt_HG.txt, and let me know what you'd like to do!

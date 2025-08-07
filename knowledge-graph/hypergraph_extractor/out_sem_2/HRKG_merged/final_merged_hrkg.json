@@ -1,0 +1,4442 @@
+{
+  "entities": [
+    {
+      "id": "E1",
+      "name": "Liver enzymes",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E2",
+      "name": "Evaluation",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E3",
+      "name": "Disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E4",
+      "name": "Hepatitic disorder",
+      "type": "Disease"
+    },
+    {
+      "id": "E5",
+      "name": "Cholestatic disorder",
+      "type": "Disease"
+    },
+    {
+      "id": "E6",
+      "name": "Enzyme ratios",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E7",
+      "name": "Pattern recognition",
+      "type": "Concept"
+    },
+    {
+      "id": "E8",
+      "name": "Liver disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E9",
+      "name": "Investigation",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E10",
+      "name": "Management",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E11",
+      "name": "Liver Function Tests",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E12",
+      "name": "Screening blood tests",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E13",
+      "name": "Disease activity",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E14",
+      "name": "Blood analysis",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E15",
+      "name": "Bilirubin",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E16",
+      "name": "Albumin",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E17",
+      "name": "Functional capacity of the liver",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E18",
+      "name": "Liver enzyme profile",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E19",
+      "name": "History and clinical examination",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E20",
+      "name": "Alcoholic fatty liver disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E21",
+      "name": "Non-alcoholic fatty liver disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E22",
+      "name": "Cholestasis",
+      "type": "Disease"
+    },
+    {
+      "id": "E23",
+      "name": "Hepatitis",
+      "type": "Disease"
+    },
+    {
+      "id": "E24",
+      "name": "Diagnosis",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E25",
+      "name": "Absolute liver enzyme levels",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E26",
+      "name": "Liver enzyme ratios",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E27",
+      "name": "Pattern of enzymes",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E28",
+      "name": "Mixed picture",
+      "type": "ClinicalFinding"
+    },
+    {
+      "id": "E29",
+      "name": "Mechanical biliary obstruction",
+      "type": "Disease"
+    },
+    {
+      "id": "E30",
+      "name": "ALP",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E31",
+      "name": "GGT",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E32",
+      "name": "ALT",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E33",
+      "name": "Hepatobiliary source",
+      "type": "Disease"
+    },
+    {
+      "id": "E34",
+      "name": "Single enzyme elevation",
+      "type": "Concept"
+    },
+    {
+      "id": "E35",
+      "name": "Alternative causes",
+      "type": "Concept"
+    },
+    {
+      "id": "E36",
+      "name": "Choledocholithiasis",
+      "type": "Disease"
+    },
+    {
+      "id": "E37",
+      "name": "Stricture forming disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E38",
+      "name": "Liver transaminases",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E39",
+      "name": "AST:ALT ratio",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E40",
+      "name": "Biliary obstruction",
+      "type": "Disease"
+    },
+    {
+      "id": "E41",
+      "name": "Cholestatic picture",
+      "type": "Phenotype"
+    },
+    {
+      "id": "E42",
+      "name": "AST:ALT ratio <1.5",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E43",
+      "name": "Extrahepatic obstruction",
+      "type": "Disease"
+    },
+    {
+      "id": "E44",
+      "name": "ALT titre",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E45",
+      "name": "AST",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E46",
+      "name": "AST:ALT ratio >1.5",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E47",
+      "name": "Intrahepatic cholestasis",
+      "type": "Disease"
+    },
+    {
+      "id": "E48",
+      "name": "Mechanical cholestasis",
+      "type": "Disease"
+    },
+    {
+      "id": "E49",
+      "name": "Medical cholestasis",
+      "type": "Disease"
+    },
+    {
+      "id": "E50",
+      "name": "Drug-induced cholestasis",
+      "type": "Disease"
+    },
+    {
+      "id": "E51",
+      "name": "ALT:ALP ratio <2",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E52",
+      "name": "Antibiotics",
+      "type": "Drug"
+    },
+    {
+      "id": "E53",
+      "name": "Immunosuppressants",
+      "type": "Drug"
+    },
+    {
+      "id": "E54",
+      "name": "Tricyclic antidepressants",
+      "type": "Drug"
+    },
+    {
+      "id": "E55",
+      "name": "Angiotensin converting enzyme inhibitors",
+      "type": "Drug"
+    },
+    {
+      "id": "E56",
+      "name": "Primary Biliary Cirrhosis",
+      "type": "Disease"
+    },
+    {
+      "id": "E57",
+      "name": "intrahepatic biliary ducts",
+      "type": "AnatomicalStructure"
+    },
+    {
+      "id": "E58",
+      "name": "transaminases",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E59",
+      "name": "cholestatic liver enzyme levels",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E60",
+      "name": "antimitochondrial antibodies",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E61",
+      "name": "diagnosis of PBC",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E62",
+      "name": "imaging",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E63",
+      "name": "liver biopsy",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E64",
+      "name": "European Association for Study of the Liver",
+      "type": "Organization"
+    },
+    {
+      "id": "E65",
+      "name": "American Association for Study of Liver Disease",
+      "type": "Organization"
+    },
+    {
+      "id": "E66",
+      "name": "ursodeoxycholic acid",
+      "type": "Drug"
+    },
+    {
+      "id": "E67",
+      "name": "PBC",
+      "type": "Disease"
+    },
+    {
+      "id": "E68",
+      "name": "non-histological indicators of cirrhosis",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E69",
+      "name": "cirrhosis",
+      "type": "Disease"
+    },
+    {
+      "id": "E70",
+      "name": "liver enzymes",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E71",
+      "name": "Primary Sclerosing Cholangitis",
+      "type": "Disease"
+    },
+    {
+      "id": "E72",
+      "name": "scoring criteria",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E73",
+      "name": "diagnosis",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E74",
+      "name": "recent study",
+      "type": "Study"
+    },
+    {
+      "id": "E75",
+      "name": "Endoscopic Retrograde Cholangiopancreatography",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E76",
+      "name": "Magnetic Resonance Cholangiopancreatography",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E77",
+      "name": "Liver biopsy",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E78",
+      "name": "Transaminase",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E79",
+      "name": "PSC",
+      "type": "Disease"
+    },
+    {
+      "id": "E80",
+      "name": "Mayo Risk Score",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E81",
+      "name": "Disease progression in PSC",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E82",
+      "name": "Oesophageal varices",
+      "type": "Disease"
+    },
+    {
+      "id": "E83",
+      "name": "Liver diseases",
+      "type": "Disease"
+    },
+    {
+      "id": "E84",
+      "name": "Cirrhosis",
+      "type": "Disease"
+    },
+    {
+      "id": "E85",
+      "name": "Alcohol",
+      "type": "Drug"
+    },
+    {
+      "id": "E86",
+      "name": "Hepatic enzymes",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E87",
+      "name": "GGT:ALP ratio",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E88",
+      "name": "Jaundice",
+      "type": "AdverseEvent"
+    },
+    {
+      "id": "E89",
+      "name": "Macrocytosis",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E90",
+      "name": "Folate deficiency",
+      "type": "Disease"
+    },
+    {
+      "id": "E91",
+      "name": "Vitamin B12 deficiency",
+      "type": "Disease"
+    },
+    {
+      "id": "E92",
+      "name": "Bone marrow suppression",
+      "type": "AdverseEvent"
+    },
+    {
+      "id": "E93",
+      "name": "Alcoholic liver disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E94",
+      "name": "Alcohol abuse",
+      "type": "Disease"
+    },
+    {
+      "id": "E95",
+      "name": "Former drinkers",
+      "type": "Cohort"
+    },
+    {
+      "id": "E96",
+      "name": "Current drinkers",
+      "type": "Cohort"
+    },
+    {
+      "id": "E97",
+      "name": "Men",
+      "type": "Cohort"
+    },
+    {
+      "id": "E98",
+      "name": "Daily alcohol consumption",
+      "type": "Exposure"
+    },
+    {
+      "id": "E99",
+      "name": "Women",
+      "type": "Cohort"
+    },
+    {
+      "id": "E100",
+      "name": "Binge drinking",
+      "type": "Exposure"
+    },
+    {
+      "id": "E101",
+      "name": "Alcohol consumption without food",
+      "type": "Exposure"
+    },
+    {
+      "id": "E102",
+      "name": "Alcohol intake (top two quartiles)",
+      "type": "Exposure"
+    },
+    {
+      "id": "E103",
+      "name": "Non-alcoholic Fatty Liver Disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E104",
+      "name": "pyridoxal-5’-phosphate (vitamin B6)",
+      "type": "Drug"
+    },
+    {
+      "id": "E105",
+      "name": "Nutritionally-deficient heavy-drinkers",
+      "type": "Cohort"
+    },
+    {
+      "id": "E106",
+      "name": "ALT production",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E107",
+      "name": "AST production",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E108",
+      "name": "Absence of pyridoxal-5’-phosphate (vitamin B6)",
+      "type": "Condition"
+    },
+    {
+      "id": "E109",
+      "name": "Normal AST:ALT ratio <1",
+      "type": "Concept"
+    },
+    {
+      "id": "E110",
+      "name": "Alcohol consumption",
+      "type": "Exposure"
+    },
+    {
+      "id": "E111",
+      "name": "Heavy-drinker",
+      "type": "Cohort"
+    },
+    {
+      "id": "E112",
+      "name": "NAFLD",
+      "type": "Disease"
+    },
+    {
+      "id": "E113",
+      "name": "Sensitivity",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E114",
+      "name": "Specificity",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E115",
+      "name": "Cessation of alcohol intake",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E116",
+      "name": "Admission to hospital",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E117",
+      "name": "No liver disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E118",
+      "name": "Clinical guide for biopsy need",
+      "type": "Concept"
+    },
+    {
+      "id": "E119",
+      "name": "Liver enzyme analysis",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E120",
+      "name": "Diagnosis of cirrhosis in NAFLD",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E121",
+      "name": "NASH",
+      "type": "Disease"
+    },
+    {
+      "id": "E122",
+      "name": "Early identification of metabolic risk factors",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E123",
+      "name": "Modification of metabolic risk factors",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E124",
+      "name": "Risk stratification",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E125",
+      "name": "Hypertension",
+      "type": "Disease"
+    },
+    {
+      "id": "E126",
+      "name": "Hyperlipidaemia",
+      "type": "Disease"
+    },
+    {
+      "id": "E127",
+      "name": "Glycaemic control",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E128",
+      "name": "Scoring system",
+      "type": "ClinicalTool"
+    },
+    {
+      "id": "E129",
+      "name": "Mayo clinic",
+      "type": "Institution"
+    },
+    {
+      "id": "E130",
+      "name": "Age",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E131",
+      "name": "Hyperglycemia",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E132",
+      "name": "Body mass index",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E133",
+      "name": "Platelet count",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E134",
+      "name": "Advanced fibrosis",
+      "type": "Disease"
+    },
+    {
+      "id": "E135",
+      "name": "Underlying disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E136",
+      "name": "Score >1",
+      "type": "Threshold"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1_SENT_1_input_txt",
+      "predicate": "used_for",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_1",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F2_SENT_1_input_txt",
+      "predicate": "used_for",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_1",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E4",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F3_SENT_1_input_txt",
+      "predicate": "used_for",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_1",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F4_SENT_1_input_txt",
+      "predicate": "enables",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_1",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E6",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_agent",
+          "entity": "E7",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "outcome",
+          "entity": null,
+          "literal": "greater information",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F5_SENT_1_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_1",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F6_SENT_1_input_txt",
+      "predicate": "improves",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_1",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F7_SENT_1_input_txt",
+      "predicate": "improves",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_1",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E10",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F8_SENT_1_input_txt",
+      "predicate": "is_a",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_1",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F9_SENT_1_input_txt",
+      "predicate": "used_for",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_1",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E12",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F10_SENT_2_input_txt",
+      "predicate": "provides_information_on",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_2",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F11_SENT_2_input_txt",
+      "predicate": "provides_information_on",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_2",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E13",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F12_SENT_2_input_txt",
+      "predicate": "provides_information_on",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_2",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E14",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F13_SENT_2_input_txt",
+      "predicate": "provides_information_on",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_2",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E15",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E17",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F14_SENT_2_input_txt",
+      "predicate": "provides_information_on",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_2",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E16",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E17",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F15_SENT_2_input_txt",
+      "predicate": "provides_information_on",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_2",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E4",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F16_SENT_2_input_txt",
+      "predicate": "provides_information_on",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_2",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F17_SENT_2_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_2",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E6",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E7",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F18_SENT_2_input_txt",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_2",
+      "tuple": null,
+      "arguments": [
+        "F136_SENT_15_input_txt",
+        "F128_SENT_14_input_txt"
+      ]
+    },
+    {
+      "id": "F19_SENT_3_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_3",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E18",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "assessed in conjunction with a thorough history and clinical examination",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F20_SENT_3_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_3",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E25",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "used to differentiate between alcoholic and non-alcoholic fatty liver disease",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F21_SENT_3_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_3",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E26",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "used to differentiate between alcoholic and non-alcoholic fatty liver disease",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F22_SENT_3_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_3",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E27",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "used to differentiate between cholestasis and hepatitis and aid diagnosis in mixed picture",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F23_SENT_3_input_txt",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_3",
+      "tuple": null,
+      "arguments": [
+        "F132_SENT_15_input_txt",
+        "F133_SENT_15_input_txt"
+      ]
+    },
+    {
+      "id": "F24_SENT_4_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E29",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E30",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "increased",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F25_SENT_4_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E29",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "increased",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F26_SENT_4_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E29",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E15",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "increased (often)",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F27_SENT_4_input_txt",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E30",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "comparison",
+          "entity": "E32",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "markedly raised",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F28_SENT_4_input_txt",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E30",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_agent",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "elevated in similar proportions",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F29_SENT_4_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E30",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_agent",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E33",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F30_SENT_4_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.5,
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E34",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "consider alternative causes",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F31_SENT_4_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E36",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E30",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_effect",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "fluctuate",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F32_SENT_4_input_txt",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E36",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E15",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "may be normal",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F33_SENT_4_input_txt",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E30",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "rise and fall gradually",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F34_SENT_4_input_txt",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_4",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E38",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "peaked rise >1000 I/U",
+          "datatype": "quantitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F35_SENT_5_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "differentiating the site of biliary obstruction",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F36_SENT_5_input_txt",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_5",
+      "tuple": null,
+      "arguments": [
+        "F131_SENT_15_input_txt"
+      ]
+    },
+    {
+      "id": "F37_SENT_5_input_txt",
+      "predicate": "observational_association",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E42",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E41",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "outcome",
+          "entity": "E43",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F38_SENT_5_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E42",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E41",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E43",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F39_SENT_5_input_txt",
+      "predicate": "observational_association",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E44",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E45",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "ALT titre is considerably higher than AST",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F40_SENT_5_input_txt",
+      "predicate": "observational_association",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E46",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "outcome",
+          "entity": "E47",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F41_SENT_5_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E46",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E47",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F42_SENT_5_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E46",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E48",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F43_SENT_5_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E46",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E49",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F44_SENT_5_input_txt",
+      "predicate": "observational_association",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E50",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E30",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "preferential rise",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F45_SENT_5_input_txt",
+      "predicate": "observational_association",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E50",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "less rise than ALP",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F46_SENT_5_input_txt",
+      "predicate": "observational_association",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E50",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E51",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F47_SENT_5_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E52",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E50",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F48_SENT_5_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E53",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E50",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F49_SENT_5_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E54",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E50",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F50_SENT_5_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E55",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E50",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F51_SENT_6_input_txt",
+      "predicate": "observed_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_6",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E56",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E57",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F52_SENT_6_input_txt",
+      "predicate": "greater_than",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_6",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E30",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "comparator",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E56",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F53_SENT_6_input_txt",
+      "predicate": "normal_or_minimally_elevated",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_6",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E58",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E56",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F54_SENT_6_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_6",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E56",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E30",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F55_SENT_6_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_6",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E56",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E58",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F56_SENT_6_input_txt",
+      "predicate": "recommends",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_6",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E64",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_agent",
+          "entity": "E65",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E61",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "criteria",
+          "entity": "E59",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "criteria",
+          "entity": "E60",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F57_SENT_6_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_6",
+      "tuple": [
+        {
+          "role": "action",
+          "entity": "E62",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E63",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": null,
+          "literal": "absence of either cholestatic liver enzyme levels or antimitochondrial antibodies",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F58_SENT_6_input_txt",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_6",
+      "tuple": null,
+      "arguments": [
+        "F136_SENT_15_input_txt",
+        "F128_SENT_14_input_txt"
+      ]
+    },
+    {
+      "id": "F59_SENT_7_input_txt",
+      "predicate": "requires_monitoring",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_7",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E66",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E45",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E30",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E67",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E72",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F60_SENT_7_input_txt",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_7",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E68",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E69",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "context",
+          "entity": "E67",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "evidence_source",
+          "entity": "E74",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "outperforms",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F61_SENT_7_input_txt",
+      "predicate": "observational",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_7",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E69",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "context",
+          "entity": "E67",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "evidence_source",
+          "entity": "E74",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "low sensitivity",
+          "datatype": "string"
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "specificity 65-79%",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F62_SENT_7_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_7",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E69",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "context",
+          "entity": "E67",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F63_SENT_7_input_txt",
+      "predicate": "requires_monitoring",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_7",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E70",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E73",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E71",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F64_SENT_8_input_txt",
+      "predicate": "diagnostic_for",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_agent",
+          "entity": "E30",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": null,
+          "literal": "other causes of liver disease excluded",
+          "datatype": "string"
+        },
+        {
+          "role": "target",
+          "entity": "E79",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "evidence_source",
+          "entity": "E75",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "evidence_source",
+          "entity": "E76",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F65_SENT_8_input_txt",
+      "predicate": "precludes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E75",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_agent",
+          "entity": "E76",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E77",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F66_SENT_8_input_txt",
+      "predicate": "not_diagnostic_for",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E78",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E79",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F67_SENT_8_input_txt",
+      "predicate": "component_of",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E45",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E80",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F68_SENT_8_input_txt",
+      "predicate": "calculates",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E80",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E81",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F69_SENT_8_input_txt",
+      "predicate": "indicator_of",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E80",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E82",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F70_SENT_8_input_txt",
+      "predicate": "indicator_of",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_8",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "literal",
+          "entity": null,
+          "literal": ">1.12",
+          "datatype": "ratio"
+        },
+        {
+          "role": "target",
+          "entity": "E82",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F71_SENT_9_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E84",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E71",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": ">1",
+          "datatype": "ratio"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F72_SENT_9_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E85",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E86",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F73_SENT_9_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E86",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "raised",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F74_SENT_9_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E30",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "normal or disproportionately lower than GGT",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F75_SENT_9_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E85",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E87",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": ">2.5",
+          "datatype": "ratio"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F76_SENT_9_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E87",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E88",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": ">2.5",
+          "datatype": "ratio"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F77_SENT_9_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E85",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F78_SENT_9_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E90",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E89",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F79_SENT_9_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E91",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E89",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F80_SENT_9_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E85",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E92",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F81_SENT_9_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E92",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E89",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F82_SENT_9_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E89",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E93",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F83_SENT_10_input_txt",
+      "predicate": "not_diagnostic_of",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_10",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E94",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F84_SENT_10_input_txt",
+      "predicate": "remains_high_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_10",
+      "tuple": [
+        {
+          "role": "biomarker",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "cohort",
+          "entity": "E95",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F85_SENT_10_input_txt",
+      "predicate": "remains_high_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_10",
+      "tuple": [
+        {
+          "role": "biomarker",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "cohort",
+          "entity": "E96",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F86_SENT_10_input_txt",
+      "predicate": "highest_levels_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_10",
+      "tuple": [
+        {
+          "role": "biomarker",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "cohort",
+          "entity": "E97",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "exposure",
+          "entity": "E98",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F87_SENT_10_input_txt",
+      "predicate": "especially_high_levels_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_10",
+      "tuple": [
+        {
+          "role": "biomarker",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "cohort",
+          "entity": "E99",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "exposure",
+          "entity": "E100",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F88_SENT_10_input_txt",
+      "predicate": "especially_high_levels_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_10",
+      "tuple": [
+        {
+          "role": "biomarker",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "cohort",
+          "entity": "E99",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "exposure",
+          "entity": "E101",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F89_SENT_10_input_txt",
+      "predicate": "dose_dependence",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_10",
+      "tuple": [
+        {
+          "role": "biomarker",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "exposure",
+          "entity": "E102",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F90_SENT_10_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_10",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E98",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "cohort",
+          "entity": "E97",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F91_SENT_10_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_10",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E100",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "cohort",
+          "entity": "E99",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F92_SENT_10_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_10",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E101",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "cohort",
+          "entity": "E99",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F93_SENT_10_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_10",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E102",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E31",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F94_SENT_11_input_txt",
+      "predicate": "used_for_differentiation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_11",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E93",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E103",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F95_SENT_11_input_txt",
+      "predicate": "requires",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_11",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E45",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "agent",
+          "entity": "E32",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E104",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F96_SENT_11_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_11",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E108",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E105",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E106",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "decrease",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F97_SENT_11_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_11",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E108",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E105",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E107",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "less decrease",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F98_SENT_11_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_11",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E108",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E105",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "increase",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F99_SENT_11_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_11",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E109",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "AST:ALT ratio should be <1",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F100_SENT_11_input_txt",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_11",
+      "tuple": null,
+      "arguments": [
+        "F133_SENT_15_input_txt",
+        "F135_SENT_15_input_txt"
+      ]
+    },
+    {
+      "id": "F101_SENT_12_input_txt",
+      "predicate": "observed_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_12",
+      "tuple": [
+        {
+          "role": "biomarker",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E93",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": ">1",
+          "datatype": "ratio"
+        },
+        {
+          "role": "prevalence",
+          "entity": null,
+          "literal": 0.92,
+          "datatype": "proportion"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F102_SENT_12_input_txt",
+      "predicate": "observed_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_12",
+      "tuple": [
+        {
+          "role": "biomarker",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E93",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": ">2",
+          "datatype": "ratio"
+        },
+        {
+          "role": "prevalence",
+          "entity": null,
+          "literal": 0.7,
+          "datatype": "proportion"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F103_SENT_12_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_12",
+      "tuple": [
+        {
+          "role": "condition",
+          "entity": "E93",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": ">2",
+          "datatype": "ratio"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F104_SENT_12_input_txt",
+      "predicate": "suggests",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_12",
+      "tuple": [
+        {
+          "role": "biomarker",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": ">2",
+          "datatype": "ratio"
+        },
+        {
+          "role": "suggested_condition",
+          "entity": "E93",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F105_SENT_12_input_txt",
+      "predicate": "suggests",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_12",
+      "tuple": [
+        {
+          "role": "biomarker",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "<1",
+          "datatype": "ratio"
+        },
+        {
+          "role": "suggested_condition",
+          "entity": "E103",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F106_SENT_12_input_txt",
+      "predicate": "reflects",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_12",
+      "tuple": [
+        {
+          "role": "biomarker",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "high",
+          "datatype": "qualitative"
+        },
+        {
+          "role": "target",
+          "entity": "E23",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F107_SENT_12_input_txt",
+      "predicate": "reflects",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_12",
+      "tuple": [
+        {
+          "role": "biomarker",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "high",
+          "datatype": "qualitative"
+        },
+        {
+          "role": "target",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F108_SENT_12_input_txt",
+      "predicate": "not_reflects",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_12",
+      "tuple": [
+        {
+          "role": "biomarker",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "high",
+          "datatype": "qualitative"
+        },
+        {
+          "role": "target",
+          "entity": "E110",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F109_SENT_12_input_txt",
+      "predicate": "observed_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_12",
+      "tuple": [
+        {
+          "role": "cohort",
+          "entity": "E111",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "biomarker",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "<=1",
+          "datatype": "ratio"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F110_SENT_12_input_txt",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_12",
+      "tuple": null,
+      "arguments": [
+        "F131_SENT_15_input_txt",
+        "F134_SENT_15_input_txt"
+      ]
+    },
+    {
+      "id": "F111_SENT_12_input_txt",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_12",
+      "tuple": null,
+      "arguments": [
+        "F132_SENT_15_input_txt",
+        "F134_SENT_15_input_txt"
+      ]
+    },
+    {
+      "id": "F112_SENT_12_input_txt",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_12",
+      "tuple": null,
+      "arguments": [
+        "F130_SENT_14_input_txt",
+        "F129_SENT_14_input_txt"
+      ]
+    },
+    {
+      "id": "F113_SENT_13_input_txt",
+      "predicate": "not_observed",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E113",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E114",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E93",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E112",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F114_SENT_13_input_txt",
+      "predicate": "not_observed",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E113",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E114",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E93",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E112",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "co_agent",
+          "entity": null,
+          "literal": "combination with other factors or models",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F115_SENT_13_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E118",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E77",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F116_SENT_13_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": "E77",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F117_SENT_13_input_txt",
+      "predicate": "observed",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E38",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E115",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "worsen",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F118_SENT_13_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E115",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E38",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "worsen",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F119_SENT_13_input_txt",
+      "predicate": "observed",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E32",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E116",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "rise",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F120_SENT_13_input_txt",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E116",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E32",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "rise",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F121_SENT_13_input_txt",
+      "predicate": "observed",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_13",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E32",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E116",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E117",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "rise",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F122_SENT_14_input_txt",
+      "predicate": "fails_to_provide",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E119",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E120",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F123_SENT_14_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E77",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E121",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F124_SENT_14_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E77",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E84",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F125_SENT_14_input_txt",
+      "predicate": "role_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E119",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E122",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E112",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F126_SENT_14_input_txt",
+      "predicate": "role_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E119",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E123",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E112",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F127_SENT_14_input_txt",
+      "predicate": "role_in",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E119",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E124",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E112",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F128_SENT_14_input_txt",
+      "predicate": "associated_with",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E112",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E125",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F129_SENT_14_input_txt",
+      "predicate": "associated_with",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E112",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E126",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F130_SENT_14_input_txt",
+      "predicate": "associated_with",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_14",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E112",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E127",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F131_SENT_15_input_txt",
+      "predicate": "differentiates",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_15",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E128",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E134",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E112",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "component",
+          "entity": "E130",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "component",
+          "entity": "E131",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "component",
+          "entity": "E132",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "component",
+          "entity": "E133",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "component",
+          "entity": "E16",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "component",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F132_SENT_15_input_txt",
+      "predicate": "specificity_decreases",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_15",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E135",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E84",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F133_SENT_15_input_txt",
+      "predicate": "level_increases",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_15",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E135",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F134_SENT_15_input_txt",
+      "predicate": "useful_for",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_15",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E39",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E112",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E94",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F135_SENT_15_input_txt",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_15",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E112",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E94",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "threshold",
+          "entity": "E136",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "consider cirrhosis",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F136_SENT_15_input_txt",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_15",
+      "tuple": null,
+      "arguments": [
+        "F134_SENT_15_input_txt",
+        "F135_SENT_15_input_txt"
+      ]
+    }
+  ],
+  "metadata": {
+    "document_id": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+    "fragments_merged": 15,
+    "source_sentences": [
+      {
+        "id": "SENT_1",
+        "text": "Abstract Liver enzymes are commonly used in the evaluation of patients with a range of diseases. Classically Liver enzymes are used to give information on whether a patient’s primary disorder is hepatitic or cholestatic in origin. However, knowledge of enzyme ratios and pattern recognition allow much more information to be derived from Liver enzymes. This paper offers an insight to generalists on how to extract greater information from Liver enzymes in order to improve the investigation and management of liver disease. Introduction Liver Function Tests (LFTs) are one of the most commonlyrequested screening blood tests."
+      },
+      {
+        "id": "SENT_2",
+        "text": "Whether for the investigation of suspected liver disease, monitoring of disease activity, or simply as ‘routine’ blood analysis, Liver Function Tests (LFTs) can provide a host of information on a range of disease processes. The title ‘liver function tests’ is, however, somewhat of a misnomer; only the bilirubin and albumin given in this panel offer information regarding the functional capacity of the liver. At a basic level the evaluation of liver enzymes simply gives information as to whether a patient’s primary disorder is hepatitic or cholestatic in origin. However, much more may be interpreted from these assays with knowledge of enzyme ratios and pattern recognition."
+      },
+      {
+        "id": "SENT_3",
+        "text": "This paper offers an insight to generalists of how to yield greater information from this simple test. Patterns and Use of Hepatic Enzymes in Practice The liver enzyme profile should always be assessed in conjunction with a thorough history and clinical examination. Despite a thorough history and clinical examination, there are many occasions when doubt persists over an underlying diagnosis. For example, does an overweight diabetic who enjoys a few glasses of wine at the weekend have alcoholic or non-alcoholic fatty liver disease? In such circumstances the absolute liver enzyme levels and ratios may point the clinician in the right direction. Furthermore, the pattern of enzymes will assist, not only with differentiating between cholestasis and hepatitis, but will aid diagnosis when there is a mixed picture."
+      },
+      {
+        "id": "SENT_4",
+        "text": "Understanding Cholestasis: Mechanical or Medical? Mechanical biliary obstruction results in raised levels of ALP,GGT and often bilirubin. ALP will usually be markedly raised in comparison with ALT. Levels of ALP and GGT elevated in similar proportions signify a hepatobiliary source. Otherwise alternative causes of single enzyme elevation should be considered. When due to choledocholithiasis, the levels of ALP and GGT tend to fluctuate (in comparison to stricture forming disease) and may be associated with a normal bilirubin. Enzyme titres tend to rise and fall gradually and may be preceded by a peaked rise in liver transaminases which can reach >1000 I/U."
+      },
+      {
+        "id": "SENT_5",
+        "text": "The AST:ALT ratio (De Ritis ratio) may assist in differentiating the site of biliary obstruction. When associated with a cholestatic picture, an AST:ALT ratio of <1.5 suggests an extrahepatic obstruction. In such circumstances the ALT titre is frequently considerably higher than AST. An AST:ALT ratio of >1.5 indicates intrahepatic (mechanical or medical) cholestasis is more likely. Drug-induced cholestasis usually presents with a preferential rise in ALP, rather than GGT, or with an ALT:ALP ratio of <2. Causative drugs would include: antibiotics, immunosuppressants, tricyclic antidepressants and angiotensin converting enzyme inhibitors."
+      },
+      {
+        "id": "SENT_6",
+        "text": "In Primary Biliary Cirrhosis, an autoimmune condition of the intrahepatic biliary ducts, the level of ALP is generally greater than that of GGT. In this case, transaminases are invariably normal or only minimally elevated. Both the European Association for Study of the Liver (EASL) and the American Association for Study of Liver Disease (AASLD) recommend that a diagnosis of PBC may be based on cholestatic liver enzyme levels in conjunction with the demonstration of antimitochondrial antibodies. If either of these two criteria is absent, imaging and liver biopsy become necessary."
+      },
+      {
+        "id": "SENT_7",
+        "text": "AST and ALP are used within some scoring criteria to monitor the effects of ursodeoxycholic acid in the management of PBC. A recent study has shown that a raised AST:ALT ratio outperforms other non-histological indicators of cirrhosis in PBC, but still only achieves a low sensitivity and a specificity of 65-79%. As with PBC, liver enzymes play a key role in the diagnosis of Primary Sclerosing Cholangitis (PSC)."
+      },
+      {
+        "id": "SENT_8",
+        "text": "When other causes of liver disease have been excluded, a raised GGT, and particularly ALP, are diagnostic when associated with typical Endoscopic Retrograde Cholangiopancreatography (ERCP) or Magnetic Resonance Cholangiopancreatography (MRCP) findings. This can preclude the need for a liver biopsy. Transaminase levels may be raised up to 2-3 times normal values in PSC but this is not diagnostic. AST is a component of the Mayo Risk Score, which calculates the risk of disease progression in PSC. A high Mayo Risk Score, and an AST:ALT ratio of >1.12 have been shown to be indicators of risk for the development of oesophageal varices."
+      },
+      {
+        "id": "SENT_9",
+        "text": "In Primary Sclerosing Cholangitis (PSC), as with other liver diseases, there are suggestions that an AST:ALT ratio of >1 indicates the development of cirrhosis. Alcohol induces hepatic enzymes leading to a raised GGT with an ALP which may be normal, or disproportionately lower than the GGT. A GGT:ALP ratio >2.5 in association with jaundice suggests alcohol as a cause of liver disease. The presence of a macrocytosis, due to either an associated dietary deficiency of folate or B12, or due to a direct suppression of bone marrow by alcohol is supportive of the diagnosis of alcoholic liver disease."
+      },
+      {
+        "id": "SENT_10",
+        "text": "A raised GGT is not diagnostic of alcohol abuse, with research showing A raised GGT remains high in former drinkers as well as current drinkers. In men, the highest levels of GGT occur in those who drink daily. In women, binge drinkers and those consuming alcohol without food will have especially high levels. The level of GGT is loosely dose dependant, with those in the top two quartiles of alcohol intake having the highest titres."
+      },
+      {
+        "id": "SENT_11",
+        "text": "The Fatty Liver and the AST:ALT Ratio During the last few decades there has been research into using the AST:ALT ratio in the differentiation of alcoholic liver disease (ALD) from other forms of liver disease, particularly the Non-alcoholic Fatty Liver Disease (NAFLD) spectrum. Both AST and ALT enzymes require pyridoxal-5’-phosphate (vitamin B6) to function properly. pyridoxal-5’-phosphate (vitamin B6)'s absence in nutritionally-deficient heavy-drinkers has a much larger effect on the production of ALT than that of AST, causing the AST:ALT ratio to rise. A normal AST:ALT ratio should be <1."
+      },
+      {
+        "id": "SENT_12",
+        "text": "In patients with alcoholic liver disease, the AST:ALT ratio is >1 in 92% of patients, and >2 in 70%.13 AST:ALT scores >2 are, therefore, strongly suggestive of alcoholic liver disease and scores <1 more suggestive of the Non-alcoholic Fatty Liver Disease (NAFLD) spectrum. High ratios reflect the severity of hepatitis or underlying liver disease rather than high alcohol consumption. This means that most heavy-drinkers will not have an AST: ALT ratio >1 as most heavy-drinkers have not yet developed alcoholic liver disease (ALD)."
+      },
+      {
+        "id": "SENT_13",
+        "text": "No studies have shown that the AST:ALT ratio, either alone or in combination with other factors or models, has the necessary sensitivity or specificity to definitively differentiate between alcoholic liver disease (ALD) and NAFLD, but the AST:ALT ratio acts as a useful clinical guide when considering the need for liver biopsy. It should also be noted that liver transaminases are known to worsen in response to cessation of alcohol intake (often coinciding with admission to hospital) and that ALT has also been shown to rise simply from admission to hospital, even in patients with no liver disease."
+      },
+      {
+        "id": "SENT_14",
+        "text": "Although models exist which exclude cirrhosis in NAFLD with reasonable accuracy, liver enzyme analysis has so far failed to provide a sensitive and specific enough means to make a diagnosis. At present liver biopsy cannot be avoided in cases where confirmation of NASH or cirrhosis is necessary. The role of liver enzyme analysis in NAFLD lies in both the early identification and modification of associated metabolic risk factors such as hypertension, hyperlipidaemia and glycaemic control and in risk stratification for the future."
+      },
+      {
+        "id": "SENT_15",
+        "text": "A scoring system developed at the Mayo clinic uses age, hyperglycemia, body mass index, platelet count, albumin, and AST:ALT ratio to accurately differentiate patients with advanced fibrosis in NAFLD. the AST:ALT Ratio becomes considerably less specific in determining underlying disease with the development of cirrhosis, as the AST:ALT Ratio will increase across a broad range of diseases. the AST:ALT Ratio is, however, useful in NAFLD patients known not to be abusing alcohol as a score of >1 should lead to the consideration that NAFLD patients known not to be abusing alcohol may have developed cirrhosis."
+      }
+    ]
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "graph_type": "N-tuple Hyper-Relational Temporal Knowledge Graph",
+  "entities": [
+    {
+      "id": "E1",
+      "name": "AST:ALT ratio",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E2",
+      "name": "Alcoholic liver disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E3",
+      "name": "Non-alcoholic Fatty Liver Disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E4",
+      "name": "Liver disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E5",
+      "name": "AST",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E6",
+      "name": "ALT",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E7",
+      "name": "pyridoxal-5’-phosphate (vitamin B6)",
+      "type": "Drug"
+    },
+    {
+      "id": "E8",
+      "name": "Nutritionally-deficient heavy-drinkers",
+      "type": "Cohort"
+    },
+    {
+      "id": "E9",
+      "name": "ALT production",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E10",
+      "name": "AST production",
+      "type": "Endpoint"
+    },
+    {
+      "id": "E11",
+      "name": "Absence of pyridoxal-5’-phosphate (vitamin B6)",
+      "type": "Condition"
+    },
+    {
+      "id": "E12",
+      "name": "Normal AST:ALT ratio <1",
+      "type": "Concept"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "predicate": "used_for_differentiation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_11",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E2",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E4",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F2",
+      "predicate": "requires",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.9,
+      "sentence_id": "SENT_11",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "agent",
+          "entity": "E6",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E7",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F3",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_11",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "decrease",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F4",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_11",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E10",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "less decrease",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F5",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_11",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "target",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "increase",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F6",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_11",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E12",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "AST:ALT ratio should be <1",
+          "datatype": "string"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F7",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_11",
+      "tuple": null,
+      "arguments": [
+        "F3",
+        "F5"
+      ]
+    }
+  ],
+  "metadata": {
+    "sentence_id": "SENT_11",
+    "source_sentence": "The Fatty Liver and the AST:ALT Ratio During the last few decades there has been research into using the AST:ALT ratio in the differentiation of alcoholic liver disease (ALD) from other forms of liver disease, particularly the Non-alcoholic Fatty Liver Disease (NAFLD) spectrum. Both AST and ALT enzymes require pyridoxal-5’-phosphate (vitamin B6) to function properly. pyridoxal-5’-phosphate (vitamin B6)'s absence in nutritionally-deficient heavy-drinkers has a much larger effect on the production of ALT than that of AST, causing the AST:ALT ratio to rise. A normal AST:ALT ratio should be <1."
+  }
+}

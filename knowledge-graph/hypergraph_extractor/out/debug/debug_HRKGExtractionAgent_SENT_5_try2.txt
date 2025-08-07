@@ -1,0 +1,61 @@
+Sure! Here’s a schema generation prompt tailored for an HR Knowledge Graph (HRKG):
+
+---
+
+**Prompt:**
+
+You are an expert in knowledge graph schema design for Human Resources (HR) domains. Given the following HR-related concepts, entities, and relationships, generate a concise, extensible schema for an HR Knowledge Graph (HRKG). The schema should include:
+
+- **Entity Types** (with brief descriptions)
+- **Key Properties** for each entity type (with data types)
+- **Relationship Types** (with direction and brief descriptions)
+- **Example Triples** (subject-predicate-object) illustrating the schema
+
+**HR Concepts to Cover:**
+- Employee
+- Department
+- Position/Job Title
+- Skill
+- Project
+- Manager
+- Performance Review
+- Training/Course
+- Certification
+
+**Instructions:**
+- Use clear, consistent naming conventions.
+- Specify data types (e.g., string, date, integer, boolean, URI).
+- Indicate cardinality where relevant (e.g., one-to-many, many-to-many).
+- Make the schema extensible for future HR concepts.
+- Present the schema in a structured, readable format (e.g., Markdown tables or bullet points).
+
+---
+
+**Example Output Format:**
+
+### Entity Types
+
+| Entity Type      | Description                          | Key Properties (Data Type)                |
+|------------------|--------------------------------------|-------------------------------------------|
+| Employee         | An individual employed by the org    | employee_id (string), name (string), hire_date (date), email (string), ... |
+| Department       | Organizational unit                  | dept_id (string), name (string), ...      |
+| ...              | ...                                  | ...                                       |
+
+### Relationship Types
+
+| Relationship         | From Entity | To Entity   | Description                        | Cardinality      |
+|----------------------|-------------|-------------|------------------------------------|------------------|
+| works_in             | Employee    | Department  | Employee belongs to a department   | many-to-one      |
+| manages              | Manager     | Department  | Manager leads a department         | one-to-one       |
+| ...                  | ...         | ...         | ...                                | ...              |
+
+### Example Triples
+
+- (Employee:JohnDoe, works_in, Department:Engineering)
+- (Employee:JohnDoe, has_skill, Skill:Python)
+- (Employee:JohnDoe, completed, Training:Leadership101)
+- (Manager:JaneSmith, manages, Department:Engineering)
+
+---
+
+**Now, generate the HRKG schema as described above.**

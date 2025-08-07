@@ -1,0 +1,210 @@
+```json
+{
+  "graph_type": "N-tuple Hyper-Relational Temporal Knowledge Graph",
+  "metadata": {
+    "sentence_id": "SENT_5",
+    "source_sentence": "The AST:ALT ratio (De Ritis ratio) may assist in differentiating the site of biliary obstruction. When associated with a cholestatic picture, an AST:ALT ratio of <1.5 suggests an extrahepatic obstruction. In such circumstances the ALT titre is frequently considerably higher than AST. An AST:ALT ratio of >1.5 indicates intrahepatic (mechanical or medical) cholestasis is more likely. Drug-induced cholestasis usually presents with a preferential rise in ALP, rather than GGT, or with an ALT:ALP ratio of <2. Causative drugs would include: antibiotics, immunosuppressants, tricyclic antidepressants and angiotensin converting enzyme inhibitors."
+  },
+  "entities": [
+    { "id": "E1", "name": "AST:ALT ratio", "type": "Biomarker" },
+    { "id": "E2", "name": "Biliary obstruction", "type": "Disease" },
+    { "id": "E3", "name": "Cholestatic picture", "type": "Phenotype" },
+    { "id": "E4", "name": "AST:ALT ratio <1.5", "type": "Biomarker" },
+    { "id": "E5", "name": "Extrahepatic obstruction", "type": "Disease" },
+    { "id": "E6", "name": "ALT titre", "type": "Biomarker" },
+    { "id": "E7", "name": "AST", "type": "Biomarker" },
+    { "id": "E8", "name": "AST:ALT ratio >1.5", "type": "Biomarker" },
+    { "id": "E9", "name": "Intrahepatic cholestasis", "type": "Disease" },
+    { "id": "E10", "name": "Mechanical cholestasis", "type": "Disease" },
+    { "id": "E11", "name": "Medical cholestasis", "type": "Disease" },
+    { "id": "E12", "name": "Drug-induced cholestasis", "type": "Disease" },
+    { "id": "E13", "name": "ALP", "type": "Biomarker" },
+    { "id": "E14", "name": "GGT", "type": "Biomarker" },
+    { "id": "E15", "name": "ALT:ALP ratio <2", "type": "Biomarker" },
+    { "id": "E16", "name": "Antibiotics", "type": "Drug" },
+    { "id": "E17", "name": "Immunosuppressants", "type": "Drug" },
+    { "id": "E18", "name": "Tricyclic antidepressants", "type": "Drug" },
+    { "id": "E19", "name": "Angiotensin converting enzyme inhibitors", "type": "Drug" }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.60,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E1", "role": "target" },
+        { "literal": "differentiating the site of biliary obstruction", "role": "action" }
+      ]
+    },
+    {
+      "id": "F2",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [0.85, 0.70],
+      "sentence_id": "SENT_5",
+      "arguments": ["F1"]
+    },
+    {
+      "id": "F3",
+      "predicate": "observational_association",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.90,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E4", "role": "agent" },
+        { "entity": "E3", "role": "condition" },
+        { "entity": "E5", "role": "outcome" }
+      ]
+    },
+    {
+      "id": "F4",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [0.85, 0.70],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E4", "role": "agent" },
+        { "entity": "E3", "role": "condition" },
+        { "entity": "E5", "role": "effect" }
+      ]
+    },
+    {
+      "id": "F5",
+      "predicate": "observational_association",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.90,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E6", "role": "agent" },
+        { "entity": "E7", "role": "target" },
+        { "literal": "ALT titre is considerably higher than AST", "role": "delta" }
+      ]
+    },
+    {
+      "id": "F6",
+      "predicate": "observational_association",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.90,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E8", "role": "agent" },
+        { "entity": "E9", "role": "outcome" }
+      ]
+    },
+    {
+      "id": "F7",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [0.85, 0.70],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E8", "role": "agent" },
+        { "entity": "E9", "role": "effect" }
+      ]
+    },
+    {
+      "id": "F8",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [0.85, 0.70],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E8", "role": "agent" },
+        { "entity": "E10", "role": "effect" }
+      ]
+    },
+    {
+      "id": "F9",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [0.85, 0.70],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E8", "role": "agent" },
+        { "entity": "E11", "role": "effect" }
+      ]
+    },
+    {
+      "id": "F10",
+      "predicate": "observational_association",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.90,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E12", "role": "agent" },
+        { "entity": "E13", "role": "target" },
+        { "literal": "preferential rise", "role": "delta" }
+      ]
+    },
+    {
+      "id": "F11",
+      "predicate": "observational_association",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.90,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E12", "role": "agent" },
+        { "entity": "E14", "role": "target" },
+        { "literal": "less rise than ALP", "role": "delta" }
+      ]
+    },
+    {
+      "id": "F12",
+      "predicate": "observational_association",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.90,
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E12", "role": "agent" },
+        { "entity": "E15", "role": "target" }
+      ]
+    },
+    {
+      "id": "F13",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [0.85, 0.70],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E16", "role": "agent" },
+        { "entity": "E12", "role": "effect" }
+      ]
+    },
+    {
+      "id": "F14",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [0.85, 0.70],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E17", "role": "agent" },
+        { "entity": "E12", "role": "effect" }
+      ]
+    },
+    {
+      "id": "F15",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [0.85, 0.70],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E18", "role": "agent" },
+        { "entity": "E12", "role": "effect" }
+      ]
+    },
+    {
+      "id": "F16",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [0.85, 0.70],
+      "sentence_id": "SENT_5",
+      "tuple": [
+        { "entity": "E19", "role": "agent" },
+        { "entity": "E12", "role": "effect" }
+      ]
+    }
+  ]
+}
+```

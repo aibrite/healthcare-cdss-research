@@ -1,0 +1,47 @@
+Sure! Based on your request for a schema generation prompt for HRKG (Human Resources Knowledge Graph), here is a template prompt you can use to instruct an LLM to generate a schema for an HRKG:
+
+---
+
+**Prompt:**
+
+You are an expert in knowledge graph design and human resources management. Your task is to generate a comprehensive schema (ontology) for a Human Resources Knowledge Graph (HRKG). The schema should capture the key entities, relationships, and attributes relevant to HR processes in a typical organization.
+
+**Requirements:**
+
+1. **Entities:** List the main entity types (e.g., Employee, Department, Job Position, Skill, Training, Performance Review, etc.).
+2. **Attributes:** For each entity, specify important attributes (e.g., Employee: name, employee_id, hire_date, etc.).
+3. **Relationships:** Define the relationships between entities (e.g., Employee BELONGS_TO Department, Employee HAS_SKILL Skill, etc.).
+4. **Hierarchy:** If applicable, indicate subclass or hierarchical relationships (e.g., FullTimeEmployee and PartTimeEmployee as subclasses of Employee).
+5. **Format:** Present the schema in a structured format, such as:
+    - A list or table of entities with their attributes
+    - A list of relationships (with source and target entities)
+    - Optionally, a diagram in text (e.g., using Mermaid or PlantUML syntax)
+6. **Extensibility:** Ensure the schema is extensible for future HR concepts (e.g., Benefits, Succession Planning).
+
+**Example Output Format:**
+
+Entities:
+- Employee
+    - employee_id (string)
+    - name (string)
+    - hire_date (date)
+    - ...
+- Department
+    - department_id (string)
+    - name (string)
+    - ...
+
+Relationships:
+- Employee BELONGS_TO Department
+- Employee REPORTS_TO Employee
+- Employee HAS_SKILL Skill
+- ...
+
+**Instructions:**
+- Be comprehensive but avoid unnecessary complexity.
+- Use clear and consistent naming conventions.
+- Focus on real-world HR use cases.
+
+---
+
+You can copy and adapt this prompt for your schema generation tasks! If you need a specific example schema generated, just let me know.

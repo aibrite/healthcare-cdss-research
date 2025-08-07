@@ -1,0 +1,6 @@
+You have provided the file path:
+/home/eggzy/Downloads/hypergraph_extractor/schema_generation_prompt_HG.txt
+
+However, I do not have direct access to your local files. If you would like me to help with the contents of schema_generation_prompt_HG.txt, please copy and paste the text here, or describe what you need help with regarding this file. 
+
+Let me know how you'd like to proceed!

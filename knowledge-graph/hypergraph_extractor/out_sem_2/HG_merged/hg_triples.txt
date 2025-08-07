@@ -1,0 +1,888 @@
+liver enzymes	used in evaluation of	Patient
+liver enzymes	used in evaluation of	Disease
+Patient	used in evaluation of	liver enzymes
+Patient	used in evaluation of	Disease
+Disease	used in evaluation of	liver enzymes
+Disease	used in evaluation of	Patient
+used in evaluation of	has_truth_value	0.9
+liver enzymes	provide information on	Primary disorder
+liver enzymes	provide information on	Hepatitic disorder
+liver enzymes	provide information on	Cholestatic disorder
+Primary disorder	provide information on	liver enzymes
+Primary disorder	provide information on	Hepatitic disorder
+Primary disorder	provide information on	Cholestatic disorder
+Hepatitic disorder	provide information on	liver enzymes
+Hepatitic disorder	provide information on	Primary disorder
+Hepatitic disorder	provide information on	Cholestatic disorder
+Cholestatic disorder	provide information on	liver enzymes
+Cholestatic disorder	provide information on	Primary disorder
+Cholestatic disorder	provide information on	Hepatitic disorder
+provide information on	has_truth_value	0.9
+Enzyme ratios	extract information from	Pattern recognition
+Enzyme ratios	extract information from	liver enzymes
+Pattern recognition	extract information from	Enzyme ratios
+Pattern recognition	extract information from	liver enzymes
+liver enzymes	extract information from	Enzyme ratios
+liver enzymes	extract information from	Pattern recognition
+extract information from	has_truth_value	0.9
+liver enzymes	improve investigation of	Underlying liver disease
+Underlying liver disease	improve investigation of	liver enzymes
+improve investigation of	has_truth_value	0.7
+liver enzymes	improve management of	Underlying liver disease
+Underlying liver disease	improve management of	liver enzymes
+improve management of	has_truth_value	0.7
+Liver Function Tests	used as screening for	Blood test
+Blood test	used as screening for	Liver Function Tests
+used as screening for	has_truth_value	0.9
+used in evaluation of	has_timestamp	1900-01-01
+used in evaluation of	has_sentence	SENT_15
+used in evaluation of	has_context	1900-01-01
+used in evaluation of	has_context	SENT_15
+provide information on	has_timestamp	1900-01-01
+provide information on	has_sentence	SENT_15
+provide information on	has_context	1900-01-01
+provide information on	has_context	SENT_15
+extract information from	has_timestamp	1900-01-01
+extract information from	has_sentence	SENT_15
+extract information from	has_context	1900-01-01
+extract information from	has_context	SENT_15
+improve investigation of	has_timestamp	1900-01-01
+improve investigation of	has_sentence	SENT_15
+improve investigation of	has_context	1900-01-01
+improve investigation of	has_context	SENT_15
+improve management of	has_timestamp	1900-01-01
+improve management of	has_sentence	SENT_15
+improve management of	has_context	1900-01-01
+improve management of	has_context	SENT_15
+used as screening for	has_timestamp	1900-01-01
+used as screening for	has_sentence	SENT_15
+used as screening for	has_context	1900-01-01
+used as screening for	has_context	SENT_15
+Liver Function Tests	provides information on	Underlying liver disease
+Underlying liver disease	provides information on	Liver Function Tests
+provides information on	has_truth_value	0.9
+Liver Function Tests	provides information on	Disease activity
+Disease activity	provides information on	Liver Function Tests
+Liver Function Tests	provides information on	Blood analysis
+Blood analysis	provides information on	Liver Function Tests
+Bilirubin	offers information on	Liver functional capacity
+Liver functional capacity	offers information on	Bilirubin
+offers information on	has_truth_value	0.9
+Albumin	offers information on	Liver functional capacity
+Liver functional capacity	offers information on	Albumin
+liver enzymes	indicates origin	Hepatitic disorder
+liver enzymes	indicates origin	Cholestatic disorder
+Hepatitic disorder	indicates origin	liver enzymes
+Hepatitic disorder	indicates origin	Cholestatic disorder
+Cholestatic disorder	indicates origin	liver enzymes
+Cholestatic disorder	indicates origin	Hepatitic disorder
+indicates origin	has_truth_value	0.9
+Liver Function Tests	interpreted by	Enzyme ratios
+Liver Function Tests	interpreted by	Pattern recognition
+Enzyme ratios	interpreted by	Liver Function Tests
+Enzyme ratios	interpreted by	Pattern recognition
+Pattern recognition	interpreted by	Liver Function Tests
+Pattern recognition	interpreted by	Enzyme ratios
+interpreted by	has_truth_value	0.9
+provides information on	has_timestamp	1900-01-01
+provides information on	has_sentence	SENT_15
+provides information on	has_context	1900-01-01
+provides information on	has_context	SENT_15
+offers information on	has_timestamp	1900-01-01
+offers information on	has_sentence	SENT_15
+offers information on	has_context	1900-01-01
+offers information on	has_context	SENT_15
+indicates origin	has_timestamp	1900-01-01
+indicates origin	has_sentence	SENT_15
+indicates origin	has_context	1900-01-01
+indicates origin	has_context	SENT_15
+interpreted by	has_timestamp	1900-01-01
+interpreted by	has_sentence	SENT_15
+interpreted by	has_context	1900-01-01
+interpreted by	has_context	SENT_15
+Liver enzyme profile	should_be_assessed_with	History and clinical examination
+History and clinical examination	should_be_assessed_with	Liver enzyme profile
+should_be_assessed_with	has_truth_value	0.5
+Absolute liver enzyme levels and ratios	points	Diagnosis
+Diagnosis	points	Absolute liver enzyme levels and ratios
+points	has_truth_value	0.5
+Pattern of hepatic enzymes	differentiates	Cholestasis
+Pattern of hepatic enzymes	differentiates	Hepatitis
+Cholestasis	differentiates	Pattern of hepatic enzymes
+Cholestasis	differentiates	Hepatitis
+Hepatitis	differentiates	Pattern of hepatic enzymes
+Hepatitis	differentiates	Cholestasis
+differentiates	has_truth_value	0.5
+Pattern of hepatic enzymes	aids	Diagnosis
+Pattern of hepatic enzymes	aids	Mixed liver disease picture
+Diagnosis	aids	Pattern of hepatic enzymes
+Diagnosis	aids	Mixed liver disease picture
+Mixed liver disease picture	aids	Pattern of hepatic enzymes
+Mixed liver disease picture	aids	Diagnosis
+aids	has_truth_value	0.5
+should_be_assessed_with	has_timestamp	1900-01-01
+should_be_assessed_with	has_sentence	SENT_15
+should_be_assessed_with	has_context	1900-01-01
+should_be_assessed_with	has_context	SENT_15
+points	has_timestamp	1900-01-01
+points	has_sentence	SENT_15
+points	has_context	1900-01-01
+points	has_context	SENT_15
+differentiates	has_timestamp	1900-01-01
+differentiates	has_sentence	SENT_15
+differentiates	has_context	1900-01-01
+differentiates	has_context	SENT_15
+aids	has_timestamp	1900-01-01
+aids	has_sentence	SENT_15
+aids	has_context	1900-01-01
+aids	has_context	SENT_15
+Mechanical biliary obstruction	increases	ALP
+ALP	increases	Mechanical biliary obstruction
+increases	has_truth_value	0.9
+Mechanical biliary obstruction	increases	Gamma-glutamyl transferase
+Gamma-glutamyl transferase	increases	Mechanical biliary obstruction
+Mechanical biliary obstruction	increases	Bilirubin
+Bilirubin	increases	Mechanical biliary obstruction
+ALP	signifies	Gamma-glutamyl transferase
+ALP	signifies	Hepatobiliary source
+Gamma-glutamyl transferase	signifies	ALP
+Gamma-glutamyl transferase	signifies	Hepatobiliary source
+Hepatobiliary source	signifies	ALP
+Hepatobiliary source	signifies	Gamma-glutamyl transferase
+signifies	has_truth_value	0.9
+Choledocholithiasis	fluctuates	ALP
+Choledocholithiasis	fluctuates	Gamma-glutamyl transferase
+ALP	fluctuates	Choledocholithiasis
+ALP	fluctuates	Gamma-glutamyl transferase
+Gamma-glutamyl transferase	fluctuates	Choledocholithiasis
+Gamma-glutamyl transferase	fluctuates	ALP
+fluctuates	has_truth_value	0.9
+Choledocholithiasis	increases	ALP
+Choledocholithiasis	increases	Gamma-glutamyl transferase
+ALP	increases	Choledocholithiasis
+ALP	increases	Gamma-glutamyl transferase
+Gamma-glutamyl transferase	increases	Choledocholithiasis
+Gamma-glutamyl transferase	increases	ALP
+ALP	requires	monitoring
+monitoring	requires	ALP
+requires	has_truth_value	0.5
+Gamma-glutamyl transferase	requires	monitoring
+monitoring	requires	Gamma-glutamyl transferase
+Bilirubin	requires	monitoring
+monitoring	requires	Bilirubin
+increases	has_timestamp	1900-01-01
+increases	has_sentence	SENT_4
+increases	has_context	1900-01-01
+increases	has_context	SENT_4
+signifies	has_timestamp	1900-01-01
+signifies	has_sentence	SENT_4
+signifies	has_context	1900-01-01
+signifies	has_context	SENT_4
+fluctuates	has_timestamp	1900-01-01
+fluctuates	has_sentence	SENT_4
+fluctuates	has_context	1900-01-01
+fluctuates	has_context	SENT_4
+peaked rise/>1000 I/U	has_context	1900-01-01
+peaked rise/>1000 I/U	has_context	SENT_4
+requires	has_timestamp	1900-01-01
+requires	has_sentence	SENT_4
+requires	has_context	1900-01-01
+requires	has_context	SENT_4
+AST:ALT ratio	assists	Biliary obstruction
+Biliary obstruction	assists	AST:ALT ratio
+assists	has_truth_value	0.9
+AST:ALT ratio	suggests	<1.5
+AST:ALT ratio	suggests	Cholestatic picture
+AST:ALT ratio	suggests	Extrahepatic obstruction
+<1.5	suggests	AST:ALT ratio
+<1.5	suggests	Cholestatic picture
+<1.5	suggests	Extrahepatic obstruction
+Cholestatic picture	suggests	AST:ALT ratio
+Cholestatic picture	suggests	<1.5
+Cholestatic picture	suggests	Extrahepatic obstruction
+Extrahepatic obstruction	suggests	AST:ALT ratio
+Extrahepatic obstruction	suggests	<1.5
+Extrahepatic obstruction	suggests	Cholestatic picture
+suggests	has_truth_value	0.9
+ALT	higher_than	AST
+AST	higher_than	ALT
+higher_than	has_truth_value	0.9
+AST:ALT ratio	indicates	>1.5
+AST:ALT ratio	indicates	Intrahepatic cholestasis
+>1.5	indicates	AST:ALT ratio
+>1.5	indicates	Intrahepatic cholestasis
+Intrahepatic cholestasis	indicates	AST:ALT ratio
+Intrahepatic cholestasis	indicates	>1.5
+indicates	has_truth_value	0.9
+AST:ALT ratio	indicates	Mechanical cholestasis
+>1.5	indicates	Mechanical cholestasis
+Mechanical cholestasis	indicates	AST:ALT ratio
+Mechanical cholestasis	indicates	>1.5
+AST:ALT ratio	indicates	Medical cholestasis
+>1.5	indicates	Medical cholestasis
+Medical cholestasis	indicates	AST:ALT ratio
+Medical cholestasis	indicates	>1.5
+Drug-induced cholestasis	presents_with	rise
+Drug-induced cholestasis	presents_with	ALP
+rise	presents_with	Drug-induced cholestasis
+rise	presents_with	ALP
+ALP	presents_with	Drug-induced cholestasis
+ALP	presents_with	rise
+presents_with	has_truth_value	0.9
+Drug-induced cholestasis	presents_with	<2
+<2	presents_with	Drug-induced cholestasis
+Antibiotics	causes	Drug-induced cholestasis
+Drug-induced cholestasis	causes	Antibiotics
+causes	has_truth_value	0.7
+Immunosuppressants	causes	Drug-induced cholestasis
+Drug-induced cholestasis	causes	Immunosuppressants
+Tricyclic antidepressants	causes	Drug-induced cholestasis
+Drug-induced cholestasis	causes	Tricyclic antidepressants
+Angiotensin converting enzyme inhibitors	causes	Drug-induced cholestasis
+Drug-induced cholestasis	causes	Angiotensin converting enzyme inhibitors
+Drug-induced cholestasis	requires	ALP
+ALP	requires	Drug-induced cholestasis
+Drug-induced cholestasis	requires	ALT
+ALT	requires	Drug-induced cholestasis
+Drug-induced cholestasis	requires	AST
+AST	requires	Drug-induced cholestasis
+Drug-induced cholestasis	requires	GGT
+GGT	requires	Drug-induced cholestasis
+assists	has_timestamp	1900-01-01
+assists	has_sentence	SENT_5
+assists	has_context	1900-01-01
+assists	has_context	SENT_5
+suggests	has_timestamp	1900-01-01
+suggests	has_sentence	SENT_5
+suggests	has_context	1900-01-01
+suggests	has_context	SENT_5
+higher_than	has_timestamp	1900-01-01
+higher_than	has_sentence	SENT_5
+higher_than	has_context	1900-01-01
+higher_than	has_context	SENT_5
+indicates	has_timestamp	1900-01-01
+indicates	has_sentence	SENT_5
+indicates	has_context	1900-01-01
+indicates	has_context	SENT_5
+presents_with	has_timestamp	1900-01-01
+presents_with	has_sentence	SENT_5
+presents_with	has_context	1900-01-01
+presents_with	has_context	SENT_5
+causes	has_timestamp	1900-01-01
+causes	has_sentence	SENT_5
+causes	has_context	1900-01-01
+causes	has_context	SENT_5
+requires	has_sentence	SENT_5
+requires	has_context	SENT_5
+Primary Biliary Cholangitis	requires	Intrahepatic biliary ducts
+Intrahepatic biliary ducts	requires	Primary Biliary Cholangitis
+requires	has_truth_value	0.7
+ALP	greater_than	Gamma-glutamyl transferase
+ALP	greater_than	Primary Biliary Cholangitis
+Gamma-glutamyl transferase	greater_than	ALP
+Gamma-glutamyl transferase	greater_than	Primary Biliary Cholangitis
+Primary Biliary Cholangitis	greater_than	ALP
+Primary Biliary Cholangitis	greater_than	Gamma-glutamyl transferase
+greater_than	has_truth_value	0.9
+Transaminases	normal	Primary Biliary Cholangitis
+Primary Biliary Cholangitis	normal	Transaminases
+normal	has_truth_value	0.9
+Transaminases	minimally_elevated	Primary Biliary Cholangitis
+Primary Biliary Cholangitis	minimally_elevated	Transaminases
+minimally_elevated	has_truth_value	0.9
+European Association for Study of the Liver	recommend	American Association for Study of Liver Disease
+European Association for Study of the Liver	recommend	Diagnosis
+European Association for Study of the Liver	recommend	Cholestatic liver enzyme levels
+European Association for Study of the Liver	recommend	Antimitochondrial antibodies
+American Association for Study of Liver Disease	recommend	European Association for Study of the Liver
+American Association for Study of Liver Disease	recommend	Diagnosis
+American Association for Study of Liver Disease	recommend	Cholestatic liver enzyme levels
+American Association for Study of Liver Disease	recommend	Antimitochondrial antibodies
+Diagnosis	recommend	European Association for Study of the Liver
+Diagnosis	recommend	American Association for Study of Liver Disease
+Diagnosis	recommend	Cholestatic liver enzyme levels
+Diagnosis	recommend	Antimitochondrial antibodies
+Cholestatic liver enzyme levels	recommend	European Association for Study of the Liver
+Cholestatic liver enzyme levels	recommend	American Association for Study of Liver Disease
+Cholestatic liver enzyme levels	recommend	Diagnosis
+Cholestatic liver enzyme levels	recommend	Antimitochondrial antibodies
+Antimitochondrial antibodies	recommend	European Association for Study of the Liver
+Antimitochondrial antibodies	recommend	American Association for Study of Liver Disease
+Antimitochondrial antibodies	recommend	Diagnosis
+Antimitochondrial antibodies	recommend	Cholestatic liver enzyme levels
+recommend	has_truth_value	0.5
+Diagnosis	based_on	Cholestatic liver enzyme levels
+Diagnosis	based_on	Antimitochondrial antibodies
+Cholestatic liver enzyme levels	based_on	Diagnosis
+Cholestatic liver enzyme levels	based_on	Antimitochondrial antibodies
+Antimitochondrial antibodies	based_on	Diagnosis
+Antimitochondrial antibodies	based_on	Cholestatic liver enzyme levels
+based_on	has_truth_value	0.7
+Cholestatic liver enzyme levels	conjunction_with	Antimitochondrial antibodies
+Antimitochondrial antibodies	conjunction_with	Cholestatic liver enzyme levels
+conjunction_with	has_truth_value	0.7
+Diagnosis	requires	Imaging
+Diagnosis	requires	Liver biopsy
+Imaging	requires	Diagnosis
+Imaging	requires	Liver biopsy
+Liver biopsy	requires	Diagnosis
+Liver biopsy	requires	Imaging
+Autoimmune condition	has_context	1900-01-01
+Autoimmune condition	has_context	SENT_15
+requires	has_sentence	SENT_15
+requires	has_context	SENT_15
+greater_than	has_timestamp	1900-01-01
+greater_than	has_sentence	SENT_15
+greater_than	has_context	1900-01-01
+greater_than	has_context	SENT_15
+normal	has_timestamp	1900-01-01
+normal	has_sentence	SENT_15
+normal	has_context	1900-01-01
+normal	has_context	SENT_15
+minimally_elevated	has_timestamp	1900-01-01
+minimally_elevated	has_sentence	SENT_15
+minimally_elevated	has_context	1900-01-01
+minimally_elevated	has_context	SENT_15
+recommend	has_timestamp	1900-01-01
+recommend	has_sentence	SENT_15
+recommend	has_context	1900-01-01
+recommend	has_context	SENT_15
+based_on	has_timestamp	1900-01-01
+based_on	has_sentence	SENT_15
+based_on	has_context	1900-01-01
+based_on	has_context	SENT_15
+conjunction_with	has_timestamp	1900-01-01
+conjunction_with	has_sentence	SENT_15
+conjunction_with	has_context	1900-01-01
+conjunction_with	has_context	SENT_15
+scoring criteria	monitor	AST
+scoring criteria	monitor	ALP
+scoring criteria	monitor	effects
+scoring criteria	monitor	Ursodeoxycholic acid
+scoring criteria	monitor	Primary Biliary Cholangitis
+AST	monitor	scoring criteria
+AST	monitor	ALP
+AST	monitor	effects
+AST	monitor	Ursodeoxycholic acid
+AST	monitor	Primary Biliary Cholangitis
+ALP	monitor	scoring criteria
+ALP	monitor	AST
+ALP	monitor	effects
+ALP	monitor	Ursodeoxycholic acid
+ALP	monitor	Primary Biliary Cholangitis
+effects	monitor	scoring criteria
+effects	monitor	AST
+effects	monitor	ALP
+effects	monitor	Ursodeoxycholic acid
+effects	monitor	Primary Biliary Cholangitis
+Ursodeoxycholic acid	monitor	scoring criteria
+Ursodeoxycholic acid	monitor	AST
+Ursodeoxycholic acid	monitor	ALP
+Ursodeoxycholic acid	monitor	effects
+Ursodeoxycholic acid	monitor	Primary Biliary Cholangitis
+Primary Biliary Cholangitis	monitor	scoring criteria
+Primary Biliary Cholangitis	monitor	AST
+Primary Biliary Cholangitis	monitor	ALP
+Primary Biliary Cholangitis	monitor	effects
+Primary Biliary Cholangitis	monitor	Ursodeoxycholic acid
+monitor	has_truth_value	0.9
+raised AST:ALT ratio	outperforms	non-histological indicators of cirrhosis
+raised AST:ALT ratio	outperforms	Primary Biliary Cholangitis
+non-histological indicators of cirrhosis	outperforms	raised AST:ALT ratio
+non-histological indicators of cirrhosis	outperforms	Primary Biliary Cholangitis
+Primary Biliary Cholangitis	outperforms	raised AST:ALT ratio
+Primary Biliary Cholangitis	outperforms	non-histological indicators of cirrhosis
+outperforms	has_truth_value	0.9
+raised AST:ALT ratio	requires	monitor
+monitor	requires	raised AST:ALT ratio
+liver enzymes	key role	Diagnosis
+liver enzymes	key role	Primary Sclerosing Cholangitis
+Diagnosis	key role	liver enzymes
+Diagnosis	key role	Primary Sclerosing Cholangitis
+Primary Sclerosing Cholangitis	key role	liver enzymes
+Primary Sclerosing Cholangitis	key role	Diagnosis
+key role	has_truth_value	0.9
+monitor	has_timestamp	1900-01-01
+monitor	has_sentence	SENT_7
+monitor	has_context	1900-01-01
+monitor	has_context	SENT_7
+outperforms	has_timestamp	1900-01-01
+outperforms	has_context	1900-01-01
+outperforms	has_context	recent study
+requires	has_sentence	SENT_7
+requires	has_context	SENT_7
+key role	has_timestamp	1900-01-01
+key role	has_sentence	SENT_7
+key role	has_context	1900-01-01
+key role	has_context	SENT_7
+GGT	diagnostic	ALP
+GGT	diagnostic	Endoscopic Retrograde Cholangiopancreatography
+GGT	diagnostic	Magnetic Resonance Cholangiopancreatography
+ALP	diagnostic	GGT
+ALP	diagnostic	Endoscopic Retrograde Cholangiopancreatography
+ALP	diagnostic	Magnetic Resonance Cholangiopancreatography
+Endoscopic Retrograde Cholangiopancreatography	diagnostic	GGT
+Endoscopic Retrograde Cholangiopancreatography	diagnostic	ALP
+Endoscopic Retrograde Cholangiopancreatography	diagnostic	Magnetic Resonance Cholangiopancreatography
+Magnetic Resonance Cholangiopancreatography	diagnostic	GGT
+Magnetic Resonance Cholangiopancreatography	diagnostic	ALP
+Magnetic Resonance Cholangiopancreatography	diagnostic	Endoscopic Retrograde Cholangiopancreatography
+diagnostic	has_truth_value	0.9
+precludes	has_truth_value	0.7
+Transaminase	raised/2-3	Primary Sclerosing Cholangitis
+Primary Sclerosing Cholangitis	raised/2-3	Transaminase
+raised/2-3	has_truth_value	0.9
+Transaminase	requires	Primary Sclerosing Cholangitis
+Primary Sclerosing Cholangitis	requires	Transaminase
+AST	component_of	Mayo Risk Score
+Mayo Risk Score	component_of	AST
+component_of	has_truth_value	0.9
+Mayo Risk Score	calculates/risk of disease progression	Primary Sclerosing Cholangitis
+Primary Sclerosing Cholangitis	calculates/risk of disease progression	Mayo Risk Score
+calculates/risk of disease progression	has_truth_value	0.9
+Mayo Risk Score	indicator_of/high	Oesophageal varices
+Oesophageal varices	indicator_of/high	Mayo Risk Score
+indicator_of/high	has_truth_value	0.9
+AST:ALT ratio	indicator_of/>1.12	Oesophageal varices
+Oesophageal varices	indicator_of/>1.12	AST:ALT ratio
+indicator_of/>1.12	has_truth_value	0.9
+diagnostic	has_timestamp	1900-01-01
+diagnostic	has_sentence	SENT_8
+diagnostic	has_context	1900-01-01
+diagnostic	has_context	SENT_8
+precludes	has_timestamp	1900-01-01
+precludes	has_sentence	SENT_8
+precludes	has_context	1900-01-01
+precludes	has_context	SENT_8
+raised/2-3	has_timestamp	1900-01-01
+raised/2-3	has_sentence	SENT_8
+raised/2-3	has_context	1900-01-01
+raised/2-3	has_context	SENT_8
+requires	has_sentence	SENT_8
+requires	has_context	SENT_8
+component_of	has_timestamp	1900-01-01
+component_of	has_sentence	SENT_8
+component_of	has_context	1900-01-01
+component_of	has_context	SENT_8
+calculates/risk of disease progression	has_timestamp	1900-01-01
+calculates/risk of disease progression	has_sentence	SENT_8
+calculates/risk of disease progression	has_context	1900-01-01
+calculates/risk of disease progression	has_context	SENT_8
+indicator_of/high	has_timestamp	1900-01-01
+indicator_of/high	has_sentence	SENT_8
+indicator_of/high	has_context	1900-01-01
+indicator_of/high	has_context	SENT_8
+indicator_of/>1.12	has_timestamp	1900-01-01
+indicator_of/>1.12	has_sentence	SENT_8
+indicator_of/>1.12	has_context	1900-01-01
+indicator_of/>1.12	has_context	SENT_8
+AST:ALT ratio	indicates	>1
+AST:ALT ratio	indicates	Cirrhosis
+>1	indicates	AST:ALT ratio
+>1	indicates	Cirrhosis
+Cirrhosis	indicates	AST:ALT ratio
+Cirrhosis	indicates	>1
+Alcohol	increases	Hepatic enzymes
+Hepatic enzymes	increases	Alcohol
+Alcohol	increases	Gamma-glutamyl transferase
+Gamma-glutamyl transferase	increases	Alcohol
+GGT:ALP ratio	suggests	>2.5
+GGT:ALP ratio	suggests	Jaundice
+GGT:ALP ratio	suggests	Alcohol
+GGT:ALP ratio	suggests	Liver disease
+>2.5	suggests	GGT:ALP ratio
+>2.5	suggests	Jaundice
+>2.5	suggests	Alcohol
+>2.5	suggests	Liver disease
+Jaundice	suggests	GGT:ALP ratio
+Jaundice	suggests	>2.5
+Jaundice	suggests	Alcohol
+Jaundice	suggests	Liver disease
+Alcohol	suggests	GGT:ALP ratio
+Alcohol	suggests	>2.5
+Alcohol	suggests	Jaundice
+Alcohol	suggests	Liver disease
+Liver disease	suggests	GGT:ALP ratio
+Liver disease	suggests	>2.5
+Liver disease	suggests	Jaundice
+Liver disease	suggests	Alcohol
+Alcohol	causes	Macrocytosis
+Macrocytosis	causes	Alcohol
+Folate deficiency	causes	Macrocytosis
+Macrocytosis	causes	Folate deficiency
+B12 deficiency	causes	Macrocytosis
+Macrocytosis	causes	B12 deficiency
+Bone marrow suppression	causes	Macrocytosis
+Macrocytosis	causes	Bone marrow suppression
+Macrocytosis	supports	Alcoholic liver disease
+Alcoholic liver disease	supports	Macrocytosis
+supports	has_truth_value	0.9
+indicates	has_sentence	SENT_15
+indicates	has_context	SENT_15
+increases	has_sentence	SENT_15
+increases	has_context	SENT_15
+suggests	has_sentence	SENT_15
+suggests	has_context	SENT_15
+causes	has_sentence	SENT_15
+causes	has_context	SENT_15
+supports	has_timestamp	1900-01-01
+supports	has_sentence	SENT_15
+supports	has_context	1900-01-01
+supports	has_context	SENT_15
+Gamma-glutamyl transferase	not diagnostic of	Alcohol abuse
+Alcohol abuse	not diagnostic of	Gamma-glutamyl transferase
+not diagnostic of	has_truth_value	0.9
+GGT level	high	Former drinkers
+Former drinkers	high	GGT level
+high	has_truth_value	0.9
+GGT level	high	Current drinkers
+Current drinkers	high	GGT level
+GGT level	high	Men
+GGT level	high	Daily drinkers
+Men	high	GGT level
+Men	high	Daily drinkers
+Daily drinkers	high	GGT level
+Daily drinkers	high	Men
+GGT level	high	Women
+GGT level	high	Binge drinkers
+Women	high	GGT level
+Women	high	Binge drinkers
+Binge drinkers	high	GGT level
+Binge drinkers	high	Women
+GGT level	high	Alcohol consumption without food
+Women	high	Alcohol consumption without food
+Alcohol consumption without food	high	GGT level
+Alcohol consumption without food	high	Women
+Alcohol intake	increases	GGT level
+GGT level	increases	Alcohol intake
+GGT level	high	Top two quartiles of alcohol intake
+Top two quartiles of alcohol intake	high	GGT level
+Alcohol intake	requires	monitoring
+monitoring	requires	Alcohol intake
+GGT level	requires	monitoring
+monitoring	requires	GGT level
+not diagnostic of	has_timestamp	1900-01-01
+not diagnostic of	has_sentence	SENT_11
+not diagnostic of	has_context	1900-01-01
+not diagnostic of	has_context	SENT_11
+high	has_timestamp	1900-01-01
+high	has_sentence	SENT_11
+high	has_context	1900-01-01
+high	has_context	SENT_11
+increases	has_sentence	SENT_11
+increases	has_context	SENT_11
+requires	has_sentence	SENT_11
+requires	has_context	SENT_11
+AST:ALT ratio	differentiates	Alcoholic liver disease
+AST:ALT ratio	differentiates	Underlying liver disease
+Alcoholic liver disease	differentiates	AST:ALT ratio
+Alcoholic liver disease	differentiates	Underlying liver disease
+Underlying liver disease	differentiates	AST:ALT ratio
+Underlying liver disease	differentiates	Alcoholic liver disease
+differentiates	has_truth_value	0.9
+AST:ALT ratio	differentiates	NAFLD
+NAFLD	differentiates	AST:ALT ratio
+NAFLD	differentiates	Underlying liver disease
+Underlying liver disease	differentiates	NAFLD
+AST	requires	pyridoxal-5’-phosphate (vitamin B6)
+pyridoxal-5’-phosphate (vitamin B6)	requires	AST
+requires	has_truth_value	0.9
+ALT	requires	pyridoxal-5’-phosphate (vitamin B6)
+pyridoxal-5’-phosphate (vitamin B6)	requires	ALT
+pyridoxal-5’-phosphate (vitamin B6)	causes/decrease	Heavy drinker
+pyridoxal-5’-phosphate (vitamin B6)	causes/decrease	production
+pyridoxal-5’-phosphate (vitamin B6)	causes/decrease	ALT
+Heavy drinker	causes/decrease	pyridoxal-5’-phosphate (vitamin B6)
+Heavy drinker	causes/decrease	production
+Heavy drinker	causes/decrease	ALT
+production	causes/decrease	pyridoxal-5’-phosphate (vitamin B6)
+production	causes/decrease	Heavy drinker
+production	causes/decrease	ALT
+ALT	causes/decrease	pyridoxal-5’-phosphate (vitamin B6)
+ALT	causes/decrease	Heavy drinker
+ALT	causes/decrease	production
+causes/decrease	has_truth_value	0.7
+pyridoxal-5’-phosphate (vitamin B6)	causes/increase	Heavy drinker
+pyridoxal-5’-phosphate (vitamin B6)	causes/increase	AST:ALT ratio
+Heavy drinker	causes/increase	pyridoxal-5’-phosphate (vitamin B6)
+Heavy drinker	causes/increase	AST:ALT ratio
+AST:ALT ratio	causes/increase	pyridoxal-5’-phosphate (vitamin B6)
+AST:ALT ratio	causes/increase	Heavy drinker
+causes/increase	has_truth_value	0.7
+Heavy drinker	requires	AST:ALT ratio
+Heavy drinker	requires	monitoring
+AST:ALT ratio	requires	Heavy drinker
+AST:ALT ratio	requires	monitoring
+monitoring	requires	Heavy drinker
+monitoring	requires	AST:ALT ratio
+<1	increases/normal AST:ALT ratio should be <1	AST:ALT ratio
+AST:ALT ratio	increases/normal AST:ALT ratio should be <1	<1
+increases/normal AST:ALT ratio should be <1	has_truth_value	0.9
+differentiates	has_sentence	SENT_11
+differentiates	has_context	SENT_11
+causes/decrease	has_timestamp	1900-01-01
+causes/decrease	has_sentence	SENT_11
+causes/decrease	has_context	1900-01-01
+causes/decrease	has_context	SENT_11
+causes/increase	has_timestamp	1900-01-01
+causes/increase	has_sentence	SENT_11
+causes/increase	has_context	1900-01-01
+causes/increase	has_context	SENT_11
+increases/normal AST:ALT ratio should be <1	has_timestamp	1900-01-01
+increases/normal AST:ALT ratio should be <1	has_sentence	SENT_11
+increases/normal AST:ALT ratio should be <1	has_context	1900-01-01
+increases/normal AST:ALT ratio should be <1	has_context	SENT_11
+AST:ALT ratio	suggestive_of/92%	>1
+AST:ALT ratio	suggestive_of/92%	Alcoholic liver disease
+>1	suggestive_of/92%	AST:ALT ratio
+>1	suggestive_of/92%	Alcoholic liver disease
+Alcoholic liver disease	suggestive_of/92%	AST:ALT ratio
+Alcoholic liver disease	suggestive_of/92%	>1
+suggestive_of/92%	has_truth_value	0.9
+AST:ALT ratio	suggestive_of/70%	>2
+AST:ALT ratio	suggestive_of/70%	Alcoholic liver disease
+>2	suggestive_of/70%	AST:ALT ratio
+>2	suggestive_of/70%	Alcoholic liver disease
+Alcoholic liver disease	suggestive_of/70%	AST:ALT ratio
+Alcoholic liver disease	suggestive_of/70%	>2
+suggestive_of/70%	has_truth_value	0.9
+AST:ALT ratio	suggestive_of	<1
+AST:ALT ratio	suggestive_of	NAFLD
+<1	suggestive_of	AST:ALT ratio
+<1	suggestive_of	NAFLD
+NAFLD	suggestive_of	AST:ALT ratio
+NAFLD	suggestive_of	<1
+suggestive_of	has_truth_value	0.9
+AST:ALT ratio	reflects	Severity
+AST:ALT ratio	reflects	Hepatitis
+AST:ALT ratio	reflects	Underlying liver disease
+Severity	reflects	AST:ALT ratio
+Severity	reflects	Hepatitis
+Severity	reflects	Underlying liver disease
+Hepatitis	reflects	AST:ALT ratio
+Hepatitis	reflects	Severity
+Hepatitis	reflects	Underlying liver disease
+Underlying liver disease	reflects	AST:ALT ratio
+Underlying liver disease	reflects	Severity
+Underlying liver disease	reflects	Hepatitis
+reflects	has_truth_value	0.9
+AST:ALT ratio	reflects	High alcohol consumption
+High alcohol consumption	reflects	AST:ALT ratio
+reflects	has_truth_value	0.1
+Heavy drinker	suggestive_of	AST:ALT ratio
+Heavy drinker	suggestive_of	>1
+AST:ALT ratio	suggestive_of	Heavy drinker
+AST:ALT ratio	suggestive_of	>1
+>1	suggestive_of	Heavy drinker
+>1	suggestive_of	AST:ALT ratio
+suggestive_of	has_truth_value	0.1
+Heavy drinker	developed	Alcoholic liver disease
+Alcoholic liver disease	developed	Heavy drinker
+developed	has_truth_value	0.1
+AST:ALT ratio	requires	>2
+AST:ALT ratio	requires	Severity
+>2	requires	AST:ALT ratio
+>2	requires	Severity
+Severity	requires	AST:ALT ratio
+Severity	requires	>2
+suggestive_of/92%	has_timestamp	1900-01-01
+suggestive_of/92%	has_sentence	SENT_12
+suggestive_of/92%	has_context	1900-01-01
+suggestive_of/92%	has_context	SENT_12
+suggestive_of/70%	has_timestamp	1900-01-01
+suggestive_of/70%	has_sentence	SENT_12
+suggestive_of/70%	has_context	1900-01-01
+suggestive_of/70%	has_context	SENT_12
+suggestive_of	has_timestamp	1900-01-01
+suggestive_of	has_sentence	SENT_12
+suggestive_of	has_context	1900-01-01
+suggestive_of	has_context	SENT_12
+reflects	has_timestamp	1900-01-01
+reflects	has_sentence	SENT_12
+reflects	has_context	1900-01-01
+reflects	has_context	SENT_12
+developed	has_timestamp	1900-01-01
+developed	has_sentence	SENT_12
+developed	has_context	1900-01-01
+developed	has_context	SENT_12
+requires	has_sentence	SENT_12
+requires	has_context	SENT_12
+AST:ALT ratio	requires	Liver biopsy
+Liver biopsy	requires	AST:ALT ratio
+Liver transaminases	worsen	Cessation of alcohol intake
+Liver transaminases	worsen	Admission to hospital
+Cessation of alcohol intake	worsen	Liver transaminases
+Cessation of alcohol intake	worsen	Admission to hospital
+Admission to hospital	worsen	Liver transaminases
+Admission to hospital	worsen	Cessation of alcohol intake
+worsen	has_truth_value	0.9
+ALT	rise	Admission to hospital
+Admission to hospital	rise	ALT
+rise	has_truth_value	0.9
+requires	has_sentence	SENT_13
+requires	has_context	SENT_13
+worsen	has_timestamp	1900-01-01
+worsen	has_sentence	SENT_13
+worsen	has_context	1900-01-01
+worsen	has_context	SENT_13
+rise	has_timestamp	1900-01-01
+rise	has_sentence	SENT_13
+rise	has_context	1900-01-01
+rise	has_context	SENT_13
+NAFLD	excludes	Cirrhosis
+Cirrhosis	excludes	NAFLD
+excludes	has_truth_value	0.9
+Liver enzyme analysis	fails	Sensitivity
+Liver enzyme analysis	fails	Specificity
+Liver enzyme analysis	fails	Diagnosis
+Sensitivity	fails	Liver enzyme analysis
+Sensitivity	fails	Specificity
+Sensitivity	fails	Diagnosis
+Specificity	fails	Liver enzyme analysis
+Specificity	fails	Sensitivity
+Specificity	fails	Diagnosis
+Diagnosis	fails	Liver enzyme analysis
+Diagnosis	fails	Sensitivity
+Diagnosis	fails	Specificity
+fails	has_truth_value	0.9
+Diagnosis	requires	Non-alcoholic steatohepatitis
+Non-alcoholic steatohepatitis	requires	Diagnosis
+Non-alcoholic steatohepatitis	requires	Liver biopsy
+Liver biopsy	requires	Non-alcoholic steatohepatitis
+Diagnosis	requires	Cirrhosis
+Cirrhosis	requires	Diagnosis
+Cirrhosis	requires	Liver biopsy
+Liver biopsy	requires	Cirrhosis
+Liver enzyme analysis	identifies	Early identification
+Liver enzyme analysis	identifies	Metabolic risk factors
+Early identification	identifies	Liver enzyme analysis
+Early identification	identifies	Metabolic risk factors
+Metabolic risk factors	identifies	Liver enzyme analysis
+Metabolic risk factors	identifies	Early identification
+identifies	has_truth_value	0.9
+Liver enzyme analysis	modifies	Modification
+Liver enzyme analysis	modifies	Metabolic risk factors
+Modification	modifies	Liver enzyme analysis
+Modification	modifies	Metabolic risk factors
+Metabolic risk factors	modifies	Liver enzyme analysis
+Metabolic risk factors	modifies	Modification
+modifies	has_truth_value	0.9
+Liver enzyme analysis	stratifies	Risk stratification
+Risk stratification	stratifies	Liver enzyme analysis
+stratifies	has_truth_value	0.9
+Metabolic risk factors	modifies	Hypertension
+Hypertension	modifies	Metabolic risk factors
+Metabolic risk factors	modifies	Hyperlipidaemia
+Hyperlipidaemia	modifies	Metabolic risk factors
+Metabolic risk factors	modifies	Glycaemic control
+Glycaemic control	modifies	Metabolic risk factors
+excludes	has_timestamp	1900-01-01
+excludes	has_sentence	SENT_15
+excludes	has_context	1900-01-01
+excludes	has_context	SENT_15
+fails	has_timestamp	1900-01-01
+fails	has_sentence	SENT_15
+fails	has_context	1900-01-01
+fails	has_context	SENT_15
+identifies	has_timestamp	1900-01-01
+identifies	has_sentence	SENT_15
+identifies	has_context	1900-01-01
+identifies	has_context	SENT_15
+modifies	has_timestamp	1900-01-01
+modifies	has_sentence	SENT_15
+modifies	has_context	1900-01-01
+modifies	has_context	SENT_15
+stratifies	has_timestamp	1900-01-01
+stratifies	has_sentence	SENT_15
+stratifies	has_context	1900-01-01
+stratifies	has_context	SENT_15
+Mayo Clinic NAFLD Fibrosis Scoring System	uses	Age
+Mayo Clinic NAFLD Fibrosis Scoring System	uses	Hyperglycemia
+Mayo Clinic NAFLD Fibrosis Scoring System	uses	Body Mass Index
+Mayo Clinic NAFLD Fibrosis Scoring System	uses	Platelet Count
+Mayo Clinic NAFLD Fibrosis Scoring System	uses	Albumin
+Mayo Clinic NAFLD Fibrosis Scoring System	uses	AST:ALT Ratio
+Age	uses	Mayo Clinic NAFLD Fibrosis Scoring System
+Age	uses	Hyperglycemia
+Age	uses	Body Mass Index
+Age	uses	Platelet Count
+Age	uses	Albumin
+Age	uses	AST:ALT Ratio
+Hyperglycemia	uses	Mayo Clinic NAFLD Fibrosis Scoring System
+Hyperglycemia	uses	Age
+Hyperglycemia	uses	Body Mass Index
+Hyperglycemia	uses	Platelet Count
+Hyperglycemia	uses	Albumin
+Hyperglycemia	uses	AST:ALT Ratio
+Body Mass Index	uses	Mayo Clinic NAFLD Fibrosis Scoring System
+Body Mass Index	uses	Age
+Body Mass Index	uses	Hyperglycemia
+Body Mass Index	uses	Platelet Count
+Body Mass Index	uses	Albumin
+Body Mass Index	uses	AST:ALT Ratio
+Platelet Count	uses	Mayo Clinic NAFLD Fibrosis Scoring System
+Platelet Count	uses	Age
+Platelet Count	uses	Hyperglycemia
+Platelet Count	uses	Body Mass Index
+Platelet Count	uses	Albumin
+Platelet Count	uses	AST:ALT Ratio
+Albumin	uses	Mayo Clinic NAFLD Fibrosis Scoring System
+Albumin	uses	Age
+Albumin	uses	Hyperglycemia
+Albumin	uses	Body Mass Index
+Albumin	uses	Platelet Count
+Albumin	uses	AST:ALT Ratio
+AST:ALT Ratio	uses	Mayo Clinic NAFLD Fibrosis Scoring System
+AST:ALT Ratio	uses	Age
+AST:ALT Ratio	uses	Hyperglycemia
+AST:ALT Ratio	uses	Body Mass Index
+AST:ALT Ratio	uses	Platelet Count
+AST:ALT Ratio	uses	Albumin
+uses	has_truth_value	0.9
+Mayo Clinic NAFLD Fibrosis Scoring System	differentiates	Advanced Fibrosis
+Mayo Clinic NAFLD Fibrosis Scoring System	differentiates	NAFLD
+Advanced Fibrosis	differentiates	Mayo Clinic NAFLD Fibrosis Scoring System
+Advanced Fibrosis	differentiates	NAFLD
+NAFLD	differentiates	Mayo Clinic NAFLD Fibrosis Scoring System
+NAFLD	differentiates	Advanced Fibrosis
+AST:ALT Ratio	less specific	Underlying Liver Disease
+AST:ALT Ratio	less specific	Cirrhosis
+Underlying Liver Disease	less specific	AST:ALT Ratio
+Underlying Liver Disease	less specific	Cirrhosis
+Cirrhosis	less specific	AST:ALT Ratio
+Cirrhosis	less specific	Underlying Liver Disease
+less specific	has_truth_value	0.9
+AST:ALT Ratio	increases	Disease
+Disease	increases	AST:ALT Ratio
+AST:ALT Ratio > 1	consider	NAFLD
+AST:ALT Ratio > 1	consider	Alcohol Abuse
+AST:ALT Ratio > 1	consider	Cirrhosis
+NAFLD	consider	AST:ALT Ratio > 1
+NAFLD	consider	Alcohol Abuse
+NAFLD	consider	Cirrhosis
+Alcohol Abuse	consider	AST:ALT Ratio > 1
+Alcohol Abuse	consider	NAFLD
+Alcohol Abuse	consider	Cirrhosis
+Cirrhosis	consider	AST:ALT Ratio > 1
+Cirrhosis	consider	NAFLD
+Cirrhosis	consider	Alcohol Abuse
+consider	has_truth_value	0.7
+NAFLD	developed	Cirrhosis
+Cirrhosis	developed	NAFLD
+developed	has_truth_value	0.7
+NAFLD	requires	AST:ALT Ratio
+AST:ALT Ratio	requires	NAFLD
+uses	has_timestamp	1900-01-01
+uses	has_sentence	SENT_15
+uses	has_context	1900-01-01
+uses	has_context	SENT_15
+less specific	has_timestamp	1900-01-01
+less specific	has_sentence	SENT_15
+less specific	has_context	1900-01-01
+less specific	has_context	SENT_15
+consider	has_timestamp	1900-01-01
+consider	has_sentence	SENT_15
+consider	has_context	1900-01-01
+consider	has_context	SENT_15
+developed	has_sentence	SENT_15
+developed	has_context	SENT_15

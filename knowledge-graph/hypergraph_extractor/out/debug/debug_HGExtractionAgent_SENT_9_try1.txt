@@ -1,0 +1,146 @@
+```json
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "metadata": {
+    "source_id": "SENT_9",
+    "source_sentence": "In Primary Sclerosing Cholangitis (PSC), as with other liver diseases, there are suggestions that an AST:ALT ratio of >1 indicates the development of cirrhosis. Alcohol induces hepatic enzymes leading to a raised GGT with an ALP which may be normal, or disproportionately lower than the GGT. A GGT:ALP ratio >2.5 in association with jaundice suggests alcohol as a cause of liver disease. The presence of a macrocytosis, due to either an associated dietary deficiency of folate or B12, or due to a direct suppression of bone marrow by alcohol is supportive of the diagnosis of alcoholic liver disease."
+  },
+  "nodes": [
+    { "id": "n_psc",         "atom_type": "ConceptNode",   "name": "Primary Sclerosing Cholangitis" },
+    { "id": "n_liver_dis",   "atom_type": "ConceptNode",   "name": "Liver disease" },
+    { "id": "n_ast_alt",     "atom_type": "ConceptNode",   "name": "AST:ALT ratio" },
+    { "id": "n_gt1",         "atom_type": "NumberNode",    "name": ">1" },
+    { "id": "n_cirrhosis",   "atom_type": "ConceptNode",   "name": "Cirrhosis" },
+    { "id": "n_alcohol",     "atom_type": "ConceptNode",   "name": "Alcohol" },
+    { "id": "n_hep_enz",     "atom_type": "ConceptNode",   "name": "Hepatic enzymes" },
+    { "id": "n_ggt",         "atom_type": "ConceptNode",   "name": "GGT" },
+    { "id": "n_alp",         "atom_type": "ConceptNode",   "name": "ALP" },
+    { "id": "n_ggt_alp",     "atom_type": "ConceptNode",   "name": "GGT:ALP ratio" },
+    { "id": "n_greater_2_5", "atom_type": "NumberNode",    "name": ">2.5" },
+    { "id": "n_jaundice",    "atom_type": "ConceptNode",   "name": "Jaundice" },
+    { "id": "n_macrocytosis","atom_type": "ConceptNode",   "name": "Macrocytosis" },
+    { "id": "n_folate_def",  "atom_type": "ConceptNode",   "name": "Folate deficiency" },
+    { "id": "n_b12_def",     "atom_type": "ConceptNode",   "name": "B12 deficiency" },
+    { "id": "n_bm_supp",     "atom_type": "ConceptNode",   "name": "Bone marrow suppression" },
+    { "id": "n_alc_liver",   "atom_type": "ConceptNode",   "name": "Alcoholic liver disease" },
+    { "id": "n_requires",    "atom_type": "PredicateNode", "name": "requires" },
+    { "id": "n_increases",   "atom_type": "PredicateNode", "name": "increases" },
+    { "id": "n_causes",      "atom_type": "PredicateNode", "name": "causes" },
+    { "id": "n_indicates",   "atom_type": "PredicateNode", "name": "indicates" },
+    { "id": "n_supports",    "atom_type": "PredicateNode", "name": "supports" },
+    { "id": "n_suggests",    "atom_type": "PredicateNode", "name": "suggests" },
+    { "id": "n_sentence",    "atom_type": "ConceptNode",   "name": "SENT_9" },
+    { "id": "n_timestamp",   "atom_type": "TimestampNode", "name": "1900-01-01" }
+  ],
+  "links": [
+    {
+      "id": "l_astalt_cirrhosis",
+      "link_type": "EvaluationLink",
+      "predicate": "n_indicates",
+      "arguments": ["n_ast_alt", "n_gt1", "n_cirrhosis"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_alcohol_hep_enz",
+      "link_type": "EvaluationLink",
+      "predicate": "n_increases",
+      "arguments": ["n_alcohol", "n_hep_enz"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_alcohol_ggt",
+      "link_type": "EvaluationLink",
+      "predicate": "n_increases",
+      "arguments": ["n_alcohol", "n_ggt"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_ggt_alp_jaundice_liver",
+      "link_type": "EvaluationLink",
+      "predicate": "n_suggests",
+      "arguments": ["n_ggt_alp", "n_greater_2_5", "n_jaundice", "n_alcohol", "n_liver_dis"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_alcohol_macrocytosis",
+      "link_type": "EvaluationLink",
+      "predicate": "n_causes",
+      "arguments": ["n_alcohol", "n_macrocytosis"],
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_folate_macrocytosis",
+      "link_type": "EvaluationLink",
+      "predicate": "n_causes",
+      "arguments": ["n_folate_def", "n_macrocytosis"],
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_b12_macrocytosis",
+      "link_type": "EvaluationLink",
+      "predicate": "n_causes",
+      "arguments": ["n_b12_def", "n_macrocytosis"],
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_bm_supp_macrocytosis",
+      "link_type": "EvaluationLink",
+      "predicate": "n_causes",
+      "arguments": ["n_bm_supp", "n_macrocytosis"],
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_macrocytosis_alc_liver",
+      "link_type": "EvaluationLink",
+      "predicate": "n_supports",
+      "arguments": ["n_macrocytosis", "n_alc_liver"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_ctx_astalt_cirrhosis",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_astalt_cirrhosis"]
+    },
+    {
+      "id": "l_ctx_alcohol_hep_enz",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_alcohol_hep_enz"]
+    },
+    {
+      "id": "l_ctx_alcohol_ggt",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_alcohol_ggt"]
+    },
+    {
+      "id": "l_ctx_ggt_alp_jaundice_liver",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_ggt_alp_jaundice_liver"]
+    },
+    {
+      "id": "l_ctx_alcohol_macrocytosis",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_alcohol_macrocytosis"]
+    },
+    {
+      "id": "l_ctx_folate_macrocytosis",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_folate_macrocytosis"]
+    },
+    {
+      "id": "l_ctx_b12_macrocytosis",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_b12_macrocytosis"]
+    },
+    {
+      "id": "l_ctx_bm_supp_macrocytosis",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_bm_supp_macrocytosis"]
+    },
+    {
+      "id": "l_ctx_macrocytosis_alc_liver",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_macrocytosis_alc_liver"]
+    }
+  ]
+}
+```

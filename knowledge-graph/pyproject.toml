@@ -1,0 +1,38 @@
+# file: pyproject.toml
+[project]
+name = "hypergraph-extractor"
+version = "0.1.0"
+description = "Multi-agent HG / N-TKG extractor for biomedical texts"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.7",
+    "spacy>=3.7",
+    "en_core_sci_scibert @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_scibert-0.5.4.tar.gz",
+    "fastcoref",
+    "httpx[http2]>=0.27",
+    "backoff>=2.2",
+    "tomli",
+    "json5",
+    "semantic-chunker",
+    "networkx",
+    "pyvis",
+    "pykeen",
+    "torch",
+    "numpy",
+    "pandas",
+    "openai",
+    "hyperon"
+]
+
+[tool.hypergraph-extractor]
+system_prompt            = "/home/eggzy/Downloads/hypergraph_extractor/SYSTEM_PROMPT.txt"
+example_prompt           = "/home/eggzy/Downloads/hypergraph_extractor/EXAMPLE_PROMPT.txt"
+example_json_hg          = "/home/eggzy/Downloads/hypergraph_extractor/hg.json"
+example_json_hrkg        = "/home/eggzy/Downloads/hypergraph_extractor/hrkg.json"
+prompt_hg_template       = "/home/eggzy/Downloads/hypergraph_extractor/schema_generation_prompt_HG.txt"
+prompt_hrkg_template     = "/home/eggzy/Downloads/hypergraph_extractor/schema_generation_prompt_HRKG.txt"
+  [tool.hypergraph-extractor.agent] 
+  model_name            = "gpt-4.1"
+  
+[tool.ruff]
+select = ["E", "F", "I"]

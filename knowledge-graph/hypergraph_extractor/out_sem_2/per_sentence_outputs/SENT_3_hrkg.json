@@ -1,0 +1,169 @@
+{
+  "graph_type": "N-tuple Hyper-Relational Temporal Knowledge Graph",
+  "entities": [
+    {
+      "id": "E1",
+      "name": "Liver enzyme profile",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E2",
+      "name": "History and clinical examination",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E3",
+      "name": "Alcoholic fatty liver disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E4",
+      "name": "Non-alcoholic fatty liver disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E5",
+      "name": "Cholestasis",
+      "type": "Disease"
+    },
+    {
+      "id": "E6",
+      "name": "Hepatitis",
+      "type": "Disease"
+    },
+    {
+      "id": "E7",
+      "name": "Diagnosis",
+      "type": "ClinicalAction"
+    },
+    {
+      "id": "E8",
+      "name": "Absolute liver enzyme levels",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E9",
+      "name": "Liver enzyme ratios",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E10",
+      "name": "Pattern of enzymes",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E11",
+      "name": "Mixed picture",
+      "type": "ClinicalFinding"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_3",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "assessed in conjunction with a thorough history and clinical examination",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F2",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_3",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "used to differentiate between alcoholic and non-alcoholic fatty liver disease",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F3",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_3",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "used to differentiate between alcoholic and non-alcoholic fatty liver disease",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F4",
+      "predicate": "requires_investigation",
+      "timestamp": "1900-01-01",
+      "truth_value": 0.6,
+      "sentence_id": "SENT_3",
+      "tuple": [
+        {
+          "role": "target",
+          "entity": "E10",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "action",
+          "entity": null,
+          "literal": "used to differentiate between cholestasis and hepatitis and aid diagnosis in mixed picture",
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F5",
+      "predicate": "implies",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_3",
+      "tuple": null,
+      "arguments": [
+        "F2",
+        "F3"
+      ]
+    }
+  ],
+  "metadata": {
+    "sentence_id": "SENT_3",
+    "source_sentence": "This paper offers an insight to generalists of how to yield greater information from this simple test. Patterns and Use of Hepatic Enzymes in Practice The liver enzyme profile should always be assessed in conjunction with a thorough history and clinical examination. Despite a thorough history and clinical examination, there are many occasions when doubt persists over an underlying diagnosis. For example, does an overweight diabetic who enjoys a few glasses of wine at the weekend have alcoholic or non-alcoholic fatty liver disease? In such circumstances the absolute liver enzyme levels and ratios may point the clinician in the right direction. Furthermore, the pattern of enzymes will assist, not only with differentiating between cholestasis and hepatitis, but will aid diagnosis when there is a mixed picture."
+  }
+}

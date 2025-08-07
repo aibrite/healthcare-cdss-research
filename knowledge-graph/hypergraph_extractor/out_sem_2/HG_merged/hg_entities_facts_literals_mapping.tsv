@@ -1,0 +1,230 @@
+label	kind	id	name	atom_type
+Liver enzymes	node	N1	Liver enzymes	ConceptNode
+used in evaluation of	node	N2	used in evaluation of	PredicateNode
+Patient	node	N3	Patient	ConceptNode
+Disease	node	N4	Disease	ConceptNode
+provide information on	node	N5	provide information on	PredicateNode
+Primary disorder	node	N6	Primary disorder	ConceptNode
+Hepatitic origin	node	N7	Hepatitic origin	ConceptNode
+Cholestatic origin	node	N8	Cholestatic origin	ConceptNode
+Enzyme ratios	node	N9	Enzyme ratios	ConceptNode
+Pattern recognition	node	N10	Pattern recognition	ConceptNode
+extract information from	node	N11	extract information from	PredicateNode
+improve investigation of	node	N12	improve investigation of	PredicateNode
+improve management of	node	N13	improve management of	PredicateNode
+Liver disease	node	N14	Liver disease	ConceptNode
+Liver Function Tests	node	N15	Liver Function Tests	ConceptNode
+used as screening for	node	N16	used as screening for	PredicateNode
+Blood test	node	N17	Blood test	ConceptNode
+SENT_1	node	N18	SENT_1	ConceptNode
+1900-01-01	node	N19	1900-01-01	TimestampNode
+Bilirubin	node	N20	Bilirubin	ConceptNode
+Albumin	node	N21	Albumin	ConceptNode
+Liver functional capacity	node	N22	Liver functional capacity	ConceptNode
+Disease activity	node	N23	Disease activity	ConceptNode
+Blood analysis	node	N24	Blood analysis	ConceptNode
+Hepatitic disorder	node	N25	Hepatitic disorder	ConceptNode
+Cholestatic disorder	node	N26	Cholestatic disorder	ConceptNode
+provides information on	node	N27	provides information on	PredicateNode
+offers information on	node	N28	offers information on	PredicateNode
+evaluates	node	N29	evaluates	PredicateNode
+indicates origin	node	N30	indicates origin	PredicateNode
+interpreted by	node	N31	interpreted by	PredicateNode
+SENT_2	node	N32	SENT_2	ConceptNode
+SENT_3	node	N33	SENT_3	ConceptNode
+Hepatic enzymes	node	N34	Hepatic enzymes	ConceptNode
+Liver enzyme profile	node	N35	Liver enzyme profile	ConceptNode
+History and clinical examination	node	N36	History and clinical examination	ConceptNode
+Alcoholic fatty liver disease	node	N37	Alcoholic fatty liver disease	ConceptNode
+Non-alcoholic fatty liver disease	node	N38	Non-alcoholic fatty liver disease	ConceptNode
+Cholestasis	node	N39	Cholestasis	ConceptNode
+Hepatitis	node	N40	Hepatitis	ConceptNode
+Mixed liver disease picture	node	N41	Mixed liver disease picture	ConceptNode
+Diagnosis	node	N42	Diagnosis	ConceptNode
+Pattern of hepatic enzymes	node	N43	Pattern of hepatic enzymes	ConceptNode
+Absolute liver enzyme levels and ratios	node	N44	Absolute liver enzyme levels and ratios	ConceptNode
+differentiates	node	N45	differentiates	PredicateNode
+assists	node	N46	assists	PredicateNode
+aids	node	N47	aids	PredicateNode
+points	node	N48	points	PredicateNode
+should_be_assessed_with	node	N49	should_be_assessed_with	PredicateNode
+SENT_4	node	N50	SENT_4	SentenceNode
+Mechanical biliary obstruction	node	N51	Mechanical biliary obstruction	ConceptNode
+Choledocholithiasis	node	N52	Choledocholithiasis	ConceptNode
+Stricture forming disease	node	N53	Stricture forming disease	ConceptNode
+Hepatobiliary source	node	N54	Hepatobiliary source	ConceptNode
+Alkaline phosphatase (ALP)	node	N55	Alkaline phosphatase (ALP)	ConceptNode
+Gamma-glutamyl transferase (GGT)	node	N56	Gamma-glutamyl transferase (GGT)	ConceptNode
+Alanine aminotransferase (ALT)	node	N57	Alanine aminotransferase (ALT)	ConceptNode
+Liver transaminases	node	N58	Liver transaminases	ConceptNode
+Enzyme titres	node	N59	Enzyme titres	ConceptNode
+increases	node	N60	increases	PredicateNode
+fluctuates	node	N61	fluctuates	PredicateNode
+signifies	node	N62	signifies	PredicateNode
+requires	node	N63	requires	PredicateNode
+peaked rise	node	N64	peaked rise	PredicateNode
+Monitoring	node	N65	Monitoring	ConceptNode
+SENT_5	node	N66	SENT_5	SentenceNode
+AST:ALT ratio	node	N67	AST:ALT ratio	ConceptNode
+De Ritis ratio	node	N68	De Ritis ratio	ConceptNode
+Biliary obstruction	node	N69	Biliary obstruction	ConceptNode
+Cholestatic picture	node	N70	Cholestatic picture	ConceptNode
+<1.5	node	N71	<1.5	NumberNode
+Extrahepatic obstruction	node	N72	Extrahepatic obstruction	ConceptNode
+ALT	node	N73	ALT	ConceptNode
+AST	node	N74	AST	ConceptNode
+>1.5	node	N75	>1.5	NumberNode
+Intrahepatic cholestasis	node	N76	Intrahepatic cholestasis	ConceptNode
+Mechanical cholestasis	node	N77	Mechanical cholestasis	ConceptNode
+Medical cholestasis	node	N78	Medical cholestasis	ConceptNode
+Drug-induced cholestasis	node	N79	Drug-induced cholestasis	ConceptNode
+ALP	node	N80	ALP	ConceptNode
+GGT	node	N81	GGT	ConceptNode
+<2	node	N82	<2	NumberNode
+Antibiotics	node	N83	Antibiotics	ConceptNode
+Immunosuppressants	node	N84	Immunosuppressants	ConceptNode
+Tricyclic antidepressants	node	N85	Tricyclic antidepressants	ConceptNode
+Angiotensin converting enzyme inhibitors	node	N86	Angiotensin converting enzyme inhibitors	ConceptNode
+suggests	node	N87	suggests	PredicateNode
+indicates	node	N88	indicates	PredicateNode
+presents_with	node	N89	presents_with	PredicateNode
+causes	node	N90	causes	PredicateNode
+higher_than	node	N91	higher_than	PredicateNode
+rise	node	N92	rise	PredicateNode
+Primary Biliary Cirrhosis	node	N93	Primary Biliary Cirrhosis	ConceptNode
+Autoimmune condition	node	N94	Autoimmune condition	ConceptNode
+Intrahepatic biliary ducts	node	N95	Intrahepatic biliary ducts	ConceptNode
+Alkaline phosphatase	node	N96	Alkaline phosphatase	ConceptNode
+Gamma-glutamyl transferase	node	N97	Gamma-glutamyl transferase	ConceptNode
+Transaminases	node	N98	Transaminases	ConceptNode
+Cholestatic liver enzyme levels	node	N99	Cholestatic liver enzyme levels	ConceptNode
+Antimitochondrial antibodies	node	N100	Antimitochondrial antibodies	ConceptNode
+Diagnosis of Primary Biliary Cirrhosis	node	N101	Diagnosis of Primary Biliary Cirrhosis	ConceptNode
+Imaging	node	N102	Imaging	ConceptNode
+Liver biopsy	node	N103	Liver biopsy	ConceptNode
+European Association for Study of the Liver	node	N104	European Association for Study of the Liver	ConceptNode
+American Association for Study of Liver Disease	node	N105	American Association for Study of Liver Disease	ConceptNode
+greater_than	node	N106	greater_than	PredicateNode
+normal	node	N107	normal	PredicateNode
+minimally_elevated	node	N108	minimally_elevated	PredicateNode
+recommend	node	N109	recommend	PredicateNode
+based_on	node	N110	based_on	PredicateNode
+conjunction_with	node	N111	conjunction_with	PredicateNode
+SENT_6	node	N112	SENT_6	SentenceNode
+SENT_7	node	N113	SENT_7	SentenceNode
+Ursodeoxycholic acid	node	N114	Ursodeoxycholic acid	ConceptNode
+Primary Biliary Cholangitis	node	N115	Primary Biliary Cholangitis	ConceptNode
+monitor	node	N116	monitor	PredicateNode
+effects	node	N117	effects	ConceptNode
+scoring criteria	node	N118	scoring criteria	ConceptNode
+raised AST:ALT ratio	node	N119	raised AST:ALT ratio	ConceptNode
+outperforms	node	N120	outperforms	PredicateNode
+non-histological indicators of cirrhosis	node	N121	non-histological indicators of cirrhosis	ConceptNode
+cirrhosis	node	N122	cirrhosis	ConceptNode
+sensitivity	node	N123	sensitivity	ConceptNode
+specificity	node	N124	specificity	ConceptNode
+liver enzymes	node	N125	liver enzymes	ConceptNode
+Primary Sclerosing Cholangitis	node	N126	Primary Sclerosing Cholangitis	ConceptNode
+diagnosis	node	N127	diagnosis	PredicateNode
+key role	node	N128	key role	PredicateNode
+recent study	node	N129	recent study	ConceptNode
+SENT_8	node	N130	SENT_8	ConceptNode
+Transaminase	node	N131	Transaminase	ConceptNode
+Mayo Risk Score	node	N132	Mayo Risk Score	ConceptNode
+Oesophageal varices	node	N133	Oesophageal varices	ConceptNode
+Endoscopic Retrograde Cholangiopancreatography	node	N134	Endoscopic Retrograde Cholangiopancreatography	ConceptNode
+Magnetic Resonance Cholangiopancreatography	node	N135	Magnetic Resonance Cholangiopancreatography	ConceptNode
+diagnostic	node	N136	diagnostic	PredicateNode
+precludes	node	N137	precludes	PredicateNode
+component_of	node	N138	component_of	PredicateNode
+calculates	node	N139	calculates	PredicateNode
+indicator_of	node	N140	indicator_of	PredicateNode
+raised	node	N141	raised	PredicateNode
+development_of	node	N142	development_of	PredicateNode
+>1	node	N143	>1	NumberNode
+Cirrhosis	node	N144	Cirrhosis	ConceptNode
+Alcohol	node	N145	Alcohol	ConceptNode
+GGT:ALP ratio	node	N146	GGT:ALP ratio	ConceptNode
+>2.5	node	N147	>2.5	NumberNode
+Jaundice	node	N148	Jaundice	ConceptNode
+Macrocytosis	node	N149	Macrocytosis	ConceptNode
+Folate deficiency	node	N150	Folate deficiency	ConceptNode
+B12 deficiency	node	N151	B12 deficiency	ConceptNode
+Bone marrow suppression	node	N152	Bone marrow suppression	ConceptNode
+Alcoholic liver disease	node	N153	Alcoholic liver disease	ConceptNode
+supports	node	N154	supports	PredicateNode
+SENT_9	node	N155	SENT_9	ConceptNode
+SENT_10	node	N156	SENT_10	ConceptNode
+Alcohol abuse	node	N157	Alcohol abuse	ConceptNode
+Former drinkers	node	N158	Former drinkers	ConceptNode
+Current drinkers	node	N159	Current drinkers	ConceptNode
+Men	node	N160	Men	ConceptNode
+Daily drinkers	node	N161	Daily drinkers	ConceptNode
+Women	node	N162	Women	ConceptNode
+Binge drinkers	node	N163	Binge drinkers	ConceptNode
+Alcohol consumption without food	node	N164	Alcohol consumption without food	ConceptNode
+Alcohol intake	node	N165	Alcohol intake	ConceptNode
+Top two quartiles of alcohol intake	node	N166	Top two quartiles of alcohol intake	ConceptNode
+GGT level	node	N167	GGT level	ConceptNode
+high	node	N168	high	PredicateNode
+not diagnostic of	node	N169	not diagnostic of	PredicateNode
+SENT_11	node	N170	SENT_11	SentenceNode
+Alcoholic Liver Disease	node	N171	Alcoholic Liver Disease	ConceptNode
+Non-alcoholic Fatty Liver Disease	node	N172	Non-alcoholic Fatty Liver Disease	ConceptNode
+Liver Disease	node	N173	Liver Disease	ConceptNode
+pyridoxal-5’-phosphate (vitamin B6)	node	N174	pyridoxal-5’-phosphate (vitamin B6)	ConceptNode
+nutritionally-deficient heavy-drinker	node	N175	nutritionally-deficient heavy-drinker	ConceptNode
+production	node	N176	production	PredicateNode
+monitoring	node	N177	monitoring	ConceptNode
+<1	node	N178	<1	NumberNode
+SENT_12	node	N179	SENT_12	SentenceNode
+Underlying liver disease	node	N180	Underlying liver disease	ConceptNode
+Heavy drinker	node	N181	Heavy drinker	ConceptNode
+Severity	node	N182	Severity	ConceptNode
+High alcohol consumption	node	N183	High alcohol consumption	ConceptNode
+>2	node	N184	>2	NumberNode
+92%	node	N185	92%	NumberNode
+70%	node	N186	70%	NumberNode
+suggestive_of	node	N187	suggestive_of	PredicateNode
+reflects	node	N188	reflects	PredicateNode
+developed	node	N189	developed	PredicateNode
+SENT_13	node	N190	SENT_13	ConceptNode
+Sensitivity	node	N191	Sensitivity	ConceptNode
+Specificity	node	N192	Specificity	ConceptNode
+NAFLD	node	N193	NAFLD	ConceptNode
+Clinical guide	node	N194	Clinical guide	ConceptNode
+worsen	node	N195	worsen	PredicateNode
+Cessation of alcohol intake	node	N196	Cessation of alcohol intake	ConceptNode
+Admission to hospital	node	N197	Admission to hospital	ConceptNode
+SENT_14	node	N198	SENT_14	SentenceNode
+Non-alcoholic steatohepatitis	node	N199	Non-alcoholic steatohepatitis	ConceptNode
+Liver enzyme analysis	node	N200	Liver enzyme analysis	ConceptNode
+Metabolic risk factors	node	N201	Metabolic risk factors	ConceptNode
+Hypertension	node	N202	Hypertension	ConceptNode
+Hyperlipidaemia	node	N203	Hyperlipidaemia	ConceptNode
+Glycaemic control	node	N204	Glycaemic control	ConceptNode
+Risk stratification	node	N205	Risk stratification	ConceptNode
+Early identification	node	N206	Early identification	ConceptNode
+Modification	node	N207	Modification	ConceptNode
+excludes	node	N208	excludes	PredicateNode
+fails	node	N209	fails	PredicateNode
+confirms	node	N210	confirms	PredicateNode
+lies_in	node	N211	lies_in	PredicateNode
+modifies	node	N212	modifies	PredicateNode
+identifies	node	N213	identifies	PredicateNode
+stratifies	node	N214	stratifies	PredicateNode
+Mayo Clinic NAFLD Fibrosis Scoring System	node	N215	Mayo Clinic NAFLD Fibrosis Scoring System	ConceptNode
+Mayo Clinic	node	N216	Mayo Clinic	ConceptNode
+Age	node	N217	Age	ConceptNode
+Hyperglycemia	node	N218	Hyperglycemia	ConceptNode
+Body Mass Index	node	N219	Body Mass Index	ConceptNode
+Platelet Count	node	N220	Platelet Count	ConceptNode
+AST:ALT Ratio	node	N221	AST:ALT Ratio	ConceptNode
+Advanced Fibrosis	node	N222	Advanced Fibrosis	ConceptNode
+Underlying Liver Disease	node	N223	Underlying Liver Disease	ConceptNode
+Alcohol Abuse	node	N224	Alcohol Abuse	ConceptNode
+AST:ALT Ratio > 1	node	N225	AST:ALT Ratio > 1	NumberNode
+uses	node	N226	uses	PredicateNode
+less specific	node	N227	less specific	PredicateNode
+consider	node	N228	consider	PredicateNode
+SENT_15	node	N229	SENT_15	ConceptNode

@@ -1,0 +1,9 @@
+```EXAMPLE
+Sentence:
+"In a 2023 study (PMID:12345), Vemurafenib (150 mg) showed a 60 % reduction in tumour volume in BRAF V600E‑mutant melanoma patients, but increased cardiotoxicity when co‑administered with Trametinib."
+
+Expected AtomSpace JSON:
+```json
+{EXAMPLE_JSON}
+```
+```

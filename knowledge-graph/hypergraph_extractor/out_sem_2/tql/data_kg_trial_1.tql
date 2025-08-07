@@ -1,0 +1,17 @@
+insert
+  $T_GGT isa LabTest has label "Serum Gamma-glutamyltransferase" has loinc "2324-2" has specimen "Serum/Plasma" has unit "U/L";
+  $T_ALP isa LabTest has label "Alkaline Phosphatase" has loinc "6768-6" has specimen "Serum/Plasma" has unit "U/L";
+  $T_AST_ALT_RATIO isa DerivedMetric has label "AST:ALT Ratio";
+  $RR_GGT_M_ADULT isa ReferenceRange has applies_to_age "18-79" has applies_to_sex "M" has min 9 has max 48 has unit "U/L" has source "PMID:29991234";
+  $D_PBC isa Disease has label "Primary Biliary Cholangitis" has snomed "1486000";
+  $D_ALD isa Disease has label "Alcohol-related Liver Disease" has snomed "19732009";
+  $F_DAILY_ALCOHOL isa Exposure has label "Daily Alcohol Consumption";
+  $F_FASTING isa PhysiologicalState has label "Fasting \u2265 8 h";
+  $DR_UDCA isa Drug has label "Ursodeoxycholic Acid" has rxnorm "1189394";
+  $EV_40369525 isa EvidenceItem has pmid "40369525" has study_type "Prospective cohort" has year 2024 has n 2180 has risk_of_bias "low";
+  $GL_ALP_PBC_UDCA_FAIL isa GuidelineThreshold has guideline "EASL-PBC-2023" has lab_test "T_ALP" has threshold_relative_to_ULN 1.67 has unit "\u00d7ULN" has time_point_days 365 has recommendation "Consider second-line therapy if ALP \u22651.67\u00d7ULN after 12 months of UDCA" has level_of_evidence "1B";
+  $rel_12 (subject: $T_GGT, object: $RR_GGT_M_ADULT, evidence: $EV_40369525) isa has_reference_range has valid_from "2023-01-01";
+  $rel_13 (subject: $T_GGT, object: $F_FASTING) isa confounded_by has note "GGT can drop ~10 % after overnight fast";
+  $rel_14 (subject: $DR_UDCA, object: $T_ALP, evidence: $EV_40369525) isa lowers has median_change -35 has unit "%" has time_to_effect_days 90;
+  $rel_15 (agent: $F_DAILY_ALCOHOL, target: $T_GGT, evidence: $EV_40369525) isa EvidenceTriple has population_sex "M" has population_age "18-79" has direction "increase" has magnitude_label "large" has effect_size_odds_ratio 3.1 has effect_size_ci95_low 2.4 has effect_size_ci95_high 3.9 has timestamp "2024-04-12";
+  $rel_16 (outcome: $D_PBC, evidence: $EV_40369525) isa PatternTriple has test_panel ["T_ALP", "T_GGT", "T_AST_ALT_RATIO"] has pattern_description "ALP > GGT with normal transaminases suggests PBC" has confidence 0.88;

@@ -1,0 +1,3 @@
+Certainly! Since you have provided the path /home/eggzy/Downloads/hypergraph_extractor/schema_generation_prompt_HRKG.txt, but not the contents of the file, I cannot directly read or display its contents. However, if you would like me to help you with the schema generation prompt for HRKG (Hyper-Relational Knowledge Graph), please copy and paste the contents of schema_generation_prompt_HRKG.txt here.
+
+Alternatively, if you want a general template or example of a schema generation prompt for a hyper-relational knowledge graph, let me know and I can generate one for you! Please clarify your request or provide the file contents.

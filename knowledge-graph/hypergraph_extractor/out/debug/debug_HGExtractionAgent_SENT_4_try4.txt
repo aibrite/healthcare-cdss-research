@@ -1,0 +1,57 @@
+Certainly! Here’s a template prompt for generating a schema based on the "HG" (likely "Hugging Face" or "Human Genome" depending on your context) context. Since you haven’t specified the exact domain, I’ll provide a general-purpose schema generation prompt that you can adapt for your needs. If you have a specific context (e.g., NLP models, genomics data, etc.), let me know for a more tailored version.
+
+---
+
+**Prompt: Schema Generation for HG**
+
+You are an expert data architect. Given the following description of the HG dataset, generate a comprehensive JSON schema that accurately represents the structure, data types, and constraints of the data. The schema should be suitable for validation and documentation purposes.
+
+**Dataset Description:**
+[Insert your HG dataset description here.]
+
+**Instructions:**
+- Identify all relevant fields and their data types (e.g., string, integer, array, object).
+- Specify required and optional fields.
+- Include constraints such as value ranges, enumerations, or formats where applicable.
+- Use clear and descriptive field names.
+- Output the schema in standard JSON Schema Draft 7 format.
+
+**Example Output:**
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HG Dataset Schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the record."
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the entity."
+    },
+    "attributes": {
+      "type": "object",
+      "properties": {
+        "age": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "gender": {
+          "type": "string",
+          "enum": ["male", "female", "other"]
+        }
+      },
+      "required": ["age", "gender"]
+    }
+  },
+  "required": ["id", "name", "attributes"]
+}
+```
+
+**Now, generate the schema for the HG dataset as described.**
+
+---
+
+If you provide the actual dataset description or clarify the context for "HG," I can further customize this prompt for you!

@@ -1,0 +1,262 @@
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "nodes": [
+    {
+      "id": "n_lft",
+      "atom_type": "ConceptNode",
+      "name": "Liver Function Tests"
+    },
+    {
+      "id": "n_bilirubin",
+      "atom_type": "ConceptNode",
+      "name": "Bilirubin"
+    },
+    {
+      "id": "n_albumin",
+      "atom_type": "ConceptNode",
+      "name": "Albumin"
+    },
+    {
+      "id": "n_liver_function",
+      "atom_type": "ConceptNode",
+      "name": "Liver functional capacity"
+    },
+    {
+      "id": "n_liver_disease",
+      "atom_type": "ConceptNode",
+      "name": "Liver disease"
+    },
+    {
+      "id": "n_disease_activity",
+      "atom_type": "ConceptNode",
+      "name": "Disease activity"
+    },
+    {
+      "id": "n_blood_analysis",
+      "atom_type": "ConceptNode",
+      "name": "Blood analysis"
+    },
+    {
+      "id": "n_liver_enzymes",
+      "atom_type": "ConceptNode",
+      "name": "Liver enzymes"
+    },
+    {
+      "id": "n_hepatitic",
+      "atom_type": "ConceptNode",
+      "name": "Hepatitic disorder"
+    },
+    {
+      "id": "n_cholestatic",
+      "atom_type": "ConceptNode",
+      "name": "Cholestatic disorder"
+    },
+    {
+      "id": "n_enzyme_ratios",
+      "atom_type": "ConceptNode",
+      "name": "Enzyme ratios"
+    },
+    {
+      "id": "n_pattern_recognition",
+      "atom_type": "ConceptNode",
+      "name": "Pattern recognition"
+    },
+    {
+      "id": "n_provides_info",
+      "atom_type": "PredicateNode",
+      "name": "provides information on"
+    },
+    {
+      "id": "n_offers_info",
+      "atom_type": "PredicateNode",
+      "name": "offers information on"
+    },
+    {
+      "id": "n_evaluates",
+      "atom_type": "PredicateNode",
+      "name": "evaluates"
+    },
+    {
+      "id": "n_indicates_origin",
+      "atom_type": "PredicateNode",
+      "name": "indicates origin"
+    },
+    {
+      "id": "n_interpreted_by",
+      "atom_type": "PredicateNode",
+      "name": "interpreted by"
+    },
+    {
+      "id": "n_sentence",
+      "atom_type": "ConceptNode",
+      "name": "SENT_2"
+    },
+    {
+      "id": "n_timestamp",
+      "atom_type": "TimestampNode",
+      "name": "1900-01-01"
+    }
+  ],
+  "links": [
+    {
+      "id": "l_lft_info",
+      "link_type": "EvaluationLink",
+      "predicate": "n_provides_info",
+      "arguments": [
+        "n_lft",
+        "n_liver_disease"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_lft_info_activity",
+      "link_type": "EvaluationLink",
+      "predicate": "n_provides_info",
+      "arguments": [
+        "n_lft",
+        "n_disease_activity"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_lft_info_blood",
+      "link_type": "EvaluationLink",
+      "predicate": "n_provides_info",
+      "arguments": [
+        "n_lft",
+        "n_blood_analysis"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_bil_albumin_function",
+      "link_type": "EvaluationLink",
+      "predicate": "n_offers_info",
+      "arguments": [
+        "n_bilirubin",
+        "n_liver_function"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_albumin_function",
+      "link_type": "EvaluationLink",
+      "predicate": "n_offers_info",
+      "arguments": [
+        "n_albumin",
+        "n_liver_function"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_liver_enzymes_origin",
+      "link_type": "EvaluationLink",
+      "predicate": "n_indicates_origin",
+      "arguments": [
+        "n_liver_enzymes",
+        "n_hepatitic",
+        "n_cholestatic"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_lft_interpreted",
+      "link_type": "EvaluationLink",
+      "predicate": "n_interpreted_by",
+      "arguments": [
+        "n_lft",
+        "n_enzyme_ratios",
+        "n_pattern_recognition"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_ctx_lft_info",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_lft_info"
+      ]
+    },
+    {
+      "id": "l_ctx_lft_info_activity",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_lft_info_activity"
+      ]
+    },
+    {
+      "id": "l_ctx_lft_info_blood",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_lft_info_blood"
+      ]
+    },
+    {
+      "id": "l_ctx_bil_albumin_function",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_bil_albumin_function"
+      ]
+    },
+    {
+      "id": "l_ctx_albumin_function",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_albumin_function"
+      ]
+    },
+    {
+      "id": "l_ctx_liver_enzymes_origin",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_liver_enzymes_origin"
+      ]
+    },
+    {
+      "id": "l_ctx_lft_interpreted",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sentence",
+        "l_lft_interpreted"
+      ]
+    }
+  ],
+  "metadata": {
+    "source_id": "SENT_2",
+    "source_sentence": "Whether for the investigation of suspected liver disease, monitoring of disease activity, or simply as ‘routine’ blood analysis, Liver Function Tests (LFTs) can provide a host of information on a range of disease processes. The title ‘liver function tests’ is, however, somewhat of a misnomer; only the bilirubin and albumin given in this panel offer information regarding the functional capacity of the liver. At a basic level the evaluation of liver enzymes simply gives information as to whether a patient’s primary disorder is hepatitic or cholestatic in origin. However, much more may be interpreted from these assays with knowledge of enzyme ratios and pattern recognition."
+  }
+}

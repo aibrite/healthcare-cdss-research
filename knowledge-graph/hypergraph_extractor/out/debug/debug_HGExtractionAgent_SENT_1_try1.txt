@@ -1,0 +1,104 @@
+```json
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "metadata": {
+    "source_sentence_id": "SENT_1",
+    "source_sentence": "Abstract Liver enzymes are commonly used in the evaluation of patients with a range of diseases. Classically Liver enzymes are used to give information on whether a patient’s primary disorder is hepatitic or cholestatic in origin. However, knowledge of enzyme ratios and pattern recognition allow much more information to be derived from Liver enzymes. This paper offers an insight to generalists on how to extract greater information from Liver enzymes in order to improve the investigation and management of liver disease. Introduction Liver Function Tests (LFTs) are one of the most commonlyrequested screening blood tests."
+  },
+  "nodes": [
+    { "id": "n_liver_enzymes", "atom_type": "ConceptNode", "name": "Liver enzymes" },
+    { "id": "n_evaluation", "atom_type": "PredicateNode", "name": "used in evaluation of" },
+    { "id": "n_patient", "atom_type": "ConceptNode", "name": "Patient" },
+    { "id": "n_disease", "atom_type": "ConceptNode", "name": "Disease" },
+    { "id": "n_information", "atom_type": "PredicateNode", "name": "provide information on" },
+    { "id": "n_disorder", "atom_type": "ConceptNode", "name": "Primary disorder" },
+    { "id": "n_hepatitic", "atom_type": "ConceptNode", "name": "Hepatitic origin" },
+    { "id": "n_cholestatic", "atom_type": "ConceptNode", "name": "Cholestatic origin" },
+    { "id": "n_enzyme_ratios", "atom_type": "ConceptNode", "name": "Enzyme ratios" },
+    { "id": "n_pattern_recognition", "atom_type": "ConceptNode", "name": "Pattern recognition" },
+    { "id": "n_extract_info", "atom_type": "PredicateNode", "name": "extract information from" },
+    { "id": "n_investigation", "atom_type": "PredicateNode", "name": "improve investigation of" },
+    { "id": "n_management", "atom_type": "PredicateNode", "name": "improve management of" },
+    { "id": "n_liver_disease", "atom_type": "ConceptNode", "name": "Liver disease" },
+    { "id": "n_lfts", "atom_type": "ConceptNode", "name": "Liver Function Tests" },
+    { "id": "n_screening", "atom_type": "PredicateNode", "name": "used as screening for" },
+    { "id": "n_blood_test", "atom_type": "ConceptNode", "name": "Blood test" },
+    { "id": "n_sentence", "atom_type": "ConceptNode", "name": "SENT_1" },
+    { "id": "n_timestamp", "atom_type": "TimestampNode", "name": "1900-01-01" }
+  ],
+  "links": [
+    {
+      "id": "l_eval1",
+      "link_type": "EvaluationLink",
+      "predicate": "n_evaluation",
+      "arguments": ["n_liver_enzymes", "n_patient", "n_disease"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_eval2",
+      "link_type": "EvaluationLink",
+      "predicate": "n_information",
+      "arguments": ["n_liver_enzymes", "n_disorder", "n_hepatitic", "n_cholestatic"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_eval3",
+      "link_type": "EvaluationLink",
+      "predicate": "n_extract_info",
+      "arguments": ["n_enzyme_ratios", "n_pattern_recognition", "n_liver_enzymes"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_eval4",
+      "link_type": "EvaluationLink",
+      "predicate": "n_investigation",
+      "arguments": ["n_liver_enzymes", "n_liver_disease"],
+      "truth_value": [0.85, 0.7]
+    },
+    {
+      "id": "l_eval5",
+      "link_type": "EvaluationLink",
+      "predicate": "n_management",
+      "arguments": ["n_liver_enzymes", "n_liver_disease"],
+      "truth_value": [0.85, 0.7]
+    },
+    {
+      "id": "l_eval6",
+      "link_type": "EvaluationLink",
+      "predicate": "n_screening",
+      "arguments": ["n_lfts", "n_blood_test"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_ctx1",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_eval1"]
+    },
+    {
+      "id": "l_ctx2",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_eval2"]
+    },
+    {
+      "id": "l_ctx3",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_eval3"]
+    },
+    {
+      "id": "l_ctx4",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_eval4"]
+    },
+    {
+      "id": "l_ctx5",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_eval5"]
+    },
+    {
+      "id": "l_ctx6",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_sentence", "l_eval6"]
+    }
+  ]
+}
+```

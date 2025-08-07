@@ -1,0 +1,4 @@
+You have provided the path:
+/home/eggzy/Downloads/hypergraph_extractor/schema_generation_prompt_HRKG.txt
+
+However, I do not have direct access to your file system or the contents of files unless you paste the text here. If you would like me to help with the contents of schema_generation_prompt_HRKG.txt, please copy and paste the text of the file into this chat. Once you do, I can assist you with analyzing, summarizing, editing, or generating content based on it!

@@ -1,0 +1,83 @@
+Sure! Here’s a schema generation prompt tailored for HRKG (Human Resources Knowledge Graph) use cases. This prompt is designed to guide an LLM to generate a knowledge graph schema suitable for HR data, including entities, relationships, and attributes.
+
+---
+
+**Prompt:**
+
+You are an expert in knowledge graph schema design for Human Resources (HR) domains. Your task is to generate a concise, extensible schema for an HR Knowledge Graph (HRKG). The schema should capture key entities, their attributes, and relationships relevant to HR processes such as recruitment, employee management, performance evaluation, and organizational structure.
+
+**Instructions:**
+
+1. **List the main entity types** relevant to HR (e.g., Employee, Department, Job Position, Skill, Performance Review, etc.).
+2. **For each entity type**, specify:
+    - A brief description.
+    - Key attributes (with data types).
+3. **List the main relationship types** between entities (e.g., "works_in", "reports_to", "has_skill", "applied_for", etc.).
+4. **For each relationship type**, specify:
+    - The source and target entity types.
+    - A brief description.
+    - Any relevant attributes (e.g., start_date, end_date, status).
+5. Present the schema in a structured format (e.g., JSON, YAML, or a clear table).
+6. Ensure the schema is general enough to be adapted to different organizations, but detailed enough to support typical HR analytics and applications.
+
+**Example Output Format (YAML):**
+
+```yaml
+entities:
+  - name: Employee
+    description: An individual employed by the organization.
+    attributes:
+      - name: employee_id
+        type: string
+      - name: full_name
+        type: string
+      - name: date_of_birth
+        type: date
+      - name: hire_date
+        type: date
+      - name: email
+        type: string
+      - name: employment_status
+        type: string
+
+  - name: Department
+    description: A functional unit within the organization.
+    attributes:
+      - name: department_id
+        type: string
+      - name: name
+        type: string
+      - name: manager_id
+        type: string
+
+  # ... more entities
+
+relationships:
+  - name: works_in
+    source: Employee
+    target: Department
+    description: Indicates the department where the employee works.
+    attributes:
+      - name: start_date
+        type: date
+      - name: end_date
+        type: date
+
+  - name: reports_to
+    source: Employee
+    target: Employee
+    description: Indicates the reporting line between employees.
+    attributes:
+      - name: start_date
+        type: date
+      - name: end_date
+        type: date
+
+  # ... more relationships
+```
+
+**End of Prompt**
+
+---
+
+You can further customize this prompt by specifying the output format (e.g., JSON-LD, RDF, etc.) or by focusing on particular HR subdomains. Let me know if you need a more detailed example or a different format!

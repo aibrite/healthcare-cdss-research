@@ -1,0 +1,28 @@
+Certainly! Here’s a schema generation prompt tailored for the "HG" context. If you have a specific domain or data type for "HG" (e.g., Human Genetics, Home Gardening, etc.), please clarify for further customization. For now, I’ll assume "HG" stands for "Human Genetics" as a common use case.
+
+---
+
+**Schema Generation Prompt for Human Genetics (HG):**
+
+You are an expert in biomedical informatics and data modeling. Your task is to generate a comprehensive and normalized JSON schema for a Human Genetics (HG) dataset. The schema should be suitable for storing and validating information about genetic variants, patients, and associated phenotypes.
+
+**Requirements:**
+- The schema must be in JSON Schema Draft 2020-12 format.
+- Include definitions for the following entities:
+    - Patient
+    - GeneticVariant
+    - Phenotype
+    - Sample
+- Capture relationships between entities (e.g., a Patient can have multiple Samples; a Sample can have multiple GeneticVariants).
+- Use appropriate data types and constraints (e.g., string, integer, enum, array, required fields).
+- Include example values for each property in the `examples` keyword.
+- Add descriptions for each property to clarify its meaning.
+- Use references (`$ref`) to avoid duplication where possible.
+- Ensure extensibility for future attributes.
+
+**Output Format:**
+- Output only the JSON schema, no explanations or extra text.
+
+---
+
+If you need a schema prompt for a different "HG" context, please specify!

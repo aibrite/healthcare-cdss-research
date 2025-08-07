@@ -1,0 +1,235 @@
+```json
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "metadata": {
+    "source_sentence_id": "SENT_5",
+    "source_sentence": "The AST:ALT ratio (De Ritis ratio) may assist in differentiating the site of biliary obstruction. When associated with a cholestatic picture, an AST:ALT ratio of <1.5 suggests an extrahepatic obstruction. In such circumstances the ALT titre is frequently considerably higher than AST. An AST:ALT ratio of >1.5 indicates intrahepatic (mechanical or medical) cholestasis is more likely. Drug-induced cholestasis usually presents with a preferential rise in ALP, rather than GGT, or with an ALT:ALP ratio of <2. Causative drugs would include: antibiotics, immunosuppressants, tricyclic antidepressants and angiotensin converting enzyme inhibitors."
+  },
+  "nodes": [
+    { "id": "n_SENT_5", "atom_type": "SentenceNode", "name": "SENT_5" },
+    { "id": "n_AST_ALT_ratio", "atom_type": "ConceptNode", "name": "AST:ALT ratio" },
+    { "id": "n_DeRitis_ratio", "atom_type": "ConceptNode", "name": "De Ritis ratio" },
+    { "id": "n_biliary_obstruction", "atom_type": "ConceptNode", "name": "Biliary obstruction" },
+    { "id": "n_cholestatic_picture", "atom_type": "ConceptNode", "name": "Cholestatic picture" },
+    { "id": "n_AST_ALT_lt_1_5", "atom_type": "NumberNode", "name": "<1.5" },
+    { "id": "n_extrahepatic_obstruction", "atom_type": "ConceptNode", "name": "Extrahepatic obstruction" },
+    { "id": "n_ALT", "atom_type": "ConceptNode", "name": "ALT" },
+    { "id": "n_AST", "atom_type": "ConceptNode", "name": "AST" },
+    { "id": "n_AST_ALT_gt_1_5", "atom_type": "NumberNode", "name": ">1.5" },
+    { "id": "n_intrahepatic_cholestasis", "atom_type": "ConceptNode", "name": "Intrahepatic cholestasis" },
+    { "id": "n_mechanical_cholestasis", "atom_type": "ConceptNode", "name": "Mechanical cholestasis" },
+    { "id": "n_medical_cholestasis", "atom_type": "ConceptNode", "name": "Medical cholestasis" },
+    { "id": "n_drug_induced_cholestasis", "atom_type": "ConceptNode", "name": "Drug-induced cholestasis" },
+    { "id": "n_ALP", "atom_type": "ConceptNode", "name": "ALP" },
+    { "id": "n_GGT", "atom_type": "ConceptNode", "name": "GGT" },
+    { "id": "n_ALT_ALP_lt_2", "atom_type": "NumberNode", "name": "<2" },
+    { "id": "n_antibiotics", "atom_type": "ConceptNode", "name": "Antibiotics" },
+    { "id": "n_immunosuppressants", "atom_type": "ConceptNode", "name": "Immunosuppressants" },
+    { "id": "n_tricyclic_antidepressants", "atom_type": "ConceptNode", "name": "Tricyclic antidepressants" },
+    { "id": "n_ace_inhibitors", "atom_type": "ConceptNode", "name": "Angiotensin converting enzyme inhibitors" },
+    { "id": "n_assists", "atom_type": "PredicateNode", "name": "assists" },
+    { "id": "n_suggests", "atom_type": "PredicateNode", "name": "suggests" },
+    { "id": "n_indicates", "atom_type": "PredicateNode", "name": "indicates" },
+    { "id": "n_presents_with", "atom_type": "PredicateNode", "name": "presents_with" },
+    { "id": "n_causes", "atom_type": "PredicateNode", "name": "causes" },
+    { "id": "n_higher_than", "atom_type": "PredicateNode", "name": "higher_than" },
+    { "id": "n_rise", "atom_type": "PredicateNode", "name": "rise" },
+    { "id": "n_requires", "atom_type": "PredicateNode", "name": "requires" },
+    { "id": "n_timestamp", "atom_type": "TimestampNode", "name": "1900-01-01" }
+  ],
+  "links": [
+    {
+      "id": "l_assist_biliary_obstruction",
+      "link_type": "EvaluationLink",
+      "predicate": "n_assists",
+      "arguments": ["n_AST_ALT_ratio", "n_biliary_obstruction"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_suggests_extrahepatic",
+      "link_type": "EvaluationLink",
+      "predicate": "n_suggests",
+      "arguments": ["n_AST_ALT_ratio", "n_AST_ALT_lt_1_5", "n_cholestatic_picture", "n_extrahepatic_obstruction"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_higher_ALT_AST",
+      "link_type": "EvaluationLink",
+      "predicate": "n_higher_than",
+      "arguments": ["n_ALT", "n_AST"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_indicates_intrahepatic",
+      "link_type": "EvaluationLink",
+      "predicate": "n_indicates",
+      "arguments": ["n_AST_ALT_ratio", "n_AST_ALT_gt_1_5", "n_intrahepatic_cholestasis"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_indicates_mechanical",
+      "link_type": "EvaluationLink",
+      "predicate": "n_indicates",
+      "arguments": ["n_AST_ALT_ratio", "n_AST_ALT_gt_1_5", "n_mechanical_cholestasis"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_indicates_medical",
+      "link_type": "EvaluationLink",
+      "predicate": "n_indicates",
+      "arguments": ["n_AST_ALT_ratio", "n_AST_ALT_gt_1_5", "n_medical_cholestasis"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_presents_ALP_rise",
+      "link_type": "EvaluationLink",
+      "predicate": "n_presents_with",
+      "arguments": ["n_drug_induced_cholestasis", "n_rise", "n_ALP"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_presents_ALT_ALP_ratio",
+      "link_type": "EvaluationLink",
+      "predicate": "n_presents_with",
+      "arguments": ["n_drug_induced_cholestasis", "n_ALT_ALP_lt_2"],
+      "truth_value": [1.0, 0.9]
+    },
+    {
+      "id": "l_causes_drug_cholestasis_1",
+      "link_type": "EvaluationLink",
+      "predicate": "n_causes",
+      "arguments": ["n_antibiotics", "n_drug_induced_cholestasis"],
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_causes_drug_cholestasis_2",
+      "link_type": "EvaluationLink",
+      "predicate": "n_causes",
+      "arguments": ["n_immunosuppressants", "n_drug_induced_cholestasis"],
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_causes_drug_cholestasis_3",
+      "link_type": "EvaluationLink",
+      "predicate": "n_causes",
+      "arguments": ["n_tricyclic_antidepressants", "n_drug_induced_cholestasis"],
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_causes_drug_cholestasis_4",
+      "link_type": "EvaluationLink",
+      "predicate": "n_causes",
+      "arguments": ["n_ace_inhibitors", "n_drug_induced_cholestasis"],
+      "truth_value": [0.85, 0.70]
+    },
+    {
+      "id": "l_requires_monitoring_ALP",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_drug_induced_cholestasis", "n_ALP"],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_requires_monitoring_ALT",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_drug_induced_cholestasis", "n_ALT"],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_requires_monitoring_AST",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_drug_induced_cholestasis", "n_AST"],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_requires_monitoring_GGT",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": ["n_drug_induced_cholestasis", "n_GGT"],
+      "truth_value": [0.6, 0.5]
+    },
+    {
+      "id": "l_ctx_assist_biliary_obstruction",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_assist_biliary_obstruction"]
+    },
+    {
+      "id": "l_ctx_suggests_extrahepatic",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_suggests_extrahepatic"]
+    },
+    {
+      "id": "l_ctx_higher_ALT_AST",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_higher_ALT_AST"]
+    },
+    {
+      "id": "l_ctx_indicates_intrahepatic",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_indicates_intrahepatic"]
+    },
+    {
+      "id": "l_ctx_indicates_mechanical",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_indicates_mechanical"]
+    },
+    {
+      "id": "l_ctx_indicates_medical",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_indicates_medical"]
+    },
+    {
+      "id": "l_ctx_presents_ALP_rise",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_presents_ALP_rise"]
+    },
+    {
+      "id": "l_ctx_presents_ALT_ALP_ratio",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_presents_ALT_ALP_ratio"]
+    },
+    {
+      "id": "l_ctx_causes_drug_cholestasis_1",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_causes_drug_cholestasis_1"]
+    },
+    {
+      "id": "l_ctx_causes_drug_cholestasis_2",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_causes_drug_cholestasis_2"]
+    },
+    {
+      "id": "l_ctx_causes_drug_cholestasis_3",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_causes_drug_cholestasis_3"]
+    },
+    {
+      "id": "l_ctx_causes_drug_cholestasis_4",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_causes_drug_cholestasis_4"]
+    },
+    {
+      "id": "l_ctx_requires_monitoring_ALP",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_requires_monitoring_ALP"]
+    },
+    {
+      "id": "l_ctx_requires_monitoring_ALT",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_requires_monitoring_ALT"]
+    },
+    {
+      "id": "l_ctx_requires_monitoring_AST",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_requires_monitoring_AST"]
+    },
+    {
+      "id": "l_ctx_requires_monitoring_GGT",
+      "link_type": "ContextLink",
+      "arguments": ["n_timestamp", "n_SENT_5", "l_requires_monitoring_GGT"]
+    }
+  ]
+}
+```

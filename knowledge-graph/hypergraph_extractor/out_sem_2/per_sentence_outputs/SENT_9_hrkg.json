@@ -1,0 +1,427 @@
+{
+  "graph_type": "N-tuple Hyper-Relational Temporal Knowledge Graph",
+  "entities": [
+    {
+      "id": "E1",
+      "name": "Primary Sclerosing Cholangitis",
+      "type": "Disease"
+    },
+    {
+      "id": "E2",
+      "name": "Liver diseases",
+      "type": "Disease"
+    },
+    {
+      "id": "E3",
+      "name": "AST:ALT ratio",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E4",
+      "name": "Cirrhosis",
+      "type": "Disease"
+    },
+    {
+      "id": "E5",
+      "name": "Alcohol",
+      "type": "Drug"
+    },
+    {
+      "id": "E6",
+      "name": "Hepatic enzymes",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E7",
+      "name": "GGT",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E8",
+      "name": "ALP",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E9",
+      "name": "GGT:ALP ratio",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E10",
+      "name": "Jaundice",
+      "type": "AdverseEvent"
+    },
+    {
+      "id": "E11",
+      "name": "Liver disease",
+      "type": "Disease"
+    },
+    {
+      "id": "E12",
+      "name": "Macrocytosis",
+      "type": "Biomarker"
+    },
+    {
+      "id": "E13",
+      "name": "Folate deficiency",
+      "type": "Disease"
+    },
+    {
+      "id": "E14",
+      "name": "Vitamin B12 deficiency",
+      "type": "Disease"
+    },
+    {
+      "id": "E15",
+      "name": "Bone marrow suppression",
+      "type": "AdverseEvent"
+    },
+    {
+      "id": "E16",
+      "name": "Alcoholic liver disease",
+      "type": "Disease"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F1",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E3",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E4",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "condition",
+          "entity": "E1",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": ">1",
+          "datatype": "ratio"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F2",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E6",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F3",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E6",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E7",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "raised",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F4",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E7",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E8",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": "normal or disproportionately lower than GGT",
+          "datatype": "qualitative"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F5",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": ">2.5",
+          "datatype": "ratio"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F6",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E9",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E10",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "delta",
+          "entity": null,
+          "literal": ">2.5",
+          "datatype": "ratio"
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F7",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E11",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F8",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E13",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E12",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F9",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E14",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E12",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F10",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E5",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E15",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F11",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E15",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E12",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    },
+    {
+      "id": "F12",
+      "predicate": "causes",
+      "timestamp": "1900-01-01",
+      "truth_value": [
+        0.85,
+        0.7
+      ],
+      "sentence_id": "SENT_9",
+      "tuple": [
+        {
+          "role": "agent",
+          "entity": "E12",
+          "literal": null,
+          "datatype": null
+        },
+        {
+          "role": "effect",
+          "entity": "E16",
+          "literal": null,
+          "datatype": null
+        }
+      ],
+      "arguments": null
+    }
+  ],
+  "metadata": {
+    "sentence_id": "SENT_9",
+    "source_sentence": "In Primary Sclerosing Cholangitis (PSC), as with other liver diseases, there are suggestions that an AST:ALT ratio of >1 indicates the development of cirrhosis. Alcohol induces hepatic enzymes leading to a raised GGT with an ALP which may be normal, or disproportionately lower than the GGT. A GGT:ALP ratio >2.5 in association with jaundice suggests alcohol as a cause of liver disease. The presence of a macrocytosis, due to either an associated dietary deficiency of folate or B12, or due to a direct suppression of bone marrow by alcohol is supportive of the diagnosis of alcoholic liver disease."
+  }
+}

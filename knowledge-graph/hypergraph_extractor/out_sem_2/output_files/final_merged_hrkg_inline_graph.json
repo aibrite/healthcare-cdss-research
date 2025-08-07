@@ -1,0 +1,6474 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "node_class": "Document",
+      "color": "gold",
+      "size": 25,
+      "shape": "star",
+      "id": "/home/eggzy/Downloads/hypergraph_extractor/input.txt"
+    },
+    {
+      "label": "Liver enzymes",
+      "title": "Entity: Liver enzymes<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E1"
+    },
+    {
+      "label": "Evaluation",
+      "title": "Entity: Evaluation<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E2"
+    },
+    {
+      "label": "Disease",
+      "title": "Entity: Disease<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E3"
+    },
+    {
+      "label": "Hepatitic disorder",
+      "title": "Entity: Hepatitic disorder<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E4"
+    },
+    {
+      "label": "Cholestatic disorder",
+      "title": "Entity: Cholestatic disorder<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E5"
+    },
+    {
+      "label": "Enzyme ratios",
+      "title": "Entity: Enzyme ratios<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E6"
+    },
+    {
+      "label": "Pattern recognition",
+      "title": "Entity: Pattern recognition<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E7"
+    },
+    {
+      "label": "Liver disease",
+      "title": "Entity: Liver disease<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E8"
+    },
+    {
+      "label": "Investigation",
+      "title": "Entity: Investigation<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E9"
+    },
+    {
+      "label": "Management",
+      "title": "Entity: Management<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E10"
+    },
+    {
+      "label": "Liver Function Tests",
+      "title": "Entity: Liver Function Tests<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E11"
+    },
+    {
+      "label": "Screening blood tests",
+      "title": "Entity: Screening blood tests<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E12"
+    },
+    {
+      "label": "LFTs",
+      "title": "Entity: LFTs<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E13"
+    },
+    {
+      "label": "liver disease",
+      "title": "Entity: liver disease<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E14"
+    },
+    {
+      "label": "disease activity",
+      "title": "Entity: disease activity<br>Type: Endpoint",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E15"
+    },
+    {
+      "label": "blood analysis",
+      "title": "Entity: blood analysis<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E16"
+    },
+    {
+      "label": "disease processes",
+      "title": "Entity: disease processes<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E17"
+    },
+    {
+      "label": "bilirubin",
+      "title": "Entity: bilirubin<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E18"
+    },
+    {
+      "label": "albumin",
+      "title": "Entity: albumin<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E19"
+    },
+    {
+      "label": "functional capacity of the liver",
+      "title": "Entity: functional capacity of the liver<br>Type: Endpoint",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E20"
+    },
+    {
+      "label": "liver enzymes",
+      "title": "Entity: liver enzymes<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E21"
+    },
+    {
+      "label": "hepatitic disorder",
+      "title": "Entity: hepatitic disorder<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E22"
+    },
+    {
+      "label": "cholestatic disorder",
+      "title": "Entity: cholestatic disorder<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E23"
+    },
+    {
+      "label": "enzyme ratios",
+      "title": "Entity: enzyme ratios<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E24"
+    },
+    {
+      "label": "pattern recognition",
+      "title": "Entity: pattern recognition<br>Type: Concept",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E25"
+    },
+    {
+      "label": "Liver enzyme profile",
+      "title": "Entity: Liver enzyme profile<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E26"
+    },
+    {
+      "label": "Thorough history",
+      "title": "Entity: Thorough history<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E27"
+    },
+    {
+      "label": "Clinical examination",
+      "title": "Entity: Clinical examination<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E28"
+    },
+    {
+      "label": "Alcoholic fatty liver disease",
+      "title": "Entity: Alcoholic fatty liver disease<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E29"
+    },
+    {
+      "label": "Non-alcoholic fatty liver disease",
+      "title": "Entity: Non-alcoholic fatty liver disease<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E30"
+    },
+    {
+      "label": "Cholestasis",
+      "title": "Entity: Cholestasis<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E31"
+    },
+    {
+      "label": "Hepatitis",
+      "title": "Entity: Hepatitis<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E32"
+    },
+    {
+      "label": "Mixed liver disease",
+      "title": "Entity: Mixed liver disease<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E33"
+    },
+    {
+      "label": "Absolute liver enzyme levels",
+      "title": "Entity: Absolute liver enzyme levels<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E34"
+    },
+    {
+      "label": "Liver enzyme ratios",
+      "title": "Entity: Liver enzyme ratios<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E35"
+    },
+    {
+      "label": "Pattern of hepatic enzymes",
+      "title": "Entity: Pattern of hepatic enzymes<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E36"
+    },
+    {
+      "label": "Diagnosis",
+      "title": "Entity: Diagnosis<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E37"
+    },
+    {
+      "label": "Assessment of liver enzyme profile",
+      "title": "Entity: Assessment of liver enzyme profile<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E38"
+    },
+    {
+      "label": "Mechanical biliary obstruction",
+      "title": "Entity: Mechanical biliary obstruction<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E39"
+    },
+    {
+      "label": "ALP",
+      "title": "Entity: ALP<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E40"
+    },
+    {
+      "label": "GGT",
+      "title": "Entity: GGT<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E41"
+    },
+    {
+      "label": "Bilirubin",
+      "title": "Entity: Bilirubin<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E42"
+    },
+    {
+      "label": "ALT",
+      "title": "Entity: ALT<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E43"
+    },
+    {
+      "label": "Hepatobiliary source",
+      "title": "Entity: Hepatobiliary source<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E44"
+    },
+    {
+      "label": "Single enzyme elevation",
+      "title": "Entity: Single enzyme elevation<br>Type: Concept",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E45"
+    },
+    {
+      "label": "Alternative causes",
+      "title": "Entity: Alternative causes<br>Type: Concept",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E46"
+    },
+    {
+      "label": "Choledocholithiasis",
+      "title": "Entity: Choledocholithiasis<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E47"
+    },
+    {
+      "label": "Stricture forming disease",
+      "title": "Entity: Stricture forming disease<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E48"
+    },
+    {
+      "label": "Liver transaminases",
+      "title": "Entity: Liver transaminases<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E49"
+    },
+    {
+      "label": "AST:ALT ratio",
+      "title": "Entity: AST:ALT ratio<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E50"
+    },
+    {
+      "label": "Biliary obstruction",
+      "title": "Entity: Biliary obstruction<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E51"
+    },
+    {
+      "label": "Cholestatic picture",
+      "title": "Entity: Cholestatic picture<br>Type: Phenotype",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E52"
+    },
+    {
+      "label": "AST:ALT ratio <1.5",
+      "title": "Entity: AST:ALT ratio <1.5<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E53"
+    },
+    {
+      "label": "Extrahepatic obstruction",
+      "title": "Entity: Extrahepatic obstruction<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E54"
+    },
+    {
+      "label": "ALT titre",
+      "title": "Entity: ALT titre<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E55"
+    },
+    {
+      "label": "AST titre",
+      "title": "Entity: AST titre<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E56"
+    },
+    {
+      "label": "AST:ALT ratio >1.5",
+      "title": "Entity: AST:ALT ratio >1.5<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E57"
+    },
+    {
+      "label": "Intrahepatic cholestasis",
+      "title": "Entity: Intrahepatic cholestasis<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E58"
+    },
+    {
+      "label": "Mechanical cholestasis",
+      "title": "Entity: Mechanical cholestasis<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E59"
+    },
+    {
+      "label": "Medical cholestasis",
+      "title": "Entity: Medical cholestasis<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E60"
+    },
+    {
+      "label": "Drug-induced cholestasis",
+      "title": "Entity: Drug-induced cholestasis<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E61"
+    },
+    {
+      "label": "ALT:ALP ratio <2",
+      "title": "Entity: ALT:ALP ratio <2<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E62"
+    },
+    {
+      "label": "Antibiotics",
+      "title": "Entity: Antibiotics<br>Type: Drug",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E63"
+    },
+    {
+      "label": "Immunosuppressants",
+      "title": "Entity: Immunosuppressants<br>Type: Drug",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E64"
+    },
+    {
+      "label": "Tricyclic antidepressants",
+      "title": "Entity: Tricyclic antidepressants<br>Type: Drug",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E65"
+    },
+    {
+      "label": "Angiotensin converting enzyme inhibitors",
+      "title": "Entity: Angiotensin converting enzyme inhibitors<br>Type: Drug",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E66"
+    },
+    {
+      "label": "Primary Biliary Cirrhosis",
+      "title": "Entity: Primary Biliary Cirrhosis<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E67"
+    },
+    {
+      "label": "intrahepatic biliary ducts",
+      "title": "Entity: intrahepatic biliary ducts<br>Type: AnatomicalStructure",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E68"
+    },
+    {
+      "label": "transaminases",
+      "title": "Entity: transaminases<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E69"
+    },
+    {
+      "label": "cholestatic liver enzyme levels",
+      "title": "Entity: cholestatic liver enzyme levels<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E70"
+    },
+    {
+      "label": "antimitochondrial antibodies",
+      "title": "Entity: antimitochondrial antibodies<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E71"
+    },
+    {
+      "label": "diagnosis of PBC",
+      "title": "Entity: diagnosis of PBC<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E72"
+    },
+    {
+      "label": "imaging",
+      "title": "Entity: imaging<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E73"
+    },
+    {
+      "label": "liver biopsy",
+      "title": "Entity: liver biopsy<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E74"
+    },
+    {
+      "label": "European Association for Study of the Liver",
+      "title": "Entity: European Association for Study of the Liver<br>Type: Organization",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E75"
+    },
+    {
+      "label": "American Association for Study of Liver Disease",
+      "title": "Entity: American Association for Study of Liver Disease<br>Type: Organization",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E76"
+    },
+    {
+      "label": "AST",
+      "title": "Entity: AST<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E77"
+    },
+    {
+      "label": "ursodeoxycholic acid",
+      "title": "Entity: ursodeoxycholic acid<br>Type: Drug",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E78"
+    },
+    {
+      "label": "PBC",
+      "title": "Entity: PBC<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E79"
+    },
+    {
+      "label": "scoring criteria",
+      "title": "Entity: scoring criteria<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E80"
+    },
+    {
+      "label": "non-histological indicators of cirrhosis",
+      "title": "Entity: non-histological indicators of cirrhosis<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E81"
+    },
+    {
+      "label": "cirrhosis",
+      "title": "Entity: cirrhosis<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E82"
+    },
+    {
+      "label": "sensitivity",
+      "title": "Entity: sensitivity<br>Type: Endpoint",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E83"
+    },
+    {
+      "label": "specificity",
+      "title": "Entity: specificity<br>Type: Endpoint",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E84"
+    },
+    {
+      "label": "Primary Sclerosing Cholangitis",
+      "title": "Entity: Primary Sclerosing Cholangitis<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E85"
+    },
+    {
+      "label": "Endoscopic Retrograde Cholangiopancreatography",
+      "title": "Entity: Endoscopic Retrograde Cholangiopancreatography<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E86"
+    },
+    {
+      "label": "Magnetic Resonance Cholangiopancreatography",
+      "title": "Entity: Magnetic Resonance Cholangiopancreatography<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E87"
+    },
+    {
+      "label": "Liver biopsy",
+      "title": "Entity: Liver biopsy<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E88"
+    },
+    {
+      "label": "Transaminase",
+      "title": "Entity: Transaminase<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E89"
+    },
+    {
+      "label": "PSC",
+      "title": "Entity: PSC<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E90"
+    },
+    {
+      "label": "Mayo Risk Score",
+      "title": "Entity: Mayo Risk Score<br>Type: Score",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E91"
+    },
+    {
+      "label": "Disease progression in PSC",
+      "title": "Entity: Disease progression in PSC<br>Type: Endpoint",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E92"
+    },
+    {
+      "label": "Oesophageal varices",
+      "title": "Entity: Oesophageal varices<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E93"
+    },
+    {
+      "label": "Liver diseases",
+      "title": "Entity: Liver diseases<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E94"
+    },
+    {
+      "label": "Cirrhosis",
+      "title": "Entity: Cirrhosis<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E95"
+    },
+    {
+      "label": "Alcohol",
+      "title": "Entity: Alcohol<br>Type: Drug",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E96"
+    },
+    {
+      "label": "Hepatic enzymes",
+      "title": "Entity: Hepatic enzymes<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E97"
+    },
+    {
+      "label": "GGT:ALP ratio",
+      "title": "Entity: GGT:ALP ratio<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E98"
+    },
+    {
+      "label": "Jaundice",
+      "title": "Entity: Jaundice<br>Type: AdverseEvent",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E99"
+    },
+    {
+      "label": "Macrocytosis",
+      "title": "Entity: Macrocytosis<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E100"
+    },
+    {
+      "label": "Folate deficiency",
+      "title": "Entity: Folate deficiency<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E101"
+    },
+    {
+      "label": "Vitamin B12 deficiency",
+      "title": "Entity: Vitamin B12 deficiency<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E102"
+    },
+    {
+      "label": "Bone marrow suppression",
+      "title": "Entity: Bone marrow suppression<br>Type: AdverseEvent",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E103"
+    },
+    {
+      "label": "Alcoholic liver disease",
+      "title": "Entity: Alcoholic liver disease<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E104"
+    },
+    {
+      "label": "Gamma-glutamyl transferase",
+      "title": "Entity: Gamma-glutamyl transferase<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E105"
+    },
+    {
+      "label": "Alcohol abuse",
+      "title": "Entity: Alcohol abuse<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E106"
+    },
+    {
+      "label": "Former drinkers",
+      "title": "Entity: Former drinkers<br>Type: Cohort",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E107"
+    },
+    {
+      "label": "Current drinkers",
+      "title": "Entity: Current drinkers<br>Type: Cohort",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E108"
+    },
+    {
+      "label": "Men",
+      "title": "Entity: Men<br>Type: Cohort",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E109"
+    },
+    {
+      "label": "Daily alcohol consumption",
+      "title": "Entity: Daily alcohol consumption<br>Type: Exposure",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E110"
+    },
+    {
+      "label": "Women",
+      "title": "Entity: Women<br>Type: Cohort",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E111"
+    },
+    {
+      "label": "Binge drinking",
+      "title": "Entity: Binge drinking<br>Type: Exposure",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E112"
+    },
+    {
+      "label": "Alcohol consumption without food",
+      "title": "Entity: Alcohol consumption without food<br>Type: Exposure",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E113"
+    },
+    {
+      "label": "Alcohol intake (top two quartiles)",
+      "title": "Entity: Alcohol intake (top two quartiles)<br>Type: Exposure",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E114"
+    },
+    {
+      "label": "Non-alcoholic Fatty Liver Disease",
+      "title": "Entity: Non-alcoholic Fatty Liver Disease<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E115"
+    },
+    {
+      "label": "pyridoxal-5\u2019-phosphate (vitamin B6)",
+      "title": "Entity: pyridoxal-5\u2019-phosphate (vitamin B6)<br>Type: Drug",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E116"
+    },
+    {
+      "label": "Nutritionally-deficient heavy-drinkers",
+      "title": "Entity: Nutritionally-deficient heavy-drinkers<br>Type: Cohort",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E117"
+    },
+    {
+      "label": "ALT production",
+      "title": "Entity: ALT production<br>Type: Endpoint",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E118"
+    },
+    {
+      "label": "AST production",
+      "title": "Entity: AST production<br>Type: Endpoint",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E119"
+    },
+    {
+      "label": "AST:ALT ratio <1",
+      "title": "Entity: AST:ALT ratio <1<br>Type: Concept",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E120"
+    },
+    {
+      "label": "Alcohol consumption",
+      "title": "Entity: Alcohol consumption<br>Type: Exposure",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E121"
+    },
+    {
+      "label": "Heavy-drinker",
+      "title": "Entity: Heavy-drinker<br>Type: Cohort",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E122"
+    },
+    {
+      "label": "alcoholic liver disease",
+      "title": "Entity: alcoholic liver disease<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E123"
+    },
+    {
+      "label": "NAFLD",
+      "title": "Entity: NAFLD<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E124"
+    },
+    {
+      "label": "liver transaminases",
+      "title": "Entity: liver transaminases<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E125"
+    },
+    {
+      "label": "cessation of alcohol intake",
+      "title": "Entity: cessation of alcohol intake<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E126"
+    },
+    {
+      "label": "admission to hospital",
+      "title": "Entity: admission to hospital<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E127"
+    },
+    {
+      "label": "no liver disease",
+      "title": "Entity: no liver disease<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E128"
+    },
+    {
+      "label": "other factors or models",
+      "title": "Entity: other factors or models<br>Type: Concept",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E129"
+    },
+    {
+      "label": "need for liver biopsy",
+      "title": "Entity: need for liver biopsy<br>Type: Concept",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E130"
+    },
+    {
+      "label": "Liver enzyme analysis",
+      "title": "Entity: Liver enzyme analysis<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E131"
+    },
+    {
+      "label": "NASH",
+      "title": "Entity: NASH<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E132"
+    },
+    {
+      "label": "Metabolic risk factors",
+      "title": "Entity: Metabolic risk factors<br>Type: RiskFactor",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E133"
+    },
+    {
+      "label": "Hypertension",
+      "title": "Entity: Hypertension<br>Type: RiskFactor",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E134"
+    },
+    {
+      "label": "Hyperlipidaemia",
+      "title": "Entity: Hyperlipidaemia<br>Type: RiskFactor",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E135"
+    },
+    {
+      "label": "Glycaemic control",
+      "title": "Entity: Glycaemic control<br>Type: RiskFactor",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E136"
+    },
+    {
+      "label": "Risk stratification",
+      "title": "Entity: Risk stratification<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E137"
+    },
+    {
+      "label": "Early identification",
+      "title": "Entity: Early identification<br>Type: ClinicalAction",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E138"
+    },
+    {
+      "label": "Scoring system",
+      "title": "Entity: Scoring system<br>Type: ClinicalTool",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E139"
+    },
+    {
+      "label": "Mayo clinic",
+      "title": "Entity: Mayo clinic<br>Type: Institution",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E140"
+    },
+    {
+      "label": "Age",
+      "title": "Entity: Age<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E141"
+    },
+    {
+      "label": "Hyperglycemia",
+      "title": "Entity: Hyperglycemia<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E142"
+    },
+    {
+      "label": "Body mass index",
+      "title": "Entity: Body mass index<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E143"
+    },
+    {
+      "label": "Platelet count",
+      "title": "Entity: Platelet count<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E144"
+    },
+    {
+      "label": "Albumin",
+      "title": "Entity: Albumin<br>Type: Biomarker",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E145"
+    },
+    {
+      "label": "Advanced fibrosis",
+      "title": "Entity: Advanced fibrosis<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E146"
+    },
+    {
+      "label": "Underlying disease",
+      "title": "Entity: Underlying disease<br>Type: Disease",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E147"
+    },
+    {
+      "label": "Score >1",
+      "title": "Entity: Score >1<br>Type: Threshold",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E148"
+    },
+    {
+      "label": "Consideration of cirrhosis",
+      "title": "Entity: Consideration of cirrhosis<br>Type: Concept",
+      "node_class": "Entity",
+      "color": "skyblue",
+      "size": 15,
+      "id": "E149"
+    },
+    {
+      "label": "F1_SENT_1_input_txt: used_for",
+      "title": "Fact: used_for<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F1_SENT_1_input_txt"
+    },
+    {
+      "label": "F2_SENT_1_input_txt: used_for",
+      "title": "Fact: used_for<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F2_SENT_1_input_txt"
+    },
+    {
+      "label": "F3_SENT_1_input_txt: used_for",
+      "title": "Fact: used_for<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F3_SENT_1_input_txt"
+    },
+    {
+      "label": "F4_SENT_1_input_txt: enables",
+      "title": "Fact: enables<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F4_SENT_1_input_txt"
+    },
+    {
+      "label": "F5_SENT_1_input_txt: requires_investigation",
+      "title": "Fact: requires_investigation<br>Truth: 0.6",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F5_SENT_1_input_txt"
+    },
+    {
+      "label": "F6_SENT_1_input_txt: is_type_of",
+      "title": "Fact: is_type_of<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F6_SENT_1_input_txt"
+    },
+    {
+      "label": "F7_SENT_1_input_txt: used_for",
+      "title": "Fact: used_for<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F7_SENT_1_input_txt"
+    },
+    {
+      "label": "F8_SENT_2_input_txt: requires_investigation",
+      "title": "Fact: requires_investigation<br>Truth: 0.6",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F8_SENT_2_input_txt"
+    },
+    {
+      "label": "F9_SENT_2_input_txt: requires_monitoring",
+      "title": "Fact: requires_monitoring<br>Truth: 0.6",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F9_SENT_2_input_txt"
+    },
+    {
+      "label": "F10_SENT_2_input_txt: requires_investigation",
+      "title": "Fact: requires_investigation<br>Truth: 0.6",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F10_SENT_2_input_txt"
+    },
+    {
+      "label": "F11_SENT_2_input_txt: provides_information_on",
+      "title": "Fact: provides_information_on<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F11_SENT_2_input_txt"
+    },
+    {
+      "label": "F12_SENT_2_input_txt: provides_information_on",
+      "title": "Fact: provides_information_on<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F12_SENT_2_input_txt"
+    },
+    {
+      "label": "F13_SENT_2_input_txt: provides_information_on",
+      "title": "Fact: provides_information_on<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F13_SENT_2_input_txt"
+    },
+    {
+      "label": "F14_SENT_2_input_txt: provides_information_on",
+      "title": "Fact: provides_information_on<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F14_SENT_2_input_txt"
+    },
+    {
+      "label": "F15_SENT_2_input_txt: provides_information_on",
+      "title": "Fact: provides_information_on<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F15_SENT_2_input_txt"
+    },
+    {
+      "label": "F16_SENT_2_input_txt: implies",
+      "title": "Fact: implies<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F16_SENT_2_input_txt"
+    },
+    {
+      "label": "F17_SENT_2_input_txt: provides_additional_information_with",
+      "title": "Fact: provides_additional_information_with<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F17_SENT_2_input_txt"
+    },
+    {
+      "label": "F18_SENT_3_input_txt: requires_investigation",
+      "title": "Fact: requires_investigation<br>Truth: 0.6",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F18_SENT_3_input_txt"
+    },
+    {
+      "label": "F19_SENT_3_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F19_SENT_3_input_txt"
+    },
+    {
+      "label": "F20_SENT_3_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F20_SENT_3_input_txt"
+    },
+    {
+      "label": "F21_SENT_3_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F21_SENT_3_input_txt"
+    },
+    {
+      "label": "F22_SENT_3_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F22_SENT_3_input_txt"
+    },
+    {
+      "label": "F23_SENT_3_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F23_SENT_3_input_txt"
+    },
+    {
+      "label": "F24_SENT_3_input_txt: implies",
+      "title": "Fact: implies<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F24_SENT_3_input_txt"
+    },
+    {
+      "label": "F25_SENT_4_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F25_SENT_4_input_txt"
+    },
+    {
+      "label": "F26_SENT_4_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F26_SENT_4_input_txt"
+    },
+    {
+      "label": "F27_SENT_4_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F27_SENT_4_input_txt"
+    },
+    {
+      "label": "F28_SENT_4_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F28_SENT_4_input_txt"
+    },
+    {
+      "label": "F29_SENT_4_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F29_SENT_4_input_txt"
+    },
+    {
+      "label": "F30_SENT_4_input_txt: requires_investigation",
+      "title": "Fact: requires_investigation<br>Truth: 0.5",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F30_SENT_4_input_txt"
+    },
+    {
+      "label": "F31_SENT_4_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F31_SENT_4_input_txt"
+    },
+    {
+      "label": "F32_SENT_4_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F32_SENT_4_input_txt"
+    },
+    {
+      "label": "F33_SENT_4_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F33_SENT_4_input_txt"
+    },
+    {
+      "label": "F34_SENT_4_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F34_SENT_4_input_txt"
+    },
+    {
+      "label": "F35_SENT_5_input_txt: requires_investigation",
+      "title": "Fact: requires_investigation<br>Truth: 0.6",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F35_SENT_5_input_txt"
+    },
+    {
+      "label": "F36_SENT_5_input_txt: implies",
+      "title": "Fact: implies<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F36_SENT_5_input_txt"
+    },
+    {
+      "label": "F37_SENT_5_input_txt: observational_association",
+      "title": "Fact: observational_association<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F37_SENT_5_input_txt"
+    },
+    {
+      "label": "F38_SENT_5_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F38_SENT_5_input_txt"
+    },
+    {
+      "label": "F39_SENT_5_input_txt: observational_association",
+      "title": "Fact: observational_association<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F39_SENT_5_input_txt"
+    },
+    {
+      "label": "F40_SENT_5_input_txt: observational_association",
+      "title": "Fact: observational_association<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F40_SENT_5_input_txt"
+    },
+    {
+      "label": "F41_SENT_5_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F41_SENT_5_input_txt"
+    },
+    {
+      "label": "F42_SENT_5_input_txt: observational_association",
+      "title": "Fact: observational_association<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F42_SENT_5_input_txt"
+    },
+    {
+      "label": "F43_SENT_5_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F43_SENT_5_input_txt"
+    },
+    {
+      "label": "F44_SENT_5_input_txt: observational_association",
+      "title": "Fact: observational_association<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F44_SENT_5_input_txt"
+    },
+    {
+      "label": "F45_SENT_5_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F45_SENT_5_input_txt"
+    },
+    {
+      "label": "F46_SENT_5_input_txt: observational_association",
+      "title": "Fact: observational_association<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F46_SENT_5_input_txt"
+    },
+    {
+      "label": "F47_SENT_5_input_txt: observational_association",
+      "title": "Fact: observational_association<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F47_SENT_5_input_txt"
+    },
+    {
+      "label": "F48_SENT_5_input_txt: observational_association",
+      "title": "Fact: observational_association<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F48_SENT_5_input_txt"
+    },
+    {
+      "label": "F49_SENT_5_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F49_SENT_5_input_txt"
+    },
+    {
+      "label": "F50_SENT_5_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F50_SENT_5_input_txt"
+    },
+    {
+      "label": "F51_SENT_5_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F51_SENT_5_input_txt"
+    },
+    {
+      "label": "F52_SENT_5_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F52_SENT_5_input_txt"
+    },
+    {
+      "label": "F53_SENT_6_input_txt: observed_in",
+      "title": "Fact: observed_in<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F53_SENT_6_input_txt"
+    },
+    {
+      "label": "F54_SENT_6_input_txt: greater_than",
+      "title": "Fact: greater_than<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F54_SENT_6_input_txt"
+    },
+    {
+      "label": "F55_SENT_6_input_txt: normal_or_minimally_elevated",
+      "title": "Fact: normal_or_minimally_elevated<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F55_SENT_6_input_txt"
+    },
+    {
+      "label": "F56_SENT_6_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F56_SENT_6_input_txt"
+    },
+    {
+      "label": "F57_SENT_6_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F57_SENT_6_input_txt"
+    },
+    {
+      "label": "F58_SENT_6_input_txt: recommends",
+      "title": "Fact: recommends<br>Truth: 0.6",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F58_SENT_6_input_txt"
+    },
+    {
+      "label": "F59_SENT_6_input_txt: requires_investigation",
+      "title": "Fact: requires_investigation<br>Truth: 0.6",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F59_SENT_6_input_txt"
+    },
+    {
+      "label": "F60_SENT_6_input_txt: implies",
+      "title": "Fact: implies<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F60_SENT_6_input_txt"
+    },
+    {
+      "label": "F61_SENT_7_input_txt: requires_monitoring",
+      "title": "Fact: requires_monitoring<br>Truth: 0.6",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F61_SENT_7_input_txt"
+    },
+    {
+      "label": "F62_SENT_7_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F62_SENT_7_input_txt"
+    },
+    {
+      "label": "F63_SENT_7_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F63_SENT_7_input_txt"
+    },
+    {
+      "label": "F64_SENT_7_input_txt: implies",
+      "title": "Fact: implies<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F64_SENT_7_input_txt"
+    },
+    {
+      "label": "F65_SENT_7_input_txt: requires_monitoring",
+      "title": "Fact: requires_monitoring<br>Truth: 0.6",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F65_SENT_7_input_txt"
+    },
+    {
+      "label": "F66_SENT_8_input_txt: diagnostic_for",
+      "title": "Fact: diagnostic_for<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F66_SENT_8_input_txt"
+    },
+    {
+      "label": "F67_SENT_8_input_txt: precludes",
+      "title": "Fact: precludes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F67_SENT_8_input_txt"
+    },
+    {
+      "label": "F68_SENT_8_input_txt: not_diagnostic_for",
+      "title": "Fact: not_diagnostic_for<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F68_SENT_8_input_txt"
+    },
+    {
+      "label": "F69_SENT_8_input_txt: component_of",
+      "title": "Fact: component_of<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F69_SENT_8_input_txt"
+    },
+    {
+      "label": "F70_SENT_8_input_txt: calculates_risk_of",
+      "title": "Fact: calculates_risk_of<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F70_SENT_8_input_txt"
+    },
+    {
+      "label": "F71_SENT_8_input_txt: indicator_of",
+      "title": "Fact: indicator_of<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F71_SENT_8_input_txt"
+    },
+    {
+      "label": "F72_SENT_8_input_txt: indicator_of",
+      "title": "Fact: indicator_of<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F72_SENT_8_input_txt"
+    },
+    {
+      "label": "F73_SENT_9_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F73_SENT_9_input_txt"
+    },
+    {
+      "label": "F74_SENT_9_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F74_SENT_9_input_txt"
+    },
+    {
+      "label": "F75_SENT_9_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F75_SENT_9_input_txt"
+    },
+    {
+      "label": "F76_SENT_9_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F76_SENT_9_input_txt"
+    },
+    {
+      "label": "F77_SENT_9_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F77_SENT_9_input_txt"
+    },
+    {
+      "label": "F78_SENT_9_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F78_SENT_9_input_txt"
+    },
+    {
+      "label": "F79_SENT_9_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F79_SENT_9_input_txt"
+    },
+    {
+      "label": "F80_SENT_9_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F80_SENT_9_input_txt"
+    },
+    {
+      "label": "F81_SENT_9_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F81_SENT_9_input_txt"
+    },
+    {
+      "label": "F82_SENT_9_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F82_SENT_9_input_txt"
+    },
+    {
+      "label": "F83_SENT_9_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F83_SENT_9_input_txt"
+    },
+    {
+      "label": "F84_SENT_9_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F84_SENT_9_input_txt"
+    },
+    {
+      "label": "F85_SENT_9_input_txt: observational",
+      "title": "Fact: observational<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F85_SENT_9_input_txt"
+    },
+    {
+      "label": "F86_SENT_9_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F86_SENT_9_input_txt"
+    },
+    {
+      "label": "F87_SENT_9_input_txt: implies",
+      "title": "Fact: implies<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F87_SENT_9_input_txt"
+    },
+    {
+      "label": "F88_SENT_9_input_txt: implies",
+      "title": "Fact: implies<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F88_SENT_9_input_txt"
+    },
+    {
+      "label": "F89_SENT_10_input_txt: not_diagnostic_of",
+      "title": "Fact: not_diagnostic_of<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F89_SENT_10_input_txt"
+    },
+    {
+      "label": "F90_SENT_10_input_txt: remains_high_in",
+      "title": "Fact: remains_high_in<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F90_SENT_10_input_txt"
+    },
+    {
+      "label": "F91_SENT_10_input_txt: remains_high_in",
+      "title": "Fact: remains_high_in<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F91_SENT_10_input_txt"
+    },
+    {
+      "label": "F92_SENT_10_input_txt: highest_levels_in",
+      "title": "Fact: highest_levels_in<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F92_SENT_10_input_txt"
+    },
+    {
+      "label": "F93_SENT_10_input_txt: especially_high_levels_in",
+      "title": "Fact: especially_high_levels_in<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F93_SENT_10_input_txt"
+    },
+    {
+      "label": "F94_SENT_10_input_txt: especially_high_levels_in",
+      "title": "Fact: especially_high_levels_in<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F94_SENT_10_input_txt"
+    },
+    {
+      "label": "F95_SENT_10_input_txt: dose_dependent_increase",
+      "title": "Fact: dose_dependent_increase<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F95_SENT_10_input_txt"
+    },
+    {
+      "label": "F96_SENT_10_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F96_SENT_10_input_txt"
+    },
+    {
+      "label": "F97_SENT_10_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F97_SENT_10_input_txt"
+    },
+    {
+      "label": "F98_SENT_10_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F98_SENT_10_input_txt"
+    },
+    {
+      "label": "F99_SENT_10_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F99_SENT_10_input_txt"
+    },
+    {
+      "label": "F100_SENT_11_input_txt: used_for_differentiation",
+      "title": "Fact: used_for_differentiation<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F100_SENT_11_input_txt"
+    },
+    {
+      "label": "F101_SENT_11_input_txt: used_for_differentiation",
+      "title": "Fact: used_for_differentiation<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F101_SENT_11_input_txt"
+    },
+    {
+      "label": "F102_SENT_11_input_txt: requires",
+      "title": "Fact: requires<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F102_SENT_11_input_txt"
+    },
+    {
+      "label": "F103_SENT_11_input_txt: requires",
+      "title": "Fact: requires<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F103_SENT_11_input_txt"
+    },
+    {
+      "label": "F104_SENT_11_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F104_SENT_11_input_txt"
+    },
+    {
+      "label": "F105_SENT_11_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F105_SENT_11_input_txt"
+    },
+    {
+      "label": "F106_SENT_11_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F106_SENT_11_input_txt"
+    },
+    {
+      "label": "F107_SENT_11_input_txt: requires_investigation",
+      "title": "Fact: requires_investigation<br>Truth: 0.6",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F107_SENT_11_input_txt"
+    },
+    {
+      "label": "F108_SENT_11_input_txt: implies",
+      "title": "Fact: implies<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F108_SENT_11_input_txt"
+    },
+    {
+      "label": "F109_SENT_12_input_txt: observed_in",
+      "title": "Fact: observed_in<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F109_SENT_12_input_txt"
+    },
+    {
+      "label": "F110_SENT_12_input_txt: observed_in",
+      "title": "Fact: observed_in<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F110_SENT_12_input_txt"
+    },
+    {
+      "label": "F111_SENT_12_input_txt: suggests",
+      "title": "Fact: suggests<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F111_SENT_12_input_txt"
+    },
+    {
+      "label": "F112_SENT_12_input_txt: suggests",
+      "title": "Fact: suggests<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F112_SENT_12_input_txt"
+    },
+    {
+      "label": "F113_SENT_12_input_txt: reflects",
+      "title": "Fact: reflects<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F113_SENT_12_input_txt"
+    },
+    {
+      "label": "F114_SENT_12_input_txt: reflects",
+      "title": "Fact: reflects<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F114_SENT_12_input_txt"
+    },
+    {
+      "label": "F115_SENT_12_input_txt: not_reflects",
+      "title": "Fact: not_reflects<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F115_SENT_12_input_txt"
+    },
+    {
+      "label": "F116_SENT_12_input_txt: not_observed_in",
+      "title": "Fact: not_observed_in<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F116_SENT_12_input_txt"
+    },
+    {
+      "label": "F117_SENT_12_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F117_SENT_12_input_txt"
+    },
+    {
+      "label": "F118_SENT_12_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F118_SENT_12_input_txt"
+    },
+    {
+      "label": "F119_SENT_12_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F119_SENT_12_input_txt"
+    },
+    {
+      "label": "F120_SENT_12_input_txt: implies",
+      "title": "Fact: implies<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F120_SENT_12_input_txt"
+    },
+    {
+      "label": "F121_SENT_12_input_txt: implies",
+      "title": "Fact: implies<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F121_SENT_12_input_txt"
+    },
+    {
+      "label": "F122_SENT_12_input_txt: implies",
+      "title": "Fact: implies<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F122_SENT_12_input_txt"
+    },
+    {
+      "label": "F123_SENT_13_input_txt: not_sufficient_for_differentiation",
+      "title": "Fact: not_sufficient_for_differentiation<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F123_SENT_13_input_txt"
+    },
+    {
+      "label": "F124_SENT_13_input_txt: acts_as_guide",
+      "title": "Fact: acts_as_guide<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F124_SENT_13_input_txt"
+    },
+    {
+      "label": "F125_SENT_13_input_txt: requires_investigation",
+      "title": "Fact: requires_investigation<br>Truth: 0.6",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F125_SENT_13_input_txt"
+    },
+    {
+      "label": "F126_SENT_13_input_txt: worsens_in_response_to",
+      "title": "Fact: worsens_in_response_to<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F126_SENT_13_input_txt"
+    },
+    {
+      "label": "F127_SENT_13_input_txt: worsens_in_response_to",
+      "title": "Fact: worsens_in_response_to<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F127_SENT_13_input_txt"
+    },
+    {
+      "label": "F128_SENT_13_input_txt: rises_in_response_to",
+      "title": "Fact: rises_in_response_to<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F128_SENT_13_input_txt"
+    },
+    {
+      "label": "F129_SENT_13_input_txt: rises_in_response_to",
+      "title": "Fact: rises_in_response_to<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F129_SENT_13_input_txt"
+    },
+    {
+      "label": "F130_SENT_14_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F130_SENT_14_input_txt"
+    },
+    {
+      "label": "F131_SENT_14_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F131_SENT_14_input_txt"
+    },
+    {
+      "label": "F132_SENT_14_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F132_SENT_14_input_txt"
+    },
+    {
+      "label": "F133_SENT_14_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F133_SENT_14_input_txt"
+    },
+    {
+      "label": "F134_SENT_14_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F134_SENT_14_input_txt"
+    },
+    {
+      "label": "F135_SENT_14_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F135_SENT_14_input_txt"
+    },
+    {
+      "label": "F136_SENT_14_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F136_SENT_14_input_txt"
+    },
+    {
+      "label": "F137_SENT_14_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F137_SENT_14_input_txt"
+    },
+    {
+      "label": "F138_SENT_14_input_txt: causes",
+      "title": "Fact: causes<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F138_SENT_14_input_txt"
+    },
+    {
+      "label": "F139_SENT_15_input_txt: uses",
+      "title": "Fact: uses<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F139_SENT_15_input_txt"
+    },
+    {
+      "label": "F140_SENT_15_input_txt: differentiates",
+      "title": "Fact: differentiates<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F140_SENT_15_input_txt"
+    },
+    {
+      "label": "F141_SENT_15_input_txt: less_specific_with",
+      "title": "Fact: less_specific_with<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F141_SENT_15_input_txt"
+    },
+    {
+      "label": "F142_SENT_15_input_txt: increases_in",
+      "title": "Fact: increases_in<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F142_SENT_15_input_txt"
+    },
+    {
+      "label": "F143_SENT_15_input_txt: useful_for",
+      "title": "Fact: useful_for<br>Truth: 0.9",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F143_SENT_15_input_txt"
+    },
+    {
+      "label": "F144_SENT_15_input_txt: requires_investigation",
+      "title": "Fact: requires_investigation<br>Truth: 0.6",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F144_SENT_15_input_txt"
+    },
+    {
+      "label": "F145_SENT_15_input_txt: implies",
+      "title": "Fact: implies<br>Truth: [0.85, 0.7]",
+      "node_class": "Fact",
+      "color": "lightcoral",
+      "shape": "square",
+      "size": 10,
+      "id": "F145_SENT_15_input_txt"
+    },
+    {
+      "label": "Sentence 1",
+      "title": "Abstract Liver enzymes are commonly used in the evaluation of patients with a\nrange of diseases. Classically Liver enzymes are used to give information on\nwhether a patient\u2019s primary disorder is hepatitic or cholestatic in origin.\nHowever, knowledge of enzyme ratios and pattern recognition allow much more\ninformation to be derived from Liver enzymes. This paper offers an insight to\ngeneralists on how to extract greater information from Liver enzymes in order to\nimprove the investigation and management of liver disease. Introduction Liver\nFunction Tests (LFTs) are one of the most commonlyrequested screening blood\ntests.",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_1"
+    },
+    {
+      "label": "Sentence 2",
+      "title": "Whether for the investigation of suspected liver disease, monitoring of disease\nactivity, or simply as \u2018routine\u2019 blood analysis, Liver Function Tests (LFTs) can\nprovide a host of information on a range of disease processes. The title \u2018liver\nfunction tests\u2019 is, however, somewhat of a misnomer; only the bilirubin and\nalbumin given in this panel offer information regarding the functional capacity\nof the liver. At a basic level the evaluation of liver enzymes simply gives\ninformation as to whether a patient\u2019s primary disorder is hepatitic or\ncholestatic in origin. However, much more may be interpreted from these assays\nwith knowledge of enzyme ratios and pattern recognition.",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_2"
+    },
+    {
+      "label": "Sentence 3",
+      "title": "This paper offers an insight to generalists of how to yield greater information\nfrom this simple test. Patterns and Use of Hepatic Enzymes in Practice The liver\nenzyme profile should always be assessed in conjunction with a thorough history\nand clinical examination. Despite a thorough history and clinical examination,\nthere are many occasions when doubt persists over an underlying diagnosis. For\nexample, does an overweight diabetic who enjoys a few glasses of wine at the\nweekend have alcoholic or non-alcoholic fatty liver disease? In such\ncircumstances the absolute liver enzyme levels and ratios may point the\nclinician in the right direction. Furthermore, the pattern of enzymes will\nassist, not only with differentiating between cholestasis and hepatitis, but\nwill aid diagnosis when there is a mixed picture.",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_3"
+    },
+    {
+      "label": "Sentence 4",
+      "title": "Understanding Cholestasis: Mechanical or Medical? Mechanical biliary obstruction\nresults in raised levels of ALP,GGT and often bilirubin. ALP will usually be\nmarkedly raised in comparison with ALT. Levels of ALP and GGT elevated in\nsimilar proportions signify a hepatobiliary source. Otherwise alternative causes\nof single enzyme elevation should be considered. When due to\ncholedocholithiasis, the levels of ALP and GGT tend to fluctuate (in comparison\nto stricture forming disease) and may be associated with a normal bilirubin.\nEnzyme titres tend to rise and fall gradually and may be preceded by a peaked\nrise in liver transaminases which can reach >1000 I/U.",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_4"
+    },
+    {
+      "label": "Sentence 5",
+      "title": "The AST:ALT ratio (De Ritis ratio) may assist in differentiating the site of\nbiliary obstruction. When associated with a cholestatic picture, an AST:ALT\nratio of <1.5 suggests an extrahepatic obstruction. In such circumstances the\nALT titre is frequently considerably higher than AST. An AST:ALT ratio of >1.5\nindicates intrahepatic (mechanical or medical) cholestasis is more likely. Drug-\ninduced cholestasis usually presents with a preferential rise in ALP, rather\nthan GGT, or with an ALT:ALP ratio of <2. Causative drugs would include:\nantibiotics, immunosuppressants, tricyclic antidepressants and angiotensin\nconverting enzyme inhibitors.",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_5"
+    },
+    {
+      "label": "Sentence 6",
+      "title": "In Primary Biliary Cirrhosis, an autoimmune condition of the intrahepatic\nbiliary ducts, the level of ALP is generally greater than that of GGT. In this\ncase, transaminases are invariably normal or only minimally elevated. Both the\nEuropean Association for Study of the Liver (EASL) and the American Association\nfor Study of Liver Disease (AASLD) recommend that a diagnosis of PBC may be\nbased on cholestatic liver enzyme levels in conjunction with the demonstration\nof antimitochondrial antibodies. If either of these two criteria is absent,\nimaging and liver biopsy become necessary.",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_6"
+    },
+    {
+      "label": "Sentence 7",
+      "title": "AST and ALP are used within some scoring criteria to monitor the effects of\nursodeoxycholic acid in the management of PBC. A recent study has shown that a\nraised AST:ALT ratio outperforms other non-histological indicators of cirrhosis\nin PBC, but still only achieves a low sensitivity and a specificity of 65-79%.\nAs with PBC, liver enzymes play a key role in the diagnosis of Primary\nSclerosing Cholangitis (PSC).",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_7"
+    },
+    {
+      "label": "Sentence 8",
+      "title": "When other causes of liver disease have been excluded, a raised GGT, and\nparticularly ALP, are diagnostic when associated with typical Endoscopic\nRetrograde Cholangiopancreatography (ERCP) or Magnetic Resonance\nCholangiopancreatography (MRCP) findings. This can preclude the need for a liver\nbiopsy. Transaminase levels may be raised up to 2-3 times normal values in PSC\nbut this is not diagnostic. AST is a component of the Mayo Risk Score, which\ncalculates the risk of disease progression in PSC. A high Mayo Risk Score, and\nan AST:ALT ratio of >1.12 have been shown to be indicators of risk for the\ndevelopment of oesophageal varices.",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_8"
+    },
+    {
+      "label": "Sentence 9",
+      "title": "In Primary Sclerosing Cholangitis (PSC), as with other liver diseases, there are\nsuggestions that an AST:ALT ratio of >1 indicates the development of cirrhosis.\nAlcohol induces hepatic enzymes leading to a raised GGT with an ALP which may be\nnormal, or disproportionately lower than the GGT. A GGT:ALP ratio >2.5 in\nassociation with jaundice suggests alcohol as a cause of liver disease. The\npresence of a macrocytosis, due to either an associated dietary deficiency of\nfolate or B12, or due to a direct suppression of bone marrow by alcohol is\nsupportive of the diagnosis of alcoholic liver disease.",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_9"
+    },
+    {
+      "label": "Sentence 10",
+      "title": "A raised GGT is not diagnostic of alcohol abuse, with research showing A raised\nGGT remains high in former drinkers as well as current drinkers. In men, the\nhighest levels of GGT occur in those who drink daily. In women, binge drinkers\nand those consuming alcohol without food will have especially high levels. The\nlevel of GGT is loosely dose dependant, with those in the top two quartiles of\nalcohol intake having the highest titres.",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_10"
+    },
+    {
+      "label": "Sentence 11",
+      "title": "The Fatty Liver and the AST:ALT Ratio During the last few decades there has been\nresearch into using the AST:ALT ratio in the differentiation of alcoholic liver\ndisease (ALD) from other forms of liver disease, particularly the Non-alcoholic\nFatty Liver Disease (NAFLD) spectrum. Both AST and ALT enzymes require\npyridoxal-5\u2019-phosphate (vitamin B6) to function properly. pyridoxal-5\u2019-phosphate\n(vitamin B6)'s absence in nutritionally-deficient heavy-drinkers has a much\nlarger effect on the production of ALT than that of AST, causing the AST:ALT\nratio to rise. A normal AST:ALT ratio should be <1.",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_11"
+    },
+    {
+      "label": "Sentence 12",
+      "title": "In patients with alcoholic liver disease, the AST:ALT ratio is >1 in 92% of\npatients, and >2 in 70%.13 AST:ALT scores >2 are, therefore, strongly suggestive\nof alcoholic liver disease and scores <1 more suggestive of the Non-alcoholic\nFatty Liver Disease (NAFLD) spectrum. High ratios reflect the severity of\nhepatitis or underlying liver disease rather than high alcohol consumption. This\nmeans that most heavy-drinkers will not have an AST: ALT ratio >1 as most heavy-\ndrinkers have not yet developed alcoholic liver disease (ALD).",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_12"
+    },
+    {
+      "label": "Sentence 13",
+      "title": "No studies have shown that the AST:ALT ratio, either alone or in combination\nwith other factors or models, has the necessary sensitivity or specificity to\ndefinitively differentiate between alcoholic liver disease (ALD) and NAFLD, but\nthe AST:ALT ratio acts as a useful clinical guide when considering the need for\nliver biopsy. It should also be noted that liver transaminases are known to\nworsen in response to cessation of alcohol intake (often coinciding with\nadmission to hospital) and that ALT has also been shown to rise simply from\nadmission to hospital, even in patients with no liver disease.",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_13"
+    },
+    {
+      "label": "Sentence 14",
+      "title": "Although models exist which exclude cirrhosis in NAFLD with reasonable accuracy,\nliver enzyme analysis has so far failed to provide a sensitive and specific\nenough means to make a diagnosis. At present liver biopsy cannot be avoided in\ncases where confirmation of NASH or cirrhosis is necessary. The role of liver\nenzyme analysis in NAFLD lies in both the early identification and modification\nof associated metabolic risk factors such as hypertension, hyperlipidaemia and\nglycaemic control and in risk stratification for the future.",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_14"
+    },
+    {
+      "label": "Sentence 15",
+      "title": "A scoring system developed at the Mayo clinic uses age, hyperglycemia, body mass\nindex, platelet count, albumin, and AST:ALT ratio to accurately differentiate\npatients with advanced fibrosis in NAFLD. the AST:ALT Ratio becomes considerably\nless specific in determining underlying disease with the development of\ncirrhosis, as the AST:ALT Ratio will increase across a broad range of diseases.\nthe AST:ALT Ratio is, however, useful in NAFLD patients known not to be abusing\nalcohol as a score of >1 should lead to the consideration that NAFLD patients\nknown not to be abusing alcohol may have developed cirrhosis.",
+      "node_class": "Sentence",
+      "color": "lightgreen",
+      "shape": "box",
+      "size": 20,
+      "id": "SENT_15"
+    }
+  ],
+  "links": [
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_1",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_2",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_3",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_4",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_5",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_6",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_7",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_8",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_9",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_10",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_11",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_12",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_13",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_14",
+      "key": 0
+    },
+    {
+      "source": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+      "target": "SENT_15",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F1_SENT_1_input_txt",
+      "target": "E1",
+      "key": 0
+    },
+    {
+      "title": "action",
+      "source": "F1_SENT_1_input_txt",
+      "target": "E2",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F1_SENT_1_input_txt",
+      "target": "E3",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F2_SENT_1_input_txt",
+      "target": "E1",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F2_SENT_1_input_txt",
+      "target": "E4",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F3_SENT_1_input_txt",
+      "target": "E1",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F3_SENT_1_input_txt",
+      "target": "E5",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F4_SENT_1_input_txt",
+      "target": "E6",
+      "key": 0
+    },
+    {
+      "title": "co_agent",
+      "source": "F4_SENT_1_input_txt",
+      "target": "E7",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F5_SENT_1_input_txt",
+      "target": "E1",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F6_SENT_1_input_txt",
+      "target": "E11",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F6_SENT_1_input_txt",
+      "target": "E1",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F7_SENT_1_input_txt",
+      "target": "E11",
+      "key": 0
+    },
+    {
+      "title": "action",
+      "source": "F7_SENT_1_input_txt",
+      "target": "E12",
+      "key": 0
+    },
+    {
+      "title": "action",
+      "source": "F8_SENT_2_input_txt",
+      "target": "E11",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F8_SENT_2_input_txt",
+      "target": "E14",
+      "key": 0
+    },
+    {
+      "title": "action",
+      "source": "F9_SENT_2_input_txt",
+      "target": "E11",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F9_SENT_2_input_txt",
+      "target": "E15",
+      "key": 0
+    },
+    {
+      "title": "action",
+      "source": "F10_SENT_2_input_txt",
+      "target": "E11",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F10_SENT_2_input_txt",
+      "target": "E17",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F11_SENT_2_input_txt",
+      "target": "E11",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F11_SENT_2_input_txt",
+      "target": "E17",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F12_SENT_2_input_txt",
+      "target": "E18",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F12_SENT_2_input_txt",
+      "target": "E20",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F13_SENT_2_input_txt",
+      "target": "E19",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F13_SENT_2_input_txt",
+      "target": "E20",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F14_SENT_2_input_txt",
+      "target": "E21",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F14_SENT_2_input_txt",
+      "target": "E22",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F15_SENT_2_input_txt",
+      "target": "E21",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F15_SENT_2_input_txt",
+      "target": "E23",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F17_SENT_2_input_txt",
+      "target": "E21",
+      "key": 0
+    },
+    {
+      "title": "co_agent",
+      "source": "F17_SENT_2_input_txt",
+      "target": "E24",
+      "key": 0
+    },
+    {
+      "title": "co_agent",
+      "source": "F17_SENT_2_input_txt",
+      "target": "E25",
+      "key": 0
+    },
+    {
+      "title": "action",
+      "source": "F18_SENT_3_input_txt",
+      "target": "E38",
+      "key": 0
+    },
+    {
+      "title": "co_agent",
+      "source": "F18_SENT_3_input_txt",
+      "target": "E27",
+      "key": 0
+    },
+    {
+      "title": "co_agent",
+      "source": "F18_SENT_3_input_txt",
+      "target": "E28",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F19_SENT_3_input_txt",
+      "target": "E34",
+      "key": 0
+    },
+    {
+      "title": "co_agent",
+      "source": "F19_SENT_3_input_txt",
+      "target": "E35",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F19_SENT_3_input_txt",
+      "target": "E37",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F20_SENT_3_input_txt",
+      "target": "E36",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F20_SENT_3_input_txt",
+      "target": "E37",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F21_SENT_3_input_txt",
+      "target": "E36",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F21_SENT_3_input_txt",
+      "target": "E37",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F21_SENT_3_input_txt",
+      "target": "E33",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F22_SENT_3_input_txt",
+      "target": "E36",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F22_SENT_3_input_txt",
+      "target": "E37",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F22_SENT_3_input_txt",
+      "target": "E31",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F23_SENT_3_input_txt",
+      "target": "E36",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F23_SENT_3_input_txt",
+      "target": "E37",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F23_SENT_3_input_txt",
+      "target": "E32",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F25_SENT_4_input_txt",
+      "target": "E39",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F25_SENT_4_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F26_SENT_4_input_txt",
+      "target": "E39",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F26_SENT_4_input_txt",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F27_SENT_4_input_txt",
+      "target": "E39",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F27_SENT_4_input_txt",
+      "target": "E42",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F28_SENT_4_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "comparison",
+      "source": "F28_SENT_4_input_txt",
+      "target": "E43",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F29_SENT_4_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "co_agent",
+      "source": "F29_SENT_4_input_txt",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "signifies",
+      "source": "F29_SENT_4_input_txt",
+      "target": "E44",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F30_SENT_4_input_txt",
+      "target": "E45",
+      "key": 0
+    },
+    {
+      "title": "alternative",
+      "source": "F30_SENT_4_input_txt",
+      "target": "E46",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F31_SENT_4_input_txt",
+      "target": "E47",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F31_SENT_4_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "co_effect",
+      "source": "F31_SENT_4_input_txt",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F32_SENT_4_input_txt",
+      "target": "E47",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F32_SENT_4_input_txt",
+      "target": "E42",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F33_SENT_4_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "co_agent",
+      "source": "F33_SENT_4_input_txt",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F34_SENT_4_input_txt",
+      "target": "E49",
+      "key": 0
+    },
+    {
+      "title": "precedes",
+      "source": "F34_SENT_4_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F35_SENT_5_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F37_SENT_5_input_txt",
+      "target": "E53",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F37_SENT_5_input_txt",
+      "target": "E52",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F37_SENT_5_input_txt",
+      "target": "E54",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F38_SENT_5_input_txt",
+      "target": "E53",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F38_SENT_5_input_txt",
+      "target": "E52",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F38_SENT_5_input_txt",
+      "target": "E54",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F39_SENT_5_input_txt",
+      "target": "E55",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F39_SENT_5_input_txt",
+      "target": "E56",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F40_SENT_5_input_txt",
+      "target": "E57",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F40_SENT_5_input_txt",
+      "target": "E58",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F41_SENT_5_input_txt",
+      "target": "E57",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F41_SENT_5_input_txt",
+      "target": "E58",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F42_SENT_5_input_txt",
+      "target": "E57",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F42_SENT_5_input_txt",
+      "target": "E59",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F43_SENT_5_input_txt",
+      "target": "E57",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F43_SENT_5_input_txt",
+      "target": "E59",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F44_SENT_5_input_txt",
+      "target": "E57",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F44_SENT_5_input_txt",
+      "target": "E60",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F45_SENT_5_input_txt",
+      "target": "E57",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F45_SENT_5_input_txt",
+      "target": "E60",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F46_SENT_5_input_txt",
+      "target": "E61",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F46_SENT_5_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F47_SENT_5_input_txt",
+      "target": "E61",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F47_SENT_5_input_txt",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F48_SENT_5_input_txt",
+      "target": "E61",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F48_SENT_5_input_txt",
+      "target": "E62",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F49_SENT_5_input_txt",
+      "target": "E63",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F49_SENT_5_input_txt",
+      "target": "E61",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F50_SENT_5_input_txt",
+      "target": "E64",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F50_SENT_5_input_txt",
+      "target": "E61",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F51_SENT_5_input_txt",
+      "target": "E65",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F51_SENT_5_input_txt",
+      "target": "E61",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F52_SENT_5_input_txt",
+      "target": "E66",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F52_SENT_5_input_txt",
+      "target": "E61",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F53_SENT_6_input_txt",
+      "target": "E67",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F53_SENT_6_input_txt",
+      "target": "E68",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F54_SENT_6_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "comparator",
+      "source": "F54_SENT_6_input_txt",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F54_SENT_6_input_txt",
+      "target": "E67",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F55_SENT_6_input_txt",
+      "target": "E69",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F55_SENT_6_input_txt",
+      "target": "E67",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F56_SENT_6_input_txt",
+      "target": "E67",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F56_SENT_6_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F56_SENT_6_input_txt",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F57_SENT_6_input_txt",
+      "target": "E67",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F57_SENT_6_input_txt",
+      "target": "E69",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F58_SENT_6_input_txt",
+      "target": "E75",
+      "key": 0
+    },
+    {
+      "title": "co_agent",
+      "source": "F58_SENT_6_input_txt",
+      "target": "E76",
+      "key": 0
+    },
+    {
+      "title": "action",
+      "source": "F58_SENT_6_input_txt",
+      "target": "E72",
+      "key": 0
+    },
+    {
+      "title": "criteria",
+      "source": "F58_SENT_6_input_txt",
+      "target": "E70",
+      "key": 0
+    },
+    {
+      "title": "criteria",
+      "source": "F58_SENT_6_input_txt",
+      "target": "E71",
+      "key": 0
+    },
+    {
+      "title": "action",
+      "source": "F59_SENT_6_input_txt",
+      "target": "E73",
+      "key": 0
+    },
+    {
+      "title": "action",
+      "source": "F59_SENT_6_input_txt",
+      "target": "E74",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F61_SENT_7_input_txt",
+      "target": "E78",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F61_SENT_7_input_txt",
+      "target": "E79",
+      "key": 0
+    },
+    {
+      "title": "action",
+      "source": "F61_SENT_7_input_txt",
+      "target": "E80",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F61_SENT_7_input_txt",
+      "target": "E77",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F61_SENT_7_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F62_SENT_7_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F62_SENT_7_input_txt",
+      "target": "E82",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F62_SENT_7_input_txt",
+      "target": "E79",
+      "key": 0
+    },
+    {
+      "title": "comparator",
+      "source": "F62_SENT_7_input_txt",
+      "target": "E81",
+      "key": 0
+    },
+    {
+      "title": "endpoint",
+      "source": "F62_SENT_7_input_txt",
+      "target": "E84",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F63_SENT_7_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F63_SENT_7_input_txt",
+      "target": "E84",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F63_SENT_7_input_txt",
+      "target": "E79",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F65_SENT_7_input_txt",
+      "target": "E21",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F65_SENT_7_input_txt",
+      "target": "E85",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F66_SENT_8_input_txt",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "co_agent",
+      "source": "F66_SENT_8_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "associated_with",
+      "source": "F66_SENT_8_input_txt",
+      "target": "E86",
+      "key": 0
+    },
+    {
+      "title": "associated_with",
+      "source": "F66_SENT_8_input_txt",
+      "target": "E87",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F67_SENT_8_input_txt",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "co_agent",
+      "source": "F67_SENT_8_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "outcome",
+      "source": "F67_SENT_8_input_txt",
+      "target": "E88",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F68_SENT_8_input_txt",
+      "target": "E89",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F68_SENT_8_input_txt",
+      "target": "E90",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F69_SENT_8_input_txt",
+      "target": "E77",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F69_SENT_8_input_txt",
+      "target": "E91",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F70_SENT_8_input_txt",
+      "target": "E91",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F70_SENT_8_input_txt",
+      "target": "E92",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F71_SENT_8_input_txt",
+      "target": "E91",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F71_SENT_8_input_txt",
+      "target": "E93",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F72_SENT_8_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F72_SENT_8_input_txt",
+      "target": "E93",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F73_SENT_9_input_txt",
+      "target": "E85",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F73_SENT_9_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "outcome",
+      "source": "F73_SENT_9_input_txt",
+      "target": "E95",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F74_SENT_9_input_txt",
+      "target": "E96",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F74_SENT_9_input_txt",
+      "target": "E97",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F75_SENT_9_input_txt",
+      "target": "E96",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F75_SENT_9_input_txt",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F76_SENT_9_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F77_SENT_9_input_txt",
+      "target": "E96",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F77_SENT_9_input_txt",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F78_SENT_9_input_txt",
+      "target": "E96",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F78_SENT_9_input_txt",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F79_SENT_9_input_txt",
+      "target": "E98",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F79_SENT_9_input_txt",
+      "target": "E99",
+      "key": 0
+    },
+    {
+      "title": "outcome",
+      "source": "F79_SENT_9_input_txt",
+      "target": "E8",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F80_SENT_9_input_txt",
+      "target": "E96",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F80_SENT_9_input_txt",
+      "target": "E8",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F81_SENT_9_input_txt",
+      "target": "E100",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F81_SENT_9_input_txt",
+      "target": "E101",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F82_SENT_9_input_txt",
+      "target": "E100",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F82_SENT_9_input_txt",
+      "target": "E102",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F83_SENT_9_input_txt",
+      "target": "E96",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F83_SENT_9_input_txt",
+      "target": "E103",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F84_SENT_9_input_txt",
+      "target": "E100",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F84_SENT_9_input_txt",
+      "target": "E103",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F85_SENT_9_input_txt",
+      "target": "E100",
+      "key": 0
+    },
+    {
+      "title": "outcome",
+      "source": "F85_SENT_9_input_txt",
+      "target": "E104",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F86_SENT_9_input_txt",
+      "target": "E96",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F86_SENT_9_input_txt",
+      "target": "E104",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F89_SENT_10_input_txt",
+      "target": "E105",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F89_SENT_10_input_txt",
+      "target": "E106",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F90_SENT_10_input_txt",
+      "target": "E105",
+      "key": 0
+    },
+    {
+      "title": "cohort",
+      "source": "F90_SENT_10_input_txt",
+      "target": "E107",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F91_SENT_10_input_txt",
+      "target": "E105",
+      "key": 0
+    },
+    {
+      "title": "cohort",
+      "source": "F91_SENT_10_input_txt",
+      "target": "E108",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F92_SENT_10_input_txt",
+      "target": "E105",
+      "key": 0
+    },
+    {
+      "title": "cohort",
+      "source": "F92_SENT_10_input_txt",
+      "target": "E109",
+      "key": 0
+    },
+    {
+      "title": "exposure",
+      "source": "F92_SENT_10_input_txt",
+      "target": "E110",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F93_SENT_10_input_txt",
+      "target": "E105",
+      "key": 0
+    },
+    {
+      "title": "cohort",
+      "source": "F93_SENT_10_input_txt",
+      "target": "E111",
+      "key": 0
+    },
+    {
+      "title": "exposure",
+      "source": "F93_SENT_10_input_txt",
+      "target": "E112",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F94_SENT_10_input_txt",
+      "target": "E105",
+      "key": 0
+    },
+    {
+      "title": "cohort",
+      "source": "F94_SENT_10_input_txt",
+      "target": "E111",
+      "key": 0
+    },
+    {
+      "title": "exposure",
+      "source": "F94_SENT_10_input_txt",
+      "target": "E113",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F95_SENT_10_input_txt",
+      "target": "E105",
+      "key": 0
+    },
+    {
+      "title": "exposure",
+      "source": "F95_SENT_10_input_txt",
+      "target": "E114",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F96_SENT_10_input_txt",
+      "target": "E110",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F96_SENT_10_input_txt",
+      "target": "E105",
+      "key": 0
+    },
+    {
+      "title": "cohort",
+      "source": "F96_SENT_10_input_txt",
+      "target": "E109",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F97_SENT_10_input_txt",
+      "target": "E112",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F97_SENT_10_input_txt",
+      "target": "E105",
+      "key": 0
+    },
+    {
+      "title": "cohort",
+      "source": "F97_SENT_10_input_txt",
+      "target": "E111",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F98_SENT_10_input_txt",
+      "target": "E113",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F98_SENT_10_input_txt",
+      "target": "E105",
+      "key": 0
+    },
+    {
+      "title": "cohort",
+      "source": "F98_SENT_10_input_txt",
+      "target": "E111",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F99_SENT_10_input_txt",
+      "target": "E114",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F99_SENT_10_input_txt",
+      "target": "E105",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F100_SENT_11_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F100_SENT_11_input_txt",
+      "target": "E104",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F100_SENT_11_input_txt",
+      "target": "E8",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F101_SENT_11_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F101_SENT_11_input_txt",
+      "target": "E115",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F101_SENT_11_input_txt",
+      "target": "E8",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F102_SENT_11_input_txt",
+      "target": "E77",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F102_SENT_11_input_txt",
+      "target": "E116",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F103_SENT_11_input_txt",
+      "target": "E43",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F103_SENT_11_input_txt",
+      "target": "E116",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F104_SENT_11_input_txt",
+      "target": "E116",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F104_SENT_11_input_txt",
+      "target": "E117",
+      "key": 0
+    },
+    {
+      "title": "outcome",
+      "source": "F104_SENT_11_input_txt",
+      "target": "E118",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F105_SENT_11_input_txt",
+      "target": "E116",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F105_SENT_11_input_txt",
+      "target": "E117",
+      "key": 0
+    },
+    {
+      "title": "outcome",
+      "source": "F105_SENT_11_input_txt",
+      "target": "E119",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F106_SENT_11_input_txt",
+      "target": "E116",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F106_SENT_11_input_txt",
+      "target": "E117",
+      "key": 0
+    },
+    {
+      "title": "outcome",
+      "source": "F106_SENT_11_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F107_SENT_11_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "biomarker",
+      "source": "F109_SENT_12_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F109_SENT_12_input_txt",
+      "target": "E104",
+      "key": 0
+    },
+    {
+      "title": "biomarker",
+      "source": "F110_SENT_12_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F110_SENT_12_input_txt",
+      "target": "E104",
+      "key": 0
+    },
+    {
+      "title": "biomarker",
+      "source": "F111_SENT_12_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "suggested_condition",
+      "source": "F111_SENT_12_input_txt",
+      "target": "E104",
+      "key": 0
+    },
+    {
+      "title": "biomarker",
+      "source": "F112_SENT_12_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "suggested_condition",
+      "source": "F112_SENT_12_input_txt",
+      "target": "E115",
+      "key": 0
+    },
+    {
+      "title": "biomarker",
+      "source": "F113_SENT_12_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F113_SENT_12_input_txt",
+      "target": "E32",
+      "key": 0
+    },
+    {
+      "title": "biomarker",
+      "source": "F114_SENT_12_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F114_SENT_12_input_txt",
+      "target": "E8",
+      "key": 0
+    },
+    {
+      "title": "biomarker",
+      "source": "F115_SENT_12_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "exposure",
+      "source": "F115_SENT_12_input_txt",
+      "target": "E121",
+      "key": 0
+    },
+    {
+      "title": "biomarker",
+      "source": "F116_SENT_12_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "cohort",
+      "source": "F116_SENT_12_input_txt",
+      "target": "E122",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F117_SENT_12_input_txt",
+      "target": "E104",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F117_SENT_12_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F118_SENT_12_input_txt",
+      "target": "E32",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F118_SENT_12_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F119_SENT_12_input_txt",
+      "target": "E8",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F119_SENT_12_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F123_SENT_13_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F123_SENT_13_input_txt",
+      "target": "E123",
+      "key": 0
+    },
+    {
+      "title": "co_target",
+      "source": "F123_SENT_13_input_txt",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "endpoint",
+      "source": "F123_SENT_13_input_txt",
+      "target": "E83",
+      "key": 0
+    },
+    {
+      "title": "endpoint",
+      "source": "F123_SENT_13_input_txt",
+      "target": "E84",
+      "key": 0
+    },
+    {
+      "title": "co_agent",
+      "source": "F123_SENT_13_input_txt",
+      "target": "E129",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F124_SENT_13_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F124_SENT_13_input_txt",
+      "target": "E130",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F125_SENT_13_input_txt",
+      "target": "E130",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F126_SENT_13_input_txt",
+      "target": "E125",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F126_SENT_13_input_txt",
+      "target": "E126",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F127_SENT_13_input_txt",
+      "target": "E125",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F127_SENT_13_input_txt",
+      "target": "E127",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F128_SENT_13_input_txt",
+      "target": "E43",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F128_SENT_13_input_txt",
+      "target": "E127",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F129_SENT_13_input_txt",
+      "target": "E43",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F129_SENT_13_input_txt",
+      "target": "E127",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F129_SENT_13_input_txt",
+      "target": "E128",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F130_SENT_14_input_txt",
+      "target": "E131",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F130_SENT_14_input_txt",
+      "target": "E138",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F130_SENT_14_input_txt",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F131_SENT_14_input_txt",
+      "target": "E131",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F131_SENT_14_input_txt",
+      "target": "E137",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F131_SENT_14_input_txt",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F132_SENT_14_input_txt",
+      "target": "E131",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F132_SENT_14_input_txt",
+      "target": "E133",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F132_SENT_14_input_txt",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F133_SENT_14_input_txt",
+      "target": "E131",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F133_SENT_14_input_txt",
+      "target": "E134",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F133_SENT_14_input_txt",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F134_SENT_14_input_txt",
+      "target": "E131",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F134_SENT_14_input_txt",
+      "target": "E135",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F134_SENT_14_input_txt",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F135_SENT_14_input_txt",
+      "target": "E131",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F135_SENT_14_input_txt",
+      "target": "E136",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F135_SENT_14_input_txt",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F136_SENT_14_input_txt",
+      "target": "E88",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F136_SENT_14_input_txt",
+      "target": "E37",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F136_SENT_14_input_txt",
+      "target": "E132",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F137_SENT_14_input_txt",
+      "target": "E88",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F137_SENT_14_input_txt",
+      "target": "E37",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F137_SENT_14_input_txt",
+      "target": "E95",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F138_SENT_14_input_txt",
+      "target": "E131",
+      "key": 0
+    },
+    {
+      "title": "effect",
+      "source": "F138_SENT_14_input_txt",
+      "target": "E37",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F138_SENT_14_input_txt",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F139_SENT_15_input_txt",
+      "target": "E139",
+      "key": 0
+    },
+    {
+      "title": "institution",
+      "source": "F139_SENT_15_input_txt",
+      "target": "E140",
+      "key": 0
+    },
+    {
+      "title": "feature",
+      "source": "F139_SENT_15_input_txt",
+      "target": "E141",
+      "key": 0
+    },
+    {
+      "title": "feature",
+      "source": "F139_SENT_15_input_txt",
+      "target": "E142",
+      "key": 0
+    },
+    {
+      "title": "feature",
+      "source": "F139_SENT_15_input_txt",
+      "target": "E143",
+      "key": 0
+    },
+    {
+      "title": "feature",
+      "source": "F139_SENT_15_input_txt",
+      "target": "E144",
+      "key": 0
+    },
+    {
+      "title": "feature",
+      "source": "F139_SENT_15_input_txt",
+      "target": "E145",
+      "key": 0
+    },
+    {
+      "title": "feature",
+      "source": "F139_SENT_15_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "agent",
+      "source": "F140_SENT_15_input_txt",
+      "target": "E139",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F140_SENT_15_input_txt",
+      "target": "E146",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F140_SENT_15_input_txt",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "biomarker",
+      "source": "F141_SENT_15_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F141_SENT_15_input_txt",
+      "target": "E95",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F141_SENT_15_input_txt",
+      "target": "E147",
+      "key": 0
+    },
+    {
+      "title": "biomarker",
+      "source": "F142_SENT_15_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F142_SENT_15_input_txt",
+      "target": "E95",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F142_SENT_15_input_txt",
+      "target": "E147",
+      "key": 0
+    },
+    {
+      "title": "biomarker",
+      "source": "F143_SENT_15_input_txt",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "target",
+      "source": "F143_SENT_15_input_txt",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F143_SENT_15_input_txt",
+      "target": "E106",
+      "key": 0
+    },
+    {
+      "title": "action",
+      "source": "F144_SENT_15_input_txt",
+      "target": "E149",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F144_SENT_15_input_txt",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "condition",
+      "source": "F144_SENT_15_input_txt",
+      "target": "E106",
+      "key": 0
+    },
+    {
+      "title": "threshold",
+      "source": "F144_SENT_15_input_txt",
+      "target": "E148",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_1",
+      "target": "E1",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_1",
+      "target": "E11",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_1",
+      "target": "E13",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_1",
+      "target": "E14",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_1",
+      "target": "E24",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_1",
+      "target": "E25",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_1",
+      "target": "F1_SENT_1_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_1",
+      "target": "F2_SENT_1_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_1",
+      "target": "F3_SENT_1_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_1",
+      "target": "F4_SENT_1_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_1",
+      "target": "F5_SENT_1_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_1",
+      "target": "F6_SENT_1_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_1",
+      "target": "F7_SENT_1_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_2",
+      "target": "E11",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_2",
+      "target": "E13",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_2",
+      "target": "E14",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_2",
+      "target": "E15",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_2",
+      "target": "E16",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_2",
+      "target": "E17",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_2",
+      "target": "E18",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_2",
+      "target": "E19",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_2",
+      "target": "E20",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_2",
+      "target": "E21",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_2",
+      "target": "E24",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_2",
+      "target": "E25",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_2",
+      "target": "F8_SENT_2_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_2",
+      "target": "F9_SENT_2_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_2",
+      "target": "F10_SENT_2_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_2",
+      "target": "F11_SENT_2_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_2",
+      "target": "F12_SENT_2_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_2",
+      "target": "F13_SENT_2_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_2",
+      "target": "F14_SENT_2_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_2",
+      "target": "F15_SENT_2_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_2",
+      "target": "F16_SENT_2_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_2",
+      "target": "F17_SENT_2_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_3",
+      "target": "E14",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_3",
+      "target": "F18_SENT_3_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_3",
+      "target": "F19_SENT_3_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_3",
+      "target": "F20_SENT_3_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_3",
+      "target": "F21_SENT_3_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_3",
+      "target": "F22_SENT_3_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_3",
+      "target": "F23_SENT_3_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_3",
+      "target": "F24_SENT_3_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_4",
+      "target": "E18",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_4",
+      "target": "E31",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_4",
+      "target": "E39",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_4",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_4",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_4",
+      "target": "E43",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_4",
+      "target": "E69",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_4",
+      "target": "E125",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_4",
+      "target": "F25_SENT_4_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_4",
+      "target": "F26_SENT_4_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_4",
+      "target": "F27_SENT_4_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_4",
+      "target": "F28_SENT_4_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_4",
+      "target": "F29_SENT_4_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_4",
+      "target": "F30_SENT_4_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_4",
+      "target": "F31_SENT_4_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_4",
+      "target": "F32_SENT_4_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_4",
+      "target": "F33_SENT_4_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_4",
+      "target": "F34_SENT_4_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_5",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_5",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_5",
+      "target": "E43",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_5",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_5",
+      "target": "E55",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_5",
+      "target": "E61",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_5",
+      "target": "E77",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F35_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F36_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F37_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F38_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F39_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F40_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F41_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F42_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F43_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F44_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F45_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F46_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F47_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F48_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F49_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F50_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F51_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_5",
+      "target": "F52_SENT_5_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E3",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E67",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E68",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E69",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E70",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E71",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E72",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E73",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E74",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E75",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E76",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E79",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_6",
+      "target": "E95",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_6",
+      "target": "F53_SENT_6_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_6",
+      "target": "F54_SENT_6_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_6",
+      "target": "F55_SENT_6_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_6",
+      "target": "F56_SENT_6_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_6",
+      "target": "F57_SENT_6_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_6",
+      "target": "F58_SENT_6_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_6",
+      "target": "F59_SENT_6_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_6",
+      "target": "F60_SENT_6_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E21",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E43",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E77",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E78",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E79",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E80",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E81",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E82",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E83",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E84",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E85",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_7",
+      "target": "E90",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_7",
+      "target": "F61_SENT_7_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_7",
+      "target": "F62_SENT_7_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_7",
+      "target": "F63_SENT_7_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_7",
+      "target": "F64_SENT_7_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_7",
+      "target": "F65_SENT_7_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_8",
+      "target": "E14",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_8",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_8",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_8",
+      "target": "E43",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_8",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_8",
+      "target": "E74",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_8",
+      "target": "E77",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_8",
+      "target": "E86",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_8",
+      "target": "E87",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_8",
+      "target": "E89",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_8",
+      "target": "E90",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_8",
+      "target": "E91",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_8",
+      "target": "F66_SENT_8_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_8",
+      "target": "F67_SENT_8_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_8",
+      "target": "F68_SENT_8_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_8",
+      "target": "F69_SENT_8_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_8",
+      "target": "F70_SENT_8_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_8",
+      "target": "F71_SENT_8_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_8",
+      "target": "F72_SENT_8_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_9",
+      "target": "E14",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_9",
+      "target": "E40",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_9",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_9",
+      "target": "E43",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_9",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_9",
+      "target": "E77",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_9",
+      "target": "E82",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_9",
+      "target": "E85",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_9",
+      "target": "E90",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_9",
+      "target": "E96",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_9",
+      "target": "E98",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_9",
+      "target": "E123",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F73_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F74_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F75_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F76_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F77_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F78_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F79_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F80_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F81_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F82_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F83_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F84_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F85_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F86_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F87_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_9",
+      "target": "F88_SENT_9_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_10",
+      "target": "E41",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_10",
+      "target": "F89_SENT_10_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_10",
+      "target": "F90_SENT_10_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_10",
+      "target": "F91_SENT_10_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_10",
+      "target": "F92_SENT_10_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_10",
+      "target": "F93_SENT_10_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_10",
+      "target": "F94_SENT_10_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_10",
+      "target": "F95_SENT_10_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_10",
+      "target": "F96_SENT_10_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_10",
+      "target": "F97_SENT_10_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_10",
+      "target": "F98_SENT_10_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_10",
+      "target": "F99_SENT_10_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_11",
+      "target": "E3",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_11",
+      "target": "E14",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_11",
+      "target": "E43",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_11",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_11",
+      "target": "E77",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_11",
+      "target": "E115",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_11",
+      "target": "E116",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_11",
+      "target": "E123",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_11",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_11",
+      "target": "F100_SENT_11_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_11",
+      "target": "F101_SENT_11_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_11",
+      "target": "F102_SENT_11_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_11",
+      "target": "F103_SENT_11_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_11",
+      "target": "F104_SENT_11_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_11",
+      "target": "F105_SENT_11_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_11",
+      "target": "F106_SENT_11_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_11",
+      "target": "F107_SENT_11_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_11",
+      "target": "F108_SENT_11_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_12",
+      "target": "E3",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_12",
+      "target": "E14",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_12",
+      "target": "E43",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_12",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_12",
+      "target": "E77",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_12",
+      "target": "E115",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_12",
+      "target": "E123",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_12",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F109_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F110_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F111_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F112_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F113_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F114_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F115_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F116_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F117_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F118_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F119_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F120_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F121_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_12",
+      "target": "F122_SENT_12_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E14",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E43",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E69",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E74",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E77",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E83",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E84",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E123",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E125",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E126",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E127",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E128",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E129",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_13",
+      "target": "E130",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_13",
+      "target": "F123_SENT_13_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_13",
+      "target": "F124_SENT_13_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_13",
+      "target": "F125_SENT_13_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_13",
+      "target": "F126_SENT_13_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_13",
+      "target": "F127_SENT_13_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_13",
+      "target": "F128_SENT_13_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_13",
+      "target": "F129_SENT_13_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_14",
+      "target": "E74",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_14",
+      "target": "E82",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_14",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_14",
+      "target": "E132",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_14",
+      "target": "F130_SENT_14_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_14",
+      "target": "F131_SENT_14_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_14",
+      "target": "F132_SENT_14_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_14",
+      "target": "F133_SENT_14_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_14",
+      "target": "F134_SENT_14_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_14",
+      "target": "F135_SENT_14_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_14",
+      "target": "F136_SENT_14_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_14",
+      "target": "F137_SENT_14_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_14",
+      "target": "F138_SENT_14_input_txt",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_15",
+      "target": "E19",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_15",
+      "target": "E43",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_15",
+      "target": "E50",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_15",
+      "target": "E77",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_15",
+      "target": "E82",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_15",
+      "target": "E124",
+      "key": 0
+    },
+    {
+      "title": "mentions",
+      "color": "#e0e0e0",
+      "source": "SENT_15",
+      "target": "E140",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_15",
+      "target": "F139_SENT_15_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_15",
+      "target": "F140_SENT_15_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_15",
+      "target": "F141_SENT_15_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_15",
+      "target": "F142_SENT_15_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_15",
+      "target": "F143_SENT_15_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_15",
+      "target": "F144_SENT_15_input_txt",
+      "key": 0
+    },
+    {
+      "title": "contains_fact",
+      "source": "SENT_15",
+      "target": "F145_SENT_15_input_txt",
+      "key": 0
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "graph_type": "AtomSpace HyperGraph",
+  "nodes": [
+    {
+      "id": "n_sent13",
+      "atom_type": "ConceptNode",
+      "name": "SENT_13"
+    },
+    {
+      "id": "n_ast_alt_ratio",
+      "atom_type": "ConceptNode",
+      "name": "AST:ALT ratio"
+    },
+    {
+      "id": "n_sensitivity",
+      "atom_type": "ConceptNode",
+      "name": "Sensitivity"
+    },
+    {
+      "id": "n_specificity",
+      "atom_type": "ConceptNode",
+      "name": "Specificity"
+    },
+    {
+      "id": "n_ald",
+      "atom_type": "ConceptNode",
+      "name": "Alcoholic liver disease"
+    },
+    {
+      "id": "n_nafld",
+      "atom_type": "ConceptNode",
+      "name": "NAFLD"
+    },
+    {
+      "id": "n_clinical_guide",
+      "atom_type": "ConceptNode",
+      "name": "Clinical guide"
+    },
+    {
+      "id": "n_liver_biopsy",
+      "atom_type": "ConceptNode",
+      "name": "Liver biopsy"
+    },
+    {
+      "id": "n_liver_transaminases",
+      "atom_type": "ConceptNode",
+      "name": "Liver transaminases"
+    },
+    {
+      "id": "n_worsen",
+      "atom_type": "PredicateNode",
+      "name": "worsen"
+    },
+    {
+      "id": "n_cessation_alcohol",
+      "atom_type": "ConceptNode",
+      "name": "Cessation of alcohol intake"
+    },
+    {
+      "id": "n_admission_hospital",
+      "atom_type": "ConceptNode",
+      "name": "Admission to hospital"
+    },
+    {
+      "id": "n_alt",
+      "atom_type": "ConceptNode",
+      "name": "ALT"
+    },
+    {
+      "id": "n_rise",
+      "atom_type": "PredicateNode",
+      "name": "rise"
+    },
+    {
+      "id": "n_requires",
+      "atom_type": "PredicateNode",
+      "name": "requires"
+    },
+    {
+      "id": "n_timestamp",
+      "atom_type": "TimestampNode",
+      "name": "1900-01-01"
+    }
+  ],
+  "links": [
+    {
+      "id": "l_guide_biopsy",
+      "link_type": "EvaluationLink",
+      "predicate": "n_requires",
+      "arguments": [
+        "n_ast_alt_ratio",
+        "n_liver_biopsy"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_transaminases_worsen",
+      "link_type": "EvaluationLink",
+      "predicate": "n_worsen",
+      "arguments": [
+        "n_liver_transaminases",
+        "n_cessation_alcohol",
+        "n_admission_hospital"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_alt_rise_admission",
+      "link_type": "EvaluationLink",
+      "predicate": "n_rise",
+      "arguments": [
+        "n_alt",
+        "n_admission_hospital"
+      ],
+      "truth_value": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "id": "l_ctx_guide_biopsy",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent13",
+        "l_guide_biopsy"
+      ]
+    },
+    {
+      "id": "l_ctx_transaminases_worsen",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent13",
+        "l_transaminases_worsen"
+      ]
+    },
+    {
+      "id": "l_ctx_alt_rise_admission",
+      "link_type": "ContextLink",
+      "arguments": [
+        "n_timestamp",
+        "n_sent13",
+        "l_alt_rise_admission"
+      ]
+    }
+  ],
+  "metadata": {
+    "source_id": "SENT_13",
+    "source_sentence": "No studies have shown that the AST:ALT ratio, either alone or in combination with other factors or models, has the necessary sensitivity or specificity to definitively differentiate between alcoholic liver disease (ALD) and NAFLD, but the AST:ALT ratio acts as a useful clinical guide when considering the need for liver biopsy. It should also be noted that liver transaminases are known to worsen in response to cessation of alcohol intake (often coinciding with admission to hospital) and that ALT has also been shown to rise simply from admission to hospital, even in patients with no liver disease."
+  }
+}

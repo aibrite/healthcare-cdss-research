@@ -1,0 +1,46 @@
+Certainly! Here’s a schema generation prompt tailored for the "HG" context. If you have a specific domain or data type in mind for "HG," please clarify for further customization. Below is a general-purpose schema generation prompt:
+
+---
+
+**Schema Generation Prompt for HG**
+
+You are an expert data architect. Your task is to generate a comprehensive and well-structured database schema for the following use case:
+
+**Use Case:**
+Design a database schema for the "HG" system, which manages and organizes information relevant to its domain. The schema should be normalized, scalable, and support efficient querying. Include all necessary tables, fields, data types, primary and foreign keys, and relationships. If applicable, consider indexing strategies and constraints.
+
+**Instructions:**
+1. Identify the main entities and their attributes relevant to the HG system.
+2. Define the relationships between entities (one-to-one, one-to-many, many-to-many).
+3. Specify primary keys for each table.
+4. Define foreign keys and reference integrity constraints.
+5. Suggest indexes for fields that will be frequently queried.
+6. Include sample data types for each field (e.g., INT, VARCHAR(255), DATE).
+7. Optionally, provide a brief explanation for each table and its purpose.
+
+**Output Format:**
+- List of tables with their fields, data types, and constraints.
+- Entity-relationship (ER) diagram in text or markdown format (optional).
+- Explanations for design choices (optional).
+
+**Example Output:**
+
+Table: users
+- user_id (INT, PRIMARY KEY, AUTO_INCREMENT)
+- username (VARCHAR(50), UNIQUE, NOT NULL)
+- email (VARCHAR(100), UNIQUE, NOT NULL)
+- created_at (DATETIME, NOT NULL)
+
+Table: hg_records
+- record_id (INT, PRIMARY KEY, AUTO_INCREMENT)
+- user_id (INT, FOREIGN KEY REFERENCES users(user_id))
+- data_field1 (VARCHAR(255), NOT NULL)
+- data_field2 (DATE)
+- created_at (DATETIME, NOT NULL)
+
+Relationship:
+- One user can have many hg_records (one-to-many).
+
+---
+
+Please generate the schema according to the above instructions for the HG system. If you need more context about "HG," please specify the domain or provide additional details.

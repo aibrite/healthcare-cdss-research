@@ -1,0 +1,5515 @@
+{
+    "graph_type": "AtomSpace Hypergraph",
+    "nodes": [
+        {
+            "id": "N1",
+            "atom_type": "ConceptNode",
+            "name": "Liver enzymes"
+        },
+        {
+            "id": "N2",
+            "atom_type": "PredicateNode",
+            "name": "used in evaluation of"
+        },
+        {
+            "id": "N3",
+            "atom_type": "ConceptNode",
+            "name": "Patient"
+        },
+        {
+            "id": "N4",
+            "atom_type": "ConceptNode",
+            "name": "Disease"
+        },
+        {
+            "id": "N5",
+            "atom_type": "PredicateNode",
+            "name": "provide information on"
+        },
+        {
+            "id": "N6",
+            "atom_type": "ConceptNode",
+            "name": "Primary disorder"
+        },
+        {
+            "id": "N7",
+            "atom_type": "ConceptNode",
+            "name": "Hepatitic origin"
+        },
+        {
+            "id": "N8",
+            "atom_type": "ConceptNode",
+            "name": "Cholestatic origin"
+        },
+        {
+            "id": "N9",
+            "atom_type": "ConceptNode",
+            "name": "Enzyme ratios"
+        },
+        {
+            "id": "N10",
+            "atom_type": "ConceptNode",
+            "name": "Pattern recognition"
+        },
+        {
+            "id": "N11",
+            "atom_type": "PredicateNode",
+            "name": "extract information from"
+        },
+        {
+            "id": "N12",
+            "atom_type": "PredicateNode",
+            "name": "improve investigation of"
+        },
+        {
+            "id": "N13",
+            "atom_type": "PredicateNode",
+            "name": "improve management of"
+        },
+        {
+            "id": "N14",
+            "atom_type": "ConceptNode",
+            "name": "Liver disease"
+        },
+        {
+            "id": "N15",
+            "atom_type": "ConceptNode",
+            "name": "Liver Function Tests"
+        },
+        {
+            "id": "N16",
+            "atom_type": "PredicateNode",
+            "name": "used as screening for"
+        },
+        {
+            "id": "N17",
+            "atom_type": "ConceptNode",
+            "name": "Blood test"
+        },
+        {
+            "id": "N18",
+            "atom_type": "ConceptNode",
+            "name": "SENT_1"
+        },
+        {
+            "id": "N19",
+            "atom_type": "TimestampNode",
+            "name": "1900-01-01"
+        },
+        {
+            "id": "N20",
+            "atom_type": "ConceptNode",
+            "name": "Bilirubin"
+        },
+        {
+            "id": "N21",
+            "atom_type": "ConceptNode",
+            "name": "Albumin"
+        },
+        {
+            "id": "N22",
+            "atom_type": "ConceptNode",
+            "name": "Liver functional capacity"
+        },
+        {
+            "id": "N23",
+            "atom_type": "ConceptNode",
+            "name": "Disease activity"
+        },
+        {
+            "id": "N24",
+            "atom_type": "ConceptNode",
+            "name": "Blood analysis"
+        },
+        {
+            "id": "N25",
+            "atom_type": "ConceptNode",
+            "name": "Hepatitic disorder"
+        },
+        {
+            "id": "N26",
+            "atom_type": "ConceptNode",
+            "name": "Cholestatic disorder"
+        },
+        {
+            "id": "N27",
+            "atom_type": "PredicateNode",
+            "name": "provides information on"
+        },
+        {
+            "id": "N28",
+            "atom_type": "PredicateNode",
+            "name": "offers information on"
+        },
+        {
+            "id": "N29",
+            "atom_type": "PredicateNode",
+            "name": "evaluates"
+        },
+        {
+            "id": "N30",
+            "atom_type": "PredicateNode",
+            "name": "indicates origin"
+        },
+        {
+            "id": "N31",
+            "atom_type": "PredicateNode",
+            "name": "interpreted by"
+        },
+        {
+            "id": "N32",
+            "atom_type": "ConceptNode",
+            "name": "SENT_2"
+        },
+        {
+            "id": "N33",
+            "atom_type": "ConceptNode",
+            "name": "SENT_3"
+        },
+        {
+            "id": "N34",
+            "atom_type": "ConceptNode",
+            "name": "Hepatic enzymes"
+        },
+        {
+            "id": "N35",
+            "atom_type": "ConceptNode",
+            "name": "Liver enzyme profile"
+        },
+        {
+            "id": "N36",
+            "atom_type": "ConceptNode",
+            "name": "History and clinical examination"
+        },
+        {
+            "id": "N37",
+            "atom_type": "ConceptNode",
+            "name": "Alcoholic fatty liver disease"
+        },
+        {
+            "id": "N38",
+            "atom_type": "ConceptNode",
+            "name": "Non-alcoholic fatty liver disease"
+        },
+        {
+            "id": "N39",
+            "atom_type": "ConceptNode",
+            "name": "Cholestasis"
+        },
+        {
+            "id": "N40",
+            "atom_type": "ConceptNode",
+            "name": "Hepatitis"
+        },
+        {
+            "id": "N41",
+            "atom_type": "ConceptNode",
+            "name": "Mixed liver disease picture"
+        },
+        {
+            "id": "N42",
+            "atom_type": "ConceptNode",
+            "name": "Diagnosis"
+        },
+        {
+            "id": "N43",
+            "atom_type": "ConceptNode",
+            "name": "Pattern of hepatic enzymes"
+        },
+        {
+            "id": "N44",
+            "atom_type": "ConceptNode",
+            "name": "Absolute liver enzyme levels and ratios"
+        },
+        {
+            "id": "N45",
+            "atom_type": "PredicateNode",
+            "name": "differentiates"
+        },
+        {
+            "id": "N46",
+            "atom_type": "PredicateNode",
+            "name": "assists"
+        },
+        {
+            "id": "N47",
+            "atom_type": "PredicateNode",
+            "name": "aids"
+        },
+        {
+            "id": "N48",
+            "atom_type": "PredicateNode",
+            "name": "points"
+        },
+        {
+            "id": "N49",
+            "atom_type": "PredicateNode",
+            "name": "should_be_assessed_with"
+        },
+        {
+            "id": "N50",
+            "atom_type": "SentenceNode",
+            "name": "SENT_4"
+        },
+        {
+            "id": "N51",
+            "atom_type": "ConceptNode",
+            "name": "Mechanical biliary obstruction"
+        },
+        {
+            "id": "N52",
+            "atom_type": "ConceptNode",
+            "name": "Choledocholithiasis"
+        },
+        {
+            "id": "N53",
+            "atom_type": "ConceptNode",
+            "name": "Stricture forming disease"
+        },
+        {
+            "id": "N54",
+            "atom_type": "ConceptNode",
+            "name": "Hepatobiliary source"
+        },
+        {
+            "id": "N55",
+            "atom_type": "ConceptNode",
+            "name": "Alkaline phosphatase (ALP)"
+        },
+        {
+            "id": "N56",
+            "atom_type": "ConceptNode",
+            "name": "Gamma-glutamyl transferase (GGT)"
+        },
+        {
+            "id": "N57",
+            "atom_type": "ConceptNode",
+            "name": "Alanine aminotransferase (ALT)"
+        },
+        {
+            "id": "N58",
+            "atom_type": "ConceptNode",
+            "name": "Liver transaminases"
+        },
+        {
+            "id": "N59",
+            "atom_type": "ConceptNode",
+            "name": "Enzyme titres"
+        },
+        {
+            "id": "N60",
+            "atom_type": "PredicateNode",
+            "name": "increases"
+        },
+        {
+            "id": "N61",
+            "atom_type": "PredicateNode",
+            "name": "fluctuates"
+        },
+        {
+            "id": "N62",
+            "atom_type": "PredicateNode",
+            "name": "signifies"
+        },
+        {
+            "id": "N63",
+            "atom_type": "PredicateNode",
+            "name": "requires"
+        },
+        {
+            "id": "N64",
+            "atom_type": "PredicateNode",
+            "name": "peaked rise"
+        },
+        {
+            "id": "N65",
+            "atom_type": "ConceptNode",
+            "name": "Monitoring"
+        },
+        {
+            "id": "N66",
+            "atom_type": "SentenceNode",
+            "name": "SENT_5"
+        },
+        {
+            "id": "N67",
+            "atom_type": "ConceptNode",
+            "name": "AST:ALT ratio"
+        },
+        {
+            "id": "N68",
+            "atom_type": "ConceptNode",
+            "name": "De Ritis ratio"
+        },
+        {
+            "id": "N69",
+            "atom_type": "ConceptNode",
+            "name": "Biliary obstruction"
+        },
+        {
+            "id": "N70",
+            "atom_type": "ConceptNode",
+            "name": "Cholestatic picture"
+        },
+        {
+            "id": "N71",
+            "atom_type": "NumberNode",
+            "name": "<1.5"
+        },
+        {
+            "id": "N72",
+            "atom_type": "ConceptNode",
+            "name": "Extrahepatic obstruction"
+        },
+        {
+            "id": "N73",
+            "atom_type": "ConceptNode",
+            "name": "ALT"
+        },
+        {
+            "id": "N74",
+            "atom_type": "ConceptNode",
+            "name": "AST"
+        },
+        {
+            "id": "N75",
+            "atom_type": "NumberNode",
+            "name": ">1.5"
+        },
+        {
+            "id": "N76",
+            "atom_type": "ConceptNode",
+            "name": "Intrahepatic cholestasis"
+        },
+        {
+            "id": "N77",
+            "atom_type": "ConceptNode",
+            "name": "Mechanical cholestasis"
+        },
+        {
+            "id": "N78",
+            "atom_type": "ConceptNode",
+            "name": "Medical cholestasis"
+        },
+        {
+            "id": "N79",
+            "atom_type": "ConceptNode",
+            "name": "Drug-induced cholestasis"
+        },
+        {
+            "id": "N80",
+            "atom_type": "ConceptNode",
+            "name": "ALP"
+        },
+        {
+            "id": "N81",
+            "atom_type": "ConceptNode",
+            "name": "GGT"
+        },
+        {
+            "id": "N82",
+            "atom_type": "NumberNode",
+            "name": "<2"
+        },
+        {
+            "id": "N83",
+            "atom_type": "ConceptNode",
+            "name": "Antibiotics"
+        },
+        {
+            "id": "N84",
+            "atom_type": "ConceptNode",
+            "name": "Immunosuppressants"
+        },
+        {
+            "id": "N85",
+            "atom_type": "ConceptNode",
+            "name": "Tricyclic antidepressants"
+        },
+        {
+            "id": "N86",
+            "atom_type": "ConceptNode",
+            "name": "Angiotensin converting enzyme inhibitors"
+        },
+        {
+            "id": "N87",
+            "atom_type": "PredicateNode",
+            "name": "suggests"
+        },
+        {
+            "id": "N88",
+            "atom_type": "PredicateNode",
+            "name": "indicates"
+        },
+        {
+            "id": "N89",
+            "atom_type": "PredicateNode",
+            "name": "presents_with"
+        },
+        {
+            "id": "N90",
+            "atom_type": "PredicateNode",
+            "name": "causes"
+        },
+        {
+            "id": "N91",
+            "atom_type": "PredicateNode",
+            "name": "higher_than"
+        },
+        {
+            "id": "N92",
+            "atom_type": "PredicateNode",
+            "name": "rise"
+        },
+        {
+            "id": "N93",
+            "atom_type": "ConceptNode",
+            "name": "Primary Biliary Cirrhosis"
+        },
+        {
+            "id": "N94",
+            "atom_type": "ConceptNode",
+            "name": "Autoimmune condition"
+        },
+        {
+            "id": "N95",
+            "atom_type": "ConceptNode",
+            "name": "Intrahepatic biliary ducts"
+        },
+        {
+            "id": "N96",
+            "atom_type": "ConceptNode",
+            "name": "Alkaline phosphatase"
+        },
+        {
+            "id": "N97",
+            "atom_type": "ConceptNode",
+            "name": "Gamma-glutamyl transferase"
+        },
+        {
+            "id": "N98",
+            "atom_type": "ConceptNode",
+            "name": "Transaminases"
+        },
+        {
+            "id": "N99",
+            "atom_type": "ConceptNode",
+            "name": "Cholestatic liver enzyme levels"
+        },
+        {
+            "id": "N100",
+            "atom_type": "ConceptNode",
+            "name": "Antimitochondrial antibodies"
+        },
+        {
+            "id": "N101",
+            "atom_type": "ConceptNode",
+            "name": "Diagnosis of Primary Biliary Cirrhosis"
+        },
+        {
+            "id": "N102",
+            "atom_type": "ConceptNode",
+            "name": "Imaging"
+        },
+        {
+            "id": "N103",
+            "atom_type": "ConceptNode",
+            "name": "Liver biopsy"
+        },
+        {
+            "id": "N104",
+            "atom_type": "ConceptNode",
+            "name": "European Association for Study of the Liver"
+        },
+        {
+            "id": "N105",
+            "atom_type": "ConceptNode",
+            "name": "American Association for Study of Liver Disease"
+        },
+        {
+            "id": "N106",
+            "atom_type": "PredicateNode",
+            "name": "greater_than"
+        },
+        {
+            "id": "N107",
+            "atom_type": "PredicateNode",
+            "name": "normal"
+        },
+        {
+            "id": "N108",
+            "atom_type": "PredicateNode",
+            "name": "minimally_elevated"
+        },
+        {
+            "id": "N109",
+            "atom_type": "PredicateNode",
+            "name": "recommend"
+        },
+        {
+            "id": "N110",
+            "atom_type": "PredicateNode",
+            "name": "based_on"
+        },
+        {
+            "id": "N111",
+            "atom_type": "PredicateNode",
+            "name": "conjunction_with"
+        },
+        {
+            "id": "N112",
+            "atom_type": "SentenceNode",
+            "name": "SENT_6"
+        },
+        {
+            "id": "N113",
+            "atom_type": "SentenceNode",
+            "name": "SENT_7"
+        },
+        {
+            "id": "N114",
+            "atom_type": "ConceptNode",
+            "name": "Ursodeoxycholic acid"
+        },
+        {
+            "id": "N115",
+            "atom_type": "ConceptNode",
+            "name": "Primary Biliary Cholangitis"
+        },
+        {
+            "id": "N116",
+            "atom_type": "PredicateNode",
+            "name": "monitor"
+        },
+        {
+            "id": "N117",
+            "atom_type": "ConceptNode",
+            "name": "effects"
+        },
+        {
+            "id": "N118",
+            "atom_type": "ConceptNode",
+            "name": "scoring criteria"
+        },
+        {
+            "id": "N119",
+            "atom_type": "ConceptNode",
+            "name": "raised AST:ALT ratio"
+        },
+        {
+            "id": "N120",
+            "atom_type": "PredicateNode",
+            "name": "outperforms"
+        },
+        {
+            "id": "N121",
+            "atom_type": "ConceptNode",
+            "name": "non-histological indicators of cirrhosis"
+        },
+        {
+            "id": "N122",
+            "atom_type": "ConceptNode",
+            "name": "cirrhosis"
+        },
+        {
+            "id": "N123",
+            "atom_type": "ConceptNode",
+            "name": "sensitivity"
+        },
+        {
+            "id": "N124",
+            "atom_type": "ConceptNode",
+            "name": "specificity"
+        },
+        {
+            "id": "N125",
+            "atom_type": "ConceptNode",
+            "name": "liver enzymes"
+        },
+        {
+            "id": "N126",
+            "atom_type": "ConceptNode",
+            "name": "Primary Sclerosing Cholangitis"
+        },
+        {
+            "id": "N127",
+            "atom_type": "PredicateNode",
+            "name": "diagnosis"
+        },
+        {
+            "id": "N128",
+            "atom_type": "PredicateNode",
+            "name": "key role"
+        },
+        {
+            "id": "N129",
+            "atom_type": "ConceptNode",
+            "name": "recent study"
+        },
+        {
+            "id": "N130",
+            "atom_type": "ConceptNode",
+            "name": "SENT_8"
+        },
+        {
+            "id": "N131",
+            "atom_type": "ConceptNode",
+            "name": "Transaminase"
+        },
+        {
+            "id": "N132",
+            "atom_type": "ConceptNode",
+            "name": "Mayo Risk Score"
+        },
+        {
+            "id": "N133",
+            "atom_type": "ConceptNode",
+            "name": "Oesophageal varices"
+        },
+        {
+            "id": "N134",
+            "atom_type": "ConceptNode",
+            "name": "Endoscopic Retrograde Cholangiopancreatography"
+        },
+        {
+            "id": "N135",
+            "atom_type": "ConceptNode",
+            "name": "Magnetic Resonance Cholangiopancreatography"
+        },
+        {
+            "id": "N136",
+            "atom_type": "PredicateNode",
+            "name": "diagnostic"
+        },
+        {
+            "id": "N137",
+            "atom_type": "PredicateNode",
+            "name": "precludes"
+        },
+        {
+            "id": "N138",
+            "atom_type": "PredicateNode",
+            "name": "component_of"
+        },
+        {
+            "id": "N139",
+            "atom_type": "PredicateNode",
+            "name": "calculates"
+        },
+        {
+            "id": "N140",
+            "atom_type": "PredicateNode",
+            "name": "indicator_of"
+        },
+        {
+            "id": "N141",
+            "atom_type": "PredicateNode",
+            "name": "raised"
+        },
+        {
+            "id": "N142",
+            "atom_type": "PredicateNode",
+            "name": "development_of"
+        },
+        {
+            "id": "N143",
+            "atom_type": "NumberNode",
+            "name": ">1"
+        },
+        {
+            "id": "N144",
+            "atom_type": "ConceptNode",
+            "name": "Cirrhosis"
+        },
+        {
+            "id": "N145",
+            "atom_type": "ConceptNode",
+            "name": "Alcohol"
+        },
+        {
+            "id": "N146",
+            "atom_type": "ConceptNode",
+            "name": "GGT:ALP ratio"
+        },
+        {
+            "id": "N147",
+            "atom_type": "NumberNode",
+            "name": ">2.5"
+        },
+        {
+            "id": "N148",
+            "atom_type": "ConceptNode",
+            "name": "Jaundice"
+        },
+        {
+            "id": "N149",
+            "atom_type": "ConceptNode",
+            "name": "Macrocytosis"
+        },
+        {
+            "id": "N150",
+            "atom_type": "ConceptNode",
+            "name": "Folate deficiency"
+        },
+        {
+            "id": "N151",
+            "atom_type": "ConceptNode",
+            "name": "B12 deficiency"
+        },
+        {
+            "id": "N152",
+            "atom_type": "ConceptNode",
+            "name": "Bone marrow suppression"
+        },
+        {
+            "id": "N153",
+            "atom_type": "ConceptNode",
+            "name": "Alcoholic liver disease"
+        },
+        {
+            "id": "N154",
+            "atom_type": "PredicateNode",
+            "name": "supports"
+        },
+        {
+            "id": "N155",
+            "atom_type": "ConceptNode",
+            "name": "SENT_9"
+        },
+        {
+            "id": "N156",
+            "atom_type": "ConceptNode",
+            "name": "SENT_10"
+        },
+        {
+            "id": "N157",
+            "atom_type": "ConceptNode",
+            "name": "Alcohol abuse"
+        },
+        {
+            "id": "N158",
+            "atom_type": "ConceptNode",
+            "name": "Former drinkers"
+        },
+        {
+            "id": "N159",
+            "atom_type": "ConceptNode",
+            "name": "Current drinkers"
+        },
+        {
+            "id": "N160",
+            "atom_type": "ConceptNode",
+            "name": "Men"
+        },
+        {
+            "id": "N161",
+            "atom_type": "ConceptNode",
+            "name": "Daily drinkers"
+        },
+        {
+            "id": "N162",
+            "atom_type": "ConceptNode",
+            "name": "Women"
+        },
+        {
+            "id": "N163",
+            "atom_type": "ConceptNode",
+            "name": "Binge drinkers"
+        },
+        {
+            "id": "N164",
+            "atom_type": "ConceptNode",
+            "name": "Alcohol consumption without food"
+        },
+        {
+            "id": "N165",
+            "atom_type": "ConceptNode",
+            "name": "Alcohol intake"
+        },
+        {
+            "id": "N166",
+            "atom_type": "ConceptNode",
+            "name": "Top two quartiles of alcohol intake"
+        },
+        {
+            "id": "N167",
+            "atom_type": "ConceptNode",
+            "name": "GGT level"
+        },
+        {
+            "id": "N168",
+            "atom_type": "PredicateNode",
+            "name": "high"
+        },
+        {
+            "id": "N169",
+            "atom_type": "PredicateNode",
+            "name": "not diagnostic of"
+        },
+        {
+            "id": "N170",
+            "atom_type": "SentenceNode",
+            "name": "SENT_11"
+        },
+        {
+            "id": "N171",
+            "atom_type": "ConceptNode",
+            "name": "Alcoholic Liver Disease"
+        },
+        {
+            "id": "N172",
+            "atom_type": "ConceptNode",
+            "name": "Non-alcoholic Fatty Liver Disease"
+        },
+        {
+            "id": "N173",
+            "atom_type": "ConceptNode",
+            "name": "Liver Disease"
+        },
+        {
+            "id": "N174",
+            "atom_type": "ConceptNode",
+            "name": "pyridoxal-5\u2019-phosphate (vitamin B6)"
+        },
+        {
+            "id": "N175",
+            "atom_type": "ConceptNode",
+            "name": "nutritionally-deficient heavy-drinker"
+        },
+        {
+            "id": "N176",
+            "atom_type": "PredicateNode",
+            "name": "production"
+        },
+        {
+            "id": "N177",
+            "atom_type": "ConceptNode",
+            "name": "monitoring"
+        },
+        {
+            "id": "N178",
+            "atom_type": "NumberNode",
+            "name": "<1"
+        },
+        {
+            "id": "N179",
+            "atom_type": "SentenceNode",
+            "name": "SENT_12"
+        },
+        {
+            "id": "N180",
+            "atom_type": "ConceptNode",
+            "name": "Underlying liver disease"
+        },
+        {
+            "id": "N181",
+            "atom_type": "ConceptNode",
+            "name": "Heavy drinker"
+        },
+        {
+            "id": "N182",
+            "atom_type": "ConceptNode",
+            "name": "Severity"
+        },
+        {
+            "id": "N183",
+            "atom_type": "ConceptNode",
+            "name": "High alcohol consumption"
+        },
+        {
+            "id": "N184",
+            "atom_type": "NumberNode",
+            "name": ">2"
+        },
+        {
+            "id": "N185",
+            "atom_type": "NumberNode",
+            "name": "92%"
+        },
+        {
+            "id": "N186",
+            "atom_type": "NumberNode",
+            "name": "70%"
+        },
+        {
+            "id": "N187",
+            "atom_type": "PredicateNode",
+            "name": "suggestive_of"
+        },
+        {
+            "id": "N188",
+            "atom_type": "PredicateNode",
+            "name": "reflects"
+        },
+        {
+            "id": "N189",
+            "atom_type": "PredicateNode",
+            "name": "developed"
+        },
+        {
+            "id": "N190",
+            "atom_type": "ConceptNode",
+            "name": "SENT_13"
+        },
+        {
+            "id": "N191",
+            "atom_type": "ConceptNode",
+            "name": "Sensitivity"
+        },
+        {
+            "id": "N192",
+            "atom_type": "ConceptNode",
+            "name": "Specificity"
+        },
+        {
+            "id": "N193",
+            "atom_type": "ConceptNode",
+            "name": "NAFLD"
+        },
+        {
+            "id": "N194",
+            "atom_type": "ConceptNode",
+            "name": "Clinical guide"
+        },
+        {
+            "id": "N195",
+            "atom_type": "PredicateNode",
+            "name": "worsen"
+        },
+        {
+            "id": "N196",
+            "atom_type": "ConceptNode",
+            "name": "Cessation of alcohol intake"
+        },
+        {
+            "id": "N197",
+            "atom_type": "ConceptNode",
+            "name": "Admission to hospital"
+        },
+        {
+            "id": "N198",
+            "atom_type": "SentenceNode",
+            "name": "SENT_14"
+        },
+        {
+            "id": "N199",
+            "atom_type": "ConceptNode",
+            "name": "Non-alcoholic steatohepatitis"
+        },
+        {
+            "id": "N200",
+            "atom_type": "ConceptNode",
+            "name": "Liver enzyme analysis"
+        },
+        {
+            "id": "N201",
+            "atom_type": "ConceptNode",
+            "name": "Metabolic risk factors"
+        },
+        {
+            "id": "N202",
+            "atom_type": "ConceptNode",
+            "name": "Hypertension"
+        },
+        {
+            "id": "N203",
+            "atom_type": "ConceptNode",
+            "name": "Hyperlipidaemia"
+        },
+        {
+            "id": "N204",
+            "atom_type": "ConceptNode",
+            "name": "Glycaemic control"
+        },
+        {
+            "id": "N205",
+            "atom_type": "ConceptNode",
+            "name": "Risk stratification"
+        },
+        {
+            "id": "N206",
+            "atom_type": "ConceptNode",
+            "name": "Early identification"
+        },
+        {
+            "id": "N207",
+            "atom_type": "ConceptNode",
+            "name": "Modification"
+        },
+        {
+            "id": "N208",
+            "atom_type": "PredicateNode",
+            "name": "excludes"
+        },
+        {
+            "id": "N209",
+            "atom_type": "PredicateNode",
+            "name": "fails"
+        },
+        {
+            "id": "N210",
+            "atom_type": "PredicateNode",
+            "name": "confirms"
+        },
+        {
+            "id": "N211",
+            "atom_type": "PredicateNode",
+            "name": "lies_in"
+        },
+        {
+            "id": "N212",
+            "atom_type": "PredicateNode",
+            "name": "modifies"
+        },
+        {
+            "id": "N213",
+            "atom_type": "PredicateNode",
+            "name": "identifies"
+        },
+        {
+            "id": "N214",
+            "atom_type": "PredicateNode",
+            "name": "stratifies"
+        },
+        {
+            "id": "N215",
+            "atom_type": "ConceptNode",
+            "name": "Mayo Clinic NAFLD Fibrosis Scoring System"
+        },
+        {
+            "id": "N216",
+            "atom_type": "ConceptNode",
+            "name": "Mayo Clinic"
+        },
+        {
+            "id": "N217",
+            "atom_type": "ConceptNode",
+            "name": "Age"
+        },
+        {
+            "id": "N218",
+            "atom_type": "ConceptNode",
+            "name": "Hyperglycemia"
+        },
+        {
+            "id": "N219",
+            "atom_type": "ConceptNode",
+            "name": "Body Mass Index"
+        },
+        {
+            "id": "N220",
+            "atom_type": "ConceptNode",
+            "name": "Platelet Count"
+        },
+        {
+            "id": "N221",
+            "atom_type": "ConceptNode",
+            "name": "AST:ALT Ratio"
+        },
+        {
+            "id": "N222",
+            "atom_type": "ConceptNode",
+            "name": "Advanced Fibrosis"
+        },
+        {
+            "id": "N223",
+            "atom_type": "ConceptNode",
+            "name": "Underlying Liver Disease"
+        },
+        {
+            "id": "N224",
+            "atom_type": "ConceptNode",
+            "name": "Alcohol Abuse"
+        },
+        {
+            "id": "N225",
+            "atom_type": "NumberNode",
+            "name": "AST:ALT Ratio > 1"
+        },
+        {
+            "id": "N226",
+            "atom_type": "PredicateNode",
+            "name": "uses"
+        },
+        {
+            "id": "N227",
+            "atom_type": "PredicateNode",
+            "name": "less specific"
+        },
+        {
+            "id": "N228",
+            "atom_type": "PredicateNode",
+            "name": "consider"
+        },
+        {
+            "id": "N229",
+            "atom_type": "ConceptNode",
+            "name": "SENT_15"
+        }
+    ],
+    "links": [
+        {
+            "id": "L1",
+            "link_type": "EvaluationLink",
+            "predicate": "N2",
+            "arguments": [
+                "N125",
+                "N3",
+                "N4"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L2",
+            "link_type": "EvaluationLink",
+            "predicate": "N5",
+            "arguments": [
+                "N125",
+                "N6",
+                "N25",
+                "N26"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L3",
+            "link_type": "EvaluationLink",
+            "predicate": "N11",
+            "arguments": [
+                "N9",
+                "N10",
+                "N125"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L4",
+            "link_type": "EvaluationLink",
+            "predicate": "N12",
+            "arguments": [
+                "N125",
+                "N180"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L5",
+            "link_type": "EvaluationLink",
+            "predicate": "N13",
+            "arguments": [
+                "N125",
+                "N180"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L6",
+            "link_type": "EvaluationLink",
+            "predicate": "N16",
+            "arguments": [
+                "N15",
+                "N17"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L7",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L1",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N2",
+                    "arguments": [
+                        "N125",
+                        "N3",
+                        "N4"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L8",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L2",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N5",
+                    "arguments": [
+                        "N125",
+                        "N6",
+                        "N25",
+                        "N26"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L9",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L3",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N11",
+                    "arguments": [
+                        "N9",
+                        "N10",
+                        "N125"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L10",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L4",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N12",
+                    "arguments": [
+                        "N125",
+                        "N180"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L11",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L5",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N13",
+                    "arguments": [
+                        "N125",
+                        "N180"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L12",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L6",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N16",
+                    "arguments": [
+                        "N15",
+                        "N17"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L13",
+            "link_type": "EvaluationLink",
+            "predicate": "N27",
+            "arguments": [
+                "N15",
+                "N180"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L14",
+            "link_type": "EvaluationLink",
+            "predicate": "N27",
+            "arguments": [
+                "N15",
+                "N23"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L15",
+            "link_type": "EvaluationLink",
+            "predicate": "N27",
+            "arguments": [
+                "N15",
+                "N24"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L16",
+            "link_type": "EvaluationLink",
+            "predicate": "N28",
+            "arguments": [
+                "N20",
+                "N22"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L17",
+            "link_type": "EvaluationLink",
+            "predicate": "N28",
+            "arguments": [
+                "N21",
+                "N22"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L18",
+            "link_type": "EvaluationLink",
+            "predicate": "N30",
+            "arguments": [
+                "N125",
+                "N25",
+                "N26"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L19",
+            "link_type": "EvaluationLink",
+            "predicate": "N31",
+            "arguments": [
+                "N15",
+                "N9",
+                "N10"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L20",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L13",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N27",
+                    "arguments": [
+                        "N15",
+                        "N180"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L21",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L14",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N27",
+                    "arguments": [
+                        "N15",
+                        "N23"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L22",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L15",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N27",
+                    "arguments": [
+                        "N15",
+                        "N24"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L23",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L16",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N28",
+                    "arguments": [
+                        "N20",
+                        "N22"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L24",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L17",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N28",
+                    "arguments": [
+                        "N21",
+                        "N22"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L25",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L18",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N30",
+                    "arguments": [
+                        "N125",
+                        "N25",
+                        "N26"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L26",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L19",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N31",
+                    "arguments": [
+                        "N15",
+                        "N9",
+                        "N10"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L27",
+            "link_type": "EvaluationLink",
+            "predicate": "N49",
+            "arguments": [
+                "N35",
+                "N36"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L28",
+            "link_type": "EvaluationLink",
+            "predicate": "N48",
+            "arguments": [
+                "N44",
+                "N42"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L29",
+            "link_type": "EvaluationLink",
+            "predicate": "N45",
+            "arguments": [
+                "N43",
+                "N39",
+                "N40"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L30",
+            "link_type": "EvaluationLink",
+            "predicate": "N47",
+            "arguments": [
+                "N43",
+                "N42",
+                "N41"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L31",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L27",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N49",
+                    "arguments": [
+                        "N35",
+                        "N36"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L32",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L28",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N48",
+                    "arguments": [
+                        "N44",
+                        "N42"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L33",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L29",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N45",
+                    "arguments": [
+                        "N43",
+                        "N39",
+                        "N40"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L34",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L30",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N47",
+                    "arguments": [
+                        "N43",
+                        "N42",
+                        "N41"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L35",
+            "link_type": "EvaluationLink",
+            "predicate": "N60",
+            "arguments": [
+                "N51",
+                "N80"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L36",
+            "link_type": "EvaluationLink",
+            "predicate": "N60",
+            "arguments": [
+                "N51",
+                "N97"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L37",
+            "link_type": "EvaluationLink",
+            "predicate": "N60",
+            "arguments": [
+                "N51",
+                "N20"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L38",
+            "link_type": "EvaluationLink",
+            "predicate": "N62",
+            "arguments": [
+                "N80",
+                "N97",
+                "N54"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L39",
+            "link_type": "EvaluationLink",
+            "predicate": "N61",
+            "arguments": [
+                "N52",
+                "N80",
+                "N97"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L40",
+            "link_type": "EvaluationLink",
+            "predicate": "N60",
+            "arguments": [
+                "N52",
+                "N80",
+                "N97"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L41",
+            "link_type": "EvaluationLink",
+            "predicate": "N61",
+            "arguments": [
+                "N59"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L42",
+            "link_type": "EvaluationLink",
+            "predicate": "N64",
+            "arguments": [
+                "N58"
+            ],
+            "attributes": {
+                "value": ">1000 I/U"
+            },
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L43",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N80",
+                "N177"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L44",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N97",
+                "N177"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L45",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N20",
+                "N177"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L46",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N50",
+                {
+                    "id": "L35",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N60",
+                    "arguments": [
+                        "N51",
+                        "N80"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L47",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N50",
+                {
+                    "id": "L36",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N60",
+                    "arguments": [
+                        "N51",
+                        "N97"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L48",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N50",
+                {
+                    "id": "L37",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N60",
+                    "arguments": [
+                        "N51",
+                        "N20"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L49",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N50",
+                {
+                    "id": "L38",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N62",
+                    "arguments": [
+                        "N80",
+                        "N97",
+                        "N54"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L50",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N50",
+                {
+                    "id": "L39",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N61",
+                    "arguments": [
+                        "N52",
+                        "N80",
+                        "N97"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L51",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N50",
+                {
+                    "id": "L40",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N60",
+                    "arguments": [
+                        "N52",
+                        "N80",
+                        "N97"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L52",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N50",
+                {
+                    "id": "L41",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N61",
+                    "arguments": [
+                        "N59"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L53",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N50",
+                {
+                    "id": "L42",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N64",
+                    "arguments": [
+                        "N58"
+                    ],
+                    "attributes": {
+                        "value": ">1000 I/U"
+                    },
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L54",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N50",
+                {
+                    "id": "L43",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N80",
+                        "N177"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L55",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N50",
+                {
+                    "id": "L44",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N97",
+                        "N177"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L56",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N50",
+                {
+                    "id": "L45",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N20",
+                        "N177"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L57",
+            "link_type": "EvaluationLink",
+            "predicate": "N46",
+            "arguments": [
+                "N67",
+                "N69"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L58",
+            "link_type": "EvaluationLink",
+            "predicate": "N87",
+            "arguments": [
+                "N67",
+                "N71",
+                "N70",
+                "N72"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L59",
+            "link_type": "EvaluationLink",
+            "predicate": "N91",
+            "arguments": [
+                "N73",
+                "N74"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L60",
+            "link_type": "EvaluationLink",
+            "predicate": "N88",
+            "arguments": [
+                "N67",
+                "N75",
+                "N76"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L61",
+            "link_type": "EvaluationLink",
+            "predicate": "N88",
+            "arguments": [
+                "N67",
+                "N75",
+                "N77"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L62",
+            "link_type": "EvaluationLink",
+            "predicate": "N88",
+            "arguments": [
+                "N67",
+                "N75",
+                "N78"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L63",
+            "link_type": "EvaluationLink",
+            "predicate": "N89",
+            "arguments": [
+                "N79",
+                "N92",
+                "N80"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L64",
+            "link_type": "EvaluationLink",
+            "predicate": "N89",
+            "arguments": [
+                "N79",
+                "N82"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L65",
+            "link_type": "EvaluationLink",
+            "predicate": "N90",
+            "arguments": [
+                "N83",
+                "N79"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L66",
+            "link_type": "EvaluationLink",
+            "predicate": "N90",
+            "arguments": [
+                "N84",
+                "N79"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L67",
+            "link_type": "EvaluationLink",
+            "predicate": "N90",
+            "arguments": [
+                "N85",
+                "N79"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L68",
+            "link_type": "EvaluationLink",
+            "predicate": "N90",
+            "arguments": [
+                "N86",
+                "N79"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L69",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N79",
+                "N80"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L70",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N79",
+                "N73"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L71",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N79",
+                "N74"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L72",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N79",
+                "N81"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L73",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L57",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N46",
+                    "arguments": [
+                        "N67",
+                        "N69"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L74",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L58",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N87",
+                    "arguments": [
+                        "N67",
+                        "N71",
+                        "N70",
+                        "N72"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L75",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L59",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N91",
+                    "arguments": [
+                        "N73",
+                        "N74"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L76",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L60",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N88",
+                    "arguments": [
+                        "N67",
+                        "N75",
+                        "N76"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L77",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L61",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N88",
+                    "arguments": [
+                        "N67",
+                        "N75",
+                        "N77"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L78",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L62",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N88",
+                    "arguments": [
+                        "N67",
+                        "N75",
+                        "N78"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L79",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L63",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N89",
+                    "arguments": [
+                        "N79",
+                        "N92",
+                        "N80"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L80",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L64",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N89",
+                    "arguments": [
+                        "N79",
+                        "N82"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L81",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L65",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N90",
+                    "arguments": [
+                        "N83",
+                        "N79"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L82",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L66",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N90",
+                    "arguments": [
+                        "N84",
+                        "N79"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L83",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L67",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N90",
+                    "arguments": [
+                        "N85",
+                        "N79"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L84",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L68",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N90",
+                    "arguments": [
+                        "N86",
+                        "N79"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L85",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L69",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N79",
+                        "N80"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L86",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L70",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N79",
+                        "N73"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L87",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L71",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N79",
+                        "N74"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L88",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N66",
+                {
+                    "id": "L72",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N79",
+                        "N81"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L89",
+            "link_type": "EvaluationLink",
+            "predicate": "N94",
+            "arguments": [
+                "N115"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L90",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N115",
+                "N95"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L91",
+            "link_type": "EvaluationLink",
+            "predicate": "N106",
+            "arguments": [
+                "N80",
+                "N97",
+                "N115"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L92",
+            "link_type": "EvaluationLink",
+            "predicate": "N107",
+            "arguments": [
+                "N98",
+                "N115"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L93",
+            "link_type": "EvaluationLink",
+            "predicate": "N108",
+            "arguments": [
+                "N98",
+                "N115"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L94",
+            "link_type": "EvaluationLink",
+            "predicate": "N109",
+            "arguments": [
+                "N104",
+                "N105",
+                "N42",
+                "N99",
+                "N100"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L95",
+            "link_type": "EvaluationLink",
+            "predicate": "N110",
+            "arguments": [
+                "N42",
+                "N99",
+                "N100"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L96",
+            "link_type": "EvaluationLink",
+            "predicate": "N111",
+            "arguments": [
+                "N99",
+                "N100"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L97",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N42",
+                "N102",
+                "N103"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L98",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L89",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N94",
+                    "arguments": [
+                        "N115"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L99",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L90",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N115",
+                        "N95"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L100",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L91",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N106",
+                    "arguments": [
+                        "N80",
+                        "N97",
+                        "N115"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L101",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L92",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N107",
+                    "arguments": [
+                        "N98",
+                        "N115"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L102",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L93",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N108",
+                    "arguments": [
+                        "N98",
+                        "N115"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L103",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L94",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N109",
+                    "arguments": [
+                        "N104",
+                        "N105",
+                        "N42",
+                        "N99",
+                        "N100"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L104",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L95",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N110",
+                    "arguments": [
+                        "N42",
+                        "N99",
+                        "N100"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L105",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L96",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N111",
+                    "arguments": [
+                        "N99",
+                        "N100"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L106",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L97",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N42",
+                        "N102",
+                        "N103"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L107",
+            "link_type": "EvaluationLink",
+            "predicate": "N116",
+            "arguments": [
+                "N118",
+                "N74",
+                "N80",
+                "N117",
+                "N114",
+                "N115"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L108",
+            "link_type": "EvaluationLink",
+            "predicate": "N120",
+            "arguments": [
+                "N119",
+                "N121",
+                "N115"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L109",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N119",
+                "N116"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L110",
+            "link_type": "EvaluationLink",
+            "predicate": "N128",
+            "arguments": [
+                "N125",
+                "N42",
+                "N126"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L111",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N113",
+                {
+                    "id": "L107",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N116",
+                    "arguments": [
+                        "N118",
+                        "N74",
+                        "N80",
+                        "N117",
+                        "N114",
+                        "N115"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L112",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N129",
+                "N113",
+                {
+                    "id": "L108",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N120",
+                    "arguments": [
+                        "N119",
+                        "N121",
+                        "N115"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L113",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N113",
+                {
+                    "id": "L109",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N119",
+                        "N116"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L114",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N113",
+                {
+                    "id": "L110",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N128",
+                    "arguments": [
+                        "N125",
+                        "N42",
+                        "N126"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L115",
+            "link_type": "EvaluationLink",
+            "predicate": "N136",
+            "arguments": [
+                "N81",
+                "N80",
+                "N134",
+                "N135"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L116",
+            "link_type": "EvaluationLink",
+            "predicate": "N137",
+            "arguments": [
+                {
+                    "id": "L115",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N136",
+                    "arguments": [
+                        "N81",
+                        "N80",
+                        "N134",
+                        "N135"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                },
+                "N103"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L117",
+            "link_type": "EvaluationLink",
+            "predicate": "N141",
+            "arguments": [
+                "N131",
+                "N126"
+            ],
+            "attributes": {
+                "fold_increase": "2-3"
+            },
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L118",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N131",
+                "N126"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L119",
+            "link_type": "EvaluationLink",
+            "predicate": "N138",
+            "arguments": [
+                "N74",
+                "N132"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L120",
+            "link_type": "EvaluationLink",
+            "predicate": "N139",
+            "arguments": [
+                "N132",
+                "N126"
+            ],
+            "attributes": {
+                "endpoint": "risk of disease progression"
+            },
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L121",
+            "link_type": "EvaluationLink",
+            "predicate": "N140",
+            "arguments": [
+                "N132",
+                "N133"
+            ],
+            "attributes": {
+                "level": "high"
+            },
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L122",
+            "link_type": "EvaluationLink",
+            "predicate": "N140",
+            "arguments": [
+                "N67",
+                "N133"
+            ],
+            "attributes": {
+                "threshold": ">1.12"
+            },
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L123",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N130",
+                {
+                    "id": "L115",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N136",
+                    "arguments": [
+                        "N81",
+                        "N80",
+                        "N134",
+                        "N135"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L124",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N130",
+                {
+                    "id": "L116",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N137",
+                    "arguments": [
+                        {
+                            "id": "L115",
+                            "link_type": "EvaluationLink",
+                            "predicate": "N136",
+                            "arguments": [
+                                "N81",
+                                "N80",
+                                "N134",
+                                "N135"
+                            ],
+                            "truth_value": [
+                                1.0,
+                                0.9
+                            ]
+                        },
+                        "N103"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L125",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N130",
+                {
+                    "id": "L117",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N141",
+                    "arguments": [
+                        "N131",
+                        "N126"
+                    ],
+                    "attributes": {
+                        "fold_increase": "2-3"
+                    },
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L126",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N130",
+                {
+                    "id": "L118",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N131",
+                        "N126"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L127",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N130",
+                {
+                    "id": "L119",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N138",
+                    "arguments": [
+                        "N74",
+                        "N132"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L128",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N130",
+                {
+                    "id": "L120",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N139",
+                    "arguments": [
+                        "N132",
+                        "N126"
+                    ],
+                    "attributes": {
+                        "endpoint": "risk of disease progression"
+                    },
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L129",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N130",
+                {
+                    "id": "L121",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N140",
+                    "arguments": [
+                        "N132",
+                        "N133"
+                    ],
+                    "attributes": {
+                        "level": "high"
+                    },
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L130",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N130",
+                {
+                    "id": "L122",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N140",
+                    "arguments": [
+                        "N67",
+                        "N133"
+                    ],
+                    "attributes": {
+                        "threshold": ">1.12"
+                    },
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L131",
+            "link_type": "EvaluationLink",
+            "predicate": "N88",
+            "arguments": [
+                "N67",
+                "N143",
+                "N144"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L132",
+            "link_type": "EvaluationLink",
+            "predicate": "N60",
+            "arguments": [
+                "N145",
+                "N34"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L133",
+            "link_type": "EvaluationLink",
+            "predicate": "N60",
+            "arguments": [
+                "N145",
+                "N97"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L134",
+            "link_type": "EvaluationLink",
+            "predicate": "N87",
+            "arguments": [
+                "N146",
+                "N147",
+                "N148",
+                "N145",
+                "N14"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L135",
+            "link_type": "EvaluationLink",
+            "predicate": "N90",
+            "arguments": [
+                "N145",
+                "N149"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L136",
+            "link_type": "EvaluationLink",
+            "predicate": "N90",
+            "arguments": [
+                "N150",
+                "N149"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L137",
+            "link_type": "EvaluationLink",
+            "predicate": "N90",
+            "arguments": [
+                "N151",
+                "N149"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L138",
+            "link_type": "EvaluationLink",
+            "predicate": "N90",
+            "arguments": [
+                "N152",
+                "N149"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L139",
+            "link_type": "EvaluationLink",
+            "predicate": "N154",
+            "arguments": [
+                "N149",
+                "N153"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L140",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L131",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N88",
+                    "arguments": [
+                        "N67",
+                        "N143",
+                        "N144"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L141",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L132",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N60",
+                    "arguments": [
+                        "N145",
+                        "N34"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L142",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L133",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N60",
+                    "arguments": [
+                        "N145",
+                        "N97"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L143",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L134",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N87",
+                    "arguments": [
+                        "N146",
+                        "N147",
+                        "N148",
+                        "N145",
+                        "N14"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L144",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L135",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N90",
+                    "arguments": [
+                        "N145",
+                        "N149"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L145",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L136",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N90",
+                    "arguments": [
+                        "N150",
+                        "N149"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L146",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L137",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N90",
+                    "arguments": [
+                        "N151",
+                        "N149"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L147",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L138",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N90",
+                    "arguments": [
+                        "N152",
+                        "N149"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L148",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L139",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N154",
+                    "arguments": [
+                        "N149",
+                        "N153"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L149",
+            "link_type": "EvaluationLink",
+            "predicate": "N169",
+            "arguments": [
+                "N97",
+                "N157"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L150",
+            "link_type": "EvaluationLink",
+            "predicate": "N168",
+            "arguments": [
+                "N167",
+                "N158"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L151",
+            "link_type": "EvaluationLink",
+            "predicate": "N168",
+            "arguments": [
+                "N167",
+                "N159"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L152",
+            "link_type": "EvaluationLink",
+            "predicate": "N168",
+            "arguments": [
+                "N167",
+                "N160",
+                "N161"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L153",
+            "link_type": "EvaluationLink",
+            "predicate": "N168",
+            "arguments": [
+                "N167",
+                "N162",
+                "N163"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L154",
+            "link_type": "EvaluationLink",
+            "predicate": "N168",
+            "arguments": [
+                "N167",
+                "N162",
+                "N164"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L155",
+            "link_type": "EvaluationLink",
+            "predicate": "N60",
+            "arguments": [
+                "N165",
+                "N167"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L156",
+            "link_type": "EvaluationLink",
+            "predicate": "N168",
+            "arguments": [
+                "N167",
+                "N166"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L157",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N165",
+                "N177"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L158",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N167",
+                "N177"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L159",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L149",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N169",
+                    "arguments": [
+                        "N97",
+                        "N157"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L160",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L150",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N168",
+                    "arguments": [
+                        "N167",
+                        "N158"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L161",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L151",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N168",
+                    "arguments": [
+                        "N167",
+                        "N159"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L162",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L152",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N168",
+                    "arguments": [
+                        "N167",
+                        "N160",
+                        "N161"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L163",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L153",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N168",
+                    "arguments": [
+                        "N167",
+                        "N162",
+                        "N163"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L164",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L154",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N168",
+                    "arguments": [
+                        "N167",
+                        "N162",
+                        "N164"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L165",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L155",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N60",
+                    "arguments": [
+                        "N165",
+                        "N167"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L166",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L156",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N168",
+                    "arguments": [
+                        "N167",
+                        "N166"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L167",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L157",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N165",
+                        "N177"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L168",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L158",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N167",
+                        "N177"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L169",
+            "link_type": "EvaluationLink",
+            "predicate": "N45",
+            "arguments": [
+                "N67",
+                "N153",
+                "N180"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L170",
+            "link_type": "EvaluationLink",
+            "predicate": "N45",
+            "arguments": [
+                "N67",
+                "N193",
+                "N180"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L171",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N74",
+                "N174"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L172",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N73",
+                "N174"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L173",
+            "link_type": "EvaluationLink",
+            "predicate": "N90",
+            "arguments": [
+                "N174",
+                "N181",
+                "N176",
+                "N73"
+            ],
+            "attributes": {
+                "effect": "decrease"
+            },
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L174",
+            "link_type": "EvaluationLink",
+            "predicate": "N90",
+            "arguments": [
+                "N174",
+                "N181",
+                "N67"
+            ],
+            "attributes": {
+                "effect": "increase"
+            },
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L175",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N181",
+                "N67",
+                "N177"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L176",
+            "link_type": "EvaluationLink",
+            "predicate": "N60",
+            "arguments": [
+                "N178",
+                "N67"
+            ],
+            "attributes": {
+                "interpretation": "normal AST:ALT ratio should be <1"
+            },
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L177",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L169",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N45",
+                    "arguments": [
+                        "N67",
+                        "N153",
+                        "N180"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L178",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L170",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N45",
+                    "arguments": [
+                        "N67",
+                        "N193",
+                        "N180"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L179",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L171",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N74",
+                        "N174"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L180",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L172",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N73",
+                        "N174"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L181",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L173",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N90",
+                    "arguments": [
+                        "N174",
+                        "N181",
+                        "N176",
+                        "N73"
+                    ],
+                    "attributes": {
+                        "effect": "decrease"
+                    },
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L182",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L174",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N90",
+                    "arguments": [
+                        "N174",
+                        "N181",
+                        "N67"
+                    ],
+                    "attributes": {
+                        "effect": "increase"
+                    },
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L183",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L175",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N181",
+                        "N67",
+                        "N177"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L184",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N170",
+                {
+                    "id": "L176",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N60",
+                    "arguments": [
+                        "N178",
+                        "N67"
+                    ],
+                    "attributes": {
+                        "interpretation": "normal AST:ALT ratio should be <1"
+                    },
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L185",
+            "link_type": "EvaluationLink",
+            "predicate": "N187",
+            "arguments": [
+                "N67",
+                "N143",
+                "N153"
+            ],
+            "attributes": {
+                "percent_patients": "92%"
+            },
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L186",
+            "link_type": "EvaluationLink",
+            "predicate": "N187",
+            "arguments": [
+                "N67",
+                "N184",
+                "N153"
+            ],
+            "attributes": {
+                "percent_patients": "70%"
+            },
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L187",
+            "link_type": "EvaluationLink",
+            "predicate": "N187",
+            "arguments": [
+                "N67",
+                "N178",
+                "N193"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L188",
+            "link_type": "EvaluationLink",
+            "predicate": "N188",
+            "arguments": [
+                "N67",
+                "N182",
+                "N40",
+                "N180"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L189",
+            "link_type": "EvaluationLink",
+            "predicate": "N188",
+            "arguments": [
+                "N67",
+                "N183"
+            ],
+            "truth_value": [
+                1.0,
+                0.1
+            ]
+        },
+        {
+            "id": "L190",
+            "link_type": "EvaluationLink",
+            "predicate": "N187",
+            "arguments": [
+                "N181",
+                "N67",
+                "N143"
+            ],
+            "truth_value": [
+                1.0,
+                0.1
+            ]
+        },
+        {
+            "id": "L191",
+            "link_type": "EvaluationLink",
+            "predicate": "N189",
+            "arguments": [
+                "N181",
+                "N153"
+            ],
+            "truth_value": [
+                1.0,
+                0.1
+            ]
+        },
+        {
+            "id": "L192",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N67",
+                "N184",
+                "N182"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L193",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N179",
+                {
+                    "id": "L185",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N187",
+                    "arguments": [
+                        "N67",
+                        "N143",
+                        "N153"
+                    ],
+                    "attributes": {
+                        "percent_patients": "92%"
+                    },
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L194",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N179",
+                {
+                    "id": "L186",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N187",
+                    "arguments": [
+                        "N67",
+                        "N184",
+                        "N153"
+                    ],
+                    "attributes": {
+                        "percent_patients": "70%"
+                    },
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L195",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N179",
+                {
+                    "id": "L187",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N187",
+                    "arguments": [
+                        "N67",
+                        "N178",
+                        "N193"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L196",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N179",
+                {
+                    "id": "L188",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N188",
+                    "arguments": [
+                        "N67",
+                        "N182",
+                        "N40",
+                        "N180"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L197",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N179",
+                {
+                    "id": "L189",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N188",
+                    "arguments": [
+                        "N67",
+                        "N183"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.1
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L198",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N179",
+                {
+                    "id": "L190",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N187",
+                    "arguments": [
+                        "N181",
+                        "N67",
+                        "N143"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.1
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L199",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N179",
+                {
+                    "id": "L191",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N189",
+                    "arguments": [
+                        "N181",
+                        "N153"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.1
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L200",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N179",
+                {
+                    "id": "L192",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N67",
+                        "N184",
+                        "N182"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L201",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N67",
+                "N103"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L202",
+            "link_type": "EvaluationLink",
+            "predicate": "N195",
+            "arguments": [
+                "N58",
+                "N196",
+                "N197"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L203",
+            "link_type": "EvaluationLink",
+            "predicate": "N92",
+            "arguments": [
+                "N73",
+                "N197"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L204",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N190",
+                {
+                    "id": "L201",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N67",
+                        "N103"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L205",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N190",
+                {
+                    "id": "L202",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N195",
+                    "arguments": [
+                        "N58",
+                        "N196",
+                        "N197"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L206",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N190",
+                {
+                    "id": "L203",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N92",
+                    "arguments": [
+                        "N73",
+                        "N197"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L207",
+            "link_type": "EvaluationLink",
+            "predicate": "N208",
+            "arguments": [
+                "N193",
+                "N144"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L208",
+            "link_type": "EvaluationLink",
+            "predicate": "N209",
+            "arguments": [
+                "N200",
+                "N191",
+                "N192",
+                "N42"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L209",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N42",
+                "N199",
+                "N103"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L210",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N42",
+                "N144",
+                "N103"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L211",
+            "link_type": "EvaluationLink",
+            "predicate": "N213",
+            "arguments": [
+                "N200",
+                "N206",
+                "N201"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L212",
+            "link_type": "EvaluationLink",
+            "predicate": "N212",
+            "arguments": [
+                "N200",
+                "N207",
+                "N201"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L213",
+            "link_type": "EvaluationLink",
+            "predicate": "N214",
+            "arguments": [
+                "N200",
+                "N205"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L214",
+            "link_type": "EvaluationLink",
+            "predicate": "N212",
+            "arguments": [
+                "N201",
+                "N202"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L215",
+            "link_type": "EvaluationLink",
+            "predicate": "N212",
+            "arguments": [
+                "N201",
+                "N203"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L216",
+            "link_type": "EvaluationLink",
+            "predicate": "N212",
+            "arguments": [
+                "N201",
+                "N204"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L217",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L207",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N208",
+                    "arguments": [
+                        "N193",
+                        "N144"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L218",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L208",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N209",
+                    "arguments": [
+                        "N200",
+                        "N191",
+                        "N192",
+                        "N42"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L219",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L209",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N42",
+                        "N199",
+                        "N103"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L220",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L210",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N42",
+                        "N144",
+                        "N103"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L221",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L211",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N213",
+                    "arguments": [
+                        "N200",
+                        "N206",
+                        "N201"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L222",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L212",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N212",
+                    "arguments": [
+                        "N200",
+                        "N207",
+                        "N201"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L223",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L213",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N214",
+                    "arguments": [
+                        "N200",
+                        "N205"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L224",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L214",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N212",
+                    "arguments": [
+                        "N201",
+                        "N202"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L225",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L215",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N212",
+                    "arguments": [
+                        "N201",
+                        "N203"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L226",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L216",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N212",
+                    "arguments": [
+                        "N201",
+                        "N204"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L227",
+            "link_type": "EvaluationLink",
+            "predicate": "N226",
+            "arguments": [
+                "N215",
+                "N217",
+                "N218",
+                "N219",
+                "N220",
+                "N21",
+                "N221"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L228",
+            "link_type": "EvaluationLink",
+            "predicate": "N45",
+            "arguments": [
+                "N215",
+                "N222",
+                "N193"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L229",
+            "link_type": "EvaluationLink",
+            "predicate": "N227",
+            "arguments": [
+                "N221",
+                "N223",
+                "N144"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L230",
+            "link_type": "EvaluationLink",
+            "predicate": "N60",
+            "arguments": [
+                "N221",
+                "N4"
+            ],
+            "truth_value": [
+                1.0,
+                0.9
+            ]
+        },
+        {
+            "id": "L231",
+            "link_type": "EvaluationLink",
+            "predicate": "N228",
+            "arguments": [
+                "N225",
+                "N193",
+                "N224",
+                "N144"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L232",
+            "link_type": "EvaluationLink",
+            "predicate": "N189",
+            "arguments": [
+                "N193",
+                "N144"
+            ],
+            "truth_value": [
+                0.85,
+                0.7
+            ]
+        },
+        {
+            "id": "L233",
+            "link_type": "EvaluationLink",
+            "predicate": "N63",
+            "arguments": [
+                "N193",
+                "N221"
+            ],
+            "truth_value": [
+                0.6,
+                0.5
+            ]
+        },
+        {
+            "id": "L234",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L227",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N226",
+                    "arguments": [
+                        "N215",
+                        "N217",
+                        "N218",
+                        "N219",
+                        "N220",
+                        "N21",
+                        "N221"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L235",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L228",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N45",
+                    "arguments": [
+                        "N215",
+                        "N222",
+                        "N193"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L236",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L229",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N227",
+                    "arguments": [
+                        "N221",
+                        "N223",
+                        "N144"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L237",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L230",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N60",
+                    "arguments": [
+                        "N221",
+                        "N4"
+                    ],
+                    "truth_value": [
+                        1.0,
+                        0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L238",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L231",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N228",
+                    "arguments": [
+                        "N225",
+                        "N193",
+                        "N224",
+                        "N144"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L239",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L232",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N189",
+                    "arguments": [
+                        "N193",
+                        "N144"
+                    ],
+                    "truth_value": [
+                        0.85,
+                        0.7
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "L240",
+            "link_type": "ContextLink",
+            "arguments": [
+                "N19",
+                "N229",
+                {
+                    "id": "L233",
+                    "link_type": "EvaluationLink",
+                    "predicate": "N63",
+                    "arguments": [
+                        "N193",
+                        "N221"
+                    ],
+                    "truth_value": [
+                        0.6,
+                        0.5
+                    ]
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "document_id": "/home/eggzy/Downloads/hypergraph_extractor/input.txt",
+        "fragments_merged": 15,
+        "source_sentences": [
+            {
+                "id": "SENT_1",
+                "text": "Abstract Liver enzymes are commonly used in the evaluation of patients with a range of diseases. Classically Liver enzymes are used to give information on whether a patient\u2019s primary disorder is hepatitic or cholestatic in origin. However, knowledge of enzyme ratios and pattern recognition allow much more information to be derived from Liver enzymes. This paper offers an insight to generalists on how to extract greater information from Liver enzymes in order to improve the investigation and management of liver disease. Introduction Liver Function Tests (LFTs) are one of the most commonlyrequested screening blood tests. "
+            },
+            {
+                "id": "SENT_2",
+                "text": "Whether for the investigation of suspected liver disease, monitoring of disease activity, or simply as \u2018routine\u2019 blood analysis, Liver Function Tests (LFTs) can provide a host of information on a range of disease processes. The title \u2018liver function tests\u2019 is, however, somewhat of a misnomer; only the bilirubin and albumin given in this panel offer information regarding the functional capacity of the liver. At a basic level the evaluation of liver enzymes simply gives information as to whether a patient\u2019s primary disorder is hepatitic or cholestatic in origin. However, much more may be interpreted from these assays with knowledge of enzyme ratios and pattern recognition. "
+            },
+            {
+                "id": "SENT_3",
+                "text": "This paper offers an insight to generalists of how to yield greater information from this simple test. Patterns and Use of Hepatic Enzymes in Practice The liver enzyme profile should always be assessed in conjunction with a thorough history and clinical examination. Despite a thorough history and clinical examination, there are many occasions when doubt persists over an underlying diagnosis. For example, does an overweight diabetic who enjoys a few glasses of wine at the weekend have alcoholic or non-alcoholic fatty liver disease? In such circumstances the absolute liver enzyme levels and ratios may point the clinician in the right direction. Furthermore, the pattern of enzymes will assist, not only with differentiating between cholestasis and hepatitis, but will aid diagnosis when there is a mixed picture. "
+            },
+            {
+                "id": "SENT_4",
+                "text": "Understanding Cholestasis: Mechanical or Medical? Mechanical biliary obstruction results in raised levels of ALP,GGT and often bilirubin. ALP will usually be markedly raised in comparison with ALT. Levels of ALP and GGT elevated in similar proportions signify a hepatobiliary source. Otherwise alternative causes of single enzyme elevation should be considered. When due to choledocholithiasis, the levels of ALP and GGT tend to fluctuate (in comparison to stricture forming disease) and may be associated with a normal bilirubin. Enzyme titres tend to rise and fall gradually and may be preceded by a peaked rise in liver transaminases which can reach >1000 I/U. "
+            },
+            {
+                "id": "SENT_5",
+                "text": "The AST:ALT ratio (De Ritis ratio) may assist in differentiating the site of biliary obstruction. When associated with a cholestatic picture, an AST:ALT ratio of <1.5 suggests an extrahepatic obstruction. In such circumstances the ALT titre is frequently considerably higher than AST. An AST:ALT ratio of >1.5 indicates intrahepatic (mechanical or medical) cholestasis is more likely. Drug-induced cholestasis usually presents with a preferential rise in ALP, rather than GGT, or with an ALT:ALP ratio of <2. Causative drugs would include: antibiotics, immunosuppressants, tricyclic antidepressants and angiotensin converting enzyme inhibitors. "
+            },
+            {
+                "id": "SENT_6",
+                "text": "In Primary Biliary Cirrhosis, an autoimmune condition of the intrahepatic biliary ducts, the level of ALP is generally greater than that of GGT. In this case, transaminases are invariably normal or only minimally elevated. Both the European Association for Study of the Liver (EASL) and the American Association for Study of Liver Disease (AASLD) recommend that a diagnosis of PBC may be based on cholestatic liver enzyme levels in conjunction with the demonstration of antimitochondrial antibodies. If either of these two criteria is absent, imaging and liver biopsy become necessary. "
+            },
+            {
+                "id": "SENT_7",
+                "text": "AST and ALP are used within some scoring criteria to monitor the effects of ursodeoxycholic acid in the management of PBC. A recent study has shown that a raised AST:ALT ratio outperforms other non-histological indicators of cirrhosis in PBC, but still only achieves a low sensitivity and a specificity of 65-79%. As with PBC, liver enzymes play a key role in the diagnosis of Primary Sclerosing Cholangitis (PSC). "
+            },
+            {
+                "id": "SENT_8",
+                "text": "When other causes of liver disease have been excluded, a raised GGT, and particularly ALP, are diagnostic when associated with typical Endoscopic Retrograde Cholangiopancreatography (ERCP) or Magnetic Resonance Cholangiopancreatography (MRCP) findings. This can preclude the need for a liver biopsy. Transaminase levels may be raised up to 2-3 times normal values in PSC but this is not diagnostic. AST is a component of the Mayo Risk Score, which calculates the risk of disease progression in PSC. A high Mayo Risk Score, and an AST:ALT ratio of >1.12 have been shown to be indicators of risk for the development of oesophageal varices. "
+            },
+            {
+                "id": "SENT_9",
+                "text": "In Primary Sclerosing Cholangitis (PSC), as with other liver diseases, there are suggestions that an AST:ALT ratio of >1 indicates the development of cirrhosis. Alcohol induces hepatic enzymes leading to a raised GGT with an ALP which may be normal, or disproportionately lower than the GGT. A GGT:ALP ratio >2.5 in association with jaundice suggests alcohol as a cause of liver disease. The presence of a macrocytosis, due to either an associated dietary deficiency of folate or B12, or due to a direct suppression of bone marrow by alcohol is supportive of the diagnosis of alcoholic liver disease. "
+            },
+            {
+                "id": "SENT_10",
+                "text": "A raised GGT is not diagnostic of alcohol abuse, with research showing A raised GGT remains high in former drinkers as well as current drinkers. In men, the highest levels of GGT occur in those who drink daily. In women, binge drinkers and those consuming alcohol without food will have especially high levels. The level of GGT is loosely dose dependant, with those in the top two quartiles of alcohol intake having the highest titres. "
+            },
+            {
+                "id": "SENT_11",
+                "text": "The Fatty Liver and the AST:ALT Ratio During the last few decades there has been research into using the AST:ALT ratio in the differentiation of alcoholic liver disease (ALD) from other forms of liver disease, particularly the Non-alcoholic Fatty Liver Disease (NAFLD) spectrum. Both AST and ALT enzymes require pyridoxal-5\u2019-phosphate (vitamin B6) to function properly. pyridoxal-5\u2019-phosphate (vitamin B6)'s absence in nutritionally-deficient heavy-drinkers has a much larger effect on the production of ALT than that of AST, causing the AST:ALT ratio to rise. A normal AST:ALT ratio should be <1. "
+            },
+            {
+                "id": "SENT_12",
+                "text": "In patients with alcoholic liver disease, the AST:ALT ratio is >1 in 92% of patients, and >2 in 70%.13 AST:ALT scores >2 are, therefore, strongly suggestive of alcoholic liver disease and scores <1 more suggestive of the Non-alcoholic Fatty Liver Disease (NAFLD) spectrum. High ratios reflect the severity of hepatitis or underlying liver disease rather than high alcohol consumption. This means that most heavy-drinkers will not have an AST: ALT ratio >1 as most heavy-drinkers have not yet developed alcoholic liver disease (ALD). "
+            },
+            {
+                "id": "SENT_13",
+                "text": "No studies have shown that the AST:ALT ratio, either alone or in combination with other factors or models, has the necessary sensitivity or specificity to definitively differentiate between alcoholic liver disease (ALD) and NAFLD, but the AST:ALT ratio acts as a useful clinical guide when considering the need for liver biopsy. It should also be noted that liver transaminases are known to worsen in response to cessation of alcohol intake (often coinciding with admission to hospital) and that ALT has also been shown to rise simply from admission to hospital, even in patients with no liver disease. "
+            },
+            {
+                "id": "SENT_14",
+                "text": "Although models exist which exclude cirrhosis in NAFLD with reasonable accuracy, liver enzyme analysis has so far failed to provide a sensitive and specific enough means to make a diagnosis. At present liver biopsy cannot be avoided in cases where confirmation of NASH or cirrhosis is necessary. The role of liver enzyme analysis in NAFLD lies in both the early identification and modification of associated metabolic risk factors such as hypertension, hyperlipidaemia and glycaemic control and in risk stratification for the future. "
+            },
+            {
+                "id": "SENT_15",
+                "text": "A scoring system developed at the Mayo clinic uses age, hyperglycemia, body mass index, platelet count, albumin, and AST:ALT ratio to accurately differentiate patients with advanced fibrosis in NAFLD. the AST:ALT Ratio becomes considerably less specific in determining underlying disease with the development of cirrhosis, as the AST:ALT Ratio will increase across a broad range of diseases. the AST:ALT Ratio is, however, useful in NAFLD patients known not to be abusing alcohol as a score of >1 should lead to the consideration that NAFLD patients known not to be abusing alcohol may have developed cirrhosis."
+            }
+        ]
+    }
+}
