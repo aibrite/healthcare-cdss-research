@@ -1,0 +1,15 @@
+[project]
+name = "medical-umls-ner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "dspy>=3.0.1",
+    "langgraph>=0.6.5",
+    "prefect>=3.4.13",
+    "pydantic>=2.11.7",
+    "scikit-learn>=1.7.1",
+    "spacy>=3.8.7",
+]
